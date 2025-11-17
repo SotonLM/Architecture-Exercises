@@ -60,3 +60,5 @@ results.txt
 *.tmp
 *.temp
 
+uv.lock
+
