@@ -2,9 +2,11 @@
 
 LEVEL REACHED: [2]
 
-LEVEL 1: ✅ screenshots in this folder, names: o1t1.png and o2t1.png
+forked repo link: [https://github.com/Phantomnz/Architecture-Exercises](https://github.com/Phantomnz/Architecture-Exercises)
 
-LEVEL 2: ✅ code: lvtwo.py output: results.txt
+LEVEL 1: ✅ screenshots in folder: week3/Martynas-Mickevicius names: o1t1.png and o2t1.png
+
+LEVEL 2: ✅ code: lvtwo.py output: results.txt  in same folder as the screenshots
 
 Level 2 findings:
 generation time varied between 5-30 seconds
@@ -27,4 +29,4 @@ WHAT I FOUND EASY: level 1 and downloading libraries lol
 WHAT I FOUND HARD: figuring out how to get token number
 QUESTIONS: Is there way to get rid of the massive spaces in output? Ali found the same issue so I'm wondering if anyone found a fix
 
-I could spend more time to get level 3 done but I don't want to be a lead so I'll pass
+I could spend more time to get level 3 done but I don't have time to be lead of smth so I'll pass
