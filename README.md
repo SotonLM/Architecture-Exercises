@@ -9,6 +9,7 @@ LEVEL 1: ✅ screenshots in folder: week3/Martynas-Mickevicius names: o1t1.png a
 LEVEL 2: ✅ code: lvtwo.py output: results.txt  in same folder as the screenshots
 
 Level 2 findings:
+
 generation time varied between 5-30 seconds
 
 changing variable from max-length to max_new_tokens made some auto adjustments the terminal was making no longer necessary when set to higher numbers (100 and above)
@@ -26,7 +27,9 @@ the output I'll stick with has temp = 0.5, top_k = 50, max_new_tokens = 100
 TIME SPENT: 1.5 hours
 
 WHAT I FOUND EASY: level 1 and downloading libraries lol
+
 WHAT I FOUND HARD: figuring out how to get token number
+
 QUESTIONS: Is there way to get rid of the massive spaces in output? Ali found the same issue so I'm wondering if anyone found a fix
 
 I could spend more time to get level 3 done but I don't have time to be lead of smth so I'll pass
