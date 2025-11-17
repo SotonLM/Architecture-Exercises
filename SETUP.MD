@@ -19,6 +19,9 @@ git clone https://github.com/Marzooqad/diagnostic-SotonLM-.git
 
 # Enter the directory
 cd diagnostic-SotonLM-
+
+# Checkout the branch (if needed)
+git checkout SotonLM-diagnostic-architecture
 ```
 
 ## 3. Install uv (Modern Python Package Manager)
@@ -60,24 +63,20 @@ uv python install 3.11  # Install specific version (optional)
 uv makes this easy - it will create a virtual environment and install dependencies automatically:
 
 ```bash
-# Navigate to the week3 folder
-cd week3
+# Navigate to the diagnostic-SotonLM- folder
+cd diagnostic-SotonLM-
 
-# Create virtual environment and install dependencies
-uv sync
+# Create virtual environment
+uv venv
+
+# Install dependencies
+uv pip install transformers torch
 ```
 
 This will:
 - Create a virtual environment (`.venv` by default)
-- Install all dependencies from `pyproject.toml`
+- Install transformers and torch
 - Make everything ready to use
-
-**Alternative (if you want to use existing Python):**
-```bash
-# Create venv and install dependencies
-uv venv
-uv pip install -e .
-```
 
 **Activate the virtual environment:**
 ```bash
@@ -108,7 +107,8 @@ python diagnostic_task.py
 
 ## Troubleshooting
 - **"uv: command not found"**: Make sure uv is installed and in your PATH. Restart terminal after installation.
-- **"No module named transformers"**: Run `uv sync` again to reinstall dependencies
+- **"No module named transformers"**: Run `uv pip install transformers torch` again
+- **Build errors with uv sync**: Use `uv venv` and `uv pip install` instead (this project is not a Python package)
 - **Torch issues**: uv should handle torch installation automatically. If issues persist, try:
   ```bash
   uv pip install torch --index-url https://download.pytorch.org/whl/cpu

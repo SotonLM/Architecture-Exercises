@@ -10,7 +10,8 @@ Install and run this code. Submit a screenshot.
 """
 
 # Install (run in terminal first):
-# uv sync  # or: uv pip install transformers torch
+# uv venv
+# uv pip install transformers torch
 
 from transformers import pipeline
 

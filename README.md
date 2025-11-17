@@ -35,8 +35,11 @@ week3/
 
 2. **Setup Environment**
    ```bash
-   # uv will create venv and install dependencies automatically
-   uv sync
+   # Create virtual environment
+   uv venv
+   
+   # Install dependencies
+   uv pip install transformers torch
    ```
 
 3. **Run Diagnostic Task**
