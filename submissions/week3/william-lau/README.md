@@ -15,7 +15,7 @@ LEVEL 2: ✅ [https://github.com/lauw-07/Architecture-Exercises/blob/main/submis
   The time taken to generate the outputs varied depending on the different parameters. Sometimes it was as quick as 0.2 seconds and other times for larger outputs, it took aroudn 3 to 4 seconds to generate one output.
 
 LEVEL 3: ✅ [Option A/B/C/D]
-- [Link to work]
+- [https://github.com/lauw-07/Architecture-Exercises/blob/main/submissions/week3/william-lau/submission.py]
 - Brief summary
 
 LEVEL 4: ✅ [If completed]
