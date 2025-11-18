@@ -1,0 +1,45 @@
+Prompt:The future of AI is
+Generated:The future of AI is to be seen in the future.”
+Time to generate: 0.18630504608154297
+Number of tokens14
+
+
+Prompt:In the year 2030
+Generated:In the year 2030, the number of people in the world who are not in the workforce is expected to increase by a third.
+Time to generate: 2.768904447555542
+Number of tokens143
+
+
+Prompt:The secret to happiness is
+Generated:The secret to happiness is the desire to be happy with yourself.
+Time to generate: 2.722259998321533
+Number of tokens137
+
+
+Prompt:Dracula's favourite phrase is 
+Generated:Dracula's favourite phrase is iced tea.
+Time to generate: 2.736670970916748
+Number of tokens138
+
+
+Prompt:How to invert a binary tree part 1: 
+Generated:How to invert a binary tree part 1: ---------------------------
+
+The following code is a simple example of a binary tree part 1: ---------------------------
+The following code is a simple example of a binary tree part 2: ---------------------------
+The following code is a simple example of a binary tree part 3: ---------------------------
+The following code is a simple example of a binary tree part 4: ---------------------------
+The following code is a simple example of a binary tree part 5: ---------------------------
+The following code is a simple example of a binary tree part 6: ---------------------------
+The following code is a simple example of a binary tree part 7: ---------------------------
+The following code is a simple example of a binary tree part 8: ---------------------------
+The following code is a simple example of a binary tree part 9: ---------------------------
+The following code is a simple example of a binary tree part 10: ---------------------------
+The following code is a simple example of a binary tree part 11: ---------------------------
+The following code is a simple example of a binary tree part 12: ---------------------------
+The following code is a simple example of a binary tree part 13: ---------------------------
+The following code is a simple example of a binary tree part 14: ---------------------------
+Time to generate: 2.743922472000122
+Number of tokens267
+
+

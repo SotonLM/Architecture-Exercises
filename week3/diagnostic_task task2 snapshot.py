@@ -37,7 +37,7 @@ for prompt in prompts:
     tokens = len(generator.tokenizer.encode(output[0]['generated_text']))
     filesavedata[prompt] = (output[0]['generated_text'], time.time() - starttime, tokens)
 
-with open("results_task2_snapshot.txt", "w") as file:
+with open("results.txt", "w") as file:
     for k,v in filesavedata.items():
         file.write(f"Prompt:{k}\nGenerated:{v[0].strip()}\nTime to generate: {v[1]}\nNumber of tokens{v[2]}\n\n\n")
 
