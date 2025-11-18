@@ -17,12 +17,17 @@ Generated: The secret to happiness is to become a human being.
 
 LEVEL 2: ✅ 
 Link to code: https://github.com/jrsany2903/Architecture-Exercises/blob/main/week3/diagnostic_task%20task2%20snapshot.py
-Link to results: 
-- Brief summary of findings
+Link to results: https://github.com/jrsany2903/Architecture-Exercises/blob/main/week3/results_task2_snapshot.txt
+
+Temperature effects the creativity of the module
 
 LEVEL 3: ✅ [Option A/B/C/D]
 - [Link to work]
-- Brief summary
+
+Repeat itself by having repitition in the prompt
+
+Prompt: apple apple apple
+Generated: apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple
 
 LEVEL 4: ✅ [If completed]
 - Project name: ___
@@ -31,7 +36,7 @@ LEVEL 4: ✅ [If completed]
 
 TIME SPENT: ___ hours
 
-WHAT I FOUND EASY: ___
-WHAT I FOUND HARD: ___
+WHAT I FOUND EASY: Coding in python
+WHAT I FOUND HARD: Understanding transformer architecture to understand what a variable like "top_k" does
 QUESTIONS: ___
 
