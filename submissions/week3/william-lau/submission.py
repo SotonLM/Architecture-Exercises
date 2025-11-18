@@ -67,11 +67,11 @@ with open("result.txt", "w") as f:
             tokens = tokeniser.encode(output[0]["generated_text"])
             token_count = len(tokens)
 
-            f.write(f"Output {count}")
+            f.write(f"Output {count}\n")
             f.write(f"Prompt: {prompt}\n")
             f.write(f"Parameters: max_length={length}, temperature={temp}, top_k={top_k}\n")
             f.write(f"Time taken: {end - start} seconds\n")
-            f.write(f"Result: {output}\n")
+            f.write(f"Result: {output}\n\n")
             count += 1
 
     print(f"Time taken for generation: {time.time() - absoluteStart} seconds")

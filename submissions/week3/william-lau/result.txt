@@ -1,0 +1,90 @@
+Output 1
+Prompt: The future of Lebron is
+Parameters: max_length=20, temperature=0.5, top_k=10
+Time taken: 3.5885860919952393 seconds
+Result: [{'generated_text': 'The future of Lebron is still uncertain.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n'}]
+
+Output 2
+Prompt: The future of Lebron is
+Parameters: max_length=50, temperature=1.0, top_k=50
+Time taken: 1.6992123126983643 seconds
+Result: [{'generated_text': 'The future of Lebron is very different to ours.\n\n\n"What I have in mind now is the development of the system, and what I have tried and found as far as possible in order to have a successful business with the European financial community as possible. It will be a great asset to both the Euro Bank and banks in the future and to both our industry and its partners, which have contributed greatly.\n\'If you can\'t create a better or more profitable company then you have to compete with them.\'\nIt was the first time that a business in this world has developed its ability to compete with the European financial system for profit.'}]
+
+Output 3
+Prompt: The future of Lebron is
+Parameters: max_length=100, temperature=1.5, top_k=100
+Time taken: 3.2687909603118896 seconds
+Result: [{'generated_text': 'The future of Lebron is certain to be the biggest driver until 2015—when. Aero Engineering (H) expects (JTA/E) to add 20M capacity for its second line next year in the sport. The Finsburg-based will invest an additional 1.7G/km, but H\'s target will fall short once the electric sedan releases over four years. Nevertheless, a TFA has laid some more aggressive dates for 2016-17.\n\n\n\nThe Ford F14\'s 2018 N64 Prose is one of the first vehicles for the FTSJ (Ford IMSA Motorsport Asia) since 2015. Each year, there go the chance to reach 300 MW over several lifetimes and have their ultimate destination in our knowledge. "On average, 20M with 25 years remaining might be able to achieve (N62M more than 30mm at 6 feet) acceleration due to their new combination of carbon exhaust and gas combustion. In reality, current generation (n60M at 16nm at 7,900 cu/m from 12nm of 24nm at 8 and 2100 cu (4×35H from 6-10nm 4 or 5×6) cars achieve N62M quicker at just 26-24 seconds per lap." Additionally, 2015 2015 and 2015 will be'}]
+
+Output 4
+Prompt: If Bronny James can
+Parameters: max_length=20, temperature=0.5, top_k=10
+Time taken: 0.2683858871459961 seconds
+Result: [{'generated_text': 'If Bronny James can\u200ft stand the way.\n\n\n\nI\u200fll be back in the morning.'}]
+
+Output 5
+Prompt: If Bronny James can
+Parameters: max_length=50, temperature=1.0, top_k=50
+Time taken: 3.2033164501190186 seconds
+Result: [{'generated_text': 'If Bronny James can just say "I\'m not a big fan of you," and his presence on the pitch can keep an ear out of all those debates, the whole thing has to be in sync with the current state of our country. And there\'s more to it than just being on the field.\n\n\n\n"The other thing would be a good one," says James. "It would do a great deal less damage if the teams didn\'t have all the players they needed and the guys you play with now, that\'s what I\'d like to be doing when I get off for what we do now. I\'d do that now if it wasn\'t for the roster we\'re in right now."\nI\'m very happy to see some players out there still taking some time for a couple of weeks and so forth.\n"It\'s an incredible time to be here, I just like them, they\'ve all been in so good shape every day. It\'s a great place to be growing, and I\'ll do whatever I can to get them the focus. I\'ve got to get them the motivation to make the playoffs. But it\'s a nice place with just a few players playing there now, and like I said, they\'re just not going to be at that level."'}]
+
+Output 6
+Prompt: If Bronny James can
+Parameters: max_length=100, temperature=1.5, top_k=100
+Time taken: 3.242758274078369 seconds
+Result: [{'generated_text': "If Bronny James can stand only a tiny portion of the way within the realm that matters to him. A member of Little the Way White. Like the rest of his peers would do so, though what could he accomplish, his peers and friends still do even, whatever their favorite and the world's last secret makes sure that none stay silent until he is allowed free that will dictate their own world.\n\nThereafter… there!\nRape was all this to me. Not only that or whether to me, but it also read within the confines of justice and justice. I was on my own since that was exactly what I knew, but with less time and, for less punishment now all felt under normal order and rules. I thought like they were in jail, waiting a light on an awful guy lying at the river every now and now they must be facing a charge like they weren't sure if they needed someone besides that. It would give the whole crowd control much time for it.\nI was worried I was missing this part of myself too. Having no idea what the charges might entail, either. Or perhaps it meant she only wanted the girl who had done this and was simply the worst man in the world even though it wouldn't happen again anyway for once. Or maybe having already"}]
+
+Output 7
+Prompt: But only if Bryce James is able to
+Parameters: max_length=20, temperature=0.5, top_k=10
+Time taken: 0.2801475524902344 seconds
+Result: [{'generated_text': "But only if Bryce James is able to get a shot at a championship, he can make sure he doesn't get to the top of the draft."}]
+
+Output 8
+Prompt: But only if Bryce James is able to
+Parameters: max_length=50, temperature=1.0, top_k=50
+Time taken: 3.1406779289245605 seconds
+Result: [{'generated_text': "But only if Bryce James is able to prove that his teammates are doing enough to defeat the Wildcats in one of the league's most controversial of times, that they can win the ACC South game.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n (L)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"}]
+
+Output 9
+Prompt: But only if Bryce James is able to
+Parameters: max_length=100, temperature=1.5, top_k=100
+Time taken: 0.11849427223205566 seconds
+Result: [{'generated_text': 'But only if Bryce James is able to make it to top 40 this weekend?'}]
+
+Output 10
+Prompt: The NBA will become
+Parameters: max_length=20, temperature=0.5, top_k=10
+Time taken: 3.2537574768066406 seconds
+Result: [{'generated_text': 'The NBA will become the first team in the NBA to have a free agent signing with the NBA in the offseason.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n'}]
+
+Output 11
+Prompt: The NBA will become
+Parameters: max_length=50, temperature=1.0, top_k=50
+Time taken: 0.247283935546875 seconds
+Result: [{'generated_text': 'The NBA will become the most successful franchise to ever grace the court, the New York Knicks and the Chicago Bulls.'}]
+
+Output 12
+Prompt: The NBA will become
+Parameters: max_length=100, temperature=1.5, top_k=100
+Time taken: 0.5964593887329102 seconds
+Result: [{'generated_text': 'The NBA will become progressively more progressive when it unveils free, private high school coaching styles as part of the 2020 draft, after a slew of teams began pushing free transfers from major-league teams not including the Big Ten Conference.'}]
+
+Output 13
+Prompt: In 2030, the Lakers will
+Parameters: max_length=20, temperature=0.5, top_k=10
+Time taken: 3.8371922969818115 seconds
+Result: [{'generated_text': 'In 2030, the Lakers will have to make the same move as the Lakers, who are likely to be in the midst of a rebuild.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n'}]
+
+Output 14
+Prompt: In 2030, the Lakers will
+Parameters: max_length=50, temperature=1.0, top_k=50
+Time taken: 3.751044273376465 seconds
+Result: [{'generated_text': 'In 2030, the Lakers will retain a 20-year contract signed by Kevin Love for the remainder of this year.\n\n\n\n\n\n"I\'m excited to retire, so I\'m a committed player for this team," said All-Star forward Russell Westbrook. "I want to build a team that can compete all day and every night of the year. What a great opportunity to have a great player on the team. That\'s what I want to do."\n\n"It\'s not the same thing as it would be if Russell did something with LeBron. He went out there and made it a very, very big deal."\nWestbrook\'s role in his successful success at the NBA franchise is in large part because he has been a part of the team for three seasons before signing on with the Lakers. He joined the team in 2011 and had four career seasons before.\nThe Lakers have three teams with three or fewer players in its restricted free agency pool each year. They made a first round selection with a selection in the 2011 NBA Draft, along with first round pick Derrick Rose in June.\nThe Lakers did not address matters of salary or player pool, which has led to the Lakers having a number of disappointing seasons for the past three seasons.'}]
+
+Output 15
+Prompt: In 2030, the Lakers will
+Parameters: max_length=100, temperature=1.5, top_k=100
+Time taken: 0.5220701694488525 seconds
+Result: [{'generated_text': 'In 2030, the Lakers will need just the fifth overall pick in the 2015 draft next season…to pick next team around his size and power off-loaded energy.'}]
+
