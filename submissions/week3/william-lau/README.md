@@ -24,6 +24,8 @@ LEVEL 3: ✅ [Option A/B/C/D]
 
 - This text file contains the score distribution based on length (/20), repitition (/30), punctuation (/10) and relevance (/40):  https://github.com/lauw-07/Architecture-Exercises/blob/main/submissions/week3/william-lau/level3-results.txt
 
+- I would say the most important aspect to making a generated text of high quality is the relevance to the prompt but that is also because that's how i hard coded the scoring system in my code.
+
 LEVEL 4: ✅ [If completed]
 - Project name: ___
 - What it does: ___
