@@ -18,5 +18,5 @@ with open('week3/level3/results.txt', 'w') as f:
         f.write(f'\ntime taken to generate response: {time.time()-start_time}\n')
         f.write(f"Prompt: {prompt}")
         f.write(f"Generated: {output[0]['generated_text']}\n")
-        f.write(f'Number of tokens in reponse: {len(generator.tokenizer.encode(output[0]['generated_text']))}\n')
+        f.write(f"Number of tokens in response: {len(generator.tokenizer.encode(output[0]['generated_text']))}\n")
         f.write("-" * 50)
