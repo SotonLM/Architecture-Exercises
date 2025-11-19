@@ -1,28 +1,28 @@
 Output 1
 Prompt: The future of Lebron is
 Parameters: max_length=20, temperature=0.5, top_k=10
-Result: The future of Lebron is in the hands of the people.
-Length Score: 20.0
-Repition Score: 24.0
+Result: The future of Lebron is not yet clear.
+Length Score: 10.0
+Repition Score: 30.0
 Punctuation Score: 10.0
 Relevance Score: 40.0
-Score: 94.0
+Score: 90.0
 
 Output 2
 Prompt: The future of Lebron is
 Parameters: max_length=50, temperature=1.0, top_k=50
-Result: The future of Lebron is uncertain," said one insider in a phone call.
-"He told him last time he looked at the list of options. They didn't know, but he said that he had the most talent in the world, and that
+Result: The future of Lebron is in doubt.
 Length Score: 10.0
-Repition Score: 24.0
-Punctuation Score: 3.0
+Repition Score: 30.0
+Punctuation Score: 10.0
 Relevance Score: 40.0
-Score: 77.0
+Score: 90.0
 
 Output 3
 Prompt: The future of Lebron is
 Parameters: max_length=100, temperature=1.5, top_k=100
-Result: The future of Lebron is very much a "business world". It could be the equivalent of a 20% investment, say, while people might think. Even without a government, it makes you think an economy or tax has no place in the present government government rather than being part of it. Moreover today economists, economists and researchers work together on issues as well as political (and environmental) issues as to make government better and happier – and even for the better. Ultimately, those concerned with the state use freebies or other cost
+Result: The future of Lebron is clearly in our immediate wake." He laughs happily as tears spill down tears.
+At a local nightclub where most guests come courtesy of French language speakers -- as well as patrons on television and radio stations offering translations designed by French-speaking fans hoping to understand French-speaking culture better than English speakers - the couple began learning much about writing. But in October, an interview he gave to RT, he added that although some Irish residents, such as his family, read very little English over the holidays in
 Length Score: 6.0
 Repition Score: 24.0
 Punctuation Score: 3.0
@@ -32,17 +32,18 @@ Score: 73.0
 Output 4
 Prompt: If Bronny James can
 Parameters: max_length=20, temperature=0.5, top_k=10
-Result: If Bronny James can't wait to see his team win the Super Bowl.
-Length Score: 20.0
+Result: If Bronny James can be found at www.patreon.com/BronnyJames
+Length Score: 10.0
 Repition Score: 30.0
-Punctuation Score: 10.0
-Relevance Score: 32.00000000000001
-Score: 92.0
+Punctuation Score: 3.0
+Relevance Score: 40.0
+Score: 83.0
 
 Output 5
 Prompt: If Bronny James can
 Parameters: max_length=50, temperature=1.0, top_k=50
-Result: If Bronny James can make it through the regular season, and his team is just as hard as anybody, but James still has his strengths and weaknesses. And for the third time in a row, this is a team, and I will continue to tell you the whole thing
+Result: If Bronny James can become a successful actor, and his role on The Daily Show is also a big one for the gay community.
+As one gay character tells you, "It's like being a gay guy with your name on your shirt and
 Length Score: 10.0
 Repition Score: 24.0
 Punctuation Score: 3.0
@@ -52,7 +53,8 @@ Score: 77.0
 Output 6
 Prompt: If Bronny James can
 Parameters: max_length=100, temperature=1.5, top_k=100
-Result: If Bronny James can work really hard on his abilities, right? That's very likely and he likely will score 10,000 total attempts of those. That means he doesn't have "sizzle holes" going. Well I don't think he works wonders into the rest of the game because I would say this every season: There's only three right now where every regular-season average chance is worth having. And one does think this should be less devastating for any team with five losses. No matter what other side you
+Result: If Bronny James can just start off getting a healthy dose of muscle that was healthy and keeps everybody on atypical this Saturday....will give me a sense to what the team had in front of us at 9:30pm the last three and a half days before even starting with a complete turnaround run for Sunday's games. I don't like watching a single moment of player slithering ahead and not winning a game over is bad on television
+These four games, going straight to a second win this cycle, definitely
 Length Score: 6.0
 Repition Score: 24.0
 Punctuation Score: 3.0
@@ -62,28 +64,31 @@ Score: 73.0
 Output 7
 Prompt: But only if Bryce James is able to
 Parameters: max_length=20, temperature=0.5, top_k=10
-Result: But only if Bryce James is able to be an effective defender.
-Length Score: 20.0
+Result: But only if Bryce James is able to make a difference in the NBA.
+Length Score: 10.0
 Repition Score: 30.0
 Punctuation Score: 10.0
 Relevance Score: 40.0
-Score: 100.0
+Score: 90.0
 
 Output 8
 Prompt: But only if Bryce James is able to
 Parameters: max_length=50, temperature=1.0, top_k=50
-Result: But only if Bryce James is able to keep going...
-From: Chris
-Length Score: 20.0
-Repition Score: 30.0
+Result: But only if Bryce James is able to score against all three opponents, which would be a nice bit of luck.
+What I found is Bryce James the best. He's the best player in the nation. He hit five homers in 27 first innings of the season. He
+Length Score: 10.0
+Repition Score: 24.0
 Punctuation Score: 3.0
 Relevance Score: 40.0
-Score: 93.0
+Score: 77.0
 
 Output 9
 Prompt: But only if Bryce James is able to
 Parameters: max_length=100, temperature=1.5, top_k=100
-Result: But only if Bryce James is able to return a place before the Chiefs' season resumes July 23 2016. One place on their list — No. 45 Ohio State — but nobody has found he‬m yet to win an ACC trophy after putting on a career-long six-month tenure with 16 seasons as Kansas City Chiefs (14 wins and no. 20 behind its already 27 total.). None do it here. That‬s some way out … You have to think of it this way; Jay Cutler or Trevor Siemian have
+Result: But only if Bryce James is able to score more targets on Thursday before playing him second would he start playing two long-footer -- much like the first four on Wednesday if he was put on offense too.
+Here are a few potential options...
+.
+-Teddy Bridgewater needs a longer stay between his thumb and shoulder, but his wrist is definitely up than in Week 5. I'd think Bridgewater should return early considering who, if needed, could run more on three plays this week's training
 Length Score: 6.0
 Repition Score: 24.0
 Punctuation Score: 3.0
@@ -93,29 +98,27 @@ Score: 73.0
 Output 10
 Prompt: The NBA will become
 Parameters: max_length=20, temperature=0.5, top_k=10
-Result: The NBA will become a global leader in the development of the NBA. The NBA will become a global leader in the development
-Length Score: 20.0
-Repition Score: 18.0
-Punctuation Score: 3.0
-Relevance Score: 40.0
-Score: 81.0
-
-Output 11
-Prompt: The NBA will become
-Parameters: max_length=50, temperature=1.0, top_k=50
-Result: The NBA will become a national sport, its first and only official league in the United States. The league, with its biggest expansion in the nation, takes part in the annual All-Star Game in the city, which will take place Sept. 20-23.
+Result: The NBA will become the first NBA team to host a game in its history.
 Length Score: 10.0
 Repition Score: 24.0
 Punctuation Score: 10.0
 Relevance Score: 40.0
 Score: 84.0
 
+Output 11
+Prompt: The NBA will become
+Parameters: max_length=50, temperature=1.0, top_k=50
+Result: The NBA will become a reality, with three teams and seven franchises set to enter the 2017-18 season, which will conclude in mid-May. The NBA, the NBA, and other other teams will use the annual league tournament to raise money for charity and help people
+Length Score: 10.0
+Repition Score: 24.0
+Punctuation Score: 3.0
+Relevance Score: 40.0
+Score: 77.0
+
 Output 12
 Prompt: The NBA will become
 Parameters: max_length=100, temperature=1.5, top_k=100
-Result: The NBA will become one of two great, great countries today playing with us." – The Milwaukee Herald as well as on WUSA 98
-…. the Chicago Cubs will play Canada next Tuesday at SAP Center next Tuesday on FOX 42
-…. to see which players want even your highest level of hockey success: Joe Torvalds vs. Johnny Cueto & Frank Miller. More specifically with Jose Jimenez moving south in today's WSJ by Scott Skidmore (@svindmore)
+Result: The NBA will become progressively stronger when an organization leaves. The NBA team is no longer having to play two different teams on its five-year existence. Players generally play across the league once it's had its five-year, extended past the rule at the time. But it's slowly gaining some momentum as the team becomes clearer about expansion in 2019 and new league plans -- if there is some improvement happening in it and there are some major changes to it and some big moves like a third-wall at the end of the
 Length Score: 6.0
 Repition Score: 24.0
 Punctuation Score: 3.0
@@ -125,28 +128,28 @@ Score: 73.0
 Output 13
 Prompt: In 2030, the Lakers will
 Parameters: max_length=20, temperature=0.5, top_k=10
-Result: In 2030, the Lakers will be the first team to win the NBA MVP award and the first team to reach the NBA Finals.
-Length Score: 20.0
-Repition Score: 18.0
+Result: In 2030, the Lakers will have to make a decision on a roster that includes players who have been selected by the Lakers.
+Length Score: 10.0
+Repition Score: 24.0
 Punctuation Score: 10.0
 Relevance Score: 40.0
-Score: 88.0
+Score: 84.0
 
 Output 14
 Prompt: In 2030, the Lakers will
 Parameters: max_length=50, temperature=1.0, top_k=50
-Result: In 2030, the Lakers will play one of its most important games of the 2015-16 season.
+Result: In 2030, the Lakers will need to win 40 games of the NBA Playoffs, only to lose 24.3 games in the finals, when the San Antonio Spurs will face the Chicago Bulls (3-6), Atlanta Hawks (2-6), Denver Nuggets (2-9),
 Length Score: 20.0
 Repition Score: 24.0
-Punctuation Score: 10.0
+Punctuation Score: 3.0
 Relevance Score: 40.0
-Score: 94.0
+Score: 87.0
 
 Output 15
 Prompt: In 2030, the Lakers will
 Parameters: max_length=100, temperature=1.5, top_k=100
-Result: In 2030, the Lakers will no longer see that as more expensive after last season's disappointing postseason last-five games. But its share down in 2017-18 looks slightly improved from last season: Just seven months in or below.
-The Mavericks signed center Gerald Hawkins, as he had hoped to remain at that position, including last month acquiring two picks. All 28 selections this season have so far generated over $67 million for the team after last season's poor series at San Antonio. But in seven of eight playoff losses this
+Result: In 2030, the Lakers will have one of the best scoring teams from the NBA this offseason. In 17,980 trips to East to defeat the Heat all NBA records through four seasons during its postseason period (2005-06: the Jazz achieved 100 home winning totals) coupled with 13 more victories and 31 wins over LeBron James. However, with the Bulls expected to play a larger regular-season schedule rather than less league format, fans wanted consistency in league television, periodicals as well as more time on NBA channels.
+The
 Length Score: 6.0
 Repition Score: 24.0
 Punctuation Score: 3.0

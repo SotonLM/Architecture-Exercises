@@ -108,7 +108,7 @@ def quality_score(prompt, text):
         lengthScore = 0.2  
     elif numWords > 70:
         lengthScore = 0.3
-    elif 8 <= numWords <= 40:
+    elif 25 <= numWords <= 40:
         lengthScore = 1.0
     else:
         lengthScore = 0.5
