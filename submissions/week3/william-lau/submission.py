@@ -150,7 +150,7 @@ def quality_score(prompt, text):
 
     total = 0.2*lengthScore + 0.3*repetitionScore + 0.1*punctuationScore + 0.4*relevanceScore
 
-    return float(round(total * 100, 1))
+    return (0.2*lengthScore*100, 0.3*repetitionScore*100, 0.1*punctuationScore*100, 0.4*relevanceScore*100, float(round(total * 100, 1)))
 
 """ - Score text from 0-100
 - Test on at least 10 generated texts
@@ -169,13 +169,17 @@ def level3Task():
                 text = output[0]["generated_text"]
                 cleanedText = "\n".join([line for line in text.splitlines() if line.strip() != ""])
 
-                score = quality_score(prompt, cleanedText)
+                lengthScore, repititionScore, punctuationScore, relevanceScore, totalScore = quality_score(prompt, cleanedText)
 
                 f.write(f"Output {count}\n")
                 f.write(f"Prompt: {prompt}\n")
                 f.write(f"Parameters: max_length={length}, temperature={temp}, top_k={top_k}\n")
                 f.write(f"Result: {cleanedText}\n")
-                f.write(f"Score: {score}\n\n")
+                f.write(f"Length Score: {lengthScore}\n")
+                f.write(f"Repition Score: {repititionScore}\n")
+                f.write(f"Punctuation Score: {punctuationScore}\n")
+                f.write(f"Relevance Score: {relevanceScore}\n")
+                f.write(f"Score: {totalScore}\n\n")
 
                 count += 1
 

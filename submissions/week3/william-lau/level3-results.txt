@@ -1,96 +1,155 @@
 Output 1
 Prompt: The future of Lebron is
 Parameters: max_length=20, temperature=0.5, top_k=10
-Result: The future of Lebron is the future of the city. We have a vision for the future of this city, and we are
-Score: 81.0
+Result: The future of Lebron is in the hands of the people.
+Length Score: 20.0
+Repition Score: 24.0
+Punctuation Score: 10.0
+Relevance Score: 40.0
+Score: 94.0
 
 Output 2
 Prompt: The future of Lebron is
 Parameters: max_length=50, temperature=1.0, top_k=50
-Result: The future of Lebron is uncertain given the recent rise in the number of new drivers entering the sport, and the fact that Renault's recent successes in Europe have given a lot of credit to Leblanc's success, especially after its successes in Europe since 2007.
-Score: 84.0
+Result: The future of Lebron is uncertain," said one insider in a phone call.
+"He told him last time he looked at the list of options. They didn't know, but he said that he had the most talent in the world, and that
+Length Score: 10.0
+Repition Score: 24.0
+Punctuation Score: 3.0
+Relevance Score: 40.0
+Score: 77.0
 
 Output 3
 Prompt: The future of Lebron is
 Parameters: max_length=100, temperature=1.5, top_k=100
-Result: The future of Lebron is under dire, and it still certainly will not stop there," he said.
-However, Lebron himself knows that in October another major announcement had been made: plans to replace Lebron with a new construction construction contractor from China of the building of the building as a pilot of the rail railway – including two such small facilities, also already at the ground-ground.
-He plans all of this – together with an 18-wheel-drive ferry for the Metropolis project which
+Result: The future of Lebron is very much a "business world". It could be the equivalent of a 20% investment, say, while people might think. Even without a government, it makes you think an economy or tax has no place in the present government government rather than being part of it. Moreover today economists, economists and researchers work together on issues as well as political (and environmental) issues as to make government better and happier – and even for the better. Ultimately, those concerned with the state use freebies or other cost
+Length Score: 6.0
+Repition Score: 24.0
+Punctuation Score: 3.0
+Relevance Score: 40.0
 Score: 73.0
 
 Output 4
 Prompt: If Bronny James can
 Parameters: max_length=20, temperature=0.5, top_k=10
-Result: If Bronny James can be seen in this photograph of the head of the British army in the early 1930s.
-Score: 94.0
+Result: If Bronny James can't wait to see his team win the Super Bowl.
+Length Score: 20.0
+Repition Score: 30.0
+Punctuation Score: 10.0
+Relevance Score: 32.00000000000001
+Score: 92.0
 
 Output 5
 Prompt: If Bronny James can
 Parameters: max_length=50, temperature=1.0, top_k=50
-Result: If Bronny James can be traced in the same way that James is from a certain spot, I would say as we know, James is a long way from reaching the NBA, and by extension he represents something of a long way."
-The fact that James
+Result: If Bronny James can make it through the regular season, and his team is just as hard as anybody, but James still has his strengths and weaknesses. And for the third time in a row, this is a team, and I will continue to tell you the whole thing
+Length Score: 10.0
+Repition Score: 24.0
+Punctuation Score: 3.0
+Relevance Score: 40.0
 Score: 77.0
 
 Output 6
 Prompt: If Bronny James can
 Parameters: max_length=100, temperature=1.5, top_k=100
-Result: If Bronny James can never stand as a real politician any more without wearing your arm he is someone that is just another man and doesn't know who to turn your voice around. When one of its major rivals is the GOP front team, it simply sits right next to a hardrope of Democrats on the sideline facing an opportunity to reelect. And the reason this is so critical is because Republican leaders have proven that there wasn't going to be another successful primary campaign. A team to serve it effectively is a major victory
+Result: If Bronny James can work really hard on his abilities, right? That's very likely and he likely will score 10,000 total attempts of those. That means he doesn't have "sizzle holes" going. Well I don't think he works wonders into the rest of the game because I would say this every season: There's only three right now where every regular-season average chance is worth having. And one does think this should be less devastating for any team with five losses. No matter what other side you
+Length Score: 6.0
+Repition Score: 24.0
+Punctuation Score: 3.0
+Relevance Score: 40.0
 Score: 73.0
 
 Output 7
 Prompt: But only if Bryce James is able to
 Parameters: max_length=20, temperature=0.5, top_k=10
-Result: But only if Bryce James is able to keep playing, and he can be a part of what the team is all about.
-Score: 94.0
+Result: But only if Bryce James is able to be an effective defender.
+Length Score: 20.0
+Repition Score: 30.0
+Punctuation Score: 10.0
+Relevance Score: 40.0
+Score: 100.0
 
 Output 8
 Prompt: But only if Bryce James is able to
 Parameters: max_length=50, temperature=1.0, top_k=50
-Result: But only if Bryce James is able to make the same moves on a second team is he able to take out the defending champion, even if he must, for the first time.
-Score: 94.0
+Result: But only if Bryce James is able to keep going...
+From: Chris
+Length Score: 20.0
+Repition Score: 30.0
+Punctuation Score: 3.0
+Relevance Score: 40.0
+Score: 93.0
 
 Output 9
 Prompt: But only if Bryce James is able to
 Parameters: max_length=100, temperature=1.5, top_k=100
-Result: But only if Bryce James is able to push himself forward with an outside shot to even win those game-changers might we ever remember he got elected to a leadership position such as being so competitive," Coetzee said.
-Although Joe Bowden will struggle to develop this game-changer, he remains the candidate who can go into the job as an external player to increase your offensive or defensive talent. He isn't running his foot around outside for tightness in defense. More recently, that also was noted to
+Result: But only if Bryce James is able to return a place before the Chiefs' season resumes July 23 2016. One place on their list — No. 45 Ohio State — but nobody has found he‬m yet to win an ACC trophy after putting on a career-long six-month tenure with 16 seasons as Kansas City Chiefs (14 wins and no. 20 behind its already 27 total.). None do it here. That‬s some way out … You have to think of it this way; Jay Cutler or Trevor Siemian have
+Length Score: 6.0
+Repition Score: 24.0
+Punctuation Score: 3.0
+Relevance Score: 40.0
 Score: 73.0
 
 Output 10
 Prompt: The NBA will become
 Parameters: max_length=20, temperature=0.5, top_k=10
-Result: The NBA will become the first NBA team to adopt a new format for the use of player-specific data.
-Score: 94.0
+Result: The NBA will become a global leader in the development of the NBA. The NBA will become a global leader in the development
+Length Score: 20.0
+Repition Score: 18.0
+Punctuation Score: 3.0
+Relevance Score: 40.0
+Score: 81.0
 
 Output 11
 Prompt: The NBA will become
 Parameters: max_length=50, temperature=1.0, top_k=50
-Result: The NBA will become a global market for the "best talent available" on a per-capita basis, according to the league.
-"It would be a tremendous advantage for our teams in the NBA for most of the year," Buford told The Vertical
-Score: 77.0
+Result: The NBA will become a national sport, its first and only official league in the United States. The league, with its biggest expansion in the nation, takes part in the annual All-Star Game in the city, which will take place Sept. 20-23.
+Length Score: 10.0
+Repition Score: 24.0
+Punctuation Score: 10.0
+Relevance Score: 40.0
+Score: 84.0
 
 Output 12
 Prompt: The NBA will become
 Parameters: max_length=100, temperature=1.5, top_k=100
-Result: The NBA will become the only U.S. studio to post a high 10 million rating last Friday, the Associated Press reported Thursday. Of Monday morning's 1.7 million+ views recorded across all 16 divisions, this gave ESPN 3M viewers just an extra 5,900 ratings after finishing first with 18 percent a week after wrapping with 34 percent a week before with 18 percent a week before that, before the national consensus No. 29 overall that could help jump into NBA shape. By the weekend's premiere of its NBA
+Result: The NBA will become one of two great, great countries today playing with us." – The Milwaukee Herald as well as on WUSA 98
+…. the Chicago Cubs will play Canada next Tuesday at SAP Center next Tuesday on FOX 42
+…. to see which players want even your highest level of hockey success: Joe Torvalds vs. Johnny Cueto & Frank Miller. More specifically with Jose Jimenez moving south in today's WSJ by Scott Skidmore (@svindmore)
+Length Score: 6.0
+Repition Score: 24.0
+Punctuation Score: 3.0
+Relevance Score: 40.0
 Score: 73.0
 
 Output 13
 Prompt: In 2030, the Lakers will
 Parameters: max_length=20, temperature=0.5, top_k=10
-Result: In 2030, the Lakers will be on the verge of losing their first NBA title in 2023.
-Score: 94.0
+Result: In 2030, the Lakers will be the first team to win the NBA MVP award and the first team to reach the NBA Finals.
+Length Score: 20.0
+Repition Score: 18.0
+Punctuation Score: 10.0
+Relevance Score: 40.0
+Score: 88.0
 
 Output 14
 Prompt: In 2030, the Lakers will
 Parameters: max_length=50, temperature=1.0, top_k=50
-Result: In 2030, the Lakers will need at least one offensive guard in order to play at a higher rate than would a defensive guard in the NBA.
-The Lakers will need at least one offensive guard in order to play at a higher rate than would a defensive guard
-Score: 71.0
+Result: In 2030, the Lakers will play one of its most important games of the 2015-16 season.
+Length Score: 20.0
+Repition Score: 24.0
+Punctuation Score: 10.0
+Relevance Score: 40.0
+Score: 94.0
 
 Output 15
 Prompt: In 2030, the Lakers will
 Parameters: max_length=100, temperature=1.5, top_k=100
-Result: In 2030, the Lakers will have 20-point field goal attempts to advance to 23 out of 28 national games held for the 2015-16 campaign. They will open with six games without starting more than five of 6-foot-3 shooting.
-Score: 94.0
+Result: In 2030, the Lakers will no longer see that as more expensive after last season's disappointing postseason last-five games. But its share down in 2017-18 looks slightly improved from last season: Just seven months in or below.
+The Mavericks signed center Gerald Hawkins, as he had hoped to remain at that position, including last month acquiring two picks. All 28 selections this season have so far generated over $67 million for the team after last season's poor series at San Antonio. But in seven of eight playoff losses this
+Length Score: 6.0
+Repition Score: 24.0
+Punctuation Score: 3.0
+Relevance Score: 40.0
+Score: 73.0
 
