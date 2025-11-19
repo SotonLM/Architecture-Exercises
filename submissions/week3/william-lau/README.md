@@ -1,6 +1,8 @@
-Subject: [Your Name] - Diagnostic Task Submission
+Subject: [William Lau] - Diagnostic Task Submission
 
 LEVEL REACHED: [1/2/3/4]
+
+- NOTE I WROTE ALL MY CODE IN THE SAME FILE CALLED submission.py and put each task under a function i.e. level1Task, level2Task and level3Task
 
 LEVEL 1: ✅ [<img width="2518" height="1340" alt="image" src="https://github.com/user-attachments/assets/c3e8f845-6183-4808-8876-19016fc070b1" />
 ]
@@ -16,9 +18,16 @@ LEVEL 2: ✅ [https://github.com/lauw-07/Architecture-Exercises/blob/main/submis
 
 LEVEL 3: ✅ [Option A/B/C/D]
 - [https://github.com/lauw-07/Architecture-Exercises/blob/main/submissions/week3/william-lau/submission.py]
-- Brief summary
+- I did option B. In order to do so, i made up my own scoring algorithm (pretty straightforward) based on length of the generated output, the amount of repitition of words, the punctuation used and the relevance towards the prompts. I then scaled them so that i will get a score out of 100, with 100 being the best score. Honestly, i don't think this scoring method is the most effective but it is a simple start. And then i just wrote some code similar to that in level 2 so that it loops through the prompts and goes through each of the params settings and then calculates the score for each and puts it into a txt file called level3-results.txt (Attached to the folder aswell)
 
 LEVEL 4: ✅ [If completed]
 - Project name: ___
 - What it does: ___
 - [Demo link]
+
+TIME SPENT: 2-3 hours (Mainly because I was figuring out how to set up the project on my laptop)
+
+WHAT I FOUND EASY: Most of it was pretty straightfoward
+WHAT I FOUND HARD: Since i haven't had any experience with using AI models and transformers, I wasn't completely aware of all the existing functions etc. But the actual coding i did was pretty straightforward. Although i didn't get around to attempting all the other options from Level 3
+QUESTIONS: ___
+```
