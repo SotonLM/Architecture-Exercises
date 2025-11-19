@@ -114,7 +114,20 @@ python diagnostic_task.py
   ```bash
   uv pip install "torch>=2.2.0" --upgrade
   ```
-- **Torch issues**: uv should handle torch installation automatically. If issues persist, try:
+- **Torch installation errors on Intel Mac (macOS x86_64)**: Some newer torch versions (like 2.9.1) don't have wheels for Intel Macs. Fix by installing a compatible version:
+  ```bash
+  # Remove existing venv and recreate
+  rm -rf .venv
+  uv venv
+  
+  # Install with compatible torch version
+  uv pip install transformers "torch>=2.2.0,<2.9.0" "numpy<2.0"
+  ```
+  Or use PyTorch's official index:
+  ```bash
+  uv pip install transformers torch "numpy<2.0" --index-url https://download.pytorch.org/whl/cpu
+  ```
+- **Other torch issues**: uv should handle torch installation automatically. If issues persist, try:
   ```bash
   uv pip install torch --index-url https://download.pytorch.org/whl/cpu
   ```
