@@ -17,7 +17,7 @@ LEVEL 2: ✅ [https://github.com/lauw-07/Architecture-Exercises/blob/main/submis
   The time taken to generate the outputs varied depending on the different parameters. Sometimes it was as quick as 0.2 seconds and other times for larger outputs, it took aroudn 3 to 4 seconds to generate one output.
 
 LEVEL 3: ✅ [Option A/B/C/D]
-- [https://github.com/lauw-07/Architecture-Exercises/blob/main/submissions/week3/william-lau/submission.py]
+- [https://github.com/lauw-07/Architecture-Exercises/blob/main/submissions/week3/william-lau/qualityScore.py]
 
 - I did option B. In order to do so, i made up my own scoring algorithm (pretty straightforward) based on length of the generated output, the amount of repitition of words, the punctuation used and the relevance towards the prompts. I then scaled them so that i will get a score out of 100, with 100 being the best score. Honestly, i don't think this scoring method is the most effective but it is a simple start. And then i just wrote some code similar to that in level 2 so that it loops through the prompts and goes through each of the params settings and then calculates the score for each and puts it into a txt file called level3-results.txt (Attached to the folder aswell)
 
