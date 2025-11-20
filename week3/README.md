@@ -69,7 +69,7 @@ See individual level folders for detailed instructions:
 
 ## Submission
 
-See [submission_format.txt](submission_format.txt) for the submission template.
+See [submission_format.txt](submission_format) for the submission template.
 
 **Due:** Wednesday 11:59 PM  
 **Submit to:** Teams #architecture channel
