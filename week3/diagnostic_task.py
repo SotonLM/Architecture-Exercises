@@ -23,19 +23,23 @@ prompts = [
 ]
 
 filesavedata = {}
-
 for prompt in prompts:
-    starttime = time.time()
-    output = generators[0](prompt, max_length=30, temperature = 0.3, top_k = 50)
-    print(f"\nPrompt: {prompt}")
-    print(f"Generated: {output[0]['generated_text'].strip()}")
-    print("-" * 50)
-    tokens = len(generators[0].tokenizer.encode(output[0]['generated_text']))
-    filesavedata[prompt] = (output[0]['generated_text'], time.time() - starttime, tokens)
+    filesavedata[prompt] = {}
 
-with open("results.txt", "w") as file:
+for generator in generators:
+    for prompt in prompts:
+        starttime = time.time()
+        output = generator(prompt, max_length=30, temperature = 0.3, top_k = 50)
+        print(f"\nPrompt: {prompt}")
+        print(f"Generated: {output[0]['generated_text'].strip()}")
+        print("-" * 50)
+        tokens = len(generator.tokenizer.encode(output[0]['generated_text']))
+        filesavedata[prompt][generator] =  (output[0]['generated_text'], time.time() - starttime, tokens)
+
+with open(".\\week3\\results.txt", "w") as file:
     for k,v in filesavedata.items():
-        file.write(f"Prompt:{k}\nGenerated:{v[0].strip()}\nTime to generate: {v[1]}\nNumber of tokens{v[2]}\n\n\n")
+        for model, data in v.items():
+            file.write(f"Prompt:{k}\nGenerated with {model}:{data[0].strip()}\nTime to generate: {data[1]}\nNumber of tokens{data[2]}\n\n\n")
 
 
 
