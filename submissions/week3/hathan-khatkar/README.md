@@ -6,14 +6,14 @@
 
 ## LEVEL 1: ✅
 
-![UI Screenshot](submissions/week3/hathan-khatkar/level1_sc.png)
+![UI Screenshot](level1_sc.png)
 
 ---
 
 ## LEVEL 2: ✅
 
-- [Code link](submissions/week3/hathan-khatkar/diagnostic_task.py)
-- [Results link](submissions/week3/hathan-khatkar/result.txt)
+- [Code link](diagnostic_task.py)
+- [Results link](result.txt)
 
 ### Brief Summary of Findings
 
@@ -37,7 +37,7 @@ Around 0.3 - 0.8s depending on max tokens.
 
 ## LEVEL 3: ✅ (Option C)
 
-- [Code Link](submissions/week3/hathan-khatkar/diagnostic_task.py)
+- [Code Link](diagnostic_task.py)
 
 **Chose option C - Compare models:**
 
@@ -56,10 +56,10 @@ Around 0.3 - 0.8s depending on max tokens.
 
 The project purpose is to use data retrieval techniques to inform an answer based on a specific domain (as a Property Advisor in the Southampton area). It will use prompt engineering to classify the initial input and from there choose an appropriate data retrieval technique (SQL generation / embedding search) to retrieve the relevant data. It will then use the retrieved data to answer the user's question.
 
-- [Code Link](submissions/week3/hathan-khatkar/level4_hybrid_qa.py)
+- [Code Link](level4_hybrid_qa.py)
 
 **Example Output:**
-![UI Screenshot](submissions/week3/hathan-khatkar/level4-sc.png)
+![UI Screenshot](level4_sc.png)
 
 **To run:**
 - **Note:** Includes sentence-transformers library, install using: `uv pip install sentence-transformers`

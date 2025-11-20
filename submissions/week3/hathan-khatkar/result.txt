@@ -1,0 +1,202 @@
+
+============================
+=== RUN RESULT 1 ===
+Prompt: To make a sandwich, you need to
+max_length=20, temperature=1.0, top_k=50
+
+Generated Text:
+To make a sandwich, you need to be very careful. Don't use a spatula. Don't think about "flipping" cheese
+
+Token Count: 28
+Time: 0.3135s
+============================
+
+============================
+=== RUN RESULT 2 ===
+Prompt: To make a sandwich, you need to
+max_length=50, temperature=1.0, top_k=50
+
+Generated Text:
+To make a sandwich, you need to mix the ingredients, and mix it together and start mixing. I use a little bit of a coconut, so I used 1 cup of ground almonds, 2 oz a cup of milk, or two canola, 1 cup of brown sugar, or one
+
+Token Count: 58
+Time: 0.7456s
+============================
+
+============================
+=== RUN RESULT 3 ===
+Prompt: To make a sandwich, you need to
+max_length=100, temperature=1.0, top_k=50
+
+Generated Text:
+To make a sandwich, you need to make a small number of small and long cubes:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+The first step is to make a very small one. The large cubes need to be 2cm tall on a sheet. They're big but this size is necessary if you're using the 1.5cm cube. If you don't need
+
+Token Count: 88
+Time: 1.4546s
+============================
+
+============================
+=== RUN RESULT 4 ===
+Prompt: To make a sandwich, you need to
+max_length=50, temperature=0.5, top_k=50
+
+Generated Text:
+To make a sandwich, you need to make a sandwich.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Token Count: 35
+Time: 0.7299s
+============================
+
+============================
+=== RUN RESULT 5 ===
+Prompt: To make a sandwich, you need to
+max_length=50, temperature=1.0, top_k=50
+
+Generated Text:
+To make a sandwich, you need to use something not made of polyethylene – although we tend to make a different size because we usually do this again the same size with a plastic loaf. In this case, I used foil (made from polyphosphorous) and the foil didn
+
+Token Count: 58
+Time: 0.7208s
+============================
+
+============================
+=== RUN RESULT 6 ===
+Prompt: To make a sandwich, you need to
+max_length=50, temperature=1.5, top_k=50
+
+Generated Text:
+To make a sandwich, you need to fill 1″ pieces by inserting a 1″ strip about 1 inch in the centre of either edge of an old school sandwich or two into 3″ thickness holes. Make 1 large, 12″ long, 6″ wide, 4″ thin balls with your
+
+Token Count: 58
+Time: 0.7408s
+============================
+
+============================
+=== RUN RESULT 7 ===
+Prompt: To make a sandwich, you need to
+max_length=50, temperature=1.0, top_k=10
+
+Generated Text:
+To make a sandwich, you need to have two pieces of bacon and bacon. This will have to be the bacon and the bacon. If you have a small bowl of bacon, this will make for an excellent filling.
+
+
+This recipe is not intended to be taken as a recommendation
+
+Token Count: 57
+Time: 0.7373s
+============================
+
+============================
+=== RUN RESULT 8 ===
+Prompt: To make a sandwich, you need to
+max_length=50, temperature=1.0, top_k=50
+
+Generated Text:
+To make a sandwich, you need to be the type of person you want to be. But when you ask the audience to ask "What's your favorite sandwich?", don't ask them if it is your favorite. Do not tell them anything else, or tell them that it's that way
+
+Token Count: 58
+Time: 0.7296s
+============================
+
+============================
+=== RUN RESULT 9 ===
+Prompt: To make a sandwich, you need to
+max_length=50, temperature=1.0, top_k=100
+
+Generated Text:
+To make a sandwich, you need to have a sturdy bag or a pastry holder (see note, let me take it and cut it and wrap it in a pastry holder, give it a spin over it) and make one large pastry bag.
+
+Take your bag and mix.
+
+
+Token Count: 58
+Time: 0.7224s
+============================
