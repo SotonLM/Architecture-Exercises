@@ -45,7 +45,7 @@ for m in models:
 with open("results.txt", "w") as file:
     for k,v in filesavedata.items():
         for model, data in v.items():
-            file.write(f"Prompt:{k}\nGenerated with {model}:{data[0].strip()}\nTime to generate: {data[1]}\nNumber of tokens{data[2]}\n\n\n")
+            file.write(f"Prompt:{k}\nGenerated with {model}:\n{data[0].strip()}\nTime to generate: {data[1]}\nNumber of tokens{data[2]}\n\n\n")
 
 
 
