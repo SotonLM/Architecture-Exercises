@@ -22,9 +22,14 @@ Per run = ~3.0–3.5 s
 Total runs recorded: 135. Total compute time ≈ 7 minutes
 
 
-LEVEL 3: ✅ [Option A/B/C/D]
-- [Link to work]
-- Brief summary
+## LEVEL 3: ✅ [C]
+- Code: [compare_models.py](compare_models.pyw)
+- Comparison summary: [model_comparison/model_comparison.md](model_comparison/model_comparison.md)
+- Per-model outputs:
+    - [distilgpt2 outputs](model_comparison/outputs/distilgpt2_outputs.txt)
+    - [gpt2 outputs](model_comparison/outputs/gpt2_outputs.txt)
+    - [gpt2-medium outputs](model_comparison/outputs/gpt2-medium_outputs.txt)
+
 
 LEVEL 4: ✅ [If completed]
 - Project name: ___

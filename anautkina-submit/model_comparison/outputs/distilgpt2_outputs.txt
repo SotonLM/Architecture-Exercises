@@ -1,0 +1,71 @@
+Model: distilgpt2
+Parameters: 81.9M
+------------------------------------------------------------
+
+Prompt: Top 5 team sports are
+Time(s): 3.518
+Tokens: 261
+RepetitionScore: 0.851
+
+Top 5 team sports are on top of the pack.
+
+
+
+- Get rid of the all-important ‍‍! The best teams of the 2015 Summer Games are taking on the top team in Group C.
+The top 3 teams of the 2015 Summer Games are taking on the top team in Group C and are now at the bottom of the list!
+- Get rid of the all-important ‍! The best teams of the 2015 Summer Games are taking on the top team in Group C.
+- Get rid of the all-important ‍! The best teams of the 2015 Summer Games are taking on the top team in Group C and are now at the bottom of the list!
+- Get rid of the all-important ‍! The best teams of the 2015 Summer Games are taking on the top team in Group C and are now at the bottom of the list!
+- Get rid of the all-important ‍! The best teams of the 2015 Summer Games are taking on the top team in Group C and are now at the bottom of the list!
+- Get rid of the all-important ‍! The best teams of the 2015 Summer Games are taking on the top team in Group C and are now at the bottom of the list!
+
+
+========================================
+
+Prompt: The secret to happiness is
+Time(s): 3.195
+Tokens: 261
+RepetitionScore: 0.582
+
+The secret to happiness is to make it a goal. And to do so is to be good at something, to be able to produce better, and to be able to get ahead of the curve, or to be able to get ahead of the curve. I want to remind us that, as long as this is the plan, it will come together, if any, very quickly, and we cannot help it. And when so many of us decide to look into it as a way to improve other people's lives, so much else is still under way because we have no money; we have no money in our pocket for everything we eat, where no money is going to go, that is the way the world thinks of us. If we try it, it will turn us into a better society, because of that. That is why we cannot think about it, no matter how great, beautiful we are, or who we are. If we try it, we will lose our temper, or if we are not, so much else is to be done. The only reason that we do this for the better is because people in this world view it the same way that the rest of the world views it: being good, being the only thing you can do, or even the only thing you can
+
+========================================
+
+Prompt: A simple recipe for pankakes:
+Time(s): 3.270
+Tokens: 263
+RepetitionScore: 0.517
+
+A simple recipe for pankakes:
+
+Ingredients:
+1 tsp vanilla extract
+1 tsp red pepper flakes
+1 tsp brown sugar
+1 tsp cinnamon
+1 cup cooked butter
+2 cups finely grated butter or flour
+1/2 cup cooked ground oregano
+1 cup salt, melted
+¼ cup coarse sea salt
+Directions:
+1/2 cup chopped white walnut
+1/2 cup granulated sugar
+1/4 cup water
+¼ cup water
+Salt in small bowl
+Put all ingredients together and make an impromptu pankake mix.
+1 cup water
+Protein: 300g
+Cats: 50g
+1/2 cup cooked butter
+1 tsp vanilla extract
+1 tsp brown sugar
+1 tsp cinnamon
+1 teaspoon cinnamon
+1/2 cup cooked butter
+*Please include this as your recipe.
+1. Set aside. Let the pankake mix dry and bring to a boil. 2. Add the cooked butter. Add the cooked butter and mix well. (Pushing up a lot of the eggs will be fine, but the process will probably take a long time. For the egg mixture, add a large enough egg and stir until smooth and sticky without flaking or breaking apart. If the mixture is too
+
+========================================
+
