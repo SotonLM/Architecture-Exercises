@@ -14,9 +14,29 @@ See submission_format.txt for details.
 from transformers import pipeline
 import time
 
+
+#measures how long it takes until the generation tails with repetition
 def Repitionscore(text):
-    # find % along text till repition
-    return 0
+    score = 100
+    c = 1
+    rep = 1
+    while (rep < 2 and c < len(text)):
+        test = text[-1:-1-c:-1][::-1] #substring to test against
+        conflict = False
+        p = 1 #period of repitition
+        rep = 1 #number of repititions
+        while(not conflict):
+            if text[-p*c - 1: - p*c - 1 - c:-1][::-1] == test:
+                p += 1
+                rep += 1
+            else:
+                conflict = True
+        c += 1
+    if (test != text):
+        s = "".join(text.split(test))
+        score = len(s)/len(text)
+    return score
+
 
 # LEVEL 1: Basic generation
 print("=== LEVEL 1: BASIC GENERATION ===")
@@ -24,12 +44,21 @@ models = ['distilgpt2', 'gpt2', 'gpt2-medium']
 generators = [pipeline('text-generation', model='distilgpt2'),pipeline('text-generation', model='gpt2'),pipeline('text-generation', model='gpt2-medium')]
 
 prompts = [
-    "apple apple"
+    "apple",
+    "apple apple",
+    "apple apple apple",
+    "My favoutite food is",
+    "1 + 1 = 2",
+    "asjfjasfopja",
+    "1234567890",
+    "",
+    "                               ",
+    "User: What is the capital of France?\nAgent: The capital of France is " 
 ]
 
 filesavedata = {}
-for prompt in prompts:
-    filesavedata[prompt] = {}
+for model in models:
+    filesavedata[model] = {}
 
 for m in models:
     for prompt in prompts:
@@ -40,13 +69,18 @@ for m in models:
         print(f"Generated: {output[0]['generated_text'].strip()}")
         print("-" * 50)
         tokens = len(generator.tokenizer.encode(output[0]['generated_text']))
-        filesavedata[prompt][m] =  (output[0]['generated_text'], time.time() - starttime, tokens)
+        s = Repitionscore(output[0]['generated_text'])
+        filesavedata[m][prompt] =  (output[0]['generated_text'], time.time() - starttime, tokens, s)
 
-with open("results.txt", "w") as file:
-    for k,v in filesavedata.items():
-        for model, data in v.items():
-            file.write(f"Prompt:{k}\nGenerated with {model}:\n{data[0].strip()}\nTime to generate: {data[1]}\nNumber of tokens{data[2]}\n\n\n")
-
+with open("results.txt", "w", encoding="utf-8") as file:
+    for model,v in filesavedata.items():
+        n = 0
+        s = 0
+        for prompt, data in v.items():
+            n += 1
+            s += data[3]
+            file.write(f"Prompt:{prompt}\nGenerated with {model}:\n{data[0].strip()}\nTime to generate: {data[1]}\nNumber of tokens: {data[2]}\nThe repetition score: {data[3]}\n\n\n")
+        file.write(f"\n=================\nAverage score for {model} = {s/n}\n============\n")
 
 
 # LEVEL 3: Your code here
