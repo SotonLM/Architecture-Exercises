@@ -31,13 +31,12 @@ Total runs recorded: 135. Total compute time ≈ 7 minutes
     - [gpt2-medium outputs](model_comparison/outputs/gpt2-medium_outputs.txt)
 
 
-LEVEL 4: ✅ [If completed]
-- Project name: ___
-- What it does: Text adventure game
-- [Demo link]
+LEVEL 4: ✅ 
+- Project name: DND Text Game
+- What it does: Text adventure game with choices
+- [dndgame.py](dnd-game/dndgame.py)
 
-TIME SPENT: ___ hours
+TIME SPENT: 3 hours
 
-WHAT I FOUND EASY: ___
-WHAT I FOUND HARD: ___
-QUESTIONS: ___
+WHAT I FOUND EASY: Levels 1-2, straightforward instructions, no need for imagination
+WHAT I FOUND HARD: Level 4, figure out how to make it interact with the player
