@@ -1,0 +1,53 @@
+Model: gpt2-medium
+Parameters: 354.8M
+------------------------------------------------------------
+
+Prompt: Top 5 team sports are
+Time(s): 12.825
+Tokens: 261
+RepetitionScore: 0.418
+
+Top 5 team sports are soccer, football, cycling, tennis, and lacrosse—all of which are popular in America in large part because of their widespread popularity. However, basketball is only fairly well-known to foreign visitors, and even then, the sport doesn't tend to draw as many fans when compared to the other professional sports.
+
+A sport like hockey, soccer or tennis that makes a lot of sense for foreigners is basketball. The sport is generally seen as the underdog in that it has a much older, more experienced league, with fewer stars this time around. But that's no longer the case with the NBA and NHL. Despite a number of minor league teams floundering each year, NBA and NBA 2K15 brings basketball back into prominence, with two of the league's most popular franchises, the Los Angeles Lakers and Toronto Raptors, now considered NBA champions.
+
+Sports like football are another story. When the NHL took over the NBA in 1989-90, it didn't have a lot of experience at handling these kinds of games, so it took its time trying new sports. With the NFL in place and the NHL's growth under way, there isn't an NBA game like football, so the league will not have to learn the same lessons as it had for other sports
+
+========================================
+
+Prompt: The secret to happiness is
+Time(s): 12.591
+Tokens: 261
+RepetitionScore: 0.467
+
+The secret to happiness is always the people who love you. You'll have your ups and downs as you're living life, but you still will have a great time.
+
+8. Be patient with yourself. There is no magic pill to happiness or success – but sometimes you have to ask yourself if this is a permanent thing and if it can be stopped.
+
+And here's the key: It's not about what works for you or doesn't, it's about what makes it work for you and what's best for you at the moment.
+
+What's next?
+
+If happiness is to remain a constant, well-being source in this world – then there must be other activities that are also beneficial, fun, interesting, and enriching to us to make it as part of our daily lives, at work in our schools, in our homes and in our personal lives.
+
+What's wrong with this?
+
+1. You'll get less satisfied. Happiness is ultimately tied to our ability to respond to our passions, interests etc – it would be incredibly foolish, selfish and unhealthy for us to force that onto others.
+
+By pushing our emotions of passion, joy, fear etc on others, by feeling the emotions of anger, angerment, worry etc,
+
+========================================
+
+Prompt: A simple recipe for pankakes:
+Time(s): 13.039
+Tokens: 264
+RepetitionScore: 0.519
+
+A simple recipe for pankakes: 1 cup milk; 1 cup flour; a tablespoon of salt; butter—enough to lighten the milk by about 1/4 cup. If you do not have yogurt, add 1/2 cup; if you don't have butter, add the eggs. Make it a warm, dry day for a day or two; it should look like this. Put the milk in a large saucepan, bring the flour and salt up to a boil, add the butter, and simmer gently, stirring constantly, until the milk is thick—about 20 minutes. Transfer the milk mixture to a food-safe bowl, pour in the chocolate-flavored milk—the 1/4 cup of butter should form a liquid consistency if it is not hot—and stir until well incorporated. Add in the powdered sugar and stir until smooth. Add the melted chocolate to the milk mixture in three or four batches, stirring constantly, until it has melted as one thick, smooth mass; add the powdered sugar if necessary.
+
+If you are concerned about the sugar of the milk when it is melted, try reducing the sugar to a less concentrated form and stirring it in slowly. This will prevent it from getting too thick.
+
+Panko bread-and-butter sandwiches. These are
+
+========================================
+
