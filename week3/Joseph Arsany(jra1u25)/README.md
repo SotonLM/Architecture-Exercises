@@ -32,8 +32,23 @@ Prompt: apple apple apple
 Generated: apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple
 
 <h1> Option B: Measuring quality<h1>
+Code Link: https://github.com/jrsany2903/Architecture-Exercises/blob/main/week3/diagnostic_task%20task3_snapshot%20B.py
+Results Link: https://github.com/jrsany2903/Architecture-Exercises/blob/main/week3/_results_task3_snapshot.txt
 
+Metric measures the quality of an output by how much of the end of a message is just a repitition
+Here is an example of a low score
+<img src = "\Task3Blow.png">
 
+Here is an exampleof a perfect score
+<img src = "\Task3Bhigh.png">
+
+Here is what it should look like for an average input
+<img src = "\Task3Bnormal.png">
+
+This is how the metric breaks, here the generation is very repetitive but has changed slightly so it gets a perfect score
+<img src = "\Task3Bbrokenmetric.png">
+
+This metric is not really good at measuring text quality, but it can detect a lot of cases when the output is broken
 
 
 
