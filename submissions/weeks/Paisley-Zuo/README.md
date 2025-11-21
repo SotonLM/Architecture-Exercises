@@ -11,6 +11,7 @@ LEVEL 1: ✅ [Screenshot]
 
 
 LEVEL 2: ✅ 
+
 Code Link: [https://github.com/PaisleyZuo/Architecture-Exercises/blob/main/submissions/weeks/Paisley-Zuo/diagnostic_task.py] 
 
 Results link: [https://github.com/PaisleyZuo/Architecture-Exercises/blob/main/submissions/weeks/Paisley-Zuo/results.txt]
