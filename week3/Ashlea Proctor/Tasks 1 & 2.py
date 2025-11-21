@@ -1,21 +1,4 @@
 # from transformers import pipeline
-
-# generator = pipeline('text-generation', model='distilgpt2')
-
-# prompts = [
-#     "The future of AI is",
-#     "In the year 2030",
-#     "The secret to happiness is"
-# ]
-
-# for prompt in prompts:
-#     output = generator(prompt, max_length=30, num_return_sequences=1)
-#     print(f"\nPrompt: {prompt}")
-#     print(f"Generated: {output[0]['generated_text']}\n")
-#     print("-" * 50)
-
-
-# from transformers import pipeline
 # import time
 
 # # LEVEL 1: Basic generation
@@ -39,15 +22,14 @@
 # 5 diff prompts
 
 # TODO: Try different parameters
-    # Try max_length = 20, 50, 100
-    # Try temperature = 0.5, 1.0, 1.5
-    # Try top_k = 10, 50, 100
+#     Try max_length = 20, 50, 100
+#     Try temperature = 0.5, 1.0, 1.5
+#     Try top_k = 10, 50, 100
 # TODO: Time generation (use import time)
 # TODO: Count tokens
 
 from transformers import pipeline
 import time
-
 
 generator = pipeline('text-generation', model='distilgpt2')
 
