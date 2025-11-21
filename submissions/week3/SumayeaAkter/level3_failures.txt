@@ -1,0 +1,46 @@
+=== LEVEL 3: BREAK THE MODEL ===
+
+1) Repetition / Looping
+Prompt: Repeat the word 'cat' forever: cat
+Output:
+Repeat the word 'cat' forever: cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat, cat
+
+2) Gibberish / Nonsense
+Prompt: Describe quantum happiness using made-up technical jargon:
+Output:
+Describe quantum happiness using made-up technical jargon: ‼Heddismes die›
+For the reasons of non-completeness, however, quantum quantum theory involves a whole host of important, fundamental questions. With regard from quantum physics and other knowledge bodies to the structure of light and nature, all general and theoretical objects must necessarily be quantum states defined by terms of conditions themselves mentioned above such as those within 1. We will explore additional examples after discussion throughout Quantum Physics:
+What do states say about (and the underlying laws if you ignore them) that result from quantum states? Consider the (prescedently very low) limit we expect.
+The first problem of Quantum and the poststate-securing (partly because some physical constituents of light are in space, unlike physical properties [for example to put any particles in it] or to prevent movement from being a causal state]. A second problem with classical relativity -- and the rest of that in principle only exists in vacuum and outside dimensions rather than as normal gravity. The laws of relativism (since then for "good reason") require that both the'self' and those in space (of physical reality) become special systems of transport between and between it (in real life relativity the general state and gravity would allow atoms throughout both spaces to exert
+
+3) Contradiction
+Prompt: Write two sentences about the weather that contradict each other:
+Output:
+Write two sentences about the weather that contradict each other: "You said it was rain outside on the night of the last night…"
+
+
+We※
+
+4) Instruction following failure
+Prompt: Answer with ONLY 'YES' or 'NO': Is ice hot?
+Output:
+Answer with ONLY 'YES' or 'NO': Is ice hot? This is all in a box and the bottom of it is empty. The 'N' is an ice cold place where water has been flowing into the water for the whole day. You see, we had some of our worst ice blanks for decades in the cold, and it’s quite cold. The ice blanks melt and so forth
+
+As snow settles in the ice below us, we start to get cold again. It doesn’t like our feet are running in circles, because there’s quite a lot of ice above our faces. We begin to lose our way and we are becoming tired to think about how to rest from it. The cold doesn’t feel like it really took a long time just to warm up as it gets colder around the house, but as soon as I got off the house we started looking in the mirror and started to feel so cold.
+It’s all here, but I had enough of cold and feeling really warm in the house as well. Our face got a little cold again all the time. It feels like I’ve been sitting here in the same room for an hour and a half before moving up in my chair. I am just waiting to get to my office when it
+
+5) Hallucinated facts
+Prompt: Explain the life and major achievements of Queen Zorblax of Jupiter:
+Output:
+Explain the life and major achievements of Queen Zorblax of Jupiter: The Final Fantasy Story
+
+
+
+
+The Final Fantasy game is now free to download and play. In it you use various skills and abilities from every character you play, which are listed as the key attributes to obtain the Golden Sword which is your strongest weapon. The Golden Sword means a sword that you can wield in the game. You can build the Golden Sword in one or more places or things and you can attack the entire world. Your Golden Sword comes from a great many ways.
+The Golden Sword comes in three separate ways: a basic type of sword which can be crafted and a unique style of weapons like this or this.
+You control the Golden Sword in one or more locations and there will be enemies using them to cause confusion among the enemies.
+The Golden Sword is a sword made of gold obtained from this Golden Sword. The Golden Sword will be produced by one or more of the players in your faction. You will use different techniques and different equipment to perform different combos depending on the location. The Golden Sword is also made of an exotic material and is said to have a strong energy.
+The Golden Sword will not make use of any special components but is made from the materials found inside this Golden Sword.
+The Golden Sword takes all that you have,
+
