@@ -7,8 +7,8 @@ This guide will help you push your work to the diagnostic repository.
 1. **Clone the repository:**
    ```bash
    cd ..
-   git clone https://github.com/SotonLM/Architecture-Exercises.git
-   cd Architecture-Exercises
+   git clone https://github.com/Marzooqad/diagnostic-SotonLM-.git
+   cd diagnostic-SotonLM-
    ```
 
 2. **Create your branch:**
@@ -35,7 +35,7 @@ This guide will help you push your work to the diagnostic repository.
    ```
 
 6. **Create a Pull Request:**
-   - Go to https://github.com/SotonLM/Architecture-Exercises
+   - Go to https://github.com/Marzooqad/diagnostic-SotonLM-
    - Click "New Pull Request"
    - Select your branch
    - Add description and submit
@@ -51,7 +51,7 @@ If you want to initialize git in this folder:
 
 2. **Add remote:**
    ```bash
-   git remote add origin https://github.com/SotonLM/Architecture-Exercises.git
+   git remote add origin https://github.com/Marzooqad/diagnostic-SotonLM-.git
    ```
 
 3. **Create branch:**
@@ -114,8 +114,10 @@ The following files are ready to be committed:
 
 ## Troubleshooting
 
-- **Permission denied:** Make sure you have write access to the repository
+- **Permission denied / Authentication errors:** 
+  - Make sure you've forked the repository on GitHub first
+  - Ensure you're pushing to your fork, not the original repo
+  - Check that you're authenticated with GitHub (may need to set up SSH keys or use a personal access token)
 - **Branch already exists:** Use a different branch name or delete the old one
 - **Merge conflicts:** Pull latest changes first: `git pull origin main`
-
 
