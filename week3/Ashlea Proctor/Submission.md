@@ -15,19 +15,21 @@ Subject: Ashlea Proctor - Diagnostic Task Submission
 
 LEVEL REACHED: [1/2/3/4]
 
-LEVEL 1: ✅ [Screenshot] [<img src="\Task 1.png">]
+LEVEL 1: ✅ [Screenshot] <img src="\Task 1.png">
 
 LEVEL 2: ✅ 
 Code link
 [https://github.com/Ashlea21/Architecture-Exercises/blob/1921f5f52bafd85bc6d1533057b1e41b184c58fd/week3/Ashlea%20Proctor/Tasks%201%20%26%202.py] 
 
 [Results link]
+[https://github.com/Ashlea21/Architecture-Exercises/blob/b4e9abc088c3960542750b73c651206b1928afd4/week3/Ashlea%20Proctor/Ashlea_results.txt]
 
 - Brief summary of findings
 Due to the added parameters, the first generated texts of each prompt had more of a direct response. 
 While the second generated ones had more of a creative twist to it, the last ones didn't make any sense at all.
 
 Each responses had longer texts as well.
+As the parameters increased, the time it took for the generated text increased.
 
 LEVEL 3: ✅ [Option A/B/C/D]
 - [Link to work]
