@@ -29,10 +29,10 @@ LEVEL 4: ✅ [If completed]
 - What it does: ___
 - [Demo link]
 
-TIME SPENT: ___ hours
+TIME SPENT: 15 minutes
 
-WHAT I FOUND EASY: ___
-WHAT I FOUND HARD: ___
-QUESTIONS: ___
+WHAT I FOUND EASY: everything
+WHAT I FOUND HARD: manage time to complete my CW and do challenge 4
+QUESTIONS: 4
 ```
 
