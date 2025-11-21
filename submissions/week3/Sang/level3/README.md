@@ -63,7 +63,7 @@ Compare:
 - When to use each
 
 **Submit:**
-- Comparison table (speed, quality, size)
+- Comparison table (speed, quality, size) in csv
 - Same prompts tested on all models
 - Recommendation: which model for which use case?
 

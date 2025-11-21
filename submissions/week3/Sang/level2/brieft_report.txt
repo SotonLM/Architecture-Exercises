@@ -1,0 +1,9 @@
+max_length controls how long the generated text can be, measured in tokens (pieces of words), not characters. When generating text, the model starts from your prompt and continues producing new tokens until it reaches this maximum limit. A small max_length value (e.g., 20) produces short, concise outputs, while larger values (e.g., 50 or 100) allow the model to expand ideas, add details, and generate longer, more complex responses. Adjusting max_length helps you manage whether the output should be short and focused or extended and expressive.
+
+
+temperature determines how random or creative the model’s word choices are. A low temperature (around 0.3–0.5) makes the model more deterministic, causing it to choose safer and more predictable words. This is useful for factual writing or when you want stable, consistent answers. A medium temperature (around 1.0) creates a balanced mix of coherence and creativity. A high temperature (1.2–1.5 and above) introduces more randomness, which can make the text imaginative and surprising but sometimes less logical. By adjusting temperature, you control the “creativity level” of the generated text.
+
+
+
+top_k limits the model to choosing from only the top k most likely next tokens instead of considering every possible word. A small top_k value (like 10) restricts the model heavily, often resulting in safer, more repetitive sentences. A moderate value (around 40–50) provides a balance between diversity and control. Higher values (like 100) allow for more freedom, producing more varied and creative text but with a slightly higher risk of incoherence. This parameter acts like a filter that determines how many candidate words the model is allowed to pick from at each step.
+
