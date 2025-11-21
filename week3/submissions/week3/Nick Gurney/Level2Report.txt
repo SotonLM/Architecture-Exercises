@@ -1,0 +1,12 @@
+temperature is the value used to model the next tokens probability
+
+max_length is the maximum length the generated tokens can have 
+
+top_k is the number of highest probability tokens to keep
+
+Generation took about 5 and a half seconds per run
+
+Generated between 28 and 261 tokens
+
+Lower temperature peforms poorly mostly just repeating phrases
+Higher temperature seems to create more unique outputs
