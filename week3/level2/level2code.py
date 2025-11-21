@@ -14,7 +14,7 @@ prompts = [
 with open('week3/level2/results.txt', 'w') as f:
     for prompt in prompts:
         start_time = time.time()
-        output = generator(prompt, max_length=20, num_return_sequences=1, temperature=1, top_k =50)
+        output = generator(prompt, max_length=100, num_return_sequences=1, temperature=0.7, top_k =50)
         f.write(f'\ntime taken to generate response: {time.time()-start_time}\n')
         f.write(f"Prompt: {prompt}")
         f.write(f"Generated: {output[0]['generated_text']}\n")
