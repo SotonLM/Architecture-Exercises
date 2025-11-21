@@ -24,6 +24,10 @@ Code link
 [Results link]
 
 - Brief summary of findings
+Due to the added parameters, the first generated texts of each prompt had more of a direct response. 
+While the second generated ones had more of a creative twist to it, the last ones didn't make any sense at all.
+
+Each responses had longer texts as well.
 
 LEVEL 3: ✅ [Option A/B/C/D]
 - [Link to work]
