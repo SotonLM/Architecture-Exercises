@@ -1,0 +1,33 @@
+Temperature: 
+for Temperature < 1 probability differences between tokens becomes magnified, hence highest probability tokens become even more dominant
+
+for Temperature >1, opposite occurs, differences become flattened, hence probabilities become more uniform
+
+This means: 
+	- for values <1 the model picks highest probability tokens, and so the output 	  given is more predictible and coherent (sometimes repetitive)
+
+	- for medium Temperature, has its natural distribution, the output is 	 	  reasonably coherent and contains an avg variety of tokens
+
+	- for High tTemperature (T>1), greater amount of lower probability tokens are 	  chosen, output becomes more random, less coherent, and can produce nonsense
+
+
+max_length:
+This affects the length of txt the model can produce before being cut off.
+max_length sets the maximum token length including Prompt + generated
+hence if given prompt is long, generated answer is forced to be shorter.
+(for max tokens of generated txt use maz_new_tokens instead)
+
+This means if u set a low value for max_length like say 10, the ouput obtained will likely be a half sentence which may not make much sense by itself
+
+It's worth noting that for larger values where you allow the model to generate longer ouputs, the ouput may drift quite a lot between subjects as the txt progresses, this is to be expected for gpt-2 as its a fairly small model.
+
+top_k 
+top_k tells the model what to keep top k tokens, hence lower top_k values means the text will be fully deterministic
+
+if value of top_k = 1 the model picks the most likely token only
+for values ~10, text is usually quite coherent, not too creative and can be repetitive
+
+for value top_k =~50 (usually close to default), ouput is reasonably coherent and contain a good variety of tokens
+
+for value >= 100, output is more diverse but can be noisy and less coherent
+
