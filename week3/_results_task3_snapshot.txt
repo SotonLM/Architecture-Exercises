@@ -1,71 +1,82 @@
 Prompt:apple
 Generated with distilgpt2:
-apple The new Apple Watch is designed to be a smartwatch that can be used to watch a lot of things.
-Time to generate: 3.5666708946228027
-Number of tokens: 140
-The repetition score: 0.2972972972972973
+apple the best of both worlds.
+In the meantime, we've got a new feature in our hands!
+This week, we'll be introducing the new feature, the "Best of Both Worlds" feature.
+You can also get the new feature in your game.
+The "Best of Both Worlds" feature is a feature that allows you to play between worlds, and allows you to play between worlds.
+This feature is available on both Windows and Mac, and is currently available on PC, Mac, Linux and Mac OS X.
+You can also get the feature in your game on the PC, Mac, Linux and Mac OS X.
+The feature was announced in the last week of this year's beta.
+The feature is available on the PC, Mac, Linux and Mac OS X.
+Time to generate: 2.6722569465637207
+Number of tokens: 163
+The repetition score: 100
 
 
 Prompt:apple apple
 Generated with distilgpt2:
-apple apple cider vinegar, and a few other ingredients.
-Time to generate: 3.617947578430176
-Number of tokens: 135
-The repetition score: 0.18211920529801323
+apple apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple, apple
+Time to generate: 4.139063358306885
+Number of tokens: 258
+The repetition score: 0.012127894156560088
 
 
 Prompt:apple apple apple
 Generated with distilgpt2:
 apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple
-Time to generate: 3.5601160526275635
+Time to generate: 4.17237114906311
 Number of tokens: 259
 The repetition score: 0.003219575016097875
 
 
 Prompt:My favoutite food is
 Generated with distilgpt2:
-My favoutite food is a great choice for your family. I’ve always been a fan of the food and I’ve always been a fan of the food and I’ve always been a fan of the food and I’ve always been a fan of the food and I’ve always been a fan of the food and I’ve always been a fan of the food and I’ve always been a fan of the food and I’ve always been a fan of the food and I’ve always been a fan of the food and I’ve always been a fan of the food and I’ve always been a fan of the food and I’ve always been a fan of the food and I’ve always been a fan of the food and I’ve always been a fan of the food and I’ve always been a fan of the food and I’ve always been a fan of the food and I’ve always been a fan of the food and I’ve always been a fan of the food and I’ve always been a fan of the food and I’ve always been a fan of the food and I’ve always been a fan of
-Time to generate: 3.561673641204834
-Number of tokens: 262
-The repetition score: 0.09090909090909091
+My favoutite food is a healthy and healthy food, and I've tried many different recipes to make it right.
+
+
+This post is from the archive of our partner.
+Time to generate: 4.162999868392944
+Number of tokens: 149
+The repetition score: 0.3952254641909814
 
 
 Prompt:1 + 1 = 2
 Generated with distilgpt2:
-1 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2 + 1 = 2
-Time to generate: 3.638392448425293
+1 + 1 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2 = 2
+Time to generate: 4.133490800857544
 Number of tokens: 261
-The repetition score: 0.0019193857965451055
+The repetition score: 0.009596928982725527
 
 
 Prompt:asjfjasfopja
 Generated with distilgpt2:
 asjfjasfopja@gmail.com
-Time to generate: 0.17539238929748535
+Time to generate: 0.1443336009979248
 Number of tokens: 11
-The repetition score: 0.045454545454545456
+The repetition score: 100
 
 
 Prompt:1234567890
 Generated with distilgpt2:
-1234567890/
-Time to generate: 3.471282720565796
+1234567890.html
+Time to generate: 4.177127361297607
 Number of tokens: 133
-The repetition score: 0.041353383458646614
+The repetition score: 0.055762081784386616
 
 
 Prompt:
 Generated with distilgpt2:
-.
-Time to generate: 3.514538288116455
-Number of tokens: 129
-The repetition score: 0.00390625
+'The biggest thing I've ever done in life is to do something I love, and I'm not sure how to do it without my family and friends. I'm just trying to do it with my kids and I love them."
+Time to generate: 4.159342288970947
+Number of tokens: 152
+The repetition score: 0.46954314720812185
 
 
 Prompt:                               
 Generated with distilgpt2:
 
-Time to generate: 3.59816575050354
+Time to generate: 4.114518165588379
 Number of tokens: 287
 The repetition score: 0.0
 
@@ -74,194 +85,185 @@ Prompt:User: What is the capital of France?
 Agent: The capital of France is 
 Generated with distilgpt2:
 User: What is the capital of France?
-Agent: The capital of France is сайствия просствия просствия просствия просствия просствия просствия просствия просствия просствия просствия просствия проствия проствия проствия проствия проствия проствия проствия проствия проствия проствия проствия проствия проствия проствия проствия п
-Time to generate: 3.560448408126831
+Agent: The capital of France is 
+We will have to wait and see what the outcome is like, but I think it is important that the country can be very competitive, that the country is not a major player in the euro zone. We know that the euro zone's currency system is not perfect, that it is not perfect.
+We know that the European Commission is not the only country in the euro zone, that the EU and the European Central Bank are not the only ones.
+So, we are going to wait and see what the outcome is like. We know that the EU and the European Central Bank are not the only ones.
+Is it possible that the EU will not be able to take control of the euro zone, that the euro zone will not be able to take control of the euro zone, that the euro zone will not be able to take control of the euro zone, that the euro zone will not be able to take control of the euro zone, that the euro zone will not be able to take control of the euro zone, that the euro zone will not be able to take control of the euro zone.
+That is the case.
+And that is the case.
+And that is the case.
+And that is the case.
+And that is the case.
+Time to generate: 4.169090509414673
 Number of tokens: 274
-The repetition score: 0.5833333333333334
+The repetition score: 0.9232111692844677
 
 
 
 =================
-Average score for distilgpt2 = 0.12495120665635699
+Average score for distilgpt2 = 20.186868626062335
 ============
 Prompt:apple
 Generated with gpt2:
-apple.com/en/media/catalog/product/8/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/
-Time to generate: 5.454946994781494
+apple was a good product, but I would not recommend it to anyone who has a lot of money.
+
+Rated 5 out of 5 by liz from Very good product I use this product daily for my son and I have a 2 year old son. His dad is a big fan of the product and he is very happy with it. I have used it on a few other dogs so far. It works well for dogs who need a bit of a comfort in their lives. I have been using it on a few dogs and they have been very responsive. I am very happy with it.
+
+Rated 5 out of 5 by sarah from Great product I purchased this product and was very happy with it. I have a puppy about 3 months old and I have to say this product is absolutely great. It is a great product and I have used it many times for my puppy. He has been very quiet and I have been able to take him to the vet for a few days. I have had no issues with his behavior. I have had to take him to the vet twice. This product is very good and I will continue using it. It is a great product and I will buy more.
+
+Rated 5 out of 5 by Karen from Great Product I purchased
+Time to generate: 5.685229063034058
 Number of tokens: 257
-The repetition score: 0.13261648745519714
+The repetition score: 100
 
 
 Prompt:apple apple
 Generated with gpt2:
-apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple
-Time to generate: 5.495201110839844
+apple apple cider vinegar, 1/2 cup water, 1/4 cup sugar
+
+1/2 cup apple cider vinegar, 1/4 cup water, 1/4 cup sugar
+
+3/4 cup apple cider vinegar, 1/4 cup water, 1/4 cup sugar
+
+1/4 cup apple cider vinegar, 1/4 cup water, 1/4 cup sugar
+
+Salt and pepper to taste
+
+1 1/2 cups all-purpose flour
+
+1/4 cup baking soda
+
+1 teaspoon baking powder
+
+1/2 teaspoon salt
+
+1/8 teaspoon ground cinnamon
+
+1/4 teaspoon ground cloves
+
+1/4 cup apple cider vinegar, for garnish
+
+1 tablespoon sugar
+
+1 teaspoon salt
+
+1/2 teaspoon ground cloves
+
+1/4 cup apple cider vinegar, for garnish
+
+1 tablespoon sugar
+
+1/4 cup apple cider vinegar, for garnish
+
+1 tablespoon sugar
+
+1/4 cup apple cider vinegar, for garnish
+
+1 tablespoon sugar
+
+1/4 cup apple cider vinegar, for garnish
+
+1 tablespoon sugar
+
+1/4 cup apple cider vinegar, for garnish
+
+1 tablespoon sugar
+
+1
+Time to generate: 5.624032735824585
 Number of tokens: 258
-The repetition score: 0.003232062055591467
+The repetition score: 0.5528846153846154
 
 
 Prompt:apple apple apple
 Generated with gpt2:
 apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple
-Time to generate: 5.629323244094849
+Time to generate: 5.565181016921997
 Number of tokens: 259
 The repetition score: 0.003219575016097875
 
 
 Prompt:My favoutite food is
 Generated with gpt2:
-My favoutite food is the chicken, and I'm not sure if it's a good choice for me. I'm not sure if it's a good choice for me.
+My favoutite food is a very simple recipe that you can make at home from scratch. This is great as a side dish for a dinner or for a quick snack. The only downside is that you are going to have to make a lot of changes to make it taste even better. I've tried to make it more palatable by adding a little bit more salt.
 
-I'm not sure if it's a good choice for me.
+Ingredients:
 
-I'm not sure if it's a good choice for me.
+1/4 cup of all-purpose flour
 
-I'm not sure if it's a good choice for me.
+1/2 cup of baking powder
 
-I'm not sure if it's a good choice for me.
+1/4 teaspoon baking soda
 
-I'm not sure if it's a good choice for me.
+1/4 teaspoon salt
 
-I'm not sure if it's a good choice for me.
+1 1/2 cups of raw chicken stock, plus more for garnish
 
-I'm not sure if it's a good choice for me.
+1 cup of water
 
-I'm not sure if it's a good choice for me.
+1/2 cup of milk
 
-I'm not sure if it's a good choice for me.
+1/4 cup of white wine (I used 2 cups)
 
-I'm not sure if it's a good choice for me.
+1/4 cup of coconut milk
 
-I'm not sure if it's a good choice for me.
+1/2 cup of sugar
 
-I'm not sure if it's a good choice for me.
+1/2 teaspoon salt
 
-I'm not sure if it's a good choice for me.
-
-I'm not sure if it's a good choice for me.
-
-I'm not sure if it's a good choice for me.
-Time to generate: 5.448492050170898
+3/4 cup of white wine (I used 1/4 cup) Instructions In a large mixing bowl, add the flour, baking powder, and salt. Mix well and let stand 5 minutes. Remove from the bowl and add the chicken stock, milk, and sugar. Stir in the wine and mix well. Add the remaining 1/4 cup of water. Stir to combine
+Time to generate: 5.595799207687378
 Number of tokens: 262
-The repetition score: 0.15816326530612246
+The repetition score: 100
 
 
 Prompt:1 + 1 = 2
 Generated with gpt2:
-1 + 1 = 2.7 + 1 = 2.7 + 1 = 2.7 + 1 = 2.7 + 1 = 2.7 + 1 = 2.7 + 1 = 2.7 + 1 = 2.7 + 1 = 2.7 + 1 = 2.7 + 1 = 2.7 + 1 = 2.7 + 1 = 2.7 + 1 = 2.7 + 1 = 2.7 + 1 = 2.7 + 1 = 2.7 + 1 = 2.7 + 1 = 2.7 + 1 = 2.7 + 1 = 2.7 + 1 = 2.7 + 1 = 2.7 + 1 = 2.7 + 1 = 2.7 + 1 = 2.7 + 1 = 2.7 + 1 = 2.7 + 1 = 2.7 + 1 = 2.7 + 1 = 2.7 + 1 = 2.7 + 1 = 2.7 + 1 = 2.7 + 1 = 2.7 + 1 = 2.7 + 1 = 2.7 + 1 = 2.7 + 1 = 2.7 + 1 = 2.7 + 1 = 2.7 + 1 = 2.7 + 1 = 2.7 + 1
-Time to generate: 5.7396018505096436
+1 + 1 = 2 + 1 = 3 + 1 = 4 + 1 = 5 + 1 = 6 + 1 = 7 + 1 = 8 + 1 = 9 + 1 = 10 + 1 = 11 + 1 = 12 + 1 = 13 + 1 = 14 + 1 = 15 + 1 = 16 + 1 = 17 + 1 = 18 + 1 = 19 + 1 = 20 + 1 = 21 + 1 = 22 + 1 = 23 + 1 = 24 + 1 = 25 + 1 = 26 + 1 = 27 + 1 = 28 + 1 = 29 + 1 = 30 + 1 = 31 + 1 = 32 + 1 = 33 + 1 = 34 + 1 = 35 + 1 = 36 + 1 = 37 + 1 = 38 + 1 = 39 + 1 = 40 + 1 = 41 + 1 = 42 + 1 = 43 + 1 = 44 + 1 = 45 + 1 = 46 + 1 = 47 + 1 = 48 + 1 = 49 + 1 = 50 + 1 = 51 + 1 = 52 + 1 = 53 + 1 = 54 + 1 = 55 + 1 = 56 + 1 = 57 + 1 = 58 + 1 = 59 + 1 = 60 + 1 = 61 + 1 = 62 + 1 = 63 + 1 = 64 + 1 = 65 + 1 = 66
+Time to generate: 5.58423924446106
 Number of tokens: 261
-The repetition score: 0.011494252873563218
+The repetition score: 0.9757785467128027
 
 
 Prompt:asjfjasfopja
 Generated with gpt2:
-asjfjasfopja.
+asjfjasfopja) 11-21 21:36:57.938000 <[- T -] Rat Salat/> It's hard to get a fuck up and make the point that it's worth it. The only way to get a fuck up is to make the point that it's worth it. 11-21 21:36:57.938000 <[- T -] Rat Salat/> If you want to make a point of it, you can try to get up and leave. Just don't be stupid. 11-21 21:36:57.938000 <[- T -] Rat Salat/> It's just a joke. 11-21 21:36:58.099000 <[- T -] Rat Salat/> You can't make it up. 11-21 21:36:58.040000 <[- T -] Rat Salat/> It's a joke.
 
-The team is also working on a new way to use the data to create a new version of the app.
+RAW Paste Data
 
-The team is also working on a new way to use the data to create a new version of the app. The team is also working on a new way to use the data to create a new version of the app. The team is also working on a new way to use the data to create a new version of the app.
-
-The team is also working on a new way to use the data to create a new version of the app. The team is also working on a new way to use the data to create a new version of the app.
-
-The team is also working on a new way to use the data to create a new version of the app. The team is also working on a new way to use the data to create a new version of the app.
-
-The team is also working on a new way to use the data to create a new version of the app. The team is also working on a new way to use the data to create a new version of the app.
-
-The team is also working on a new way to use the data to create a new version of the app. The
-Time to generate: 6.132991075515747
+[Script Offer] [F4A] [F4A] [Tournament] [F4A] [Tournament] [F4A] [Tournament] [F4A] [Tournament] [F4A] [Tournament] [F4A] [Tournament] [
+Time to generate: 5.5671632289886475
 Number of tokens: 263
-The repetition score: 0.10661401776900296
+The repetition score: 0.8277945619335347
 
 
 Prompt:1234567890
 Generated with gpt2:
-123456789064991424
-
-"The first time I saw this, I was like 'wow, this is amazing!'"
-
-The first time I saw this, I was like 'wow, this is amazing!'"
-
-"I love it!"
-
-"I love it!"
-
-"I love it!"
-
-"I love it!"
-
-"I love it!"
-
-"I love it!"
-
-"I love it!"
-
-"I love it!"
-
-"I love it!"
-
-"I love it!"
-
-"I love it!"
-
-"I love it!"
-
-"I love it!"
-
-"I love it!"
-
-"I love it!"
-
-"I love it!"
-
-"I love it!"
-
-"I love it!"
-
-"I love it!"
-
-"I love it!"
-
-"I love it!"
-
-"I love it!"
-
-"I love it!"
-
-"I love it!"
-
-"I love it!"
-
-"I love it!"
-
-"I love it!"
-
-"I love it!"
-
-"I love it!"
-
-"I love it!"
-
-"
-Time to generate: 5.582021236419678
+1234567890 (Bitcoin-qt-1.6.10-1.0.2.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available->Available
+Time to generate: 5.60754132270813
 Number of tokens: 260
-The repetition score: 0.2631578947368421
+The repetition score: 0.08196721311475409
 
 
 Prompt:
 Generated with gpt2:
-The official website for the upcoming anime adaptation of the manga by Masashi Kishimoto, Shueisha's Shueisha's Shueisha's Shueisha's announced on Monday that the anime will premiere on October 17.
+In this article, we'll explore a few of the ways that the Internet has changed how the world views or views news. If you're a news reader, you may have noticed that when I write about news or news events, I tend to focus on events that occur over the course of a day or the night. There are many ways that this can affect the way news is reported and the content it is presented. The following are some of the most common ways in which the Internet has changed how news is reported or presented.
 
-The anime will be directed by Masashi Kishimoto ( Shueisha's Shueisha's Shueisha's Shueisha's Shueisha's Shueisha's Shueisha's Shueisha's Shueisha's Shueisha's Shueisha's Shueisha's Shueisha's Shueisha's Shueisha's Shueisha's Shueisha's Shueisha's Shueisha's Shueisha's Shueisha's Shueisha's Shueisha's Shueisha's Shueisha's Shueisha's Shueisha's Shueisha's Shueisha's Shueisha's Shueisha's Shueisha's Shueisha's Shueisha's Shueisha's Shueisha's Shueisha's Shueisha's Sh
-Time to generate: 5.663592338562012
-Number of tokens: 214
-The repetition score: 0.32686567164179103
+The Internet was a system of communication that began as a way for people to communicate with each other. Today, it is one of the most widely used tools for a variety of social and political issues, from the United States, where the Internet is rife with people who can communicate with each other and who can share information without even having to go to a computer.
+
+In 2012, the Internet was taken off the Internet Archive to make way for the Internet Archive website. The Internet Archive was originally founded in 1998 as the Internet Archive, a collection of news and information about the Internet. The Internet Archive is now a publicly available, open source, free, open-source tool for the general public.
+
+The Internet Archive was the first
+Time to generate: 5.601088047027588
+Number of tokens: 256
+The repetition score: 100
 
 
 Prompt:                               
 Generated with gpt2:
 
-Time to generate: 5.7307634353637695
+Time to generate: 5.660730600357056
 Number of tokens: 287
 The repetition score: 0.0
 
@@ -270,165 +272,191 @@ Prompt:User: What is the capital of France?
 Agent: The capital of France is 
 Generated with gpt2:
 User: What is the capital of France?
-Agent: The capital of France is  France.
-Agent: France is the capital of the world.
-Agent: France is the capital of the world.
-Agent: France is the capital of the world.
-Agent: France is the capital of the world.
-Agent: France is the capital of the world.
-Agent: France is the capital of the world.
-Agent: France is the capital of the world.
-Agent: France is the capital of the world.
-Agent: France is the capital of the world.
-Agent: France is the capital of the world.
-Agent: France is the capital of the world.
-Agent: France is the capital of the world.
-Agent: France is the capital of the world.
-Agent: France is the capital of the world.
-Agent: France is the capital of the world.
-Agent: France is the capital of the world.
-Agent: France is the capital of the world.
-Agent: France is the capital of the world.
-Agent: France is the capital of the world.
-Agent: France is the capital of the world.
-Agent: France is the capital of the world.
-Agent: France is the capital of the world.
-Agent: France is the capital of the world.
-Time to generate: 5.566677808761597
-Number of tokens: 274
-The repetition score: 0.07223264540337711
+Agent: The capital of France is 
+Pietro: Le Parisien.
+
+Ricardo: Are you French?
+
+Pietro: I am French.
+
+Ricardo: Do you have a job?
+
+Pietro: No.
+
+Ricardo: What's your name?
+
+Pietro: I am Ricardo.
+
+Ricardo: Do you have a job?
+
+Pietro: No.
+
+Ricardo: Do you have a job?
+
+Pietro: No.
+
+Ricardo: Do you have a job?
+
+Pietro: No.
+
+Ricardo: Do you have a job?
+
+Pietro: No.
+
+Ricardo: Do you have a job?
+
+Pietro: No.
+
+Ricardo: Do you have a job?
+
+Pietro: No.
+
+Ricardo: Do you have a job?
+
+Pietro: No.
+
+Ricardo: Do you have a job?
+
+Pietro: No.
+
+Ricardo: Do you have a job?
+
+Pietro: No.
+
+Ricardo
+Time to generate: 5.5939531326293945
+Number of tokens: 273
+The repetition score: 0.32038834951456313
 
 
 
 =================
-Average score for gpt2 = 0.10775958722575854
+Average score for gpt2 = 30.27620328616764
 ============
 Prompt:apple
 Generated with gpt2-medium:
-apple.com/en-US/Product/The-Witcher-3-Online-Beta/00000000-0000-400c-80cf-00066d263dfb?cid=SLink Click to create and send a link using your email application
+apple.com/en-US/Product/Nintendo-Nintendo-3DS-USA/dp/B00DIZB7DU
 
-The Witcher 3 Online Beta is now available for download on PC, PS4, and Xbox One. The game is available now for PC, PS4, and Xbox One. The game is available now for PC, PS4, and Xbox One.
-Time to generate: 5.373044490814209
-Number of tokens: 106
-The repetition score: 0.6936416184971098
+Nintendo 3DS https://www.nintendo.com/en-US/Product/Nintendo-3DS-USA/dp/B00DIZB7DU
+
+Nintendo 3DS XL https://www.nintendo.com/en-US/Product/Nintendo-3DS-USA/dp/B00DIZB7DU
+
+Nintendo 3DS XL https://www.nintendo.com/en-US/Product/Nintendo-3DS-USA/dp/B00DIZB7DU
+
+Nintendo 3DS XL https://www.nintendo.com/en-US/Product/Nintendo-3DS-USA/dp/B00DIZB7DU
+
+Nintendo 3DS XL https://www.nintendo.com/en-US/Product/Nintendo-3DS-USA/dp/B00DIZB7DU
+
+Nintendo 3DS XL https://www.nintendo.com/en-US/Product/Nintendo-3DS-USA/dp/B00DIZB7DU
+Time to generate: 14.495002746582031
+Number of tokens: 257
+The repetition score: 0.2538593481989708
 
 
 Prompt:apple apple
 Generated with gpt2-medium:
-apple apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple_apple
-Time to generate: 12.744796752929688
+apple apple.apple.applescript.Applescript.macros.macro_macro_macro (macro_macro_macro_macro_macro)
+
+macros.macro_macro_macro_macro_macro
+
+macro_macro_macro_macro_macro.macro_macro_macro_macro_macro (macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro_macro
+Time to generate: 14.547052145004272
 Number of tokens: 258
-The repetition score: 0.014120667522464698
+The repetition score: 0.1797752808988764
 
 
 Prompt:apple apple apple
 Generated with gpt2-medium:
-apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple
-Time to generate: 13.019178628921509
+apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple Apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple apple
+Time to generate: 14.459758758544922
 Number of tokens: 259
-The repetition score: 0.003219575016097875
+The repetition score: 0.0070830650354153256
 
 
 Prompt:My favoutite food is
 Generated with gpt2-medium:
-My favoutite food is the pizza. I love the crust, the cheese, the sauce, the toppings, the cheese sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza sauce, the pizza
-Time to generate: 12.866543054580688
+My favoutite food is pizza, but I can cook anything. I love the idea of doing something a little different, and making a pizza for a friend. I am a big fan of pizza, and I think that with the right pizza, you can make a difference in people's lives. I love to cook pizza for my friends, and it's been a great source of income for me.
+
+I am also a fan of baking. I believe the best way to make a difference is to share. I love to learn new things, and I love sharing my passion with people. I am a big fan of baking and I love to share my passion with friends and family.
+
+Here are my favorite things to make. I am always adding to this list, so feel free to add to it and let me know what you think.
+
+I am a huge fan of home made pies, and I love to cook anything that is healthy. I love to share all my recipes with you.
+
+I am a big fan of cooking in a large kitchen. I love to cook in a big kitchen. I love to cook in a big kitchen. I am a big fan of making a pizza. I love to make a pizza for a friend. I am a big fan of
+Time to generate: 14.541446447372437
 Number of tokens: 262
-The repetition score: 0.08818181818181818
+The repetition score: 100
 
 
 Prompt:1 + 1 = 2
 Generated with gpt2-medium:
-1 + 1 = 2.5
+1 + 1 = 2.5 and 1.5
 
-The result is that the result of the multiplication is 2.5 times the original value.
+So, if we had a formula which was proportional to the number of points, then it would be a bit tricky to see how to solve for the square root of 2.5, since we need to know 2.5 times the square root of 2.5.
 
-The result of the division is 2.5 times the original value.
+But if we had a formula which was proportional to the number of points, then it would be much easier to see how to solve for the square root of 2.5, since we would know 2.5 times the square root of 2.5, so we can just solve for the square root of 2.5, and we have a formula which is proportional to the number of points.
 
-The result of the addition is 2.5 times the original value.
+So, the square root of 2.5 is 2.5+2.5 = 3.5.
 
-The result of the subtraction is 2.5 times the original value.
+If you want to know how many times the square root of 2.5 is, just multiply the number of points by the square root of 2.5.
 
-The result of the multiplication is 2.5 times the original value.
-
-The result of the division is 2.5 times the original value.
-
-The result of the addition is 2.5 times the original value.
-
-The result of the subtraction is 2.5 times the original value.
-
-The result of the multiplication is 2.5 times the original value.
-
-The result of the division is 2.5 times the original value.
-
-The result of the addition is 2.5 times the original value.
-
-The result of the subtraction is 2.5 times the original value.
-
-The result of the multiplication is 2.5 times the original value.
-
-The result of the division is 2.5 times the original value.
-
-The result of the addition is 2.5 times the original value.
-
-The result of the subt
-Time to generate: 12.96675181388855
+So, if we had a formula which was proportional to the number of points, then it would be a bit tricky to see how to solve for the square root of 2.5, since we need to know 2.5 times the square root of 2.5
+Time to generate: 14.46509051322937
 Number of tokens: 261
-The repetition score: 0.24251497005988024
+The repetition score: 100
 
 
 Prompt:asjfjasfopja
 Generated with gpt2-medium:
-asjfjasfopja/
+asjfjasfopja, or "He Who Is Not Blessed" (Buddhist: sutra 1.43).
 
-The first thing you notice when you walk into the church is that it's filled with people. The people are all wearing black, and they're all wearing black shoes. They're all wearing black. They're all wearing black. They're all wearing black. They're all wearing black. They're all wearing black. They're all wearing black. They're all wearing black. They're all wearing black. They're all wearing black. They're all wearing black. They're all wearing black. They're all wearing black. They're all wearing black. They're all wearing black. They're all wearing black. They're all wearing black.
+He said, "The Buddha taught the truth to me and I have gone back to the world."
 
-The church is filled with people. It's filled with people. It's filled with people. It's filled with people. It's filled with people. It's filled with people. It's filled with people. It's filled with people. It's filled with people. It's filled with people. It's filled with people. It's filled with people.
+This is what the Buddha said: "When you first enter the dharma, you will be ignorant of the Dharma, but afterwards you will be enlightened. The Buddha taught the truth to me and I have gone back to the world. This is the teaching of the Buddha. I do not know your Dharma, but I know the Dharma of the Buddha. I have seen the Buddha, but I have not seen his Dharma. I have seen the Buddha, but I have not seen his Dharma. I have seen the Buddha, but I have not seen his Dharma. I have seen the Buddha, but I have not seen his Dharma. I have seen the Buddha, but I have not seen his Dharma. I have seen the Buddha, but I have not seen his Dharma. I have seen the Buddha, but I have not seen his Dharma. I have seen the Buddha, but I have not seen his Dharma. I have seen the Buddha, but I have not seen his Dharma."
 
-The church is filled with people. It's filled with people. It's filled with people. It's filled with people. It's filled with people. It's filled with people. It's filled with people. It's filled
-Time to generate: 12.846451997756958
+"I am not a Buddha. I do not know your Dharma
+Time to generate: 14.45488452911377
 Number of tokens: 263
-The repetition score: 0.5960502692998204
+The repetition score: 100
 
 
 Prompt:1234567890
 Generated with gpt2-medium:
-1234567890", "channelAvailability" : "BuyableInstoreAndOnline", "inventoryQuantity" : "0.0", "isSpecialOrderable" : "true", "soType" : "CTO", "soDeliveryDate" : "01/14/2019 - 01/17/2019", "quickShipAvailable" : "false", "ItemImage" : "/wcsstore//wcsstore/null/Set-F15749-10237112-Marine", "ItemImage467" : "/wcsstore//wcsstore/null/Set-F15749-10237112-Marine", "ItemThumbnailImage" : "/wcsstore//wcsstore/null/Set-F15749-10237112-Marine", "Attributes" : { "size_16":"2", "color_Marine":"1" } }, { "catentry_id" : "10237694", "channelAvailability" : "BuyableInstoreAndOnline", "inventoryQuantity" : "0.0", "isSpecialOrderable" : "true", "soType" : "CTO", "soDeliveryDate" : "01/14/2019 - 01/17/2019", "quickShipAvailable" : "false", "ItemImage" : "/wcsstore//wcsstore/null/Set-F15749-10237112-Marine", "ItemImage467" : "/wcsstore//wcsstore
-Time to generate: 12.868159294128418
-Number of tokens: 259
-The repetition score: 0.0011933174224343676
+1234567890", "text" : "4x4x4" }, { "pos" : { "x" : 3, "y" : "0" }, "src" : "https://s3.amazonaws.com/s3-media-cache-ak1.amazonaws.com/media/49c4d7b7-8a60-4c6e-9c25-8df7aa3d8d1d.jpg", "width" : 320, "height" : 360 }, { "pos" : { "x" : 4, "y" : "0" }, "src" : "https://s3.amazonaws.com/s3-media-cache-ak1.amazonaws.com/media/49c4d7b7-8a60-4c6e-9c25-8df7aa3d8d1d.jpg", "width" : 640, "height" : 480 }, { "pos" : { "x" : 5, "y" : "0" }, "src" : "https://s3.amazonaws.com/s3-
+Time to generate: 14.500191926956177
+Number of tokens: 251
+The repetition score: 100
 
 
 Prompt:
 Generated with gpt2-medium:
-The story of how a young woman who was raped by a man she met online became a victim of online harassment and abuse.
+A man has been charged with murder after police say he shot and killed his father and two brothers before taking their bodies to the woods near the family's home.
 
-The story of how a young woman who was raped by a man she met online became a victim of online harassment and abuse.
+Police say 22-year-old Robert L. Johnson of the 100 block of East 36th Street was charged with felony murder, attempted manslaughter and two counts of aggravated assault with a deadly weapon.
 
-The story of how a young woman who was raped by a man she met online became a victim of online harassment and abuse.
+He was arraigned Monday before Judge William L. O'Donnell in court on two counts of first-degree murder and one count of aggravated assault with a deadly weapon.
 
-The story of how a young woman who was raped by a man she met online became a victim of online harassment and abuse.
+Johnson was the father of two brothers and a sister who were killed.
 
-The story of how a young woman who was raped by a man she met online became a victim of online harassment and abuse.
+Police say Johnson was upset that his father, 36-year-old John Johnson, was taking care of his three children.
 
-The story of how a young woman who was raped by a man she met online became a victim of online harassment and abuse.
+"He said that he was taking care of them and that he wanted to keep them safe," said Det. Sgt. Steve Smith, with the St. Louis County Police Department. "That's when he's seen the gun."
 
-The story of how a young woman who was raped by a man she met online became a victim of online harassment and abuse.
+Police say Johnson shot his father and brothers, took their bodies to a wooded area and then shot himself.
 
-The story of how a young woman who was raped by a man she met online became a victim of online harassment and abuse.
+Police say Johnson was last seen leaving his home at about 10 p.m. Saturday.
 
-The story of how a young woman who was raped by a man she met online became a victim of online harassment and abuse.
-
-The story of how a young woman who was raped by a man
-Time to generate: 12.480026245117188
+He was arrested about an hour later at a home
+Time to generate: 14.525936126708984
 Number of tokens: 256
-The repetition score: 0.04753363228699552
+The repetition score: 100
 
 
 Prompt:                               
 Generated with gpt2-medium:
 
-Time to generate: 13.010584831237793
+Time to generate: 16.170328378677368
 Number of tokens: 287
 The repetition score: 0.0
 
@@ -437,33 +465,70 @@ Prompt:User: What is the capital of France?
 Agent: The capital of France is 
 Generated with gpt2-medium:
 User: What is the capital of France?
-Agent: The capital of France is _____.
-Agent: I'm not sure.
-Agent: I'm not sure what to do with it.
-Agent: I'm not sure what to do with it.
-Agent: I'm not sure what to do with it.
-Agent: I'm not sure what to do with it.
-Agent: I'm not sure what to do with it.
-Agent: I'm not sure what to do with it.
-Agent: I'm not sure what to do with it.
-Agent: I'm not sure what to do with it.
-Agent: I'm not sure what to do with it.
-Agent: I'm not sure what to do with it.
-Agent: I'm not sure what to do with it.
-Agent: I'm not sure what to do with it.
-Agent: I'm not sure what to do with it.
-Agent: I'm not sure what to do with it.
-Agent: I'm not sure what to do with it.
-Agent: I'm not sure what to do with it.
-Agent: I'm not sure what to do with it.
-Agent: I'm not sure what to do with it.
-Agent: I'm not sure what to do with it
-Time to generate: 13.00587010383606
+Agent: The capital of France is 
+Lily: Paris.
+
+User: What is the capital of France?
+
+Lily: Paris.
+
+User: What is the capital of France?
+
+Lily: Paris.
+
+User: What is the capital of France?
+
+Lily: Paris.
+
+User: What is the capital of France?
+
+Lily: Paris.
+
+User: What is the capital of France?
+
+Lily: Paris.
+
+User: What is the capital of France?
+
+Lily: Paris.
+
+User: What is the capital of France?
+
+Lily: Paris.
+
+User: What is the capital of France?
+
+Lily: Paris.
+
+User: What is the capital of France?
+
+Lily: Paris.
+
+User: What is the capital of France?
+
+Lily: Paris.
+
+User: What is the capital of France?
+
+Lily: Paris.
+
+User: What is the capital of France?
+
+Lily: Paris.
+
+User: What is the capital of France?
+
+Lily: Paris.
+
+User: What is the capital of France?
+
+Lily:
+Time to generate: 16.118667125701904
 Number of tokens: 274
-The repetition score: 0.1111111111111111
+The repetition score: 0.09339975093399751
 
 
 
 =================
-Average score for gpt2-medium = 0.1797566979397732
+Average score for gpt2-medium = 50.053411744506725
 ============
