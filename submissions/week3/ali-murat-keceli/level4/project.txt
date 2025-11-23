@@ -1,0 +1,50 @@
+I could not make the system work on my computer within the time limit, so 
+I had to complete the tasks on the school computers, therfore I did not have
+time for level 4. 
+
+Therefore, instead I will reference 2 projects I have already made.
+
+If that is not acceptable you can just mark my level 4 as not completed.
+
+
+They are both available on: https://alimuratkeceli.com with links to demo and github
+
+
+Project 1: Stock price predictor with LSTM, using PyTorch (No demo)
+https://github.com/AliMKCL/Stock-Price-Predictor
+
+Stack:
+- PyTorch
+- Google Colab
+
+What I learned:
+- Automatic hyperparameter tuning (With Optuna library)
+- Dealing with data leaks and overfitting/underfitting
+- Handling unpredictable time-series data
+
+What I could improve next:
+- Trying different algorithms (random forests, XGBoost...)
+
+
+
+Project 2: Reddit + RAG based Zelda gaming advisor (Crappy video demo)
+https://github.com/AliMKCL/Links-Internet
+
+What I learned:
+- RAG
+- Prompting
+- Web scraping (reddit specific, with PRAW library)
+
+Stack:
+- FastAPI
+- ChromaDB
+- OpenAI
+
+what I could improve next:
+- Find more sources and scraping material online 
+(Reddit has very little content for older zelda games so I limited to 2 games)
+
+
+
+
+

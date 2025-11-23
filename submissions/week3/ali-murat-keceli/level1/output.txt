@@ -1,0 +1,37 @@
+(week3) PS C:\Users\amk1u24\codes\Architecture-Exercises\week3\level1> python task.py
+Device set to use cpu
+Truncation was not explicitly activated but `max_length` is provided a specific value, please use `truncation=True` to explicitly truncate examples to max length. Defaulting to 'longest_first' truncation strategy. If you encode pairs of sequences (GLUE-style) with the tokenizer you can select this strategy more precisely by providing a specific strategy to `truncation`.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Both `max_new_tokens` (=256) and `max_length`(=30) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+Prompt: The future of AI is
+Generated: The future of AI is in our eyes. There's no better way to see the future than to see the future.
+
+--------------------------------------------------
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Both `max_new_tokens` (=256) and `max_length`(=30) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+Prompt: In the year 2030
+Generated: In the year 2030, the government estimates that around half of the world will be forced to go back to fossil fuels by 2030.
+The average annual amount of greenhouse gas emissions from fossil fuel growth for the world has fallen from around 20% to around 20% in 2015 to only 2.5% in 2016, according to the World Resources Institute.
+
+
+--------------------------------------------------
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Both `max_new_tokens` (=256) and `max_length`(=30) seem to have been set. `max_new_tokens` will take precedence. Please refer to the documentation for more information. (https://huggingface.co/docs/transformers/main/en/main_classes/text_generation)
+
+Prompt: The secret to happiness is
+Generated: The secret to happiness is that we are not living through the illusion. We are living through a reality â€” living through a reality â€” and then we know that our experience is a reality that we don't have.
+
+We all know that the most important thing to do is to try and stop it from happening, and stop it from happening. Instead, you might want to ask yourself what you're doing:
+Is it true that you have a bad habit or bad habit?
+Is there a good way to stop it?
+Is there a healthy way to stop it?
+Your job is to get you out of it.
+If you work hard but don't do any good, you can't do much. You can't do much. You can't do much with yourself.
+If you work hard, you can't do much. You can't do much with yourself.
+You can't do much with yourself.
+If you work hard but don't do anything, you can't do much. You can't do much with yourself.
+You can't do much with yourself.
+If you work hard, you can't do much. You can't do much with yourself.
+If you work hard, you can't do much. You can't do

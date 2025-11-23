@@ -1,0 +1,28 @@
+Compare:
+- Generation speed
+- Output quality (subjective)
+- Model size
+- When to use each
+
+
+The model size are as follows in decreasing order: gpt2-medium, gpt2, distilgpt2, and it shows.
+The output qualities:
+- Distilgpt failed to provide a good answer (repeated the question), and failed to follow a proper output format (added a lot uf unneccessry newlines).
+- gpt2 gave a reliable answer and continued to become irrelevant and in the end started repeating what it said entirely. 
+- gpt2-medium gave a proper reply to the question, a full logical setntence without any repeats. After that it provided unnecessry and useleess sources.
+
+When to use each:
+- distilgpt2: NEVER (Maybe offline small cpu systems)
+- gpt2 might follow formatting orders if fine-tuned well enough properly.
+- gpt2-medium is the best among these with 355 million parameters, but it still is not enough for fully fledged assistance. However, it would prvovide the best results out of the other models with proper finetuning and adding guardrails for achieving intendedd output.
+
+
+Comparison table:
+
++----------------+-----------+-------------------------------+-------------------+
+| Model          | Speed (s) | Quality (subjective)         | Size (approx)     |
++----------------+-----------+-------------------------------+-------------------+
+| distilgpt2     | 2.7127    | 2/5 â€” short, some repetition  | ~82M params       |
+| gpt2           | 4.0699    | 3/5 â€” coherent, repeats later | ~124M params      |
+| gpt2-medium    | 7.1750    | 4/5 â€” best coherence here     | ~355M params      |
++----------------+-----------+-------------------------------+-------------------+

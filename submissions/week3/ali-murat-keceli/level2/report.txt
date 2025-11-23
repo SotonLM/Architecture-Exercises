@@ -1,0 +1,27 @@
+- Brief report:
+  - What did changing parameters do?
+  - Which settings produced best results?
+  - How long did generation take?
+
+
+
+  Changing parameters:
+Changing the parameters changed the length of the output (max_len), cretivity (temperature) of the agent and the logicality/sense (top_k) of the agent, but overall the replies were all bad either way.
+
+
+  Which settings produced the best result:
+
+Testing with max_length=100, temperature=1.0, top_k=100
+Testing with max_length=100, temperature=1.5, top_k=10
+Testing with max_length=100, temperature=1.5, top_k=50
+Testing with max_length=100, temperature=1.5, top_k=100
+
+The settings with higher temperature and top_k produced overall best results. Despite alll responses of the AI being nonsence, these followed the formatting better.
+
+
+  How long generation took:
+Long outputs took around 2.6-2.9 seconds for generation (200+ tokens)
+Short outputs (around 70 tokens) took less than a second.
+
+max_length only puts a cap on maximum length not minimum, so its output size and time is inconsistent.
+Temperature and top_k only change the output qualiy not the size or speed.
