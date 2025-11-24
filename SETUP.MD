@@ -59,7 +59,7 @@ uv python install 3.11  # Install specific version (optional)
 
 uv makes this easy - it will create a virtual environment and install dependencies automatically:
 
-```bash
+```bashpwd
 # Navigate to the week3 folder (if not already there)
 cd Architecture-Exercises/week3
 
