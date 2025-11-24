@@ -22,17 +22,30 @@ except ImportError:
 MODEL_NAME = "sentence-transformers/paraphrase-MiniLM-L6-v2"
 TOP_K = 3
 
+# Example
+# sentences = [
+#     "Neural networks learn by adjusting billions of parameters.",
+#     "Backpropagation updates weights to minimise loss in a model.",
+#     "My grandma's apple pie relies on butter, cinnamon, and patience.",
+#     "Apple just announced a new chip for thin-and-light laptops.",
+#     "Marathon runners load up on carbohydrates before race day.",
+#     "Jogging at dawn clears my thoughts before work meetings.",
+#     "The Louvre protects centuries of European art and sculpture.",
+#     "Budget airlines squeeze every centimetre out of the cabin layout.",
+#     "Cryptographers worry that quantum machines will break RSA.",
+#     "Stargazing on a quiet beach reminds me of physics lectures.",
+# ]
+
 sentences = [
-    "Neural networks learn by adjusting billions of parameters.",
-    "Backpropagation updates weights to minimise loss in a model.",
-    "My grandma's apple pie relies on butter, cinnamon, and patience.",
-    "Apple just announced a new chip for thin-and-light laptops.",
-    "Marathon runners load up on carbohydrates before race day.",
-    "Jogging at dawn clears my thoughts before work meetings.",
-    "The Louvre protects centuries of European art and sculpture.",
-    "Budget airlines squeeze every centimetre out of the cabin layout.",
-    "Cryptographers worry that quantum machines will break RSA.",
-    "Stargazing on a quiet beach reminds me of physics lectures.",
+    "The greatest football player is Lionel Messi from Argentina.",
+    "It's impossible to move faster than the speed of light.",
+    "Cycling is not a difficult task, and requires no skills.",
+    "Riding a bike is quite easy, just pedal and balance.",
+    "Number theory is the study of integers and arithmetic functions.",
+    "I would like a console.",
+    "We will console on your behalf.",
+    ""
+
 ]
 
 def main() -> None:
