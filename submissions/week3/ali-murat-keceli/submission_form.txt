@@ -1,0 +1,18 @@
+Subject: Ali Murat Keceli - Diagnostic Task Submission
+
+LEVEL REACHED: 3 or 4
+
+LEVEL 1: ✅ Info provided
+
+LEVEL 2: ✅ Info provided
+
+LEVEL 3: ✅ C. Info provided
+
+LEVEL 4: ✅ Info provided
+
+TIME SPENT: 1-2 hours (Minus level 4)
+
+WHAT I FOUND EASY: Using multiple models
+WHAT I FOUND HARD: UV setup on my hardware
+QUESTIONS: None
+```
