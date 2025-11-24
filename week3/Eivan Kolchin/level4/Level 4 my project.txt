@@ -1,0 +1,33 @@
+I built a sort of “Transformer Dissector”: a small tool that lets you "see" the internals of transformer models. Its a toy that helps you learn a little behind how the transformers work and what processes they are doing inside
+
+the program allows a user to:
+
+*inspect self-attention
+type a sentence, pick a layer and attention head, and it prints, for each token, which other tokens it attends to most strongly and with what weight.
+This lets you see patterns like pronouns attending back to their antecedents, or punctuation influencing what follows
+
+*View next-token predictions
+Given the input tokens, it shows the top-k next-token predictions and their probabilities (from the logits after softmax).
+This makes the language modelling behaviour sort of visible, you can see what the model “expects” to come next
+
+*Run a small “ablation” by removing a token
+remove one token by index, re-run the model, and compare the before/after next-token distributions
+shows how sensitive the model’s predictions are to specific words
+
+All interaction is through the terminal: choose model enter sentence → choose 
+
+Why I chose this
+
+involves transformer models as task asked for, involved having to do extra research and lets you learn a little more abt common models like distill gpt-2 in an interactive way
+
+
+How id improve it 
+GUI for better experience + go into more depth
+
+
+What I learned
+
+Building and using this tool taught me how to access internal signals from Hugging Face models,
+requesting output_attentions and working with the resulting tensor shape (layers, batch, heads, seq_len, seq_len). extracting logits and turning them into probability distributions over the vocabulary,+ how self-attention actually looks in practice
+
+d explorable.
