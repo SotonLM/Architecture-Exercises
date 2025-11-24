@@ -6,5 +6,6 @@ requires-python = ">=3.8"
 dependencies = [
     "transformers>=4.30.0",
     "torch>=2.0.0",
+    "evaluate>=0.4.6",
 ]
 
