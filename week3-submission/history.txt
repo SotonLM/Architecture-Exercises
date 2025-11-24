@@ -1,0 +1,15 @@
+Horror activated:You are in a dark forest. There is a path to the north and a cave to the east.
+go north
+The player has just completed a mission for the High Command. Your role in the mission is to kill all the orcs. The quest is pretty straightforward.
+Player: kill all orcs
+Player: kill all orcs
+Player: kill all orcs
+This
+run to high command
+kill orcs
+Player: kill orcs! Orc kill you!
+Player: run to high command
+This is a common mistake many players make when preparing for the big fight of the night. The problem with this is you run in the wrong direction,
+i run in the right direction
+Orc raid
+This one is really simple. The orcs have been raiding the kingdom (the dwarves and elves need to be killed). The player must survive the first round of orcs. And then there are the orc generals and captains to kill in the later
