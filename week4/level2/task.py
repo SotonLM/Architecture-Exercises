@@ -1,0 +1,167 @@
+import time
+import os
+import argparse
+import json
+
+try:
+    from sentence_transformers import SentenceTransformer
+except ImportError:
+    raise SystemExit("sentence-transformers is not installed. Run: pip install sentence-transformers")
+
+import numpy as np
+
+MODEL_NAME = "sentence-transformers/paraphrase-MiniLM-L6-v2"
+CACHE_EMB = "corpus_embeddings.npy"
+CACHE_CORPUS = "corpus.json"
+TOP_K_DEFAULT = 3
+
+# Corpus: 24 paragraphs across several topics (AI, cooking, travel/art, sports, hardware, crypto)
+CORPUS = [
+    "Neural networks learn by adjusting billions of parameters to reduce prediction error. During training they iteratively update weights using large datasets and optimisation algorithms; careful hyperparameter tuning, regularisation, and validation are required to avoid overfitting. Modern practice often combines large-scale compute, distributed training, and monitoring to ensure models converge reliably.",
+    "Backpropagation propagates gradients and updates weights during neural network training. It computes how a small change in each parameter affects the loss, allowing optimizers such as SGD or Adam to perform directed updates. Practitioners monitor gradients, learning rates, and batch sizes because poor choices can slow training or destabilise learning.",
+    "Transfer learning allows models pretrained on large datasets to adapt to new tasks quickly. By reusing learned representations from a related domain, fine-tuning can achieve strong performance with far less labeled data, lowering compute and data requirements for downstream tasks. This technique is widely used in vision and NLP where foundational models provide powerful starting points.",
+    "Baking an apple pie from scratch needs fresh apples, butter, and careful timing. A good pie balances sweet and tart apples, uses a cold butter-rich pastry, and respects oven temperature to avoid a soggy base. Techniques like blind-baking the crust and allowing the pie to cool properly improve texture and sliceability.",
+    "A flaky pastry crust and slow oven temperature make the best fruit tarts. Laminating butter into the dough and avoiding overworking the gluten helps produce delicate layers, while a modest oven heat ensures even cooking without burning the edges. Bakers also rest dough in the fridge to relax gluten and maintain flakiness during baking.",
+    "Home fermentation of sourdough takes time, patience, and consistent feeding. Maintaining an active starter requires regular refreshment, temperature control, and observation of rise patterns; flavours develop over days and weeks. Many hobbyists keep notes on hydration, ambient temperature, and timings to reproduce reliably good loaves.",
+    "Apple unveiled a new energy-efficient chip designed for thin-and-light laptops, emphasising battery life and thermal efficiency. The chip combines specialised accelerators for media and machine learning tasks while keeping power draw low for mobile use. Early benchmarks focus on throughput per watt and real-world workloads like video playback and photo editing.",
+    "Smartphone camera systems increasingly rely on computational photography to produce better images in challenging conditions. Multiple sensor inputs, HDR merging, and noise reduction algorithms work together to extract more detail than hardware alone could. Advances in on-device ML enable features such as portrait mode, night mode, and real-time scene optimisation.",
+    "A compact single-board computer is great for hobbyist electronics and IoT experiments, offering GPIO access, networking, and small-form-factor compute. These boards let makers prototype sensors, robots, and home automation without large upfront costs. Community support, accessory hats, and tutorials make them especially approachable for learners.",
+    "The new rspi5-style board improves CPU throughput and adds more I/O options for peripherals and expansion. Designers focused on cooling, power delivery, and stable interfaces to support heavier workloads like edge inference or local media servers. Improved upstream software support and driver maintenance are also key for a smooth user experience.",
+    "Marathon runners load up on carbohydrates the day before to maximise glycogen stores and support long-duration muscle activity. Nutritional strategies also include balanced electrolytes, easily digestible meals, and trialling foods in training to avoid race-day surprises. Hydration, tapering, and sleep quality further contribute to peak performance.",
+    "Interval training and rest days both play roles in effective endurance preparation; high-intensity intervals improve VO2 max while low-intensity mileage builds aerobic capacity. Coaches design training cycles with progressive overload and recovery periods to minimise injury risk. Nutrition and sleep are monitored closely to support adaptation.",
+    "Jogging at dawn helps clear the mind and establish a productive daily routine, with cooler air and fewer distractions making it easier to focus. Many runners prefer morning sessions for consistent scheduling, sunlight exposure, and the mood-boosting effects of exercise. Warming up, proper footwear, and hydration reduce injury risk for regular runners.",
+    "Competitive archery and darts both demand extreme focus, steady hands, and consistent technique to hit tight targets under pressure. Mental routines, breath control, and equipment setup are all part of elite performance, while amateurs practise fundamentals and shot repetition to improve. Both sports reward small technical gains and strong psychological composure.",
+    "The Louvre houses centuries of paintings, sculptures, and decorative arts spanning many periods and schools, making it a cornerstone of European cultural heritage. Its galleries require careful conservation, scholarly research, and thoughtfully curated exhibitions to present narratives that resonate with diverse audiences. Visitor education programmes and rotating loans help keep the collection accessible and engaging.",
+    "Small local museums often curate regional histories and rotating exhibitions that highlight underrepresented stories. They depend on community partnerships, volunteer curators, and targeted programming to attract visitors. With limited budgets, these institutions frequently innovate with digital outreach and collaborative exhibits.",
+    "Budget airlines try to maximise seat density and often charge for baggage separately, leaning on ancillary revenues to keep base fares low. The trade-offs include less legroom, more restrictive change policies, and a la carte services; savvy travellers weigh the cost savings against comfort and convenience. Airline competition sometimes forces carriers to innovate on fees, loyalty, and ancillary product offers.",
+    "A redesigned cabin layout can improve passenger comfort without increasing costs by optimising seat geometry and storage solutions. Airlines trial different pitch configurations, slimline seats, and modular galleys to squeeze efficiency while maintaining acceptable ergonomics. Regulatory compliance and turnaround time constraints are also influential in layout decisions.",
+    "Cryptographers worry that future quantum machines could threaten widely used public-key systems such as RSA and ECC, because quantum algorithms like Shor's can factor large integers efficiently in principle. This has spurred a global push toward post-quantum cryptography standards and migration planning across industries. Researchers evaluate lattice-based and other quantum-resistant schemes while considering performance and interoperability.",
+    "Post-quantum cryptography research focuses on algorithms resilient to quantum attacks while keeping implementation practical for real systems. Standardisation bodies run competitions and security analyses to vet candidate schemes, and engineers examine key sizes, bandwidth, and computational costs for deployment. Transition strategies must balance urgency with stability across legacy infrastructure.",
+    "Stargazing on a quiet beach can inspire questions about astrophysics and cosmology as the Milky Way arcs overhead and planets glint near the horizon. Amateur astronomers use simple binoculars, sky charts, and apps to locate constellations while more dedicated observers set up telescopes and tracking mounts. The experience often sparks curiosity about scale, light pollution, and observational techniques.",
+    "Satellite imagery shows how coastal sandbanks and dunes shift over seasons and in response to storms, tides, and human interventions. Analysts compare time-series imagery to study erosion, sediment transport, and habitat change, helping planners make informed conservation decisions. High-resolution imagery combined with field surveys provides a robust picture of coastal dynamics.",
+    "A startup is building AI-powered creative tools that assist designers and artists by offering rapid ideation, style exploration, and automated asset generation. These tools accelerate early-stage concepts while leaving critical aesthetic choices to human creators who curate and adapt outputs. Business models typically combine cloud services, API access, and studio-focused features.",
+    "Early prototypes of generative tools help speed up ideation but still need human curation to ensure quality and context-appropriateness; generative models can hallucinate plausible but incorrect details. Teams iterate on UI/UX, prompt design, and human-in-the-loop workflows to integrate these tools into real creative processes. Measuring adoption and usefulness often requires case studies and carefully designed user feedback loops.",
+]
+
+def save_corpus_cache(corpus_path: str):
+    with open(corpus_path, "w", encoding="utf-8") as fh:
+        json.dump(CORPUS, fh, ensure_ascii=False, indent=2)
+
+def load_or_compute_embeddings(model, corpus, cache_path):
+    if os.path.exists(cache_path):
+        try:
+            emb = np.load(cache_path)
+            if emb.shape[0] == len(corpus):
+                return emb
+            # else fall through and recompute
+        except Exception:
+            pass
+
+    start = time.perf_counter()
+    emb = model.encode(corpus, normalize_embeddings=True)
+    elapsed = time.perf_counter() - start
+    np.save(cache_path, emb)
+    print(f"Computed and cached corpus embeddings: {len(corpus)} docs in {elapsed:.3f}s")
+    return emb
+
+def semantic_search(query: str, model, corpus, embeddings, k=TOP_K_DEFAULT):
+    t0 = time.perf_counter()
+    q_emb = model.encode([query], normalize_embeddings=True)[0]
+    embed_time = time.perf_counter() - t0
+
+    t1 = time.perf_counter()
+    # cosine similarity since embeddings are normalized
+    scores = embeddings @ q_emb
+    order = np.argsort(scores)[::-1][:k]
+    retrieval_time = time.perf_counter() - t1
+
+    results = []
+    for idx in order:
+        results.append({"id": int(idx), "snippet": corpus[idx][:300], "score": float(scores[idx])})
+    return results, embed_time, retrieval_time
+
+def print_results(results):
+    for rank, r in enumerate(results, start=1):
+        print(f"  #{rank}  id={r['id']:>2}  score={r['score']:.3f}  snippet=\"{r['snippet']}\"")
+
+def run_interactive(model, corpus, embeddings, k):
+    print("\nEnter a query (empty line to quit):")
+    while True:
+        try:
+            query = input("> ").strip()
+        except EOFError:
+            break
+        if not query:
+            break
+        results, emb_t, ret_t = semantic_search(query, model, corpus, embeddings, k=k)
+        print(f"Query embed time: {emb_t:.3f}s    retrieval time: {ret_t:.3f}s")
+        print_results(results)
+    print("Interactive session ended.")
+
+def run_examples(model, corpus, embeddings, k):
+    examples = [
+        "How do neural networks update their parameters during training?",
+        "Best way to prebake a pie crust for a fruit tart?",
+        "What should a runner eat before a marathon?",
+        "Is the new laptop chip energy efficient but still fast?",
+        "Will quantum computers break RSA encryption?",
+    ]
+    print("\n=== RUNNING 5 EXAMPLE QUERIES ===")
+    for q in examples:
+        print(f"\nQuery: {q}")
+        results, emb_t, ret_t = semantic_search(q, model, corpus, embeddings, k=k)
+        print(f"  embed {emb_t:.3f}s  retrieval {ret_t:.3f}s")
+        print_results(results)
+
+    print("\nReflection:")
+    print("  Retrieval generally finds topical snippets (AI queries → AI docs; baking → baking docs).")
+    print("  Short or ambiguous queries sometimes return mixed-topic results when wording overlaps.")
+    print("  When the corpus is small and diverse, highly specific factual queries can miss precise answers.")
+    print("  Precomputing embeddings is fast and makes per-query latency dominated by a single encode + dot product.")
+
+def parse_args():
+    p = argparse.ArgumentParser(description="Tiny semantic search (corpus embedded/cached).")
+    p.add_argument("--k", type=int, default=TOP_K_DEFAULT, help="top-k results to return")
+    p.add_argument("--no-cache", action="store_true", help="do not read/write embedding cache")
+    p.add_argument("--examples", action="store_true", help="run the 5 example queries and exit")
+    return p.parse_args()
+
+def main():
+    args = parse_args()
+
+    # save corpus (helpful for external inspection)
+    save_corpus_cache(CACHE_CORPUS)
+
+    print(f"Loading model: {MODEL_NAME}")
+    model = SentenceTransformer(MODEL_NAME)
+
+    if args.no_cache:
+        cache_path = None
+    else:
+        cache_path = CACHE_EMB
+
+    start = time.perf_counter()
+    if cache_path:
+        embeddings = load_or_compute_embeddings(model, CORPUS, cache_path)
+        print(f"Corpus embeddings ready (loaded/created) in {time.perf_counter() - start:.3f}s")
+    else:
+        emb_start = time.perf_counter()
+        embeddings = model.encode(CORPUS, normalize_embeddings=True)
+        print(f"Computed corpus embeddings (no-cache) in {time.perf_counter() - emb_start:.3f}s")
+
+    if args.examples:
+        run_examples(model, CORPUS, embeddings, args.k)
+        return
+
+    # single-query timing demonstration then interactive loop
+    print("\nType a single query to time one retrieval (press Enter to skip):")
+    q = input("> ").strip()
+    if q:
+        results, emb_t, ret_t = semantic_search(q, model, CORPUS, embeddings, k=args.k)
+        print(f"Single query embed time: {emb_t:.3f}s    retrieval time: {ret_t:.3f}s")
+        print_results(results)
+
+    run_interactive(model, CORPUS, embeddings, args.k)
+
+if __name__ == "__main__":
+    main()
