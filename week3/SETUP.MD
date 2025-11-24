@@ -106,28 +106,7 @@ python diagnostic_task.py
 - **"uv: command not found"**: Make sure uv is installed and in your PATH. Restart terminal after installation.
 - **"No module named transformers"**: Run `uv pip install transformers torch` again
 - **Build errors with uv sync**: Use `uv venv` and `uv pip install` instead (this project is not a Python package)
-- **Numpy/PyTorch compatibility errors**: This happens when numpy 2.x is installed with older PyTorch versions (2.0.0-2.1.x). Fix by running:
-  ```bash
-  uv pip install "numpy<2.0" --force-reinstall
-  ```
-  Or upgrade PyTorch to 2.2+ which supports numpy 2.x:
-  ```bash
-  uv pip install "torch>=2.2.0" --upgrade
-  ```
-- **Torch installation errors on Intel Mac (macOS x86_64)**: Some newer torch versions (like 2.9.1) don't have wheels for Intel Macs. Fix by installing a compatible version:
-  ```bash
-  # Remove existing venv and recreate
-  rm -rf .venv
-  uv venv
-  
-  # Install with compatible torch version
-  uv pip install transformers "torch>=2.2.0,<2.9.0" "numpy<2.0"
-  ```
-  Or use PyTorch's official index:
-  ```bash
-  uv pip install transformers torch "numpy<2.0" --index-url https://download.pytorch.org/whl/cpu
-  ```
-- **Other torch issues**: uv should handle torch installation automatically. If issues persist, try:
+- **Torch issues**: uv should handle torch installation automatically. If issues persist, try:
   ```bash
   uv pip install torch --index-url https://download.pytorch.org/whl/cpu
   ```

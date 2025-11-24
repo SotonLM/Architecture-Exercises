@@ -1,17 +1,36 @@
 ## **SUBMISSION FORMAT**
 
+**Submit your work by Wednesday 11:59 PM:**
+
+### Option 1: GitHub Submission (Recommended)
+1. Fork the repository: https://github.com/SotonLM/Architecture-Exercises
+2. Create folder: `submissions/week3/[your-name]/`
+3. Add your files and create a Pull Request
+4. Include the submission form below in your README.MD
+
+### Option 2: Teams Submission
 **Post in Teams #architecture channel by Wednesday 11:59 PM:**
 ```
+<<<<<<< HEAD
 Subject: Dion Jose - Diagnostic Task Submission
 
 LEVEL REACHED: 3
+=======
+Subject: [Your Name] - Diagnostic Task Submission
+
+LEVEL REACHED: [1/2/3/4]
+>>>>>>> upstream/main
 
 LEVEL 1: ✅ [Screenshot]
 
 LEVEL 2: ✅ [Code link] [Results link]
 - Brief summary of findings
 
+<<<<<<< HEAD
 LEVEL 3: ✅ Option B
+=======
+LEVEL 3: ✅ [Option A/B/C/D]
+>>>>>>> upstream/main
 - [Link to work]
 - Brief summary
 

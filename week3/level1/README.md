@@ -1,5 +1,5 @@
 ### **LEVEL 1: Install & Run** ⭐
-*Tests basic setup. ~30 minutes*
+*Tests basic setup. *
 
 **Goal:** Get transformers working on your machine
 

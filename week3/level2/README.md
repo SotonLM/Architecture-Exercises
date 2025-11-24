@@ -1,5 +1,5 @@
 ### **LEVEL 2: Experiment & Document** ⭐⭐
-*Tests basic Python skills. ~1-2 hours*
+*Tests basic Python skills. *
 
 **Goal:** Modify the code and observe changes
 
