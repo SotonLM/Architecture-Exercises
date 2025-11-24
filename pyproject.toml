@@ -7,5 +7,6 @@ dependencies = [
     "transformers>=4.30.0",
     "torch>=2.0.0",
     "numpy<2.0",
+    "sentence-transformers>=2.2.0",
 ]
 
