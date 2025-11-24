@@ -1,0 +1,12 @@
+[project]
+name = "diagnostic-task"
+version = "0.1.0"
+description = "Week 3 diagnostic task for SotonLM Architecture team"
+requires-python = ">=3.8"
+dependencies = [
+    "transformers>=4.30.0",
+    "torch>=2.0.0",
+    "numpy<2.0",
+    "sentence-transformers>=2.2.0",
+]
+
