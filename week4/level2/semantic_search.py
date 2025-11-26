@@ -50,21 +50,15 @@ def main() -> None:
     query_embedding = model.encode(user_query, normalize_embeddings=True)
 
     similarity = corpus_embeddings @ query_embedding
+    sim_scores =[]
+    for idx in range(len(cleaned)):
+        sim_scores.append((idx, similarity[idx]))
 
-    for idx, sentence in enumerate(cleaned):
-        row = similarity[idx]
-        others = [
-            (other_idx, score)
-            for other_idx, score in enumerate(similarity)
-            if other_idx != idx
-        ]
-        top_matches = sorted(others, key=lambda item: item[1], reverse=True)[:TOP_K]
-
-        print(f"\nSentence [{idx}]: {sentence}")
-        for rank, (match_idx, score) in enumerate(top_matches, start=1):
-            print(f"  #{rank}  cosine={score:.3f}  →  [{match_idx}] {cleaned[match_idx][:35]}")
-
-    
+    # get the topk results with their correspondiong paragraph
+    top_matches = sorted(sim_scores, key=lambda item: item[1], reverse=True)[:TOP_K]
+    print(f"\n{user_query} ")
+    for rank, (indx, score) in enumerate(top_matches):
+        print(f" #{rank+1}  cosine={score:.3f}  →  [{indx}] {cleaned[indx][:70]}")    
 
 # === SPOTLIGHT EXAMPLES ===
 # Semantically similar but different words -> sentences 0 & 1
