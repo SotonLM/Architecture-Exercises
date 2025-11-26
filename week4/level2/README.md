@@ -23,7 +23,7 @@
   - Top-3 results (ID + snippet + score) for each query.
   - A 3–5 sentence reflection describing when retrievals shine vs fail.
 
-**Implementation Notes:**
+**Implementation Notes:** 
 
 - Consider normalising embeddings once so cosine similarity is just a dot product.
 - Use `time.perf_counter()` (or similar) for timing logs.

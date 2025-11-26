@@ -1,0 +1,112 @@
+Model loaded.
+
+Corpus embedded in 0.13 seconds.
+
+Type a query to search the corpus (or just press ENTER to quit).
+
+Query> "Why do central banks raise interest rates during high inflation?"
+
+=== QUERY: '"Why do central banks raise interest rates during high inflation?"' ===
+Encoded query in 0.05s
+Top 3 results:
+
+#1      [doc_id=0]      cosine=0.614
+Central banks raise interest rates to cool down high inflation and reduce spending.
+
+Answered query in 0.0003s
+
+#2      [doc_id=2]      cosine=0.501
+During a recession, governments often increase spending to support demand.
+
+Answered query in 0.0001s
+
+#3      [doc_id=5]      cosine=0.433
+Bond prices usually fall when interest rates go up, and rise when rates go down.
+
+Answered query in 0.0001s
+
+
+Query> "How to focus better?"
+
+=== QUERY: '"How to focus better?"' ===
+Encoded query in 0.03s
+Top 3 results:
+
+#1      [doc_id=18]     cosine=0.466
+Taking short breaks while studying can improve focus and long-term memory.
+
+Answered query in 0.0001s
+
+#2      [doc_id=9]      cosine=0.412
+Transformers use attention mechanisms to focus on the most relevant parts of the input.
+
+Answered query in 0.0001s
+
+#3      [doc_id=21]     cosine=0.387
+Going for a walk outside can reduce stress and clear your mind.       
+
+Answered query in 0.0001s
+
+
+Query> "What techniques can prevent neural networks from memorising training data and improve generalisation?"
+
+=== QUERY: '"What techniques can prevent neural networks from memorising training data and improve generalisation?"' ===
+Encoded query in 0.04s
+Top 3 results:
+
+#1      [doc_id=7]      cosine=0.636
+Overfitting happens when a model memorises the training data instead of generalising.
+
+Answered query in 0.0001s
+
+#2      [doc_id=6]      cosine=0.619
+Neural networks learn patterns by adjusting weights to minimise a loss function.
+
+Answered query in 0.0001s
+
+#3      [doc_id=11]     cosine=0.492
+Regularisation techniques like dropout help prevent overfitting in deep models.
+
+Answered query in 0.0001s
+
+
+Query> "How did ancient infrastructure like Roman roads support economic growth and trade?"
+
+=== QUERY: '"How did ancient infrastructure like Roman roads support economic growth and trade?"' ===
+Encoded query in 0.05s
+Top 3 results:
+
+#1      [doc_id=12]     cosine=0.578
+The Roman Empire built an extensive road network that supported trade and armies.
+
+Answered query in 0.0001s
+
+#2      [doc_id=15]     cosine=0.463
+The Industrial Revolution transformed economies from agrarian to manufacturing-based.
+
+Answered query in 0.0003s
+
+#3      [doc_id=14]     cosine=0.305
+Ancient Egyptian civilisation depended on the predictable flooding of the Nile River.
+
+Answered query in 0.0001s
+
+
+Query> "transformer attention mechanism"
+
+=== QUERY: '"transformer attention mechanism"' ===
+Encoded query in 0.05s
+Top 3 results:
+
+#1      [doc_id=9]      cosine=0.711
+Answered query in 0.0001s
+
+#2      [doc_id=7]      cosine=0.267
+Overfitting happens when a model memorises the training data instead of generalising.
+
+Answered query in 0.0001s
+
+#3      [doc_id=18]     cosine=0.244
+Taking short breaks while studying can improve focus and long-term memory.
+
+Answered query in 0.0001s
