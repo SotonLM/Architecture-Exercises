@@ -47,18 +47,19 @@ def main() -> None:
     # Cosine similarity matrix (vectors are L2-normalised, so dot product == cosine)
     similarity = embeddings @ embeddings.T
 
-    for idx, sentence in enumerate(sentences):
-        row = similarity[idx]
-        others = [
-            (other_idx, score)
-            for other_idx, score in enumerate(row)
-            if other_idx != idx
-        ]
-        top_matches = sorted(others, key=lambda item: item[1], reverse=True)[:TOP_K]
+    with open("nearest_neighbours.txt", "w", encoding="utf-8") as f:
+        for idx, sentence in enumerate(sentences):
+            row = similarity[idx]
+            others = [
+                (other_idx, score)
+                for other_idx, score in enumerate(row)
+                if other_idx != idx
+            ]
+            top_matches = sorted(others, key=lambda item: item[1], reverse=True)[:TOP_K]
 
-        print(f"\nSentence [{idx}]: {sentence}")
-        for rank, (match_idx, score) in enumerate(top_matches, start=1):
-            print(f"  #{rank}  cosine={score:.3f}  →  [{match_idx}] {sentences[match_idx]}")
+            f.write(f"\nSentence [{idx}]: {sentence}\n")
+            for rank, (match_idx, score) in enumerate(top_matches, start=1):
+                f.write(f"  #{rank}  cosine={score:.3f}  →  [{match_idx}] {sentences[match_idx]}\n")
 
 # === SPOTLIGHT EXAMPLES ===
 # Semantically similar but different words -> sentences 0 & 1
