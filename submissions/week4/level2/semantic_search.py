@@ -1,5 +1,6 @@
 import time
 from typing import List
+import numpy as np
 
 try:
     from sentence_transformers import SentenceTransformer
@@ -9,7 +10,6 @@ except ImportError:
         "Run: uv pip install sentence-transformers"
     )
 
-import numpy as np
 
 MODEL_NAME = "sentence-transformers/paraphrase-MiniLM-L6-v2"
 TOP_K = 3
