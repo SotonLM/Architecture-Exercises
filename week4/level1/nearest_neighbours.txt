@@ -1,0 +1,55 @@
+=== LEVEL 1: EMBEDDINGS + NEAREST NEIGHBOURS ===
+Loading model: sentence-transformers/paraphrase-MiniLM-L6-v2
+Encoded 10 sentences in 0.02s
+
+Sentence [0]: I met my fans today and signed autographs for an hour.
+  #1  cosine=0.357  →  [1] That fan is saving my life in this hot weather.
+  #2  cosine=0.286  →  [3] Going on a date can be both exciting and nerve-wracking.
+  #3  cosine=0.179  →  [6] That last question really threw me for a loop.
+
+Sentence [1]: That fan is saving my life in this hot weather.
+  #1  cosine=0.357  →  [0] I met my fans today and signed autographs for an hour.
+  #2  cosine=0.158  →  [3] Going on a date can be both exciting and nerve-wracking.
+  #3  cosine=0.106  →  [6] That last question really threw me for a loop.
+
+Sentence [2]: Dates are a fruit high in natural sugars and fiber.
+  #1  cosine=0.226  →  [3] Going on a date can be both exciting and nerve-wracking.
+  #2  cosine=0.126  →  [6] That last question really threw me for a loop.
+  #3  cosine=0.041  →  [8] I am studying very hard to do well in my finals.
+
+Sentence [3]: Going on a date can be both exciting and nerve-wracking.
+  #1  cosine=0.286  →  [0] I met my fans today and signed autographs for an hour.
+  #2  cosine=0.226  →  [2] Dates are a fruit high in natural sugars and fiber.
+  #3  cosine=0.203  →  [5] I am through with this project; let's move on to the next one.
+
+Sentence [4]: It is good to be thorough when preparing for a major exam.
+  #1  cosine=0.563  →  [8] I am studying very hard to do well in my finals.
+  #2  cosine=0.316  →  [7] The roman lexicon is a fascinating subject of study.
+  #3  cosine=0.203  →  [3] Going on a date can be both exciting and nerve-wracking.
+
+Sentence [5]: I am through with this project; let's move on to the next one.
+  #1  cosine=0.258  →  [9] Learning new languages opens up many opportunities in life.
+  #2  cosine=0.248  →  [7] The roman lexicon is a fascinating subject of study.
+  #3  cosine=0.203  →  [3] Going on a date can be both exciting and nerve-wracking.
+
+Sentence [6]: That last question really threw me for a loop.
+  #1  cosine=0.179  →  [0] I met my fans today and signed autographs for an hour.
+  #2  cosine=0.155  →  [3] Going on a date can be both exciting and nerve-wracking.
+  #3  cosine=0.126  →  [2] Dates are a fruit high in natural sugars and fiber.
+
+Sentence [7]: The roman lexicon is a fascinating subject of study.
+  #1  cosine=0.344  →  [9] Learning new languages opens up many opportunities in life.
+  #2  cosine=0.316  →  [4] It is good to be thorough when preparing for a major exam.
+  #3  cosine=0.248  →  [5] I am through with this project; let's move on to the next one.
+
+Sentence [8]: I am studying very hard to do well in my finals.
+  #1  cosine=0.563  →  [4] It is good to be thorough when preparing for a major exam.
+  #2  cosine=0.198  →  [5] I am through with this project; let's move on to the next one.
+  #3  cosine=0.176  →  [7] The roman lexicon is a fascinating subject of study.
+
+Sentence [9]: Learning new languages opens up many opportunities in life.
+  #1  cosine=0.344  →  [7] The roman lexicon is a fascinating subject of study.
+  #2  cosine=0.258  →  [5] I am through with this project; let's move on to the next one.
+  #3  cosine=0.184  →  [4] It is good to be thorough when preparing for a major exam.
+Lexically different but semantically similar: sentences 4 & 8 scored the highest despite no shared words, this shows the importance of context. 
+Lexically similar but semantically different: sentences 0 & 1 scored lower than expected despite sharing the word 'fan', showing that word overlap doesn't guarantee similar meaning.
