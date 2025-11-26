@@ -10,6 +10,7 @@ Most students should stop after Level 2. Levels 3-4 are optional Tier 3 stretch 
 """
 
 import time
+import numpy as np
 
 try:
     from sentence_transformers import SentenceTransformer
@@ -44,11 +45,24 @@ sentences = [
     "Number theory is the study of integers and arithmetic functions.",
     "I would like a console.",
     "We will console on your behalf.",
-    ""
+    "Please bow for the king.",
+    "Arrows are shot from a bow.",
+    "Please fill out this form.",
+    "This form needs to be completed."
 
 ]
 
+def cos_similarity(emb):
+    transpose_emb = emb.T
+
+    dot_product = np.dot(emb, transpose_emb)
+    norm = np.linalg.norm(emb, axis=1,keepdims=True)
+    return dot_product / (norm *norm)
+
+
 def main() -> None:
+    file = open("nearest_neighbours.txt", "w", encoding="utf-8")
+
     print("=== LEVEL 1: EMBEDDINGS + NEAREST NEIGHBOURS ===")
     print(f"Loading model: {MODEL_NAME}")
     model = SentenceTransformer(MODEL_NAME)
@@ -59,6 +73,9 @@ def main() -> None:
 
     # Cosine similarity matrix (vectors are L2-normalised, so dot product == cosine)
     similarity = embeddings @ embeddings.T
+    # or
+    similarity = cos_similarity(embeddings)
+    
 
     for idx, sentence in enumerate(sentences):
         row = similarity[idx]
@@ -69,9 +86,13 @@ def main() -> None:
         ]
         top_matches = sorted(others, key=lambda item: item[1], reverse=True)[:TOP_K]
 
+        file.write(f"Sentence [{idx}]: {sentence}\n")
         print(f"\nSentence [{idx}]: {sentence}")
         for rank, (match_idx, score) in enumerate(top_matches, start=1):
             print(f"  #{rank}  cosine={score:.3f}  →  [{match_idx}] {sentences[match_idx]}")
+            file.write(f"  #{rank}  cosine={score:.3f}  →  [{match_idx}] {sentences[match_idx]}\n")
+
+    file.close()
 
 # === SPOTLIGHT EXAMPLES ===
 # Semantically similar but different words -> sentences 0 & 1
