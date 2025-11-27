@@ -2,7 +2,12 @@ Subject: Joseph Arsany - Diagnostic Task Submission
 
 LEVEL REACHED: [1/2/3/4]
 
-LEVEL 1: ✅ []
+LEVEL 1: ✅ 
+
+Code Link: https://github.com/jrsany2903/Architecture-Exercises/blob/main/week4/level1/embeddings_basic.py
+nearest_neighbors.txt : https://github.com/jrsany2903/Architecture-Exercises/blob/main/week4/level1/nearest_neighbours.txt
+
+
 
 LEVEL 2: ✅ [Code link] [Results link]
 - Brief summary of findings
