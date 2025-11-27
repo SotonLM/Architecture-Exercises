@@ -9,8 +9,13 @@ nearest_neighbors.txt : https://github.com/jrsany2903/Architecture-Exercises/blo
 
 
 
-LEVEL 2: ✅ [Code link] [Results link]
-- Brief summary of findings
+LEVEL 2: ✅ 
+Code link: https://github.com/jrsany2903/Architecture-Exercises/blob/main/week4/level2/semantic_search.py
+Corpus link: https://github.com/jrsany2903/Architecture-Exercises/blob/main/week4/level2/corpus.txt
+Search sample link: https://github.com/jrsany2903/Architecture-Exercises/blob/main/week4/level2/search_examples.txt
+
+Populated corpus.txt with the first section from wikipedia for Paris, sushi, einstein and the moon. I removed the [] refrences from the file because it was breaking the formatting.
+Saved embeddings in corpus_embeddings.npy
 
 LEVEL 3: ✅ [Option A/B/C/D]
 - [Link to work]
