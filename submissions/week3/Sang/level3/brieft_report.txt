@@ -1,0 +1,29 @@
+distilgpt2 was by far the fastest but produced a generic, low-quality response.
+
+gpt2-medium was the slowest but produced a high-quality, creative, and context-aware response.
+
+gpt2 (base) represented a poor middle-ground in this specific test, being much slower than distilgpt2 but getting caught in a repetitive loop, resulting in the lowest-quality output.
+
+
+
+Use distilgpt2 for...
+
+Speed-critical tasks.
+
+Use Cases: Real-time text suggestions, simple autocomplete, or basic chatbots where an instant response is more important than a detailed one.
+
+
+Use gpt2 (Base) for...
+
+Hobbyist projects or simple experimentation.
+
+Use Cases: Based on this test, it's difficult to recommend. It is unstable and can get stuck in loops. It might be useful for tasks where distilgpt2 is too simple but you cannot afford the resource cost of gpt2-medium.
+
+
+
+Use gpt2-medium for...
+
+Quality-critical tasks.
+
+Use Cases: Creative writing aids, storytelling, content generation (like blog post drafts), or advanced dialogue systems that require context and creativity.
+
