@@ -17,6 +17,12 @@ Search sample link: https://github.com/jrsany2903/Architecture-Exercises/blob/ma
 Populated corpus.txt with the first section from wikipedia for Paris, sushi, einstein and the moon. I removed the [] refrences from the file because it was breaking the formatting.
 Saved embeddings in corpus_embeddings.npy
 
+<img src = "\level2results.png">
+
+Search queries returned good results when the cosine similarity is >=0.65.
+
+For the question about where is the eiffel tower, it correctly identified an association with paris, but given that the corpus does not contain a phrase like "the eiffel tower is in paris", the results feel very disjointed from the query.
+
 LEVEL 3: ✅ [Option A/B/C/D]
 - [Link to work]
 - Brief summary
