@@ -7,23 +7,17 @@ Query [0]: Where is the Eiffel Tower located?
 Query [1]: What ingredients are used in sushi?
   #1  cosine=0.761  →  [41] Sushi (すし, 寿司, 鮨, 鮓; pronounced [sɯɕiꜜ] or [sɯꜜɕi] ⓘ) is a traditional Japanese dish made with vinegared rice (鮨飯, sushi-meshi), typically seasoned with sugar and salt, and combined with a variety of ingredients (ねた, neta), such as seafood, vegetables, or meat; raw seafood is the most common, although some may be cooked
   #2  cosine=0.731  →  [48] Certain types of sushi are vegetarian
-  #3  cosine=0.710  →  [43] [1]
-
-The modern form of sushi is believed to have been created by Hanaya Yohei, who invented nigiri-zushi, the most commonly recognized type today, in which seafood is placed on hand-pressed, vinegared rice
+  #3  cosine=0.698  →  [43] The modern form of sushi is believed to have been created by Hanaya Yohei, who invented nigiri-zushi, the most commonly recognized type today, in which seafood is placed on hand-pressed, vinegared rice
 
 Query [2]: Who was the first person to walk on the moon?
   #1  cosine=0.597  →  [76] The first spaceflights to an extraterrestrial body were to the Moon, starting in 1959 with the flyby of Luna 1 (sent by the Soviet Union), and the intentional impact of Luna 2
   #2  cosine=0.584  →  [67] The Moon was volcanically active until 1
-  #3  cosine=0.573  →  [52] [5]
-
-The Moon is the only natural satellite of Earth
+  #3  cosine=0.560  →  [52] The Moon is the only natural satellite of Earth
 
 Query [3]: Explain Einstein's contributions to physics.
   #1  cosine=0.811  →  [17] Einstein also made important contributions to quantum theory
-  #2  cosine=0.763  →  [34] [13]
-
-In the middle part of his career, Einstein made important contributions to statistical mechanics and quantum theory
-  #3  cosine=0.659  →  [16] Albert Einstein[a] (14 March 1879 – 18 April 1955) was a German-born theoretical physicist best known for developing the theory of relativity
+  #2  cosine=0.766  →  [34] In the middle part of his career, Einstein made important contributions to statistical mechanics and quantum theory
+  #3  cosine=0.658  →  [16] Albert Einstein (14 March 1879 – 18 April 1955) was a German-born theoretical physicist best known for developing the theory of relativity
 
 Query [4]: What is a common type of handgun ammunition?
   #1  cosine=0.150  →  [47] It is commonly prepared with seafood, such as squid, eel, yellowtail, salmon, tuna, or imitation crab meat (surimi)
