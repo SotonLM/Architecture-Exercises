@@ -1,0 +1,122 @@
+[
+  {
+    "id": "qec_1",
+    "text": "Quantum Error Correction (QEC) is essential because quantum states are fragile and susceptible to decoherence from environmental noise."
+  },
+  {
+    "id": "qec_2",
+    "text": "Surface codes are currently the leading candidate for QEC, utilizing a 2D lattice of physical qubits to form a single logical qubit."
+  },
+  {
+    "id": "qec_3",
+    "text": "Stabilizer codes work by measuring specific properties (syndromes) of the quantum state without collapsing the encoded logical information."
+  },
+  {
+    "id": "qec_4",
+    "text": "The threshold theorem states that if the physical error rate is below a certain value, we can suppress logical errors to arbitrary levels by increasing code size."
+  },
+  {
+    "id": "qec_5",
+    "text": "Magic state distillation is a process required to implement non-Clifford gates in many fault-tolerant quantum computing architectures."
+  },
+  {
+    "id": "qec_6",
+    "text": "Topological quantum computing relies on the braiding of anyons to perform computation, which is inherently protected against local errors."
+  },
+  {
+    "id": "qec_7",
+    "text": "SystemVerilog is increasingly being used to design and verify the classical control logic required to decode quantum error syndromes in real-time."
+  },
+  {
+    "id": "med_1",
+    "text": "CRISPR-Cas9 is a revolutionary gene-editing technology that allows for precise modifications to DNA sequences within living organisms."
+  },
+  {
+    "id": "med_2",
+    "text": "In silico medicine involves using computer simulations and biological modeling to predict how drugs will interact with the human body before clinical trials."
+  },
+  {
+    "id": "med_3",
+    "text": "The blood-brain barrier is a semipermeable border of cells that prevents many drugs from entering the central nervous system, complicating neurological treatments."
+  },
+  {
+    "id": "med_4",
+    "text": "mRNA vaccines work by instructing cells to produce a harmless piece of spike protein, triggering an immune response without using the live virus."
+  },
+  {
+    "id": "med_5",
+    "text": "Antibiotic resistance occurs when bacteria evolve mechanisms to withstand the drugs designed to kill them, often due to misuse of medication."
+  },
+  {
+    "id": "med_6",
+    "text": "Personalized medicine utilizes a patient's genetic profile to tailor medical decisions and treatments specifically to their individual needs."
+  },
+  {
+    "id": "med_7",
+    "text": "Phase III clinical trials typically involve thousands of participants to compare the new treatment against the current standard of care."
+  },
+  {
+    "id": "hist_1",
+    "text": "The fall of the Western Roman Empire is often attributed to a combination of economic instability, military overspending, and barbarian invasions."
+  },
+  {
+    "id": "hist_2",
+    "text": "The Industrial Revolution marked a transition to new manufacturing processes in Europe and the US, shifting from hand production methods to machines."
+  },
+  {
+    "id": "hist_3",
+    "text": "The Rosetta Stone, discovered in 1799, was crucial for deciphering Egyptian hieroglyphs because it contained the same text in Greek and Demotic."
+  },
+  {
+    "id": "hist_4",
+    "text": "The Silk Road was a network of trade routes connecting the East and West, central to the economic and cultural interaction between these regions for centuries."
+  },
+  {
+    "id": "hist_5",
+    "text": "In 1969, the Apollo 11 mission successfully landed the first humans on the Moon, a major milestone in the Space Race."
+  },
+  {
+    "id": "hist_6",
+    "text": "The Gutenberg printing press, developed around 1440, drastically reduced the cost of books and accelerated the spread of knowledge across Europe."
+  },
+  {
+    "id": "hist_7",
+    "text": "The Great Wall of China was built over several dynasties as a military defense system against invasions from nomadic tribes."
+  },
+  {
+    "id": "hist_8",
+    "text": "Feudalism was the dominant social system in medieval Europe, where nobility held lands from the Crown in exchange for military service."
+  },
+  {
+    "id": "cook_1",
+    "text": "The Maillard reaction is a chemical reaction between amino acids and reducing sugars that gives browned food its distinctive flavor."
+  },
+  {
+    "id": "cook_2",
+    "text": "Sourdough bread relies on a 'starter', a fermented mixture of flour and natural wild yeast, rather than commercial baker's yeast."
+  },
+  {
+    "id": "cook_3",
+    "text": "To temper chocolate, one must carefully control the temperature to ensure the cocoa butter crystallizes in the stable Beta V form for a glossy finish."
+  },
+  {
+    "id": "cook_4",
+    "text": "An emulsion is a mixture of two liquids that normally would not mix, such as oil and vinegar in a vinaigrette, often stabilized by mustard or egg yolk."
+  },
+  {
+    "id": "cook_5",
+    "text": "Sous-vide is a method of cooking where food is placed in a vacuum-sealed bag and cooked in a water bath at a precisely regulated temperature."
+  },
+  {
+    "id": "cook_6",
+    "text": "Resting meat after cooking allows the muscle fibers to relax and reabsorb the juices, preventing them from spilling out when cut."
+  },
+  {
+    "id": "cook_7",
+    "text": "Deglazing involves adding liquid like wine or stock to a hot pan to release the caramelized food bits (fond) stuck to the bottom."
+  },
+  {
+    "id": "cook_8",
+    "text": "Mise en place is a French culinary phrase which means 'putting in place', referring to the setup required before cooking."
+  }
+]
