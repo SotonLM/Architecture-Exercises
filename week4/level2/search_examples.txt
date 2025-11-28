@@ -1,0 +1,20 @@
+Query 1: Which country sufferesd the most losses in the war?
+ #1  cosine=0.544  →  [0] The destruction in France was on an altogether more significant scale,
+ #2  cosine=0.331  →  [13] The saddest cases among the wounded were those on the stretchers, and 
+ #3  cosine=0.283  →  [10] The danger of the disease varies greatly in different epidemics; state
+Query 2: The effects of beer?
+ #1  cosine=0.606  →  [1] The sum of the whole is that the beer brewing business has within a sh
+ #2  cosine=0.209  →  [20] Then a dog began to howl somewhere in a farmhouse far down the road--a
+ #3  cosine=0.193  →  [17] As he spoke the gleam of the sidelights of a carriage came round the c
+Query 3: different kinds of collections
+ #1  cosine=0.428  →  [9] In the life of every normal human there comes a time when he wishes to
+ #2  cosine=0.221  →  [7] First, let me explain that in the manner of feeding, snakes may be div
+ #3  cosine=0.148  →  [6] These are delicate, elongate, long-legged beetles, with weak integumen
+Query 4: the strenghts and weaknesses of the human body and what it is capable of doing
+ #1  cosine=0.394  →  [12] Mentally take the attitude of being well, and do not say anything or d
+ #2  cosine=0.347  →  [16] The human automobile is not only astonishingly well built, with all th
+ #3  cosine=0.281  →  [5] As I believe that our domestic animals were originally chosen by unciv
+Query 5: Compare the dangers of disease with the cause and effect of wars
+ #1  cosine=0.546  →  [10] The danger of the disease varies greatly in different epidemics; state
+ #2  cosine=0.391  →  [0] The destruction in France was on an altogether more significant scale,
+ #3  cosine=0.290  →  [5] As I believe that our domestic animals were originally chosen by unciv

@@ -1,0 +1,4 @@
+Retrivals tend to shine the most when the answer already exists in the corpus.
+This was evident when the queries were semantically or lexically similar or identical, leading to the similarity score to be much higher.
+Retrievals fail when the query contains information not present in the corpus, such as new information, mkaing it unable to link prexisting notions to new ideas found in the original corpus.
+They also tend to fail when the queries are to broad, with the scores reflecting this, as they tend have low similairty between the top 3 paragraphs it chose.

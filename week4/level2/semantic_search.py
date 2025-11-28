@@ -30,10 +30,9 @@ def clean_text(unclean_text):
 
 def main() -> None:
 
-    file = open("semantics.txt", "r", encoding="utf-8")
-    text_lines = file.readlines()
-    file.close()
-
+    semantics = open("semantics.txt", "r", encoding="utf-8")
+    text_lines = semantics.readlines()
+    semantics.close()
 
     cleaned = clean_text(text_lines)
 
@@ -45,20 +44,27 @@ def main() -> None:
     corpus_embeddings = model.encode(cleaned, normalize_embeddings=True)
 
     print(f"Encoded {len(cleaned)} paragraphs in {time.perf_counter() - start:.2f}s")
+    search_examples = open("search_examples.txt", "w", encoding="utf-8")
 
-    user_query = str(input("Enter query: "))
-    query_embedding = model.encode(user_query, normalize_embeddings=True)
+    for i in range(5):
 
-    similarity = corpus_embeddings @ query_embedding
-    sim_scores =[]
-    for idx in range(len(cleaned)):
-        sim_scores.append((idx, similarity[idx]))
+        user_query = str(input("Enter query: "))
+        search_examples.write(f"Query {i+1}: {user_query}\n")
+        query_embedding = model.encode(user_query, normalize_embeddings=True)
 
-    # get the topk results with their correspondiong paragraph
-    top_matches = sorted(sim_scores, key=lambda item: item[1], reverse=True)[:TOP_K]
-    print(f"\n{user_query} ")
-    for rank, (indx, score) in enumerate(top_matches):
-        print(f" #{rank+1}  cosine={score:.3f}  →  [{indx}] {cleaned[indx][:70]}")    
+        similarity = corpus_embeddings @ query_embedding
+        sim_scores =[]
+        for idx in range(len(cleaned)):
+            sim_scores.append((idx, similarity[idx]))
+
+        # get the topk results with their correspondiong paragraph
+        top_matches = sorted(sim_scores, key=lambda item: item[1], reverse=True)[:TOP_K]
+        print(f"\n{user_query} ")
+        for rank, (indx, score) in enumerate(top_matches):
+            print(f" #{rank+1}  cosine={score:.3f}  →  [{indx}] {cleaned[indx][:70]}")    
+            search_examples.write(f" #{rank+1}  cosine={score:.3f}  →  [{indx}] {cleaned[indx][:70]}\n")
+
+    search_examples.close()
 
 # === SPOTLIGHT EXAMPLES ===
 # Semantically similar but different words -> sentences 0 & 1
