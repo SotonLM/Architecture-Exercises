@@ -1,0 +1,35 @@
+Results:
+
+Query: web development tools    
+Results found in 646.57ms:
+  #1 [Score: 0.284] Machine learning models require training data to generalize.
+  #2 [Score: 0.281] React is a popular JavaScript library for building UIs.
+  #3 [Score: 0.238] Java is a statically typed object-oriented language.
+
+Query: dough ingredients
+Results found in 535.62ms:
+  #1 [Score: 0.666] Pizza dough requires yeast, flour, water, and time to rise.
+  #2 [Score: 0.335] Italian cuisine often features pasta, tomatoes, and olive oil.
+  #3 [Score: 0.288] Spicy food can temporarily boost metabolism.
+
+Query: celestial bodies
+Results found in 59.88ms:
+  #1 [Score: 0.344] NASA plans to send humans to the moon by 2025.
+  #2 [Score: 0.325] Jupiter is the largest planet in our solar system.
+  #3 [Score: 0.324] Saturn's rings are made mostly of ice particles.
+
+Query: does spicy food have any benefits
+Results found in 434.83ms:
+  #1 [Score: 0.860] Spicy food can temporarily boost metabolism.
+  #2 [Score: 0.460] Italian cuisine often features pasta, tomatoes, and olive oil.
+  #3 [Score: 0.454] Tacos are best served with fresh lime and cilantro.
+
+Query: object oriented programming
+Results found in 145.37ms:
+  #1 [Score: 0.579] Java is a statically typed object-oriented language.
+  #2 [Score: 0.391] React is a popular JavaScript library for building UIs.
+  #3 [Score: 0.375] Variables in programming store data values for later use.
+
+
+Findings:
+The retrieval system shines when queries map directly to specific facts or clear categories, evidenced by the high confidence scores (>0.60) for "spicy food" and "dough ingredients" where semantic intent aligned perfectly with the documents. It also demonstrated strong abstract reasoning by correctly retrieving specific examples (Jupiter, Saturn) for the generic category "celestial bodies" despite having no keyword overlap. However, the system failed on the query "web development tools," where it prioritized an irrelevant Machine Learning document (Score: 0.284) over the correct React library document. This highlights that while semantic search is powerful, it can struggle to disambiguate between general technical domains when strong semantic anchors are missing or when confidence scores are low.
