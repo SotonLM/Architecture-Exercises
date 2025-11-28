@@ -1,0 +1,575 @@
+PARAMETERS: max_length=50, temperature=1.0, top_k=50
+
+Prompt: The future of AI isGenerated: The future of AI is not quite right. There are a lot of good ideas but there are too many bad ideas that have really worked for me. So, why do I need to build this thing first for all people?Generation Time:1.13 seconds
+--------------------------------------------------
+Prompt: In the year 2030Generated: In the year 2030 under the terms of the European Union. (European Commission
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generation Time:5.97 seconds
+--------------------------------------------------
+Prompt: The secret to happiness isGenerated: The secret to happiness is a simple thought: how do we make ourselves feel good?
+
+
+
+We need to use a technique called "exhaustive" when you feel like you're "getting better every week."
+It's not easy to be like this – you can have more than an hour and a half before you show up for your job and do an extended date with your family. There is also lots of other ways to "exhaustive" your work – it may get so easy that there's an uncomfortable response that it'll never return.
+When you're tired, you need to go on the task of finding your work and putting in time to work at home.
+There's a lot of hard work and time to do but you still can't find the satisfaction. There are other factors that can be distracting to you.
+It's a good habit to avoid unnecessary time to do what you're doing and that can help you feel out of the way that you're doing to yourself.
+What is the habit that fuels you to do this?
+There are many things that work for you that you try to do with a good mind at home, and those are the reasons that you love the work you do.
+Exhaustive practice is often hard to comeGeneration Time:6.39 seconds
+--------------------------------------------------
+Prompt: meaning  of life isGenerated: meaning  of life is that any given moment of life is an indefinite space, or space.
+
+
+
+So, just like a real thing, my life is still something to do. I am able to go back to a simpler way of thinking about things, which means thinking that I am not in control of what's happening. And with that I could begin to think about things in one of my first experiences with the world.
+One thing about being around a different kind of human person in the first place is that there are two things I don't know the most or all of them, and then, well, I got what I wanted, and I wanted something else.
+One thing about an experienced person is that they can understand the meaning of the event in one of their experiences in the first place. And I can understand the sense of what it really means with that; to me it only matters that I get what I want, I get what it really means, I get what it really means.
+But all that's missing is that they can literally see what's going on without understanding everything as it works in their mind, without understanding the meaning of what they're asking them for as they're getting out of being.
+And I think if I can't understand the meaningGeneration Time:6.09 seconds
+--------------------------------------------------
+Prompt: how emotions adds upGenerated: how emotions adds up,” she said.And “ that means that I'm now feeling better.”Generation Time:0.48 seconds
+--------------------------------------------------PARAMETERS: max_length=20, temperature=0.5, top_k=10
+
+Prompt: The future of AI isGenerated: The future of AI is very different from the one we have seen in the past," he said. "In the past, we have seen the future of AI with a very different approach."Generation Time:0.76 seconds
+--------------------------------------------------
+Prompt: In the year 2030Generated: In the year 2030, the number of children aged under five was expected to rise to 1.5 million.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Generation Time:5.95 seconds
+--------------------------------------------------
+Prompt: The secret to happiness isGenerated: The secret to happiness is to be able to live with the best of the best of the world. And that is why it's important to keep your heart open and to be able to make your heart open.
+
+
+
+
+So, how do you know that your heart is open?
+
+Well, it's a very simple question.
+It's easy.
+So, how do you know that your heart is open?
+Well, it's easy.
+So, how do you know that your heart is open?
+Well, it's easy.
+So, how do you know that your heart is open?
+Well, it's simple.
+So, how do you know that your heart is open?
+Well, it's simple.
+So, how do you know that your heart is open?
+Well, it's easy.
+So, how do you know that your heart is open?
+Well, it's easy.
+So, how do you know that your heart is open?
+Well, it's easy.
+So, how do you know that your heart is open?
+Well, it's easy.
+So, how do you know that your heart is open?
+Well, it's easy.
+So, how do youGeneration Time:5.92 seconds
+--------------------------------------------------
+Prompt: meaning  of life isGenerated: meaning  of life is the most important thing to know.
+
+I am not a scientist. I am not a scientist. I am not a scientist. I am not a scientist. I am not a scientist. I am not a scientist. I am not a scientist. I am not a scientist. I am not a scientist. I am not a scientist. I am not a scientist. I am not a scientist. I am not a scientist. I am not a scientist. I am not a scientist. I am not a scientist. I am not a scientist. I am not a scientist. I am not a scientist. I am not a scientist. I am not a scientist. I am not a scientist. I am not a scientist. I am not a scientist. I am not a scientist. I am not a scientist. I am not a scientist. I am not a scientist. I am not a scientist. I am not a scientist. I am not a scientist. I am not a scientist. I am not a scientist. I am not a scientist. I am not a scientist. I am not a scientist. I am not a scientist. I am not a scientist. I am not a scientist. I am not a scientist. I am not a scientist. IGeneration Time:5.91 seconds
+--------------------------------------------------
+Prompt: how emotions adds upGenerated: how emotions adds up.
+
+The study, which was supported by the National Science Foundation, was funded by the National Science Foundation, National Science Foundation, and the National Science Foundation.Generation Time:0.77 seconds
+--------------------------------------------------PARAMETERS: max_length=100, temperature=1.5, top_k=100
+
+Prompt: The future of AI isGenerated: The future of AI is an illusion—most notably with Microsoft‼—and so does our ongoing intellectual growth that now, under the dominance and direction of my family, and with the hope that artificial intelligence would help us move ever forwards. From high-level computer scientist Alan Turing in 1939 to today I have found that the future are actually bright and far removed…and that my role within so-called intelligence (as with much older ones—will likely vary) in that direction while AI evolves and comes of age, that there has thus evolved all the more over the place. After I first acquired I remember my sense of community about it being "cool" sometimes.
+The first computer and film with which one does history is the Bizkit films, The Matrix film, and Dr Who. Their creators, Roger Deakins, Richard Falklund and Ray Kurzweil portrayed me in every studio I made-it just as strongly, as in cinema such as The Last Airbender, The Secret of Monkey Island (both for a relatively small, and very short, budget shot). Beyond, a director would go on and on producing films other more conventional of any sort. In particular the series in movies like Transformers, Transformers, and The Transformers, if one could just skip over such films,Generation Time:5.92 seconds
+--------------------------------------------------
+Prompt: In the year 2030Generated: In the year 2030 begins - with the creation of over 600 nations in 2013.
+The next three years were predicted in 2012: there is rapid economic integration of the middle class of Africa, east-west Asia, North Africa…
+More details on this, also provided in 2010:Generation Time:1.23 seconds
+--------------------------------------------------
+Prompt: The secret to happiness isGenerated: The secret to happiness is loneliness... which keeps people from realizing that they hate them physically... for that reason I live today; so very specifically, for myself being alone while trying to control my emotional responses inside my brain." --- David.Generation Time:0.97 seconds
+--------------------------------------------------
+Prompt: meaning  of life isGenerated: meaning  of life is your destiny from a dead man or woman. He cannot provide anything, since he chooses death: there are those that you can find and he will live within him in all eternity on earth today. The person may get away with another lie if such an honest, honest or ethical person does not allow any lie that is evil to the person he adends to have to protect the planet. If being an individual who would ever allow any deception will result in your misery such a way, as I will show what I can truly do. We must follow strict moral teachings, even those of humans who will believe all things clearly and with such thorough intention that human relationships were properly kept as a set as written to you by humans of this planet and which were for our safety! Each single honest person will accept all their falsehoods—there was some other side involved when there was some truth present. "Every lie can get away with them" explains Paul Pertalco a disciple, "But no deception cannot protect you in our name save human life."Generation Time:4.80 seconds
+--------------------------------------------------
+Prompt: how emotions adds upGenerated: how emotions adds up but we would most normally like normal people to continue being happy that something is very good to what you do."
+
+
+The story itself is true, many countries on the world economy do use both sadness and goodwill. But it follows, on average, this pattern. It means it will look like a better way for people to meet their first long-distance challenge in order to live their life (an actual "true" life was in fact set many different ways within the decade until someone hit the habit it used, said Jonathan Hinkle), while the truth on that matter varies.
+So instead of simply "disinstructing some small aspect" of our physical body, companies look up at whether emotions lead in human activities at a lesser degree, see if "positive behaviors lead to greater success in everyday life," Kishley adds. There also, however, and that, like anything else we know, we need to acknowledge that our emotions are probably at work.
+"If we had some commonalities, there would probably be others."Generation Time:4.83 seconds
+--------------------------------------------------

@@ -1,0 +1,59 @@
+Encoded 55 sentences in 0.11s
+==========================================================================================================
+
+factual, vague, long, short, multi-topic
+------------------
+1. Factual query
+"How does carbohydrate loading help athletes before endurance events?"
+------------------
+
+Encoded 55 sentences in 0.03s
+=== Top Results ===
+[4] (cosine=0.528)  Swimming workouts alternate between sprint intervals and long, steady laps. Coaches analyse stroke efficiency to help athletes conserve energy.
+[0] (cosine=0.457)  Marathon training often requires months of gradual mileage increases. Runners track pace, heart rate, and recovery to avoid injury and maximise performance.
+[6] (cosine=0.447)  Cyclists often train on hills to build leg strength and power. Professional riders monitor cadence and wattage to structure their sessions.
+
+-----------------------
+2. Vague query
+"Something about outdoor activities."
+-----------------------
+
+Encoded 55 sentences in 0.03s
+=== Top Results ===
+[6] (cosine=0.312)  Cyclists often train on hills to build leg strength and power. Professional riders monitor cadence and wattage to structure their sessions.
+[4] (cosine=0.280)  Swimming workouts alternate between sprint intervals and long, steady laps. Coaches analyse stroke efficiency to help athletes conserve energy.
+[8] (cosine=0.254)  Gymnastics routines demand exceptional balance, focus, and flexibility. Judges score athletes on both difficulty and execution.
+
+-----------------------
+3. Long query
+"I’m interested in understanding how modern computing devices handle complex mathematical workloads, especially when algorithms require efficient processing and optimization."
+-----------------------
+
+Encoded 55 sentences in 0.09s
+=== Top Results ===
+[38] (cosine=0.391)  Discrete mathematics examines objects that are countable and distinct. It supports algorithms, graph theory, and complexity analysis.    
+[52] (cosine=0.365)  Robotics blends mechanical engineering with control algorithms. Automated arms can assemble components with remarkable precision.        
+[42] (cosine=0.357)  Modern smartphones integrate powerful processors and advanced image sensors. Machine learning enhances photos by adjusting lighting and detail.
+
+-----------------------
+4. Short query
+"Healthy cooking tips"
+-----------------------
+
+Encoded 55 sentences in 0.05s
+=== Top Results ===
+[24] (cosine=0.595)  Stir-frying works best with very high heat and rapid movement. Ingredients are added in stages to ensure everything cooks evenly.        
+[18] (cosine=0.490)  Grilling vegetables brings out their natural sweetness. A quick brush of olive oil prevents them from sticking to the grates.
+[22] (cosine=0.464)  Making fresh pasta requires only flour, eggs, and patience. Rolling the dough thinly is essential for a tender bite.
+
+-----------------------
+5. Multi-topic query
+"How does technology influence sports training and recipe planning?"
+-----------------------
+
+Encoded 55 sentences in 0.08s
+
+=== Top Results ===
+[12] (cosine=0.426)  Tennis players adjust their tactics depending on the opponent鈥檚 strengths. Some rely on powerful serves while others win through consistency and patience.
+[4] (cosine=0.406)  Swimming workouts alternate between sprint intervals and long, steady laps. Coaches analyse stroke efficiency to help athletes conserve energy.
+[10] (cosine=0.397)  Basketball strategy revolves around spacing and ball movement. A well-timed screen can free a shooter for an uncontested three-pointer.  

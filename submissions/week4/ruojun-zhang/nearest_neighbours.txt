@@ -1,0 +1,72 @@
+Sentence [0]: Neural networks learn by adjusting billions of parameters.
+  #1  cosine=0.317  →  [1] Backpropagation updates weights to minimise loss in a model.
+  #2  cosine=0.211  →  [8] Cryptographers worry that quantum machines will break RSA.
+  #3  cosine=0.199  →  [4] Marathon runners load up on carbohydrates before race day.
+
+Sentence [1]: Backpropagation updates weights to minimise loss in a model.
+  #1  cosine=0.317  →  [0] Neural networks learn by adjusting billions of parameters.
+  #2  cosine=0.220  →  [4] Marathon runners load up on carbohydrates before race day.
+  #3  cosine=0.163  →  [7] Budget airlines squeeze every centimetre out of the cabin layout.
+
+Sentence [2]: My grandma's apple pie relies on butter, cinnamon, and patience.
+  #1  cosine=0.115  →  [5] Jogging at dawn clears my thoughts before work meetings.
+  #2  cosine=0.085  →  [0] Neural networks learn by adjusting billions of parameters.
+  #3  cosine=0.075  →  [6] The Louvre protects centuries of European art and sculpture.
+
+Sentence [3]: Apple just announced a new chip for thin-and-light laptops.
+  #1  cosine=0.104  →  [8] Cryptographers worry that quantum machines will break RSA.
+  #2  cosine=0.065  →  [9] Stargazing on a quiet beach reminds me of physics lectures.
+  #3  cosine=0.055  →  [2] My grandma's apple pie relies on butter, cinnamon, and patience.
+
+Sentence [4]: Marathon runners load up on carbohydrates before race day.
+  #1  cosine=0.388  →  [5] Jogging at dawn clears my thoughts before work meetings.
+  #2  cosine=0.220  →  [1] Backpropagation updates weights to minimise loss in a model.
+  #3  cosine=0.199  →  [0] Neural networks learn by adjusting billions of parameters.
+
+Sentence [5]: Jogging at dawn clears my thoughts before work meetings.
+  #1  cosine=0.388  →  [4] Marathon runners load up on carbohydrates before race day.
+  #2  cosine=0.355  →  [9] Stargazing on a quiet beach reminds me of physics lectures.
+  #3  cosine=0.162  →  [1] Backpropagation updates weights to minimise loss in a model.
+
+Sentence [6]: The Louvre protects centuries of European art and sculpture.
+  #1  cosine=0.075  →  [2] My grandma's apple pie relies on butter, cinnamon, and patience.
+  #2  cosine=0.072  →  [8] Cryptographers worry that quantum machines will break RSA.
+  #3  cosine=0.058  →  [7] Budget airlines squeeze every centimetre out of the cabin layout.
+
+Sentence [7]: Budget airlines squeeze every centimetre out of the cabin layout.
+  #1  cosine=0.181  →  [4] Marathon runners load up on carbohydrates before race day.
+  #2  cosine=0.163  →  [1] Backpropagation updates weights to minimise loss in a model.
+  #3  cosine=0.128  →  [0] Neural networks learn by adjusting billions of parameters.
+
+Sentence [8]: Cryptographers worry that quantum machines will break RSA.
+  #1  cosine=0.211  →  [0] Neural networks learn by adjusting billions of parameters.
+  #2  cosine=0.111  →  [9] Stargazing on a quiet beach reminds me of physics lectures.
+  #3  cosine=0.104  →  [3] Apple just announced a new chip for thin-and-light laptops.
+
+Sentence [9]: Stargazing on a quiet beach reminds me of physics lectures.
+  #1  cosine=0.355  →  [5] Jogging at dawn clears my thoughts before work meetings.
+  #2  cosine=0.138  →  [0] Neural networks learn by adjusting billions of parameters.
+  #3  cosine=0.111  →  [8] Cryptographers worry that quantum machines will break RSA.
+
+
+
+
+--------------------------------------------------------------------------------------
+
+
+case A  lexicallydifferent but sementically close
+Sentence [5]: Jogging at dawn clears my thoughts before work meetings.
+  #1  cosine=0.388  →  [4] Marathon runners load up on carbohydrates before race day.
+  #2  cosine=0.355  →  [9] Stargazing on a quiet beach reminds me of physics lectures.
+  #3  cosine=0.162  →  [1] Backpropagation updates weights to minimise loss in a model.
+
+[5][4]marathon runner and jogging both means running but dont share vocabulary. 
+
+case b exically simillar but semantically different
+Sentence [3]: Apple just announced a new chip for thin-and-light laptops.
+  #1  cosine=0.104  →  [8] Cryptographers worry that quantum machines will break RSA.
+  #2  cosine=0.065  →  [9] Stargazing on a quiet beach reminds me of physics lectures.
+  #3  cosine=0.055  →  [2] My grandma's apple pie relies on butter, cinnamon, and patience.
+
+
+  [3][2] both have same word"APPlE", but the sentence means completly different thing. 
