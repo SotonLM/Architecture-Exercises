@@ -23,9 +23,11 @@ Search queries returned good results when the cosine similarity is >=0.65.
 
 For the question about where is the eiffel tower, it correctly identified an association with paris, but given that the corpus does not contain a phrase like "the eiffel tower is in paris", the results feel very disjointed from the query.
 
-LEVEL 3: ✅ [Option A/B/C/D]
-- [Link to work]
-- Brief summary
+LEVEL 3: ✅ [Option B]
+Code link: 
+Comparison text link: 
+
+using ditilgpt2 results were slightly better but most answers were still lacking.
 
 LEVEL 4: ✅ [If completed]
 - Project name: ___
