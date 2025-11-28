@@ -1,0 +1,72 @@
+Source Sentences: 
+The cat slept peacefully on the sunny windowsill.
+The kitten napped in the warm sunlight.
+I brewed a cup of coffee before starting work.
+The Eiffel Tower lights up beautifully at night.
+Baking bread fills the house with a warm aroma.
+Astronauts train for years to go to space.
+He swung the baseball bat with all his strength.
+The children played near the river bank.
+A bat flew out of the cave at dusk.
+I deposited my paycheck at the bank.
+
+=== LEVEL 1: EMBEDDINGS + NEAREST NEIGHBOURS ===
+Loading model: sentence-transformers/paraphrase-MiniLM-L6-v2
+
+Sentence [0]: The cat slept peacefully on the sunny windowsill.
+  #1  cosine=0.609  →  [1] The kitten napped in the warm sunlight.
+  #2  cosine=0.184  →  [4] Baking bread fills the house with a warm aroma.
+  #3  cosine=0.181  →  [3] The Eiffel Tower lights up beautifully at night.
+
+Sentence [1]: The kitten napped in the warm sunlight.
+  #1  cosine=0.609  →  [0] The cat slept peacefully on the sunny windowsill.
+  #2  cosine=0.236  →  [8] A bat flew out of the cave at dusk.
+  #3  cosine=0.115  →  [4] Baking bread fills the house with a warm aroma.
+
+Sentence [2]: I brewed a cup of coffee before starting work.
+  #1  cosine=0.389  →  [4] Baking bread fills the house with a warm aroma.
+  #2  cosine=0.190  →  [9] I deposited my paycheck at the bank.
+  #3  cosine=0.111  →  [1] The kitten napped in the warm sunlight.
+
+Sentence [3]: The Eiffel Tower lights up beautifully at night.
+  #1  cosine=0.221  →  [8] A bat flew out of the cave at dusk.
+  #2  cosine=0.216  →  [5] Astronauts train for years to go to space.
+  #3  cosine=0.181  →  [0] The cat slept peacefully on the sunny windowsill.
+
+Sentence [4]: Baking bread fills the house with a warm aroma.
+  #1  cosine=0.389  →  [2] I brewed a cup of coffee before starting work.
+  #2  cosine=0.195  →  [6] He swung the baseball bat with all his strength.
+  #3  cosine=0.185  →  [8] A bat flew out of the cave at dusk.
+
+Sentence [5]: Astronauts train for years to go to space.
+  #1  cosine=0.216  →  [3] The Eiffel Tower lights up beautifully at night.
+  #2  cosine=0.144  →  [8] A bat flew out of the cave at dusk.
+  #3  cosine=0.029  →  [2] I brewed a cup of coffee before starting work.
+
+Sentence [6]: He swung the baseball bat with all his strength.
+  #1  cosine=0.369  →  [8] A bat flew out of the cave at dusk.
+  #2  cosine=0.195  →  [4] Baking bread fills the house with a warm aroma.
+  #3  cosine=0.140  →  [0] The cat slept peacefully on the sunny windowsill.
+
+Sentence [7]: The children played near the river bank.
+  #1  cosine=0.106  →  [9] I deposited my paycheck at the bank.
+  #2  cosine=0.104  →  [3] The Eiffel Tower lights up beautifully at night.
+  #3  cosine=0.096  →  [8] A bat flew out of the cave at dusk.
+
+Sentence [8]: A bat flew out of the cave at dusk.
+  #1  cosine=0.369  →  [6] He swung the baseball bat with all his strength.
+  #2  cosine=0.236  →  [1] The kitten napped in the warm sunlight.
+  #3  cosine=0.221  →  [3] The Eiffel Tower lights up beautifully at night.
+
+Sentence [9]: I deposited my paycheck at the bank.
+  #1  cosine=0.190  →  [2] I brewed a cup of coffee before starting work.
+  #2  cosine=0.106  →  [7] The children played near the river bank.
+  #3  cosine=0.073  →  [4] Baking bread fills the house with a warm aroma.
+
+# === HIGHLIGHT===
+# Semantically similar but different words -> sentences 0 & 1
+#   [0] The cat slept peacefully on the sunny windowsill.
+#   [1] The kitten napped in the warm sunlight.
+# Lexically similar but different meaning -> sentences 8 & 10
+#   [8] The children played near the river bank.
+#   [10] I deposited my paycheck at the bank.
