@@ -26,7 +26,7 @@ def main() -> None:
 
     cleaned = clean_text(text_lines)
 
-    generator = pipeline('text-generation', model='distilgpt2')
+    generator = pipeline('text2text-generation', model='google/flan-t5-small')
 
     model = SentenceTransformer(MODEL_NAME)
 
@@ -36,7 +36,7 @@ def main() -> None:
     print(f"Encoded {len(cleaned)} paragraphs in {time.perf_counter() - start:.2f}s")
     rag_comparison = open("rag_comparison.txt", "w", encoding="utf-8")
 
-    for i in range(5):
+    for i in range(10):
 
         user_query = str(input("Enter query: "))
         rag_comparison.write(f"Query {i+1}: {user_query}\n")
@@ -51,22 +51,26 @@ def main() -> None:
         top_matches = sorted(sim_scores, key=lambda item: item[1], reverse=True)[:TOP_K]
 
         # No context prompt
-        no_con_prompt = f"Question: {user_query}"
+        no_con_prompt = f"Answer the following question in your own words.\nQuestion: {user_query}"
         rag_comparison.write(f"No Context Prompt: {user_query}\n")
-        no_con_output = generator(no_con_prompt, max_length=30)
+        no_con_output = generator(no_con_prompt, max_length=500)
+        no_con_output = no_con_output[0]['generated_text'].strip()
         print("Prompt:",no_con_prompt)
-        print(f"Answer: {no_con_output[0]['generated_text']}")
-        rag_comparison.write(f"Answer: {no_con_output[0]['generated_text']}\n")
+        print(f"Answer: {no_con_output}")
+        rag_comparison.write(f"Answer: {no_con_output}\n")
         print("-" * 50)
 
         # With Context prompt
-        con_prompt = f"Context: {cleaned[top_matches[0][0]]}\n{cleaned[top_matches[1][0]]}\n{cleaned[top_matches[2][0]]}\nQuestion: {user_query}"
+        con_prompt = f"Context: [{cleaned[top_matches[0][0]]}]\n[{cleaned[top_matches[1][0]]}]\n[{cleaned[top_matches[2][0]]}]\n Answer the following question in your own words.\nQuestion: {user_query}"
         rag_comparison.write(f"With Context Prompt: {user_query}\n")
-        con_output = generator(con_prompt, max_length=30)
+        con_output = generator(con_prompt, max_length=500)
+        con_output = con_output[0]['generated_text'].strip()
         print("Prompt:",con_prompt)
-        print(f"Answer: {con_output[0]['generated_text']}")
-        rag_comparison.write(f"Answer: {con_output[0]['generated_text']}\n")
+        print(f"Answer: {con_output}")
+        rag_comparison.write(f"Answer: {con_output}\n")
         print("-" * 50)
+        rag_comparison.write("-" * 50,)
+        rag_comparison.write("\n")
 
     rag_comparison.close()
 
