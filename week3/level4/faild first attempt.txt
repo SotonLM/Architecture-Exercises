@@ -1,0 +1,294 @@
+from transformers import pipeline
+import time
+# Load a small model
+generator = pipeline('text-generation', model='gpt2-medium')
+
+# Generate text
+prompts = [
+    "Space is not infinite",
+    "Pets are not happy",
+    "Computers are not the future",
+    "Only happy people are",
+    "Only sad people are"
+]
+with open('week3/level3/results.txt', 'w') as f:
+    for prompt in prompts:
+        start_time = time.time()
+        output = generator(prompt, max_length=100, num_return_sequences=1, temperature=1, top_k =50, top_p = 0.95)
+        f.write(f'\ntime taken to generate response: {time.time()-start_time}\n')
+        f.write(f"Prompt: {prompt}")
+        f.write(f"Generated: {output[0]['generated_text']}\n")
+        f.write(f"Number of tokens in response: {len(generator.tokenizer.encode(output[0]['generated_text']))}\n")
+        f.write("-" * 50)Generated: from transformers import pipeline
+ Do not change this code for any reason, just add a comment to describe what the code does, e.g.
+
+import pylon from transformers import pipeline
+
+Now that you have a working example, take a minute to give it a try. Use @Pylon.compile to get a working compiler.
+
+This package contains a set of pre-configured pre-compiled files for the pylon library which makes working with pylon even easier. It can be compiled against the following architectures:
+
+- ARM (x86) or amd64 (64 bit)
+
+- 32 bit Linux
+
+- i386
+
+- ARMv7 (ARMv7A or AArch64)
+
+
+You can also build pylon against the default pylon version in the pylon.build.configuration file and use the pylon.build.tests command with the --help option to see the list of available options.
+
+Check out the example project which shows a simple web server and the output of the generated client side web client.
+
+Documentation
+
+Check out the online docs and sample projects for examples and examples.
+
+P.S. It is worth mentioning here that the Pylon language is a dynamic language with a large amount of built-in functions, functions are created dynamically by using the
+Generated: import time
+ Do not change this code for any reason, just add a comment to describe what the code does.
+
+For your own code that needs a more precise timestamp you could try
+
+def main (): time = time.time() # Do something with time return time.strftime("%y-%m-%d %H:%M:%S", time.strftime("%H:%M:%S", time.strftime("%Y")) + time.strftime("%Y")) class Timestamp(object): def __init__(self, time): self.time = time # Create a subclass of timestamp class TimedEx(object): @timed() def __new__(self): @timed.__setattr__(self, 'timestamp', self) def getTime() : timed = self.timed
+
+So now you know how time_t and timespec work. Do you have any questions or ideas for future articles? Feel free to send a comment to me.
+
+If you enjoy my articles you can support me with a premium subscription. You can subscribe using the buttons below.
+Generated: # Load a small model
+ Do not change this code for any reason, just add a comment to describe what the code does (if you've modified it in any way or don't know where the code goes).
+
+<Model name = "App" data-model = "MyModel" class = "App.MyModel" />
+
+The name of the model is App (not App.MyModel). You need to specify what model this is. Here we say "Model" because it's our own model and we need to declare it here.
+
+<?php class App extends Model { } 1 2 3 4 5 6 7 < Model name = "App" data - model = "MyModel" class = "App.MyModel" > ; <?php class App extends Model { }
+
+So, what do we do now? We declare our new model with App.OurModel, and add this class to our App class in the constructor. So, our App class will now look like this:
+
+<?php class App extends Model { } 1 2 3 4 5 6 7 8 9 <?php class App extends Model { }
+
+Notice that the name of our class is the name of the model, and we use the curly brackets to separate the models, app and app. Our Model extends class App, which is really just a list of
+Generated: generator = pipeline('text-generation', model='gpt2-medium')
+ Do not change this code for any reason, just add a comment to describe what the code does.
+Generated: 
+ Do not change this code for any reason, just add a comment to describe what the code does.
+
+Example:
+
+namespace System import System.IO import System.IO.Directory module App { use System.Directory; @App public class Folder { private readonly int [] s ; public File ( Int32 [] path, Int32 []) { s = new int [ s.Length ]; } } } module AppModule { import System.Net; class Folder { public static readonly int [] s = new int [ 50 ]; } } class Program { var s = new int [ 50 ]; try { s = new Folder(); } catch ( FileNotFoundException e) { Console.WriteLine( " Folder not found " ); } public static int GetFilesDir() { return s.Length; } public static int GetFile(File file) { return s[file.Type]; } public static void Main() { Console.WriteLine("Directory: " + Directory.GetDirectoryName()); File tmp = new File("/tmp"); Console.WriteLine("Folder: " + Folder.GetName()); Console.WriteLine("File Path: " + file.Path); System.DirectoryServices.GetFilesDir((folder)tmp).Add(file); Console.WriteLine("Directory File Size: " + File.GetSize());
+Generated: # Generate text
+ Do not change this code for any reason, just add a comment to describe what the code does
+
+# Generate images Do not change this code for any reason, just add a comment to describe what the code does
+
+# Write text (replace)
+
+# Generate images Do not change this code for any reason, just add a comment to describe what the code does
+
+# Write text (replace)
+
+# Generate text
+
+# Generate image Do not change this code for any reason, just add a comment to describe what the code does
+
+# Generate text Do not change this code for any reason, just add a comment to describe what the code does
+
+# Generate text Do not change this code for any reason, just add a comment to describe what the code does
+
+# Generate text
+
+# Generate text Do not change this code for any reason, just add a comment to describe what the code does
+
+# Generate text Do not change this code for any reason, just add a comment to describe what the code does
+Generated: prompts = [
+ Do not change this code for any reason, just add a comment to describe what the code does and why it is important ]
+
+[...]
+
+if request. match ( /^(!$)?[^\d]+)?(!\w+)?([^a-z_][^a-zA-Z0-9\.\w]+?)$/ ){
+
+# Do the request
+
+var result = req. match (/^(\w+)?(?:\d+)?\r?\t?)$/ )[ 0 ] === req. length? request : JSON. parse ( response [ 0 ]). text ;
+
+if ( result. success ){
+
+log ( " Accepted ", result. success );
+
+} else {
+
+log ( " Failed with non-response code " );
+
+}
+
+response = $ ('#status'). val (result);
+
+log ( response. status );
+
+} else {
+
+log ( " Error while sending request to'%s'", request. url );
+
+}
+
+} else {
+
+log ( " Errors on request " );
+
+}
+
+# If we should add an error message, we can
+
+if ( req. done && error_code === "
+Generated:     "Space is not infinite",
+ Do not change this code for any reason, just add a comment to describe what the code does.
+
+#include "LATIN_BITS.h" #include "C_CALLS.h" void LATIN_BASE_CONVERSION(const char *str) { char len = str; unsigned char *pos; unsigned char *arg; bool fw = 1; fw = 0; while (str[len]) { *pos = str; *fw = str + length; if (pos && fw) /* convert in-place */ *pos = str; } printf("Length for %s: %d
+
+", str[len]); // write to string while (!str[0]) /* continue to write if possible */ printf("
+
+"); /* write to string */ } // ----------------------------------------------------------------------
+
+This code does two thing: it converts the bytes of the string "Space is not infinite" into one byte from the beginning and that byte is then encoded using the C function call: convert, and then read the result back out of the string by reading to a buffer (using the buffer is described later). That allows the code to do the conversion and print the result back.
+
+As with other forms of error handling, please use correct style when using this code. We will
+Generated:     "Pets are not happy",
+ Do not change this code for any reason, just add a comment to describe what the code does and why it's a bad change. This change applies only to the code that is changing the pets.
+
+3. Do not use "tickle" on your pets!
+
+Not that I know of, but sometimes you'll see pet name "petsarenothappy". You want a cute little pet that just won't come back with you!
+
+Please, do not try to poke any pets!
+
+4. Do not use the "CutePet" tag for a pet.
+
+Do not use the cute pet tag. It's not cute, it's silly.
+
+5. Do not delete pets from your Pets inventory!
+
+Please do not delete your pet's inventory! You are not allowed to do this.
+
+If you have a pet that is in your inventory that you cannot sell, but if you wish to sell it, please leave it in your pet inventory. It just won't come back. You will not be able to sell it, as it will be taken off your inventory. You may sell it in your pet inventory, but it will be completely gone by the time you are ready to replace it (by using the "Cancel" button). To sell pets that is removed from your inventory,
+Generated:     "Computers are not the future",
+ Do not change this code for any reason, just add a comment to describe what the code does.
+
+Example
+
+Code:
+
+import sys import random import json import os import datetime import random import socket import time def main(argv[0]), args: args = open(argv[1]), use_shell(False) try: for i in range(len(sys.argv)): print(sys.argv[i], args[i+1]) except: sys.exit(-1) print(argv[2], '\u0004'+i+1) def _loadFromPath(path): """ loads a file into the current directory. """ path = path.abspath() os.path.join(path, 'data.py') if sys.version_info <= 5 and path == '/data/': import os import json import sys import random import socket import time path_test.load(os.path.join(path, 'data.py')) if __name__ == '__main__': main()
+
+And you can see the result:
+
+>>> import sys >>> sys.version_info >= 5 >>> sys.path.abspath() == '/data/data.py'
+
+Note that when running this code, Python
+Generated:     "Only happy people are",
+ Do not change this code for any reason, just add a comment to describe what the code does.
+#if defined(USE_HARDWARE_ENABLED) #define DEFAULT_PIN 2 #endif #if defined(__FRIENDLY) #define DEFAULT_LIGHT_SWITCHING_PIN 9 #endif #if defined(__RANDOM) #define DEFAULT_DIALOG 0 #endif #include <stdio.h> #endif int main() { typedef struct { uint8_t id[4]; float fw[4]; } digitalPin; digitalWrite(DIALOG, 0, LOW); digitalWrite(DIALOG, 1, HIGH); digitalWrite(DIALOG, 2, LOW); digitalWrite(DIALOG, 3, HIGH); digitalWrite(DIALOG, 4, LOW); digitalWrite(DIALOG, 5, HIGH); digitalWrite(DIALOG, 6, HIGH); digitalWrite(DIALOG, 7, HIGH); digitalWrite(DIALOG, 8, LOW); digitalWrite(DIALOG, 9, HIGH); // this bit doesn't exist, so don't write it in int main() { digitalWrite(DIALOG, 0); digitalWrite(DIALOG, 1); } void digitalWrite
+Generated:     "Only sad people are"
+ Do not change this code for any reason, just add a comment to describe what the code does. "This code will send some data to http://localhost:3000/ in response to this request."   # Change "server response" to anything you want.
+This code is for the same purpose as the previous code, however, I have added some more details for each request.
+  If you want more details of each request, please add a comment below.
+Generated: ]
+ Do not change this code for any reason, just add a comment to describe what the code does.
+
+$( ".id-search-page.link.tagline" );
+
+The next step is to add some markup to the form (just edit the text tag). I won't go into detail about it, but it's really important to read some of the comments made after setting up the form above.
+
+<form id="search-form" action="#"> <div> <label>Your ID</label> <input type="text" class="form-control" value="Your ID" /> <input type="submit" value="Add Your Comment"> </div> </form>
+
+There are two things going on here. First we have an option which shows you a form when logged in or when your account is locked. Next we have a submit button which takes care of loading the comment text. We will see how to use those in a moment.
+
+<form id="search-form"> <input type="submit" value="Add Your Comment" method="post"> <label for="comment">Your Comment</label> <input type="text" class="form-control" value="Your ID" /> </form>
+
+So let's write that markup down again, but this time with a
+Generated: with open('week3/level3/results.txt', 'w') as f:
+ Do not change this code for any reason, just add a comment to describe what the code does and not do.
+Generated:     for prompt in prompts:
+ Do not change this code for any reason, just add a comment to describe what the code does. (You need to be logged in to use this feature) #if #include <stdint.h> #define KEY_NONE #define KEY_QUOTED_LONG(key) \ KEY_NONE if ((key == key_none) && ((key == key_long))){ print(KEY_NONE); return (0); } #endif void print(const std::string &key) { #if defined KEY_NONE typedef string_type; #else typedef string_type char_type; typedef const char_type *byte_type; typedef const char_type *long_type; int i; for (i=0; i<key.length; ++i) printf("\r
+
+", key[i]); } void main() { char key[KEY_SIZE]; typedef std::string char_type; for (; (char_type *)key; ++key) printf("\r
+
+"); print(key); }
+
+In this example, the "print" function is executed before "printf" is called. There is a "print(key)" function which is called on every word to print the result of the previous command. After
+Generated:         start_time = time.time()
+ Do not change this code for any reason, just add a comment to describe what the code does.
+
+If I were using python and I wanted to set my first time for the first time, would I have to modify the above code? No, if you are starting to use python, you already know about the time() function. You don't need to add in new code.
+
+Now I have read that python can change this and adjust it to my needs. But let me ask you: What did I do? In this case, the code does not look good for me since it doesn't look like it is changing my Python time at all and that is a big problem if I'm using it for some other applications (e.g. learning a new language) and want to have a more predictable and stable behavior.
+
+And with that simple, I have to tell you my reasoning behind the code below, but if you have more time, I will be happy to comment my opinion here (I am writing it as an overview).
+
+#!/usr/bin/env python import time start_time = time.time() def time(): print time.time() For my function
+
+:function, i can do it faster and safer by adding these lines: @global def user_input(): myint = float(float(
+Generated:         output = generator(prompt, max_length=100, num_return_sequences=1, temperature=1, top_k =50, top_p = 0.95)
+ Do not change this code for any reason, just add a comment to describe what the code does. This is a good practice if you have more than one temperature range, you may want to define it as a sequence of temperature ranges, since this will increase performance if you increase the number of temperature ranges, not reduce speed of the code by adding to the list of sequences in the code. This code only requires two inputs, and outputs the output of the temperature range that is generated. If the range is one temperature range or less than max_length, then it will output the values from all the temperature ranges above max_length for that parameter. If the range is greater than max_length, the ranges will be generated in sequence. For example: for (int i = 0; i < 10; i++) { generator(prompt, max_length=99, num_return_sequences=1, temp=1, top_k =50, top_p = 1.0) } So now, if we want to generate a maximum of 99,999 at 50 temperature levels, we would generate this: temperature=1 for (int i=0; i < 99,99; i++) { for (int j=0; j < 99,99; j++) { temp=1 } output=generator(prompt,
+Generated:         f.write(f'\ntime taken to generate response: {time.time()-start_time}\n')
+ Do not change this code for any reason, just add a comment to describe what the code does and what it does not do. I would rather have a function in my project that does a certain task instead of a function that does every single thing that the user needs. _______________________________________________ Pygments-devel mailing list Pygments-devel at lists.freebsd.org
+Generated:         f.write(f"Prompt: {prompt}")
+ Do not change this code for any reason, just add a comment to describe what the code does.
+
+#define S_TOGGLE 0xffffff #define NOLANDA 0x000000000000 #define FIND 1 #define TALK 5 #define LEAVE 5 #define HOLD 6 #define SEND 7 #define HOLD 3 #define HOLD 2 #define CALL 8 #define LEAVE 7 #define TURN 0 #define NOP 0 #define TURN 0 #define HOLD 8 #define DO NOTHING 5 #define SEND 0 #define DO NOTHING 0
+
+This shows how the code calls the functions that the rest of the programs calls. For example, if the program looks for a number, it will return a function that calls the function, and if the program looks for a text field it will call the Text field function (see also the function for a table of values). The function for the text field is called the Text field function and is defined in the " Text Field Function " section of the source code.
+
+When writing program code, it's important to keep the "rules" in mind. If you don't, then you may get weird results. When you code, you can't use your program's code from the source. You'll see this with
+Generated:         f.write(f"Generated: {output[0]['generated_text']}\n")
+ Do not change this code for any reason, just add a comment to describe what the code does.
+
+Generate "Generated" in a File
+
+This is actually the hardest part of the code. This is the code that takes the generated text from the input and then generates it to a text file with a file extension. The main thing you want to do is generate the following:
+
+var result = "Generated: " + x => x.toUpperCase();
+
+If you do it with Python 2.7, Python 3.4.3, you will get error: Cannot convert string values to strings. You can check your version on this page and if not on http://python.org/svn/releases.html.
+
+Now you can get the output file with the.html extension, that you got on your last command:
+
+$ curl http://www.codehaus.net/~mccarth/generate.html
+
+This file has 4.5 MBytes and takes around 14 seconds to generate. Let's convert it as XML:
+
+<html><body></body></html>
+
+We will also convert the generated XML to HTML:
+
+$ curl http://www.codehaus.net/~mccarth/generate.html |
+Generated:         f.write(f"Number of tokens in response: {len(generator.tokenizer.encode(output[0]['generated_text']))}\n")
+ Do not change this code for any reason, just add a comment to describe what the code does:              f.write(f"Number of tokens in response: {len(generator.tokenizer.encode(output[1]['generated_text']))}\n") For more info on generated text, see the following: https://github.com/krufel/generator/wiki/Generator:Achievement. It is recommended to generate your tokenizer.py file to avoid any potential crashes.
+
+To perform a tokenizer
+
+Go to https://gist.github.com/krufel/f9e8a05e82d34d9ae24a8c9cef7cced and click Generate Tokenizer...  You will see a prompt that looks like the following one:
+
+To submit your token, click Submit...  A message will be sent to the generated_token_path. In the second box, tick the box marked Add new token at this URL... and paste the generated_token_path somewhere on your local computer. 
+
+Todo
+
+Add a support section where users can see a summary of how they should use the generated tokens.
+
+Add
+Generated:         f.write("-" * 50) Do not change this code for any reason, just add a comment to describe what the code does to your.NET Core project..NET Core Core
+
+Now that we've built the.NET Core project, let's create our.NET Core app using the.NET Core CLI. You can start with the command line. To create an app with just a.NET Core app, you'll need to add the Nuget package with the name.NET, and pass it as the argument when we run the command below.
+
+Add-Package Nuget.Core Create-Application -Name.NET Core -ArgumentList '"Framework" => "1.0.0" -ArgumentList '"Dll" => "f.dll" -ArgumentList '"Platform" => "win32" -ArgumentList '"Version" => "1.0.0"
+
+Now you can begin to use the CLI with the command:
+
+nuget add dev
+
+And you should see your app ready to go in the CLI and open it using any of the following commands:
+
+Console -ConsolePath C:\Windows\DevTools\dotnet new cli
+
+For those of you new to the.NET CLI, its command line interface, you can take a look at this video.
