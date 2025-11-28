@@ -1,0 +1,70 @@
+Source sentences:
+"The singer practiced a short song."
+"A pianist played the melody."
+"I mixed the dough in a large bowl."
+"He cut the bread into small pieces."
+"She recorded the lecture for later."
+"I recorded the drum track for the band."
+"The cake cooled on the counter."
+"The drummer tapped a steady beat."
+"I studied the math problems carefully."
+"She studied the cookie recipe quickly."
+
+Results:
+Sentence [0]: The singer practiced a short song.
+  #1  cosine=0.462  →  [1] A pianist played the melody.
+  #2  cosine=0.420  →  [5] I recorded the drum track for the band.
+  #3  cosine=0.366  →  [7] The drummer tapped a steady beat.
+
+Sentence [1]: A pianist played the melody.
+  #1  cosine=0.516  →  [7] The drummer tapped a steady beat.
+  #2  cosine=0.462  →  [0] The singer practiced a short song.
+  #3  cosine=0.367  →  [5] I recorded the drum track for the band.
+
+Sentence [2]: I mixed the dough in a large bowl.
+  #1  cosine=0.420  →  [6] The cake cooled on the counter.
+  #2  cosine=0.420  →  [9] She studied the cookie recipe quickly.
+  #3  cosine=0.322  →  [3] He cut the bread into small pieces.
+
+Sentence [3]: He cut the bread into small pieces.
+  #1  cosine=0.322  →  [2] I mixed the dough in a large bowl.
+  #2  cosine=0.312  →  [9] She studied the cookie recipe quickly.
+  #3  cosine=0.296  →  [6] The cake cooled on the counter.
+
+Sentence [4]: She recorded the lecture for later.
+  #1  cosine=0.317  →  [0] The singer practiced a short song.
+  #2  cosine=0.275  →  [9] She studied the cookie recipe quickly.
+  #3  cosine=0.190  →  [1] A pianist played the melody.
+
+Sentence [5]: I recorded the drum track for the band.
+  #1  cosine=0.620  →  [7] The drummer tapped a steady beat.
+  #2  cosine=0.420  →  [0] The singer practiced a short song.
+  #3  cosine=0.367  →  [1] A pianist played the melody.
+
+Sentence [6]: The cake cooled on the counter.
+  #1  cosine=0.420  →  [2] I mixed the dough in a large bowl.
+  #2  cosine=0.358  →  [9] She studied the cookie recipe quickly.
+  #3  cosine=0.296  →  [3] He cut the bread into small pieces.
+
+Sentence [7]: The drummer tapped a steady beat.
+  #1  cosine=0.620  →  [5] I recorded the drum track for the band.
+  #2  cosine=0.516  →  [1] A pianist played the melody.
+  #3  cosine=0.366  →  [0] The singer practiced a short song.
+
+Sentence [8]: I studied the math problems carefully.
+  #1  cosine=0.414  →  [9] She studied the cookie recipe quickly.
+  #2  cosine=0.307  →  [2] I mixed the dough in a large bowl.
+  #3  cosine=0.241  →  [3] He cut the bread into small pieces.
+
+Sentence [9]: She studied the cookie recipe quickly.
+  #1  cosine=0.420  →  [2] I mixed the dough in a large bowl.
+  #2  cosine=0.414  →  [8] I studied the math problems carefully.
+  #3  cosine=0.358  →  [6] The cake cooled on the counter.
+
+Cases:
+Semantically close, lexically different -> sentences 0 & 1
+    [0] "The singer practiced a short song."
+    [1] "The pianist played the melody."
+Lexically similar, semantically different -> sentences 9 & 10
+    [9] "I studied the math problems carefully."
+    [10] "I studied the cookie recipe quickly."

@@ -1,0 +1,77 @@
+=== LEVEL 2: Tiny Semantic Search ===
+Loading model: sentence-transformers/paraphrase-MiniLM-L6-v2
+Encoded corpus in 1.22s
+(Factual)
+Enter your search query: What is the difference between L1, L2, and L3 cache in modern CPUs, and how does each level affect overall performance?  
+
+Top matches for query: 'What is the difference between L1, L2, and L3 cache in modern CPUs, and how does each level affect overall performance?'
+  #1  cosine=0.807  →  [4] Most CPUs have the main hierarchy of multiple cache levels (L1, L2, often L3, and rarely even L4), with the separate instruction-specific (I-cache) and data-specific (D-cache) caches at level 1. The different levels are implemented in different areas of the chip; L1 is located as close to a CPU core as possible and thus offers the highest speed due to short signal paths, but requires careful design. L2 caches are physically separate from the CPU and operate slower, but place fewer demands on the chip designer and can be made much larger without impacting the CPU design. L3 caches are generally shared among multiple CPU cores.
+  #2  cosine=0.656  →  [2] A CPU cache is a hardware cache used by the central processing unit (CPU) of the computer to reduce an average cost (time or energy) to the access data from a main memory. A cache is a smaller, faster memory, located closer to a processor core, which stores copies of the data from frequently used main memory locations, avoiding the need to always refer to main memory which may be tens to hundreds of times slower to access.
+  #3  cosine=0.605  →  [3] Cache memory is typically implemented with static random-access memory (SRAM), which requires multiple transistors to store a single bit. This makes it expensive in terms of the area it takes up, and in modern CPUs the cache is typically the largest part by chip area. The size of the cache needs to be balanced with the general desire for smaller chips which cost less. Some modern designs implement some or all of their cache using the physically smaller eDRAM, which is slower to use than SRAM but allows larger amounts of cache for any given amount of chip area.
+
+Query processed in 0.04s
+
+(Vague)
+Enter your search query: How do computers manage memory?
+
+Top matches for query: 'How do computers manage memory?'
+  #1  cosine=0.619  →  [5] In computing, virtual memory, or virtual storage, is a memory management technique that provides an 'idealized abstraction of the storage resources that are actually available on a given machine' which 'creates the illusion to users of a very large (main) memory'.
+  #2  cosine=0.571  →  [9] Virtual memory makes application programming easier by hiding fragmentation of physical memory; by delegating to the kernel the burden of managing the memory hierarchy (eliminating the need for the program to handle overlays explicitly); and, when each process is run in its own dedicated address space, by obviating the need to relocate program code or to access memory with relative addressing.
+  #3  cosine=0.542  →  [8] Virtual memory is an integral part of a modern computer architecture; implementations usually require hardware support, typically in the form of a memory management unit built into the CPU. While not necessary, emulators and virtual machines can employ hardware support to increase performance of their virtual memory implementations.
+Query processed in 0.02s
+(Long)
+
+Enter your search query: Explain how evaporation, condensation, precipitation, and runoff interact within the global water cycle, and how climate change is altering the balance among these stages?      
+
+Top matches for query: 'Explain how evaporation, condensation, precipitation, and runoff interact within the global water cycle, and how climate change is altering the balance among these stages?'      
+  #1  cosine=0.712  →  [12] The evaporative phase of the cycle also acts as a purification process by separating water molecules from salts and other particles that are present in its liquid phase. The 
+condensation phase in the atmosphere replenishes the land with freshwater. The flow of liquid water transports minerals across the globe. It also reshapes the geological features of the Earth, through processes of weathering, erosion, and deposition. The water cycle is also essential for the maintenance of most life and ecosystems on the planet.
+  #2  cosine=0.685  →  [10] The water cycle is a biogeochemical cycle that involves the continuous movement of water on, above and below the surface of the Earth across different reservoirs. The mass of water on Earth remains fairly constant over time. However, the partitioning of the water into the major reservoirs of ice, fresh water, salt water and atmospheric water is variable and depends on climatic variables. The water moves from one reservoir to another, such as from river to ocean, or from the ocean to the atmosphere due to a variety of physical and chemical processes. The processes that drive these movements, or fluxes, are evaporation, transpiration, condensation, precipitation, sublimation, infiltration, surface runoff, and subsurface flow. In doing so, the water goes through different 
+phases: liquid, solid (ice) and vapor. The ocean plays a key role in the water cycle as it is the source of 86% of global evaporation.
+  #3  cosine=0.666  →  [13] The water cycle is powered by the energy emitted from the sun. There are several ways in which this is accomplished, one of the first ways is through evaporation where the energy from the sun heats the water in oceans, lakes, streams, rivers, seas, ponds, etc. and that water goes through a phase change to become a gas (water vapor) that goes up into the atmosphere. Two other ways that water gets into the atmosphere is through snow and ice sublimating into water vapor and through evapotranspiration which is water transpired from plants and evaporated from the soil.        
+
+Query processed in 0.03s
+
+(Short)
+Enter your search query: “Groups of agricultural products”  
+
+Top matches for query: '“Groups of agricultural products”'
+  #1  cosine=0.494  →  [18] The major agricultural products can be broadly grouped into foods, fibers, fuels, and raw materials (such as rubber and timber). Food classes include cereals (grains), vegetables, fruits, cooking oils, meat, milk, eggs, and fungi. Global agricultural production amounts to approximately 11 billion tonnes of food, 32 million tonnes of natural fibers and 4 billion m3 of wood. 
+However, around 14% of the world's food is lost from production before reaching the retail level.
+  #2  cosine=0.431  →  [16] As of 2021, small farms, of which the vast majority are one hectare (about 2.5 acres) or smaller, produce about one-third of the world's food. Moreover, five of every six farms in the world consist of fewer than 2 hectares (4.9 acres) and take up only around 12% of all agricultural land. In terms of total land use, large farms are dominant. While only 1% of all farms globally are greater than 50 hectares (120 acres), they encompass more than 70% of the world's farmland. Further, nearly 40% of all global agricultural land is found on farms larger than 1,000 hectares (2,500 acres).
+  #3  cosine=0.422  →  [15] Agriculture is the practice of cultivating the soil, planting, raising, and harvesting both food and non-food crops, as well as livestock production. Broader definitions also include forestry and aquaculture. Agriculture was a key factor in the rise of sedentary human civilization, whereby farming of domesticated plants and animals created food surpluses that enabled people to live in the cities. While humans started gathering grains at least 105,000 years ago, nascent farmers only began planting them around 11,500 years ago. Sheep, goats, pigs, and cattle were domesticated around 10,000 years ago. Plants were independently cultivated in at least 11 regions of the world. In the 20th century, industrial agriculture based on large-scale monocultures came to dominate agricultural output.
+
+Query processed in 0.02s
+
+(Multi-topic)
+Enter your search query: “How might simulations that rely on CPU cache efficiency and virtual memory usage help agricultural researchers model soil moisture changes within the water cycle?”
+
+Top matches for query: '“How might simulations that rely on CPU cache efficiency and virtual memory usage help agricultural researchers model soil moisture changes within the water cycle?”'
+  #1  cosine=0.452  →  [10] The water cycle is a biogeochemical cycle that involves the continuous movement of water on, above and below the surface of the Earth across different reservoirs. The mass of water on Earth remains fairly constant over time. However, the partitioning of the water into the major reservoirs of ice, fresh water, salt water and atmospheric water is variable and depends on climatic variables. The water moves from one reservoir to another, such as from river to ocean, or from the ocean to the atmosphere due to a variety of physical and chemical processes. The processes that drive these movements, or fluxes, are evaporation, transpiration, condensation, precipitation, sublimation, infiltration, surface runoff, and subsurface flow. In doing so, the water goes through different 
+phases: liquid, solid (ice) and vapor. The ocean plays a key role in the water cycle as it is the source of 86% of global evaporation.
+  #2  cosine=0.442  →  [13] The water cycle is powered by the energy emitted from the sun. There are several ways in which this is accomplished, one of the first ways is through evaporation where the energy from the sun heats the water in oceans, lakes, streams, rivers, seas, ponds, etc. and that water goes through a phase change to become a gas (water vapor) that goes up into the atmosphere. Two other ways that water gets into the atmosphere is through snow and ice sublimating into water vapor and through evapotranspiration which is water transpired from plants and evaporated from the soil.        
+  #3  cosine=0.425  →  [12] The evaporative phase of the cycle also acts as a purification process by separating water molecules from salts and other particles that are present in its liquid phase. The 
+condensation phase in the atmosphere replenishes the land with freshwater. The flow of liquid water transports minerals across the globe. It also reshapes the geological features of the Earth, through processes of weathering, erosion, and deposition. The water cycle is also essential for the maintenance of most life and ecosystems on the planet.
+
+Query processed in 0.03s
+(Not a topic in corpus but in the same sort of area)
+Top matches for query: 'What is photosynthesis?'
+  #1  cosine=0.405  →  [12] The evaporative phase of the cycle also acts as a purification process by separating water molecules from salts and other particles that are present in its liquid phase. The 
+condensation phase in the atmosphere replenishes the land with freshwater. The flow of liquid water transports minerals across the globe. It also reshapes the geological features of the Earth, through processes of weathering, erosion, and deposition. The water cycle is also essential for the maintenance of most life and ecosystems on the planet.
+  #2  cosine=0.378  →  [13] The water cycle is powered by the energy emitted from the sun. There are several ways in which this is accomplished, one of the first ways is through evaporation where the energy from the sun heats the water in oceans, lakes, streams, rivers, seas, ponds, etc. and that water goes through a phase change to become a gas (water vapor) that goes up into the atmosphere. Two other ways that water gets into the atmosphere is through snow and ice sublimating into water vapor and through evapotranspiration which is water transpired from plants and evaporated from the soil.        
+  #3  cosine=0.349  →  [11] The water cycle is driven by energy exchanges in the form of heat transfers between different phases. The energy released or absorbed during a phase change can result in temperature changes. Heat is absorbed as water transitions from the liquid to the vapor phase through evaporation. This heat is also known as the latent heat of vaporization. Conversely, when water condenses or melts from solid ice it releases energy and heat. On a global scale, water plays a critical role in transferring heat from the tropics to the poles via ocean circulation.
+
+(Not in the corpus)
+Top matches for query: 'Who invented pickleball?'
+  #1  cosine=0.112  →  [19] Modern agronomy, plant breeding, agrochemicals such as pesticides and fertilizers, and technological developments have sharply increased crop yields, but also contributed to 
+ecological and environmental damage. Selective breeding and modern practices in animal husbandry have similarly increased the output of meat, but have raised concerns about animal welfare and environmental damage. Environmental issues include contributions to climate change, depletion of aquifers, deforestation, antibiotic resistance, and other agricultural pollution. Agriculture is both a cause of and sensitive to environmental degradation, such as biodiversity loss, desertification, soil degradation, and climate change, all of which can cause decreases in crop yield. Genetically modified organisms are widely used, although some countries ban them.
+  #2  cosine=0.105  →  [15] Agriculture is the practice of cultivating the soil, planting, raising, and harvesting both food and non-food crops, as well as livestock production. Broader definitions also include forestry and aquaculture. Agriculture was a key factor in the rise of sedentary human civilization, whereby farming of domesticated plants and animals created food surpluses that enabled people to live in the cities. While humans started gathering grains at least 105,000 years ago, nascent farmers only began planting them around 11,500 years ago. Sheep, goats, pigs, and cattle were domesticated around 10,000 years ago. Plants were independently cultivated in at least 11 regions of the world. In the 20th century, industrial agriculture based on large-scale monocultures came to dominate agricultural output.
+  #3  cosine=0.086  →  [14] Clouds form because water molecules have a smaller molecular mass than the major gas components of the atmosphere (oxygen, O2; and nitrogen, N2); this smaller molecular mass 
+leads to water having a lower density which drives the water molecules higher up in the atmosphere due to buoyancy. However, as altitude increases, air pressure decreases which causes a drop in temperature. The lower temperature forces the water vapor to go through another phase change, this time it forces it to condense into liquid water droplets which are supported by an updraft; if there is enough 
+of these water droplets over a large area, it is considered a cloud. Condensation of the water vapour closer to the ground level is referred to as fog.
+
+Query processed in 0.02s
+
+Retrievals do not do well accross multi-topic queries as they seem to focus on one topic. This is probably because all encodings will have similariety scores that are close together and I'm only retrieving the top 3 results.
+Retrievals do well when the query contains words that are in the paragraphs provided or relate to a topic in the corpus but obvously do not perform well when the query doesnt contain a topic not covered in the corpus. 
+Corpus needs to be extended a lot more with a lot more topics.

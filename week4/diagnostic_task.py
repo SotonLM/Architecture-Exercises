@@ -43,7 +43,7 @@ def main() -> None:
     start = time.perf_counter()
     embeddings = model.encode(sentences, normalize_embeddings=True)
     print(f"Encoded {len(sentences)} sentences in {time.perf_counter() - start:.2f}s")
-
+    print(embeddings.shape)
     # Cosine similarity matrix (vectors are L2-normalised, so dot product == cosine)
     similarity = embeddings @ embeddings.T
 
@@ -54,6 +54,7 @@ def main() -> None:
             for other_idx, score in enumerate(row)
             if other_idx != idx
         ]
+        print(others)
         top_matches = sorted(others, key=lambda item: item[1], reverse=True)[:TOP_K]
 
         print(f"\nSentence [{idx}]: {sentence}")
