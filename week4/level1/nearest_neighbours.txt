@@ -1,0 +1,50 @@
+
+Sentence [0]: The capital of France
+  #1  cosine=0.561  →  [1] Paris has a very large population
+  #2  cosine=0.200  →  [6] The Great Wall of China is visible from space
+  #3  cosine=0.141  →  [5] Man landed on the moon in 1969
+
+Sentence [1]: Paris has a very large population
+  #1  cosine=0.561  →  [0] The capital of France
+  #2  cosine=0.156  →  [6] The Great Wall of China is visible from space
+  #3  cosine=0.150  →  [7] Mount Everest is the highest mountain on Earth
+
+Sentence [2]: Teriyaki sauce is a popular Japanese condiment
+  #1  cosine=0.362  →  [3] Sushi often includes raw fish and rice
+  #2  cosine=0.107  →  [6] The Great Wall of China is visible from space
+  #3  cosine=0.012  →  [4] A common caliber for handguns is 9mm
+
+Sentence [3]: Sushi often includes raw fish and rice
+  #1  cosine=0.362  →  [2] Teriyaki sauce is a popular Japanese condiment
+  #2  cosine=0.192  →  [9] apple apple apple apple apple apple apple apple
+  #3  cosine=0.156  →  [6] The Great Wall of China is visible from space
+
+Sentence [4]: A common caliber for handguns is 9mm
+  #1  cosine=0.024  →  [7] Mount Everest is the highest mountain on Earth
+  #2  cosine=0.012  →  [2] Teriyaki sauce is a popular Japanese condiment
+  #3  cosine=0.001  →  [5] Man landed on the moon in 1969
+
+Sentence [5]: Man landed on the moon in 1969
+  #1  cosine=0.290  →  [8] The theory of relativity was developed by Einstein
+  #2  cosine=0.210  →  [7] Mount Everest is the highest mountain on Earth
+  #3  cosine=0.169  →  [6] The Great Wall of China is visible from space
+
+Sentence [6]: The Great Wall of China is visible from space
+  #1  cosine=0.246  →  [7] Mount Everest is the highest mountain on Earth
+  #2  cosine=0.200  →  [0] The capital of France
+  #3  cosine=0.200  →  [8] The theory of relativity was developed by Einstein
+
+Sentence [7]: Mount Everest is the highest mountain on Earth
+  #1  cosine=0.246  →  [6] The Great Wall of China is visible from space
+  #2  cosine=0.210  →  [5] Man landed on the moon in 1969
+  #3  cosine=0.150  →  [1] Paris has a very large population
+
+Sentence [8]: The theory of relativity was developed by Einstein
+  #1  cosine=0.290  →  [5] Man landed on the moon in 1969
+  #2  cosine=0.200  →  [6] The Great Wall of China is visible from space
+  #3  cosine=0.110  →  [7] Mount Everest is the highest mountain on Earth
+
+Sentence [9]: apple apple apple apple apple apple apple apple
+  #1  cosine=0.192  →  [3] Sushi often includes raw fish and rice
+  #2  cosine=0.118  →  [7] Mount Everest is the highest mountain on Earth
+  #3  cosine=0.076  →  [6] The Great Wall of China is visible from space

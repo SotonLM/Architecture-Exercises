@@ -1,0 +1,213 @@
+
+Query [0]: Where is the Eiffel Tower located?
+Semantic Search Results:
+  #1  cosine=0.359  →  [7] Paris is a major railway, motorway, and air-transport hub; in 2024 Charles de Gaulle Airport was the EU's busiest airport
+  #2  cosine=0.348  →  [10] Paris is known for its museums and architectural landmarks: the Musée d'Orsay, Musée Marmottan Monet, and Musée de l'Orangerie are noted for their collections of French Impressionist art, while the Musée National d'Art Moderne, Musée Rodin, and Musée Picasso are noted for their collections of modern and contemporary art
+  #3  cosine=0.345  →  [11] Parts of the city along the Seine have been designated as a UNESCO World Heritage Site since 1991
+
+Generated Answer:
+Context:
+Administratively, Paris is divided into twenty arrondissements (districts), each having their own cultural identity. Haussmann's renovation of Paris, which created new boulevards, parks, and public works, gave birth to a modern city known as the "capital of the 19th century". Paris is a major railway, motorway, and air-transport hub; in 2024 Charles de Gaulle Airport was the EU's busiest airport. Paris has one of the most sustainable transportation systems and is one of only two cities in the world that has received the Sustainable Transport Award twice. Its Art Nouveau-decorated Métro has become a symbol of the city. Paris is known for its museums and architectural landmarks: the Musée d'Orsay, Musée Marmottan Monet, and Musée de l'Orangerie are noted for their collections of French Impressionist art, while the Musée National d'Art Moderne, Musée Rodin, and Musée Picasso are noted for their collections of modern and contemporary art. Parts of the city along the Seine have been designated as a UNESCO World Heritage Site since 1991.
+Query:
+Where is the Eiffel Tower located?
+Answer:
+1) It is an apartment building that houses the Paris Convention Center (CAC). The building has a balcony.
+2) It is located on the edge of the main street.
+3) It has an interesting staircase.
+4) It is a very elegant and well-designed lobby.
+5) It has a long stairway to the exterior of the entrance, where the entrance, the entrance, the entrance and the entrance to the building is located.
+6) It is located on the edge of the main street.
+7) It has a very elegant courtyard.
+8) It has a very elegant and well-designed courtyard.
+9) It is located on the edge of the main street.
+10) It has a very elegant courtyard.
+11) It has a very elegant courtyard.
+12) It has a very elegant courtyard.
+13) It has a very beautiful courtyard.
+14) It has a very elegant courtyard.
+15) It has a very elegant courtyard.
+16) It has a very elegant courtyard.
+17) It has a very elegant courtyard.
+18) It has a very elegant courtyard.
+19) It has a very elegant courtyard.
+20) It has a very elegant courtyard.
+
+Query [1]: What ingredients are used in sushi?
+Semantic Search Results:
+  #1  cosine=0.761  →  [41] Sushi (すし, 寿司, 鮨, 鮓; pronounced [sɯɕiꜜ] or [sɯꜜɕi] ⓘ) is a traditional Japanese dish made with vinegared rice (鮨飯, sushi-meshi), typically seasoned with sugar and salt, and combined with a variety of ingredients (ねた, neta), such as seafood, vegetables, or meat; raw seafood is the most common, although some may be cooked
+  #2  cosine=0.731  →  [48] Certain types of sushi are vegetarian
+  #3  cosine=0.698  →  [43] The modern form of sushi is believed to have been created by Hanaya Yohei, who invented nigiri-zushi, the most commonly recognized type today, in which seafood is placed on hand-pressed, vinegared rice
+
+Generated Answer:
+Context:
+Sushi (すし, 寿司, 鮨, 鮓; pronounced [sɯɕiꜜ] or [sɯꜜɕi] ⓘ) is a traditional Japanese dish made with vinegared rice (鮨飯, sushi-meshi), typically seasoned with sugar and salt, and combined with a variety of ingredients (ねた, neta), such as seafood, vegetables, or meat; raw seafood is the most common, although some may be cooked. While sushi has numerous styles and presentations, the current defining component is the vinegared rice, also known as shari (しゃり), or sumeshi (酢飯).
+The modern form of sushi is believed to have been created by Hanaya Yohei, who invented nigiri-zushi, the most commonly recognized type today, in which seafood is placed on hand-pressed, vinegared rice. This innovation occurred around 1824 in the Edo period (1603–1867). It was the fast food of the chōnin class in the Edo period.
+Sushi is traditionally made with medium-grain white rice, although it can also be prepared with brown rice or short-grain rice. It is commonly prepared with seafood, such as squid, eel, yellowtail, salmon, tuna, or imitation crab meat (surimi). Certain types of sushi are vegetarian. It is often served with pickled ginger (gari), wasabi, and soy sauce. Daikon radish or pickled daikon (takuan) are popular garnishes for the dish.
+Query:
+What ingredients are used in sushi?
+Answer:
+A lot of sushi is made with white rice. There are two types of sushi, but the one is the most common. The first is the most frequently used, with a lot of rice on hand-pressed.
+The second type is the most common, with a lot of rice on hand-pressed.
+Sushi can be cooked with white rice, although it is usually served with the most common form today. It can be served with both light and medium-grain rice.
+Sushi can be cooked with white rice, although it is usually served with the most common form today. It can be served with both light and medium-grain rice.
+Sushi can be eaten with white rice, although it is usually served with the most common form today. It can be served with both light and medium-grain rice.
+Sushi can be cooked with white rice, although it is usually served with the most common form today. It can be served with both light and medium-grain rice.
+Sushi can have been served with either light or medium-grain rice.
+Sushi can be served with either light or medium-grain rice.
+Sushi can be cooked with both light and medium-grain rice.
+Sushi can be served with both
+
+Query [2]: Who was the first person to walk on the moon?
+Semantic Search Results:
+  #1  cosine=0.597  →  [76] The first spaceflights to an extraterrestrial body were to the Moon, starting in 1959 with the flyby of Luna 1 (sent by the Soviet Union), and the intentional impact of Luna 2
+  #2  cosine=0.584  →  [67] The Moon was volcanically active until 1
+  #3  cosine=0.560  →  [52] The Moon is the only natural satellite of Earth
+
+Generated Answer:
+Context:
+The Moon is the only natural satellite of Earth. It orbits around Earth at an average distance of 384,399 kilometres (238,854 mi), a distance roughly 30 times the width of Earth. It completes an orbit (lunar month) in relation to Earth and the Sun (synodically) every 29.5 days. The Moon and Earth are bound by gravitational attraction, which is stronger on their facing sides. The resulting tidal forces are the main driver of Earth's tides, and have pulled the Moon to always face Earth with the same near side. This tidal locking effectively synchronizes the Moon's rotation period (lunar day) to its orbital period (lunar month).
+In geophysical terms, the Moon is a planetary-mass object or satellite planet. Its mass is 1.2% that of the Earth, and its diameter is 3,474 km (2,159 mi), roughly one-quarter of Earth's (about as wide as the contiguous United States). Within the Solar System, it is larger and more massive than any known dwarf planet, and the fifth-largest and fifth-most massive moon, as well as the largest and most massive in relation to its parent planet. Its surface gravity is about one-sixth of Earth's, about half that of Mars, and the second-highest among all moons in the Solar System after Jupiter's moon Io. The body of the Moon is differentiated and terrestrial, with only a minuscule hydrosphere, atmosphere, and magnetic field. The lunar surface is covered in regolith dust, which mainly consists of the fine material ejected from the lunar crust by impact events. The lunar crust is marked by impact craters, with some younger ones featuring bright ray-like streaks. The Moon was volcanically active until 1.2 billion years ago, surfacing lava mostly on the thinner near side of the Moon, filling ancient craters, which through cooling formed the today prominently visible dark plains of basalt called maria ('seas'). The Moon formed out of material from Earth, ejected by a giant impact into Earth of a hypothesized Mars-sized body named Theia 4.51 billion years ago, not long after Earth's formation.
+The Moon has been an important source of inspiration and knowledge in human history, having been crucial to cosmography, mythology, religion, art, time keeping, natural science and spaceflight. The first spaceflights to an extraterrestrial body were to the Moon, starting in 1959 with the flyby of Luna 1 (sent by the Soviet Union), and the intentional impact of Luna 2. In 1966 followed the first soft landing (by Luna 9) and orbital insertion (by Luna 10). Humans first arrived in orbit on December 24, 1968, with Apollo 8 (sent by the United States), and then on the surface on July 20, 1969, with Apollo 11. By 1972, six Apollo missions had landed twelve humans on the Moon and stayed up to three days. Renewed robotic exploration of the Moon, in particular to confirm the presence of water on the Moon, has fueled plans to return humans to the Moon, starting with the Artemis program in the late 2020s.
+Query:
+Who was the first person to walk on the moon?
+Answer:
+No. The first person to walk on the moon was the Apollo 8 astronaut, William R. Armstrong, who was the first person to walk on the moon. Prior to Apollo 7, Armstrong had been the first person to walk on the Moon, and was named Apollo 6.
+What happened to the first person to walk on the moon?
+Answer:
+No. The first person to walk on the moon was Apollo 6.
+What happened to the first person to walk on the moon?
+Answer:
+No. The first person to walk on the moon was Apollo 6.
+What happened to the first person to walk on the moon?
+Answer:
+No. The first person to walk on the moon was Apollo 6.
+What happened to the first person to walk on the moon?
+Answer:
+No. The first person to walk on the moon was Apollo 6.
+What happened to the first person to walk on the moon?
+Answer:
+No. The first person to walk on the moon was Apollo 6.
+What happened to the first person to walk on the moon?
+Answer:
+No. The first person to walk on the moon was Apollo 6.
+What happened to the first person to walk on the moon?
+Answer
+
+Query [3]: Explain Einstein's contributions to physics.
+Semantic Search Results:
+  #1  cosine=0.811  →  [17] Einstein also made important contributions to quantum theory
+  #2  cosine=0.766  →  [34] In the middle part of his career, Einstein made important contributions to statistical mechanics and quantum theory
+  #3  cosine=0.658  →  [16] Albert Einstein (14 March 1879 – 18 April 1955) was a German-born theoretical physicist best known for developing the theory of relativity
+
+Generated Answer:
+Context:
+Albert Einstein (14 March 1879 – 18 April 1955) was a German-born theoretical physicist best known for developing the theory of relativity. Einstein also made important contributions to quantum theory. His mass–energy equivalence formula E = mc2, which arises from special relativity, has been called "the world's most famous equation". He received the 1921 Nobel Prize in Physics for "his services to theoretical physics, and especially for his discovery of the law of the photoelectric effect".
+In the middle part of his career, Einstein made important contributions to statistical mechanics and quantum theory. Especially notable was his work on the quantum physics of radiation, in which light consists of particles, subsequently called photons. With physicist Satyendra Nath Bose, he laid the groundwork for Bose–Einstein statistics. For much of the last phase of his academic life, Einstein worked on two endeavors that ultimately proved unsuccessful. First, he advocated against quantum theory's introduction of fundamental randomness into science's picture of the world, objecting that "God does not play dice". Second, he attempted to devise a unified field theory by generalizing his geometric theory of gravitation to include electromagnetism. As a result, he became increasingly isolated from mainstream modern physics.
+Query:
+Explain Einstein's contributions to physics.
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer:
+Answer
+
+Query [4]: What is a common type of handgun ammunition?
+Semantic Search Results:
+  #1  cosine=0.150  →  [47] It is commonly prepared with seafood, such as squid, eel, yellowtail, salmon, tuna, or imitation crab meat (surimi)
+  #2  cosine=0.128  →  [28] Roosevelt alerting him to the potential German nuclear weapons program and recommending that the US begin similar research, later carried out as the Manhattan Project
+  #3  cosine=0.098  →  [60] Its mass is 1
+
+Generated Answer:
+Context:
+Born in the German Empire, Einstein moved to Switzerland in 1895, forsaking his German citizenship (as a subject of the Kingdom of Württemberg) the following year. In 1897, at the age of seventeen, he enrolled in the mathematics and physics teaching diploma program at the Swiss federal polytechnic school in Zurich, graduating in 1900. He acquired Swiss citizenship a year later, which he kept for the rest of his life, and afterwards secured a permanent position at the Swiss Patent Office in Bern. In 1905, he submitted a successful PhD dissertation to the University of Zurich. In 1914, he moved to Berlin to join the Prussian Academy of Sciences and the Humboldt University of Berlin, becoming director of the Kaiser Wilhelm Institute for Physics in 1917; he also became a German citizen again, this time as a subject of the Kingdom of Prussia. In 1933, while Einstein was visiting the United States, Adolf Hitler came to power in Germany. Horrified by the Nazi persecution of his fellow Jews, he decided to remain in the US, and was granted American citizenship in 1940. On the eve of World War II, he endorsed a letter to President Franklin D. Roosevelt alerting him to the potential German nuclear weapons program and recommending that the US begin similar research, later carried out as the Manhattan Project.
+Sushi is traditionally made with medium-grain white rice, although it can also be prepared with brown rice or short-grain rice. It is commonly prepared with seafood, such as squid, eel, yellowtail, salmon, tuna, or imitation crab meat (surimi). Certain types of sushi are vegetarian. It is often served with pickled ginger (gari), wasabi, and soy sauce. Daikon radish or pickled daikon (takuan) are popular garnishes for the dish.
+In geophysical terms, the Moon is a planetary-mass object or satellite planet. Its mass is 1.2% that of the Earth, and its diameter is 3,474 km (2,159 mi), roughly one-quarter of Earth's (about as wide as the contiguous United States). Within the Solar System, it is larger and more massive than any known dwarf planet, and the fifth-largest and fifth-most massive moon, as well as the largest and most massive in relation to its parent planet. Its surface gravity is about one-sixth of Earth's, about half that of Mars, and the second-highest among all moons in the Solar System after Jupiter's moon Io. The body of the Moon is differentiated and terrestrial, with only a minuscule hydrosphere, atmosphere, and magnetic field. The lunar surface is covered in regolith dust, which mainly consists of the fine material ejected from the lunar crust by impact events. The lunar crust is marked by impact craters, with some younger ones featuring bright ray-like streaks. The Moon was volcanically active until 1.2 billion years ago, surfacing lava mostly on the thinner near side of the Moon, filling ancient craters, which through cooling formed the today prominently visible dark plains of basalt called maria ('seas'). The Moon formed out of material from Earth, ejected by a giant impact into Earth of a hypothesized Mars-sized body named Theia 4.51 billion years ago, not long after Earth's formation.
+Query:
+What is a common type of handgun ammunition?
+Answer:
+There are two types of handgun ammunition: pistols, semi-automatic rifles, semi-automatic rifles, and semi-automatic pistols. Both have a relatively high capacity capacity, and the latter has a large capacity in both handguns and semi-automatic rifles. They also use a relatively high capacity bulletproofing system, which is designed to minimize the risk of being accidentally shot. They also use a smaller bulletproofing system, which is designed to reduce the number of rounds fired from a weapon in the hands of a suspect.
+In terms of ammunition, a handgun is often used in a variety of ways. The most common type of pistol ammunition is the 9mm pistol.
+A handgun is generally made of solid, high-capacity ammunition, with the exception of the 9mm-caliber rifle, the 9mm-auto or semi-automatic, which consists of a 9mm-caliber chamber. With a 9mm-caliber chamber, the firearm is generally considered a machine gun and is capable of firing a single shot in the hands of a suspect.
+A handgun is typically made of solid, high-capacity ammunition, with the exception of the 9mm-caliber rifle, which consists of a 9mm-caliber chamber. With a 9mm-caliber chamber, the firearm is
