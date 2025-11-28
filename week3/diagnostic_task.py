@@ -29,16 +29,3 @@ for prompt in prompts:
     print(f"\nPrompt: {prompt}")
     print(f"Generated: {output[0]['generated_text']}")
     print("-" * 50)
-
-# LEVEL 2: Your code here
-# TODO: Save to file
-# TODO: Try different parameters
-# TODO: Time generation
-# TODO: Count tokens
-
-# LEVEL 3: Your code here
-# TODO: Pick Option A, B, C, or D. maybe all of them?
-# TODO: Implement your challenge
-
-# LEVEL 4: Your code here
-# TODO: Build something new

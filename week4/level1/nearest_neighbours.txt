@@ -1,0 +1,44 @@
+Sentence [0]: The greatest football player is Lionel Messi from Argentina.
+  #1  cosine=0.107  →  [5] I would like a console.
+  #2  cosine=0.097  →  [7] Please bow for the king.
+  #3  cosine=0.091  →  [2] Cycling is not a difficult task, and requires no skills.
+Sentence [1]: It's impossible to move faster than the speed of light.
+  #1  cosine=0.104  →  [4] Number theory is the study of integers and arithmetic functions.
+  #2  cosine=0.080  →  [2] Cycling is not a difficult task, and requires no skills.
+  #3  cosine=0.069  →  [8] Arrows are shot from a bow.
+Sentence [2]: Cycling is not a difficult task, and requires no skills.
+  #1  cosine=0.572  →  [3] Riding a bike is quite easy, just pedal and balance.
+  #2  cosine=0.091  →  [0] The greatest football player is Lionel Messi from Argentina.
+  #3  cosine=0.080  →  [1] It's impossible to move faster than the speed of light.
+Sentence [3]: Riding a bike is quite easy, just pedal and balance.
+  #1  cosine=0.572  →  [2] Cycling is not a difficult task, and requires no skills.
+  #2  cosine=0.093  →  [7] Please bow for the king.
+  #3  cosine=0.049  →  [5] I would like a console.
+Sentence [4]: Number theory is the study of integers and arithmetic functions.
+  #1  cosine=0.133  →  [9] Please fill out this form.
+  #2  cosine=0.104  →  [1] It's impossible to move faster than the speed of light.
+  #3  cosine=0.050  →  [7] Please bow for the king.
+Sentence [5]: I would like a console.
+  #1  cosine=0.480  →  [6] We will console on your behalf.
+  #2  cosine=0.211  →  [8] Arrows are shot from a bow.
+  #3  cosine=0.185  →  [7] Please bow for the king.
+Sentence [6]: We will console on your behalf.
+  #1  cosine=0.480  →  [5] I would like a console.
+  #2  cosine=0.363  →  [7] Please bow for the king.
+  #3  cosine=0.233  →  [9] Please fill out this form.
+Sentence [7]: Please bow for the king.
+  #1  cosine=0.363  →  [6] We will console on your behalf.
+  #2  cosine=0.352  →  [8] Arrows are shot from a bow.
+  #3  cosine=0.271  →  [9] Please fill out this form.
+Sentence [8]: Arrows are shot from a bow.
+  #1  cosine=0.352  →  [7] Please bow for the king.
+  #2  cosine=0.211  →  [5] I would like a console.
+  #3  cosine=0.168  →  [6] We will console on your behalf.
+Sentence [9]: Please fill out this form.
+  #1  cosine=0.518  →  [10] This form needs to be completed.
+  #2  cosine=0.271  →  [7] Please bow for the king.
+  #3  cosine=0.233  →  [6] We will console on your behalf.
+Sentence [10]: This form needs to be completed.
+  #1  cosine=0.518  →  [9] Please fill out this form.
+  #2  cosine=0.226  →  [6] We will console on your behalf.
+  #3  cosine=0.161  →  [7] Please bow for the king.

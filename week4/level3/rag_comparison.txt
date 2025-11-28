@@ -1,0 +1,60 @@
+Query 1: Which countries were the affected the most in the first world war?
+No Context Prompt: Which countries were the affected the most in the first world war?
+Answer: sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden sweden
+With Context Prompt: Which countries were the affected the most in the first world war?
+Answer: Serbia, France
+--------------------------------------------------
+Query 2: What are beetles like?
+No Context Prompt: What are beetles like?
+Answer: beetles
+With Context Prompt: What are beetles like?
+Answer: wireworms. The members of the Genus Allecula are larger beetles, with long slender legs and antennae, shining brown or black in colour, with finely striated elytra; the larvae are slender, dark, shining brown wireworms living in decaying wood. Allecula subsulcata is slightly over 12 an inch in length, of a uniform black colour, with the last three joints of the antennae and the last two of the tarsi pale ferruginous. The members of the Genus Allecula are larger beetles, with long slender legs and antennae, shining brown or black in colour, with finely striated elytra; the larvae are slender, dark, shining brown wireworms living in decaying wood. Allecula subsulcata is slightly over 12 an inch in length, of a uniform black colour, with the last three joints of the antennae and the last two of the tarsi pale ferruginous. The members of the Genus Allecula are larger beetles, with long
+--------------------------------------------------
+Query 3: How does the stock market work?
+No Context Prompt: How does the stock market work?
+Answer: a stock market is a market that sells stocks.
+With Context Prompt: How does the stock market work?
+Answer: [When there is a general public interest in the stock market, an immense amount of realizing will often be absorbed within three or four days or a week, after which the deluge; but if speculation is narrow, prices may remain around top figures for weeks or months, while big holdings are fed out, a few hundred shares here and a few hundred there, and even then a balance may be left to be thrown over on the ensuing decline at whatever prices can be obtained. Great speculative leaders are far from infallible. They have often sold out too soon and later have seen the market run away to unexpected heights, or have held on too long and have suffered severe losses before they could get out.]
+--------------------------------------------------
+Query 4: What are the different kinds of snakes?
+No Context Prompt: What are the different kinds of snakes?
+Answer: snakes slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs slugs s
+With Context Prompt: What are the different kinds of snakes?
+Answer: viz. those that kill their prey by constriction or by smothering it in the coils of their body; those that kill by poison; and some smaller kinds, which, like the ring snake, eat it alive—the latter a quick process, which may also be said to be death by suffocation
+--------------------------------------------------
+Query 5: How does beer affect people and their mood?
+No Context Prompt: How does beer affect people and their mood?
+Answer: beer has a positive impact on people's mood
+With Context Prompt: How does beer affect people and their mood?
+Answer: Beer is already taking the place of ardent spirits and mixed drinks, and not long ago there appeared in the New York _Sun_ the complaint of a bar-keeper who said in substance that the occupation of a skilled compounder of fancy drinks was gone, for anybody could draw beer and beer was what everybody wanted
+--------------------------------------------------
+Query 6: Where does tyhpus typically occur?
+No Context Prompt: Where does tyhpus typically occur?
+Answer: synapse
+With Context Prompt: Where does tyhpus typically occur?
+Answer: in the eastern and south-eastern parts of Europe, in Hungary and Galicia, and also in Spain, Italy, and Ireland.]
+--------------------------------------------------
+Query 7: How does the human body work?
+No Context Prompt: How does the human body work?
+Answer: The body is made up of a group of muscles.
+With Context Prompt: How does the human body work?
+Answer: Self-repairing, self-cleaning, and self-improving. It never lets itself get out of date. If only given an adequate supply of fuel and water and not driven too hard, it will stand an astonishing amount of knocking about in all kinds of weather, repairing itself and recharging its batteries every night, supplying its own oil, its own paint and polish, and even regulating its own changes of gear, according to the nature of the work it has to do. Simply as an endurance racer it is the toughest and longest-winded thing on earth and can run down and tire out every paw, pad, or hoof that strikes the ground--wolf, deer, horse, antelope, wild goat. This is only a sample of its toughness and resisting power all along the line.]
+--------------------------------------------------
+Query 8: How do beetles hide amongst nature?
+No Context Prompt: How do beetles hide amongst nature?
+Answer: beetles hide in a shady area.
+With Context Prompt: How do beetles hide amongst nature?
+Answer: The larvae breed in the rotten stems of dead grass trees, and the beetles are generally found hiding among the foliage.
+--------------------------------------------------
+Query 9: How do snakes eat?
+No Context Prompt: How do snakes eat?
+Answer: snakes eat snakes.
+With Context Prompt: How do snakes eat?
+Answer: the snake remains still for a few moments till his jaws are comfortably in place again; then he yawns once or twice, and finally retires for his siesta, and we to the bookshelves
+--------------------------------------------------
+Query 10: Can increasing wages improve productivity in workers?
+No Context Prompt: Can increasing wages improve productivity in workers?
+Answer: yes
+With Context Prompt: Can increasing wages improve productivity in workers?
+Answer: increase in wages, leisure, and in general standard of comfort will increase the efficiency of labour; every increased efficiency, whether due directly to these or to other causes, will enable higher wages to be paid and shorter hours to be worked
+--------------------------------------------------

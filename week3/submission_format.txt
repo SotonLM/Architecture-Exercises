@@ -11,16 +11,26 @@
 ### Option 2: Teams Submission
 **Post in Teams #architecture channel by Wednesday 11:59 PM:**
 ```
+<<<<<<< HEAD
+Subject: Dion Jose - Diagnostic Task Submission
+
+LEVEL REACHED: 3
+=======
 Subject: [Your Name] - Diagnostic Task Submission
 
 LEVEL REACHED: [1/2/3/4]
+>>>>>>> upstream/main
 
 LEVEL 1: ✅ [Screenshot]
 
 LEVEL 2: ✅ [Code link] [Results link]
 - Brief summary of findings
 
+<<<<<<< HEAD
+LEVEL 3: ✅ Option B
+=======
 LEVEL 3: ✅ [Option A/B/C/D]
+>>>>>>> upstream/main
 - [Link to work]
 - Brief summary
 
