@@ -1,0 +1,42 @@
+=== LEVEL 1: EMBEDDINGS BASIC ===
+Encoded 8 sentences in 0.8055s
+
+Source [0]: The feline was sleeping on the rug.
+  #1  Score: 0.599  ->  [1] A cat rested on the carpet.
+  #2  Score: -0.005  ->  [4] SpaceX launched a new Starship rocket.
+  #3  Score: -0.008  ->  [6] Python is a great language for data.
+
+Source [1]: A cat rested on the carpet.
+  #1  Score: 0.599  ->  [0] The feline was sleeping on the rug.
+  #2  Score: 0.050  ->  [5] The chef cooked a spicy curry.
+  #3  Score: 0.032  ->  [6] Python is a great language for data.
+
+Source [2]: I deposited money at the river bank.
+  #1  Score: 0.786  ->  [3] I deposited money at the savings bank.
+  #2  Score: 0.117  ->  [7] It is raining heavily outside today.
+  #3  Score: 0.109  ->  [6] Python is a great language for data.
+
+Source [3]: I deposited money at the savings bank.
+  #1  Score: 0.786  ->  [2] I deposited money at the river bank.
+  #2  Score: 0.068  ->  [4] SpaceX launched a new Starship rocket.
+  #3  Score: 0.025  ->  [6] Python is a great language for data.
+
+Source [4]: SpaceX launched a new Starship rocket.
+  #1  Score: 0.166  ->  [5] The chef cooked a spicy curry.
+  #2  Score: 0.068  ->  [3] I deposited money at the savings bank.
+  #3  Score: 0.009  ->  [2] I deposited money at the river bank.
+
+Source [5]: The chef cooked a spicy curry.
+  #1  Score: 0.166  ->  [4] SpaceX launched a new Starship rocket.
+  #2  Score: 0.050  ->  [1] A cat rested on the carpet.
+  #3  Score: 0.041  ->  [7] It is raining heavily outside today.
+
+Source [6]: Python is a great language for data.
+  #1  Score: 0.109  ->  [2] I deposited money at the river bank.
+  #2  Score: 0.040  ->  [7] It is raining heavily outside today.
+  #3  Score: 0.032  ->  [1] A cat rested on the carpet.
+
+Source [7]: It is raining heavily outside today.
+  #1  Score: 0.117  ->  [2] I deposited money at the river bank.
+  #2  Score: 0.041  ->  [5] The chef cooked a spicy curry.
+  #3  Score: 0.040  ->  [6] Python is a great language for data.

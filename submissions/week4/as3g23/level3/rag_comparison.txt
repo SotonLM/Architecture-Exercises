@@ -1,0 +1,20 @@
+=== RAG-LITE COMPARISON (DIAGNOSTIC) ===
+
+Query 1: "What do astronauts eat?"
+[Context Retrieved]: 
+1. Astronauts eat freeze-dried food like shrimp cocktail and chocolate pudding.
+2. Pizza dough requires yeast, flour, water, and time to rise.
+[RAG Answer]: "(iii)."
+[Analysis]: COMPLETE FAILURE. The retrieval system worked (it found the shrimp cocktail fact), but the generator (flan-t5-small) failed to understand the prompt and tried to continue the list formatting instead of answering.
+
+Query 2: "What is Python?"
+[Context Retrieved]:
+1. Python functions are defined using the def keyword.
+2. Java is a statically typed object-oriented language.
+[RAG Answer]: "a statically typed object-oriented language"
+[Analysis]: HALLUCINATION / CONFUSION. The system retrieved both Python and Java facts. The generator got confused and attributed the Java definition to Python. This proves that Retrieval is only half the battle; the Generator must be smart enough to parse the retrieved context correctly.
+
+Query 3: "What is the capital of France?"
+[Context Retrieved]: (Various unrelated space/food facts)
+[RAG Answer]: "I don't know"
+[Analysis]: SUCCESS. The model correctly identified that the answer was missing from the context and followed the negative constraint instruction, avoiding a hallucination.
