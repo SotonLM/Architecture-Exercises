@@ -24,10 +24,19 @@ Search queries returned good results when the cosine similarity is >=0.65.
 For the question about where is the eiffel tower, it correctly identified an association with paris, but given that the corpus does not contain a phrase like "the eiffel tower is in paris", the results feel very disjointed from the query.
 
 LEVEL 3: ✅ [Option B]
-Code link: 
-Comparison text link: 
+Code link: https://github.com/jrsany2903/Architecture-Exercises/blob/main/week4/level3/rag_lite.py
+Comparison text link: https://github.com/jrsany2903/Architecture-Exercises/blob/main/week4/level3/rag_comparison.txt
 
 using ditilgpt2 results were slightly better but most answers were still lacking.
+<img src = "\l3_1.png">
+The context did not contain the answer and the transformer was not able to come up with it
+
+<img src = "\l3_2.png">
+The context did contain the answer but the transformer could not parse it correctly and could not form good sentences
+
+<img src = "\l3_3.png">
+The context had the answer and the transformer correctly parroted it but then contradicts itself later
+
 
 LEVEL 4: ✅ [If completed]
 - Project name: ___
