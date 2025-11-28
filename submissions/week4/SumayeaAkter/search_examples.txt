@@ -1,0 +1,44 @@
+ SEMANTIC SEARCH EXAMPLES 
+
+Corpus size: 29
+Model load time: 2.301s
+Corpus embedding time: 0.707s
+
+ YOUR QUERIES: 
+
+Query: what is going on?
+Embedding time: 0.1529s
+  #1 — Doc 8 — score=0.1552
+      Chronic stress affects millions of people worldwide and can manifest in physical symptoms such as headaches, fatigue, and weakened immunity. When left unmanaged, stress can contribute to long-term conditions like heart disease and depression. Incorporating relaxation techniques such as meditation, deep breathing, or yoga can help reduce these effects. Many people also benefit from talking with therapists or joining supportive communities. Managing stress effectively is an important part of maintaining overall health and emotional well-being.
+  #2 — Doc 27 — score=0.1514
+      Outdoor activities like hiking and camping offer physical exercise and mental rejuvenation. Nature provides a calming environment that reduces stress and improves mood. Spending time outdoors encourages physical movement and exploration. Many people find that outdoor adventures strengthen their sense of connection with the environment. Regular time in nature supports both physical and emotional well-being.
+  #3 — Doc 2 — score=0.1275
+      Cybersecurity threats continue to rise as technology becomes more interconnected and digital systems expand into nearly every aspect of life. Hackers constantly develop new methods to exploit vulnerabilities in networks, devices, and software applications. Even everyday users face risks from phishing attacks, identity theft, and malicious downloads. Organizations must invest in advanced security measures such as encryption, multi-factor authentication, and ongoing monitoring to stay protected. Educating users about safe online behavior remains one of the most effective ways to reduce these threats.
+
+Query: top_k
+Embedding time: 0.1863s
+  #1 — Doc 17 — score=0.1014
+      Indian cuisine is known for its rich spices, aromatic curries, and diverse regional dishes. Each region of India brings unique flavors, whether it’s the creamy dishes of the north or the spicy, coconut-based meals of the south. Many Indian recipes rely on complex spice blends that create layers of depth and warmth. The cuisine accommodates a wide range of dietary preferences, from vegetarian to meat-based dishes. Indian food has gained global popularity for its bold flavors and comforting textures.
+  #2 — Doc 6 — score=0.0819
+      A balanced diet rich in whole foods such as fruits, vegetables, lean proteins, and whole grains is essential for maintaining strong health. These foods provide vitamins, minerals, and antioxidants that support the body’s immune system and cellular functions. Poor dietary choices, especially those high in processed sugars and fats, can contribute to long-term health problems. Learning to meal-prep or cook at home can make healthy eating more accessible and affordable. Over time, good nutrition becomes one of the most powerful tools for disease prevention.
+  #3 — Doc 4 — score=0.0578
+      Machine learning models become increasingly accurate as they are exposed to larger and more diverse datasets. These algorithms can identify subtle patterns in data that humans might easily overlook, making them invaluable across fields like finance, medicine, and marketing. However, models can also become biased if the data used to train them is unbalanced or incomplete. Developers must regularly audit their systems to ensure fairness, transparency, and reliability. As machine learning plays a bigger role in decision-making, responsible usage becomes essential to avoid unintended consequences.
+
+Query: do you know sotonLM?
+Embedding time: 0.1898s
+  #1 — Doc 12 — score=0.1342
+      The beaches of Thailand are renowned for their turquoise waters, white sands, and vibrant marine ecosystems. Tourists can enjoy activities like snorkeling, diving, and island hopping to discover colorful coral reefs and tropical fish. Resorts range from affordable hostels to luxurious retreats, offering options for every type of traveler. Local markets and street food add to the cultural experience, showcasing Thailand’s rich flavors and traditions. These coastal regions offer a perfect escape for relaxation and adventure alike.
+  #2 — Doc 17 — score=0.1323
+      Indian cuisine is known for its rich spices, aromatic curries, and diverse regional dishes. Each region of India brings unique flavors, whether it’s the creamy dishes of the north or the spicy, coconut-based meals of the south. Many Indian recipes rely on complex spice blends that create layers of depth and warmth. The cuisine accommodates a wide range of dietary preferences, from vegetarian to meat-based dishes. Indian food has gained global popularity for its bold flavors and comforting textures.
+  #3 — Doc 16 — score=0.1207
+      Mexican cuisine features bold flavors created through the use of chili peppers, corn, lime, and fresh herbs. Traditional dishes such as tacos, mole, and tamales reflect centuries of cultural blending between Indigenous peoples and Spanish settlers. Street food culture plays a major role, offering affordable and delicious options throughout the country. Regional variations add complexity to the cuisine, with each area incorporating its own preferred ingredients. The vibrancy of Mexican food continues to influence culinary trends worldwide.
+
+Query: now bye
+Embedding time: 0.2328s
+  #1 — Doc 28 — score=0.1846
+      Vaccination is one of the most effective ways to prevent the spread of infectious diseases and protect public health. Vaccines stimulate the immune system to build defenses without causing illness. Widespread vaccination programs have helped eradicate or reduce deadly diseases worldwide. Access to vaccines is crucial for global health security. Continued research ensures that vaccines remain effective against evolving pathogens.
+  #2 — Doc 7 — score=0.1512
+      Sleep plays a vital role in maintaining cognitive functioning, memory consolidation, and emotional balance. Without adequate rest, individuals may struggle with concentration, decision-making, and physical coordination. Chronic sleep deprivation has been linked to serious health issues such as hypertension, diabetes, and weakened immunity. Developing good sleep hygiene, including consistent bedtimes and reduced screen use before bed, can improve overall sleep quality. Prioritizing rest is essential for maintaining both mental and physical performance.
+  #3 — Doc 6 — score=0.1180
+      A balanced diet rich in whole foods such as fruits, vegetables, lean proteins, and whole grains is essential for maintaining strong health. These foods provide vitamins, minerals, and antioxidants that support the body’s immune system and cellular functions. Poor dietary choices, especially those high in processed sugars and fats, can contribute to long-term health problems. Learning to meal-prep or cook at home can make healthy eating more accessible and affordable. Over time, good nutrition becomes one of the most powerful tools for disease prevention.
+

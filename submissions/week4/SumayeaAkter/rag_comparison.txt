@@ -1,0 +1,105 @@
+LEVEL 3 — RAG-LITE COMPARISON 
+
+Query: Why do astronauts experience muscle loss in space?
+
+Retrieved Docs:
+  Doc 8 (score=0.2852):
+    Chronic stress affects millions of people worldwide and can manifest in physical symptoms such as headaches, fatigue, and weakened immunity. When left unmanaged, stress can contribute to long-term conditions like heart disease and depression. Incorporating relaxation techniques such as meditation, deep breathing, or yoga can help reduce these effects. Many people also benefit from talking with therapists or joining supportive communities. Managing stress effectively is an important part of maintaining overall health and emotional well-being.
+  Doc 27 (score=0.2420):
+    Outdoor activities like hiking and camping offer physical exercise and mental rejuvenation. Nature provides a calming environment that reduces stress and improves mood. Spending time outdoors encourages physical movement and exploration. Many people find that outdoor adventures strengthen their sense of connection with the environment. Regular time in nature supports both physical and emotional well-being.
+  Doc 7 (score=0.2167):
+    Sleep plays a vital role in maintaining cognitive functioning, memory consolidation, and emotional balance. Without adequate rest, individuals may struggle with concentration, decision-making, and physical coordination. Chronic sleep deprivation has been linked to serious health issues such as hypertension, diabetes, and weakened immunity. Developing good sleep hygiene, including consistent bedtimes and reduced screen use before bed, can improve overall sleep quality. Prioritizing rest is essential for maintaining both mental and physical performance.
+
+Answer WITHOUT context 
+a lack of oxygen
+
+Answer WITH context (RAG-Lite) 
+stress can contribute to long-term conditions like heart disease and depression
+
+Your judgment: 
+
+--------------------------------------------------
+
+Query: Do you know about sotonLM and tok_k?
+
+Retrieved Docs:
+  Doc 12 (score=0.1789):
+    The beaches of Thailand are renowned for their turquoise waters, white sands, and vibrant marine ecosystems. Tourists can enjoy activities like snorkeling, diving, and island hopping to discover colorful coral reefs and tropical fish. Resorts range from affordable hostels to luxurious retreats, offering options for every type of traveler. Local markets and street food add to the cultural experience, showcasing Thailand’s rich flavors and traditions. These coastal regions offer a perfect escape for relaxation and adventure alike.
+  Doc 17 (score=0.1642):
+    Indian cuisine is known for its rich spices, aromatic curries, and diverse regional dishes. Each region of India brings unique flavors, whether it’s the creamy dishes of the north or the spicy, coconut-based meals of the south. Many Indian recipes rely on complex spice blends that create layers of depth and warmth. The cuisine accommodates a wide range of dietary preferences, from vegetarian to meat-based dishes. Indian food has gained global popularity for its bold flavors and comforting textures.
+  Doc 16 (score=0.1067):
+    Mexican cuisine features bold flavors created through the use of chili peppers, corn, lime, and fresh herbs. Traditional dishes such as tacos, mole, and tamales reflect centuries of cultural blending between Indigenous peoples and Spanish settlers. Street food culture plays a major role, offering affordable and delicious options throughout the country. Regional variations add complexity to the cuisine, with each area incorporating its own preferred ingredients. The vibrancy of Mexican food continues to influence culinary trends worldwide.
+
+Answer WITHOUT context 
+Soton LM
+
+Answer WITH context (RAG-Lite) 
+[DOC 3]
+
+Your judgment: 
+
+--------------------------------------------------
+
+Query: gydgwuyeiuqyeyw
+
+Retrieved Docs:
+  Doc 4 (score=0.1398):
+    Machine learning models become increasingly accurate as they are exposed to larger and more diverse datasets. These algorithms can identify subtle patterns in data that humans might easily overlook, making them invaluable across fields like finance, medicine, and marketing. However, models can also become biased if the data used to train them is unbalanced or incomplete. Developers must regularly audit their systems to ensure fairness, transparency, and reliability. As machine learning plays a bigger role in decision-making, responsible usage becomes essential to avoid unintended consequences.
+  Doc 14 (score=0.1348):
+    Canada’s national parks showcase some of the most breathtaking natural scenery in the world. Visitors can explore shimmering lakes, dense forests, and rugged mountain ranges across vast protected areas. Wildlife such as bears, moose, and wolves can often be spotted from safe distances. Outdoor enthusiasts enjoy hiking, canoeing, and camping throughout the year. Canada’s commitment to preserving natural beauty offers travelers a true escape into the wilderness.
+  Doc 23 (score=0.1267):
+    Renewable energy sources such as solar and wind power are growing rapidly as countries aim to reduce carbon emissions. Improved technology has made renewable energy more affordable and efficient. Large-scale projects are now capable of powering entire cities with clean energy. Despite progress, challenges remain in storage and distribution. Continued investment in renewable technologies is critical for combating climate change.
+
+Answer WITHOUT context 
+gydgwuyeiuqyeyw
+
+Answer WITH context (RAG-Lite) 
+gydgwuyeiuqyeyw
+
+Your judgment: 
+
+--------------------------------------------------
+
+Query: How does version control help developers collaborate?
+
+Retrieved Docs:
+  Doc 1 (score=0.3861):
+    Cloud computing has fundamentally changed the way organizations build and deploy software by offering flexible, on-demand access to computing resources. Instead of purchasing expensive infrastructure, businesses can scale up or down instantly depending on their needs. This has enabled small startups to compete with much larger companies by accessing the same powerful tools. Cloud services also support global collaboration, allowing teams across different countries to work on shared platforms in real time. Although cloud systems bring convenience and speed, they also require strong security strategies to prevent data breaches and unauthorized access.
+  Doc 4 (score=0.3504):
+    Machine learning models become increasingly accurate as they are exposed to larger and more diverse datasets. These algorithms can identify subtle patterns in data that humans might easily overlook, making them invaluable across fields like finance, medicine, and marketing. However, models can also become biased if the data used to train them is unbalanced or incomplete. Developers must regularly audit their systems to ensure fairness, transparency, and reliability. As machine learning plays a bigger role in decision-making, responsible usage becomes essential to avoid unintended consequences.
+  Doc 2 (score=0.2540):
+    Cybersecurity threats continue to rise as technology becomes more interconnected and digital systems expand into nearly every aspect of life. Hackers constantly develop new methods to exploit vulnerabilities in networks, devices, and software applications. Even everyday users face risks from phishing attacks, identity theft, and malicious downloads. Organizations must invest in advanced security measures such as encryption, multi-factor authentication, and ongoing monitoring to stay protected. Educating users about safe online behavior remains one of the most effective ways to reduce these threats.
+
+Answer WITHOUT context 
+Using a software tool, a developer can collaborate with a developer to create a product.
+
+Answer WITH context (RAG-Lite) 
+allowing teams across different countries to work on shared platforms in real time
+
+Your judgment: 
+
+--------------------------------------------------
+
+Query: ookey bye
+
+Retrieved Docs:
+  Doc 7 (score=0.1291):
+    Sleep plays a vital role in maintaining cognitive functioning, memory consolidation, and emotional balance. Without adequate rest, individuals may struggle with concentration, decision-making, and physical coordination. Chronic sleep deprivation has been linked to serious health issues such as hypertension, diabetes, and weakened immunity. Developing good sleep hygiene, including consistent bedtimes and reduced screen use before bed, can improve overall sleep quality. Prioritizing rest is essential for maintaining both mental and physical performance.
+  Doc 27 (score=0.0895):
+    Outdoor activities like hiking and camping offer physical exercise and mental rejuvenation. Nature provides a calming environment that reduces stress and improves mood. Spending time outdoors encourages physical movement and exploration. Many people find that outdoor adventures strengthen their sense of connection with the environment. Regular time in nature supports both physical and emotional well-being.
+  Doc 5 (score=0.0814):
+    Regular exercise offers numerous physical and mental health benefits, including improved cardiovascular function and reduced risk of chronic diseases. Physical activity also helps release endorphins, which enhance mood and decrease anxiety. Many people find that establishing a consistent workout routine helps them stay focused and productive in their daily lives. Even simple activities like walking or cycling can make a meaningful difference when done regularly. Maintaining an active lifestyle can significantly improve long-term well-being.
+
+Answer WITHOUT context 
+ookey bye
+
+Answer WITH context (RAG-Lite) 
+[DOC 3]
+
+Your judgment: 
+
+--------------------------------------------------
+
+
+Reflection
+Write 1–2 paragraphs here comparing answer quality.

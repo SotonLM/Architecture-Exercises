@@ -1,0 +1,73 @@
+=== LEVEL 1 — Nearest Neighbours ===
+
+--- Sentences ---
+- Jogging at sunrise helps me clear my mind.
+- Running in the morning boosts my energy throughout the day.
+- My laptop refused to turn on before my presentation.
+- A dead battery can ruin someone's entire work schedule.
+- Museums preserve important historical and cultural artifacts.
+- Ancient Egyptian statues reveal details about past civilisations.
+- Chocolate cake always improves my mood after a stressful day.
+- Too much sugar can make it difficult to focus during meetings.
+- Airplanes rely on wings and lift to stay in the air.
+- Birds use flapping and gliding to travel long distances.
+
+--- Nearest Neighbours Results ---
+
+Sentence [0]: Jogging at sunrise helps me clear my mind.
+  #1 cosine=0.710 → [1] Running in the morning boosts my energy throughout the day.
+  #2 cosine=0.216 → [6] Chocolate cake always improves my mood after a stressful day.
+  #3 cosine=0.155 → [9] Birds use flapping and gliding to travel long distances.
+
+Sentence [1]: Running in the morning boosts my energy throughout the day.
+  #1 cosine=0.710 → [0] Jogging at sunrise helps me clear my mind.
+  #2 cosine=0.353 → [6] Chocolate cake always improves my mood after a stressful day.
+  #3 cosine=0.156 → [9] Birds use flapping and gliding to travel long distances.
+
+Sentence [2]: My laptop refused to turn on before my presentation.
+  #1 cosine=0.136 → [3] A dead battery can ruin someone's entire work schedule.
+  #2 cosine=0.127 → [7] Too much sugar can make it difficult to focus during meetings.
+  #3 cosine=0.030 → [6] Chocolate cake always improves my mood after a stressful day.
+
+Sentence [3]: A dead battery can ruin someone's entire work schedule.
+  #1 cosine=0.367 → [7] Too much sugar can make it difficult to focus during meetings.
+  #2 cosine=0.141 → [8] Airplanes rely on wings and lift to stay in the air.
+  #3 cosine=0.139 → [0] Jogging at sunrise helps me clear my mind.
+
+Sentence [4]: Museums preserve important historical and cultural artifacts.
+  #1 cosine=0.486 → [5] Ancient Egyptian statues reveal details about past civilisations.
+  #2 cosine=0.105 → [8] Airplanes rely on wings and lift to stay in the air.
+  #3 cosine=0.048 → [9] Birds use flapping and gliding to travel long distances.
+
+Sentence [5]: Ancient Egyptian statues reveal details about past civilisations.
+  #1 cosine=0.486 → [4] Museums preserve important historical and cultural artifacts.
+  #2 cosine=0.066 → [8] Airplanes rely on wings and lift to stay in the air.
+  #3 cosine=0.017 → [9] Birds use flapping and gliding to travel long distances.
+
+Sentence [6]: Chocolate cake always improves my mood after a stressful day.
+  #1 cosine=0.353 → [1] Running in the morning boosts my energy throughout the day.
+  #2 cosine=0.260 → [7] Too much sugar can make it difficult to focus during meetings.
+  #3 cosine=0.216 → [0] Jogging at sunrise helps me clear my mind.
+
+Sentence [7]: Too much sugar can make it difficult to focus during meetings.
+  #1 cosine=0.367 → [3] A dead battery can ruin someone's entire work schedule.
+  #2 cosine=0.260 → [6] Chocolate cake always improves my mood after a stressful day.
+  #3 cosine=0.147 → [0] Jogging at sunrise helps me clear my mind.
+
+Sentence [8]: Airplanes rely on wings and lift to stay in the air.
+  #1 cosine=0.515 → [9] Birds use flapping and gliding to travel long distances.
+  #2 cosine=0.141 → [3] A dead battery can ruin someone's entire work schedule.
+  #3 cosine=0.105 → [4] Museums preserve important historical and cultural artifacts.
+
+Sentence [9]: Birds use flapping and gliding to travel long distances.
+  #1 cosine=0.515 → [8] Airplanes rely on wings and lift to stay in the air.
+  #2 cosine=0.156 → [1] Running in the morning boosts my energy throughout the day.
+  #3 cosine=0.155 → [0] Jogging at sunrise helps me clear my mind.
+
+
+=== REQUIRED CASES ===
+1. Semantically similar but lexically different:
+   Example: Sentence about jogging vs running.
+
+2. Lexically similar but semantically far apart:
+   Example: Sugar improving mood vs sugar harming focus.
