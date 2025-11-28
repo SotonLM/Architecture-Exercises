@@ -1,0 +1,53 @@
+# Week 3 Level 2 Submission
+
+**Name:** Parastoo Zarin  
+**Date:** Nov 22 2025  
+
+## What I submitted:
+- level2.py - my code
+- results.txt - the outputs from running it
+- REPORT.txt - my observations
+
+## Requirements completed:
+
+I did all the stuff:
+- Saved outputs to file (check results.txt)
+- Tested 5 prompts 
+- Tried different max_lengths (20, 50, 100)
+- Tried different temperatures (0.5, 1.0, 1.5)
+- Tried different top_k values (10, 50, 100)
+- Timed everything
+- Counted tokens
+
+## What I found out
+
+**max_length:**
+- 20 was too short, cuts off sentences
+- 50 seemed like the sweet spot
+- 100 took longer and sometimes got repetitive
+
+**temperature:**
+- 0.5 was kinda boring, very safe outputs
+- 1.0 was pretty good
+- 1.5 got creative but weird sometimes
+
+**top_k:**
+- 10 kept using same words over and over
+- 50 was good balance
+- 100 had more variety but sometimes random words
+
+## Best settings I found:
+max_length=50, temperature=1.0, top_k=50
+
+These gave the best results without being too slow or too random.
+
+## Timing
+Average time was around 0.5 seconds per prompt which is pretty fast. Total for all 5 prompts was about 2.5 seconds.
+
+## What I learned
+- how different parameters change the output
+- higher numbers dont always = better results
+- timing code is important for performance
+- the model loads slow first time then faster after
+
+Ready for tier 2!

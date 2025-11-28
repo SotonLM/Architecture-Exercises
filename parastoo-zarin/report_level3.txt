@@ -1,0 +1,98 @@
+BREAKING THE MODEL REPORT
+Parastoo Zarin
+Nov 22 2025
+
+WHAT I DID
+
+Tried to make distilgpt2 fail in different ways by using bad parameters.
+Tested 5 different failure modes and documented what happened.
+
+MY 5 FAILURES
+
+
+1. REPETITION LOOP
+   
+   What I did: Set repetition_penalty=1.0
+   
+   Result: Model kept repeating same phrases over and over like "the cat sat on the mat and the cat sat on the mat..."
+   
+   Why it broke: Without penalty for repeating, model has no reason to use different words
+   
+   Fix: Use repetition_penalty around 1.2 or higher
+
+
+2. COMPLETE GIBBERISH
+   
+   What I did: Used temperature=4.0 (way too high)
+   
+   Result: Total nonsense. Random words that made no sense together
+   
+   Example: Got output like "technology elephant purple mathematics random"
+   
+   Why: Super high temperature makes it pick unlikely random words
+   
+   Fix: Keep temperature between 0.7-1.5 max
+
+
+3. CUTS OFF MID-SENTENCE
+   
+   What I did: Set max_length=15 (too short)
+   
+   Result: "To make chocolate cake you need flour and" then just stops
+   
+   Why: Not enough tokens to finish the thought
+   
+   Fix: Use max_length of at least 50 for complete sentences
+
+
+4. CONTRADICTS ITSELF
+   
+   What I did: Prompted "The sky is blue. Actually, the sky is"
+   
+   Result: Continued with something that contradicted the first part
+   
+   Why: Small models dont really understand logic or facts, just patterns
+   
+   Fix: Need bigger models with better reasoning
+
+
+5. DETERMINISTIC
+   
+   What I did: Set do_sample=False
+   
+   Result: Always generates exact same output every time. Super predictable and boring
+   
+   Why: Greedy decoding = no randomness = always picks most likely word
+   
+   Fix: Use do_sample=True
+
+
+WHAT I LEARNED
+
+- Models are really sensitive to parameter settings
+- Wrong parameters = broken outputs
+- Extreme values always cause problems
+- Small models break easier than big ones
+- Understanding failures helps you build better systems
+- Need to test edge cases in real applications
+
+ABOUT SAFETY
+
+I also tested some prompts that could produce biased or inappropriate content.
+The model sometimes generates problematic outputs when given certain prompts
+or when temperature is very high. This shows why content filtering is important
+for production systems.
+
+BEST SETTINGS TO AVOID FAILURES
+
+- temperature: 0.8-1.2
+- max_length: 50-100
+- repetition_penalty: 1.2
+- do_sample: True
+- top_k: 40-50
+
+CONCLUSION
+
+Breaking the model taught me more than just using it normally. Every failure
+has a cause and you can prevent them with right settings. Important for
+building robust AI applications.
