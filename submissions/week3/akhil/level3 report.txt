@@ -1,0 +1,19 @@
+1. For "Infinite Repetition"
+   - Why it happens: We turned off sampling (do_sample=False). Without randomness, the AI always picks the #1 most statistically likely next word. If "insanity" predicts "is", and "is" predicts "insanity", it gets trapped in a deterministic loop.
+   - How to fix: Enable sampling (do_sample=True) or increase repetition_penalty.
+
+2. For "Coherence Collapse" (Gibberish)
+   - Why it happens: The temperature was set to 3.5. This forces the AI to ignore grammar and logic, making it equally likely to choose random, irrelevant words as correct ones. It destroys the probability curve.
+   - How to fix: Keep temperature below 1.2 for coherent text.
+
+3. For "Logic Failure"
+   - Why it happens: Small models like DistilGPT-2 do not have "memory" or reasoning skills. It focuses on local word patterns (associating "John" with "Verse" or "Bible" apparently) rather than tracking the specific movements of the characters in the prompt.
+   - How to fix: Use a larger model (like GPT-4 or Llama-3) trained specifically on reasoning tasks.
+
+4. For "Sentence Fragmentation"
+   - Why it happens: We set MaxLen=20. The model blindly generates text until it hits that number and then gets cut off mid-sentence. It has no concept of "finishing a thought" within a time limit.
+   - How to fix: Use a "stop sequence" (stop at a period .) instead of a hard token limit.
+
+5. For "Punctuation Confusion"
+   - Why it happens: The input !!!!!!!???????? is Out-Of-Distribution data. The model was trained on English text, not punctuation spam. When it sees symbols it doesn't understand, it often hallucinates things associated with symbols, like URLs (imgur/youtube links) or code errors.
+   - How to fix: Sanitize inputs (remove excessive punctuation) before sending them to the AI.
