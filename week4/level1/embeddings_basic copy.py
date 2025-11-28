@@ -10,6 +10,10 @@ Most students should stop after Level 2. Levels 3-4 are optional Tier 3 stretch 
 """
 
 import time
+with open('corpus.txt','r') as file:
+    sentences = None
+    for line in file:
+        sentences += file.readline()
 
 try:
     from sentence_transformers import SentenceTransformer
@@ -20,20 +24,10 @@ except ImportError:
     )
 
 MODEL_NAME = "sentence-transformers/paraphrase-MiniLM-L6-v2"
+                
 TOP_K = 3
 
-sentences = [
-    "Neural networks learn by adjusting billions of parameters.",
-    "Backpropagation updates weights to minimise loss in a model.",
-    "My grandma's apple pie relies on butter, cinnamon, and patience.",
-    "Apple just announced a new chip for thin-and-light laptops.",
-    "Marathon runners load up on carbohydrates before race day.",
-    "Jogging at dawn clears my thoughts before work meetings.",
-    "The Louvre protects centuries of European art and sculpture.",
-    "Budget airlines squeeze every centimetre out of the cabin layout.",
-    "Cryptographers worry that quantum machines will break RSA.",
-    "Stargazing on a quiet beach reminds me of physics lectures.",
-]
+
 
 def main() -> None:
     print("=== LEVEL 1: EMBEDDINGS + NEAREST NEIGHBOURS ===")
