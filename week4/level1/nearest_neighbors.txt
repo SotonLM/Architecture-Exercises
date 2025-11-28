@@ -1,0 +1,66 @@
+=== LEVEL 1: EMBEDDINGS + NEAREST NEIGHBOURS ===
+Loading model: sentence-transformers/paraphrase-MiniLM-L6-v2
+Encoded 10 sentences in 0.89s
+
+Sentence [0]: The cat sat on the comfortable mat near the window.
+  #1  cosine=0.225  →  [1] Felines often enjoy resting on soft surfaces in sunny spots.
+  #2  cosine=0.143  →  [3] Large snakes like pythons can grow over twenty feet in length.
+  #3  cosine=0.113  →  [7] Tesla announced new battery technology for longer driving range.
+
+Sentence [1]: Felines often enjoy resting on soft surfaces in sunny spots.
+  #1  cosine=0.225  →  [0] The cat sat on the comfortable mat near the window.
+  #2  cosine=0.146  →  [3] Large snakes like pythons can grow over twenty feet in length.
+  #3  cosine=0.084  →  [5] Cooking involves combining ingredients and applying heat to create food.
+
+Sentence [2]: Python programming requires understanding basic syntax and data structures.
+  #1  cosine=0.220  →  [8] Reading books helps expand your knowledge and vocabulary.
+  #2  cosine=0.174  →  [9] Libraries provide free access to books and digital resources for communities.
+  #3  cosine=0.174  →  [3] Large snakes like pythons can grow over twenty feet in length.
+
+Sentence [3]: Large snakes like pythons can grow over twenty feet in length.
+  #1  cosine=0.174  →  [2] Python programming requires understanding basic syntax and data structures.
+  #2  cosine=0.146  →  [1] Felines often enjoy resting on soft surfaces in sunny spots.
+  #3  cosine=0.143  →  [0] The cat sat on the comfortable mat near the window.
+
+Sentence [4]: Baking bread requires flour, water, yeast, and patience.
+  #1  cosine=0.411  →  [5] Cooking involves combining ingredients and applying heat to create food.
+  #2  cosine=0.147  →  [8] Reading books helps expand your knowledge and vocabulary.
+  #3  cosine=0.143  →  [2] Python programming requires understanding basic syntax and data structures.
+
+Sentence [5]: Cooking involves combining ingredients and applying heat to create food.
+  #1  cosine=0.411  →  [4] Baking bread requires flour, water, yeast, and patience.
+  #2  cosine=0.119  →  [2] Python programming requires understanding basic syntax and data structures.
+  #3  cosine=0.117  →  [8] Reading books helps expand your knowledge and vocabulary.
+
+Sentence [6]: Electric vehicles are becoming more popular due to environmental concerns.
+  #1  cosine=0.266  →  [7] Tesla announced new battery technology for longer driving range.
+  #2  cosine=0.075  →  [5] Cooking involves combining ingredients and applying heat to create food.
+  #3  cosine=0.071  →  [4] Baking bread requires flour, water, yeast, and patience.
+
+Sentence [7]: Tesla announced new battery technology for longer driving range.
+  #1  cosine=0.266  →  [6] Electric vehicles are becoming more popular due to environmental concerns.
+  #2  cosine=0.113  →  [0] The cat sat on the comfortable mat near the window.
+  #3  cosine=0.057  →  [4] Baking bread requires flour, water, yeast, and patience.
+
+Sentence [8]: Reading books helps expand your knowledge and vocabulary.
+  #1  cosine=0.347  →  [9] Libraries provide free access to books and digital resources for communities.
+  #2  cosine=0.220  →  [2] Python programming requires understanding basic syntax and data structures.
+  #3  cosine=0.147  →  [4] Baking bread requires flour, water, yeast, and patience.
+
+Sentence [9]: Libraries provide free access to books and digital resources for communities.
+  #1  cosine=0.347  →  [8] Reading books helps expand your knowledge and vocabulary.
+  #2  cosine=0.174  →  [2] Python programming requires understanding basic syntax and data structures.
+  #3  cosine=0.036  →  [3] Large snakes like pythons can grow over twenty feet in length.
+
+
+-------------------------------------------------------------------------------------------------------------
+
+ANALYSIS:
+
+Lexically different but semantically close:
+- Sentences [4] and [5] have the highest similarity of 0.411, which indicates its close semantic relationship as it talks about baking and cooking.
+- This shows that the model distinguished its relativity through word matching
+
+Lexically similar but semantically far apart:
+- Sentences [2] and [3] show moderate similarity of 0.174 despite both containing "python", as [4] talks about programming "python" while [3] talks about animal "python". 
+- This shows that the model understands the context beyond just word matching

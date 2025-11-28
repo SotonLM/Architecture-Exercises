@@ -1,0 +1,65 @@
+=== LEVEL 2: TINY SEMANTIC SEARCH ===
+Loading model: sentence-transformers/paraphrase-MiniLM-L6-v2
+Embedded 24 documents in 0.79s
+
+---------
+Enter search query: python programming
+
+Query processed in 0.194s
+
+Top 3 results for: 'python programming'
+  #1  cosine=0.713  →  Doc[0] Python is a high-level programming language favored for its clear syntax and readability. It is wide...
+  #2  cosine=0.217  →  Doc[1] Machine learning models learn patterns from data to make predictions without explicit programming. T...
+  #3  cosine=0.207  →  Doc[4] Artificial intelligence systems can perform tasks that typically require human intelligence. Applica...
+
+---------
+Enter search query: machine learning algorithms that require large datasets for training artificial intelligence systems         
+
+Query processed in 0.136s
+
+Top 3 results for: 'machine learning algorithms that require large datasets for training artificial intelligence systems'
+  #1  cosine=0.754  →  Doc[1] Machine learning models learn patterns from data to make predictions without explicit programming. T...
+  #2  cosine=0.595  →  Doc[4] Artificial intelligence systems can perform tasks that typically require human intelligence. Applica...
+  #3  cosine=0.270  →  Doc[0] Python is a high-level programming language favored for its clear syntax and readability. It is wide...
+
+---------
+Enter search query: basketball
+
+Query processed in 0.141s
+
+Top 3 results for: 'basketball'
+  #1  cosine=0.646  →  Doc[12] Basketball strategy involves both offensive plays and defensive formations to outscore opponents. Te...
+  #2  cosine=0.404  →  Doc[14] Tennis requires excellent hand-eye coordination and strategic shot placement to win points. Differen...
+  #3  cosine=0.276  →  Doc[13] Soccer tactics include formations like 4-4-2 and pressing strategies to regain possession. Set piece...
+
+---------
+Enter search query: technology impact on sports training
+
+Query processed in 0.137s
+
+Top 3 results for: 'technology impact on sports training'
+  #1  cosine=0.431  →  Doc[15] Marathon training involves building endurance through long runs and proper nutrition planning. Taper...
+  #2  cosine=0.427  →  Doc[14] Tennis requires excellent hand-eye coordination and strategic shot placement to win points. Differen...
+  #3  cosine=0.413  →  Doc[17] Weight training principles include progressive overload and proper form to build strength safely. Co...
+
+----------
+Enter search query: cooking for beginners
+
+Query processed in 0.136s
+
+Top 3 results for: 'cooking for beginners'
+  #1  cosine=0.557  →  Doc[10] Knife skills are fundamental in professional kitchens for efficient and safe food preparation. Prope...
+  #2  cosine=0.495  →  Doc[8] French pastry techniques involve precise measurements and temperature control for perfect results. K...
+  #3  cosine=0.448  →  Doc[6] Sourdough bread baking requires maintaining a live culture of wild yeast and bacteria. The fermentat...
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ANALYSIS:
+
+Retrieval shines when:
+- queries directly match specific document topics, as seen with "python programming" and "basketball" where the top results had high similarity scores and clear relevance
+
+Retrievals fail when:
+- dealing with multi-topic queries like "technology impact on sports training," where no single document bridges both topics, resulting in generic sports content without technological context
+- vague queries that require inferring user intent beyond literal meaning, as "cooking for beginners" returned advanced techniques rather than fundamental instruction
+
+Overall, the system excels at direct semantic matching but lacks the contextual understanding needed for complex queries
