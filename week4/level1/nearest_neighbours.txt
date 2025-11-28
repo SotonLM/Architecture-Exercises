@@ -1,0 +1,70 @@
+Source sentences:
+[0] The cat chased the mouse across the yard.
+[1] A kitten pursued a small rodent in the garden.
+[2] Apple released a new smartphone this week.
+[3] She baked an apple pie for dessert.
+[4] I enjoy jogging early in the morning.
+[5] Running at dawn clears my mind before work.
+[6] Quantum computers could break current cryptography.
+[7] Stargazers watched the meteor shower from the beach.
+[8] Budget airlines often charge high fees for luggage.
+[9] The museum displays centuries-old European paintings.
+
+Top-3 neighbours (cosine similarity):
+
+Sentence [0]: The cat chased the mouse across the yard.
+  #1  cosine=0.658  →  [1] A kitten pursued a small rodent in the garden.
+  #2  cosine=0.101  →  [2] Apple released a new smartphone this week.
+  #3  cosine=0.090  →  [5] Running at dawn clears my mind before work.
+
+Sentence [1]: A kitten pursued a small rodent in the garden.
+  #1  cosine=0.658  →  [0] The cat chased the mouse across the yard.
+  #2  cosine=0.083  →  [2] Apple released a new smartphone this week.
+  #3  cosine=0.061  →  [3] She baked an apple pie for dessert.
+
+Sentence [2]: Apple released a new smartphone this week.
+  #1  cosine=0.144  →  [3] She baked an apple pie for dessert.
+  #2  cosine=0.101  →  [0] The cat chased the mouse across the yard.
+  #3  cosine=0.083  →  [1] A kitten pursued a small rodent in the garden.
+
+Sentence [3]: She baked an apple pie for dessert.
+  #1  cosine=0.144  →  [2] Apple released a new smartphone this week.
+  #2  cosine=0.061  →  [1] A kitten pursued a small rodent in the garden.
+  #3  cosine=0.053  →  [5] Running at dawn clears my mind before work.
+
+Sentence [4]: I enjoy jogging early in the morning.
+  #1  cosine=0.589  →  [5] Running at dawn clears my mind before work.
+  #2  cosine=0.005  →  [0] The cat chased the mouse across the yard.
+  #3  cosine=0.001  →  [3] She baked an apple pie for dessert.
+
+Sentence [5]: Running at dawn clears my mind before work.
+  #1  cosine=0.589  →  [4] I enjoy jogging early in the morning.
+  #2  cosine=0.090  →  [0] The cat chased the mouse across the yard.
+  #3  cosine=0.053  →  [3] She baked an apple pie for dessert.
+
+Sentence [6]: Quantum computers could break current cryptography.
+  #1  cosine=0.043  →  [5] Running at dawn clears my mind before work.
+  #2  cosine=0.041  →  [9] The museum displays centuries-old European paintings.
+  #3  cosine=0.007  →  [0] The cat chased the mouse across the yard.
+
+Sentence [7]: Stargazers watched the meteor shower from the beach.
+  #1  cosine=0.159  →  [9] The museum displays centuries-old European paintings.
+  #2  cosine=0.086  →  [8] Budget airlines often charge high fees for luggage.
+  #3  cosine=0.007  →  [3] She baked an apple pie for dessert.
+
+Sentence [8]: Budget airlines often charge high fees for luggage.
+  #1  cosine=0.114  →  [9] The museum displays centuries-old European paintings.
+  #2  cosine=0.086  →  [7] Stargazers watched the meteor shower from the beach.
+  #3  cosine=-0.017  →  [4] I enjoy jogging early in the morning.
+
+Sentence [9]: The museum displays centuries-old European paintings.
+  #1  cosine=0.159  →  [7] Stargazers watched the meteor shower from the beach.
+  #2  cosine=0.114  →  [8] Budget airlines often charge high fees for luggage.
+  #3  cosine=0.041  →  [6] Quantum computers could break current cryptography.
+
+Notes — contrasting cases:
+- Lexically different but semantically close:
+  Sentences [4] and [5] are phrased differently (jogging vs running, morning vs dawn) 
+  but are semantically near (exercise/time of day).
+- Lexically similar but semantically far apart:
+  Sentences [2] and [3] both contain the token 'apple' but refer to different senses (company vs food).

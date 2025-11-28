@@ -1,0 +1,161 @@
+RAG-lite comparisons
+
+Query 1: How can I keep a sourdough starter alive for months?
+Embedding time: 0.0172s
+
+Retrieved context:
+  id=12 score=0.4648 snippet=The bakery is famous for its sourdough loaves and seasonal fruit tarts.
+  id=17 score=0.4091 snippet=Home fermentation projects include kombucha, kimchi, and sourdough starters.
+  id=14 score=0.3231 snippet=Slow-cooked stews develop deeper flavors when simmered for several hours.
+
+Answer — Without context:
+Put a sourdough starter in a jar and store it in the refrigerator for up to a year.
+
+Answer — With context:
+Slow-cooked stews develop deeper flavors when simmered for several hours.
+
+--------------------------------------------------
+
+Query 2: Ways to avoid high baggage fees when flying on budget airlines
+Embedding time: 0.0106s
+
+Retrieved context:
+  id=6 score=0.6897 snippet=Budget airlines have begun charging separately for checked bags and seat selection.
+  id=8 score=0.3676 snippet=Travelers experienced long security queues at the international terminal last weekend.
+  id=9 score=0.3255 snippet=High-speed rail promises to reduce commute time between the two major cities.
+
+Answer — Without context:
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+Answer — With context:
+Check bags and seat selection
+
+--------------------------------------------------
+
+Query 3: What are recent developments in quantum computing error correction?
+Embedding time: 0.0096s
+
+Retrieved context:
+  id=1 score=0.7912 snippet=Quantum computing research is accelerating with new error-correction techniques.
+  id=4 score=0.2957 snippet=Edge computing moves inference closer to IoT devices to reduce latency.
+  id=0 score=0.2135 snippet=Researchers released a new open-source machine learning library for image processing.
+
+Answer — Without context:
+In the early 1990s, quantum computing was a major factor in the development of quantum computing.
+
+Answer — With context:
+Edge computing moves inference closer to IoT devices to reduce latency.
+
+--------------------------------------------------
+
+Query 4: When is the next meteor shower and where to watch it?
+Embedding time: 0.0081s
+
+Retrieved context:
+  id=18 score=0.6605 snippet=Amateur astronomers gathered to observe the annual meteor shower from a dark site.
+  id=20 score=0.2800 snippet=A science magazine published an explainer on how gravitational waves are detected.
+  id=23 score=0.2605 snippet=An observatory installed a new wide-field camera for deep-sky surveys.
+
+Answer — Without context:
+a meteor shower
+
+Answer — With context:
+from a dark site
+
+--------------------------------------------------
+
+Query 5: How do I make flaky pastry for apple galettes?
+Embedding time: 0.0073s
+
+Retrieved context:
+  id=15 score=0.7467 snippet=A local chef demonstrated how to make flaky pastry for apple galettes.
+  id=12 score=0.4179 snippet=The bakery is famous for its sourdough loaves and seasonal fruit tarts.
+  id=14 score=0.2929 snippet=Slow-cooked stews develop deeper flavors when simmered for several hours.
+
+Answer — Without context:
+To make flaky pastry for apple galettes, you can use a pastry blender or a pastry blender.
+
+Answer — With context:
+To make sourdough loaves and seasonal fruit tarts.
+
+--------------------------------------------------
+
+Query 6: What precautions help coral reef recovery?
+Embedding time: 0.0070s
+
+Retrieved context:
+  id=21 score=0.8414 snippet=Conservationists study coral reef recovery after protective measures were introduced.
+  id=22 score=0.1949 snippet=Satellite data helped researchers track seasonal changes in the polar ice caps.
+  id=11 score=0.1920 snippet=Port authorities announced upgrades to the cruise terminal and passenger facilities.
+
+Answer — Without context:
+To protect the corals from predators, you need to take precautions to protect the corals from predators.
+
+Answer — With context:
+Protective measures were introduced.
+
+--------------------------------------------------
+
+Query 7: How does edge computing reduce latency for IoT devices?
+Embedding time: 0.0117s
+
+Retrieved context:
+  id=4 score=0.9127 snippet=Edge computing moves inference closer to IoT devices to reduce latency.
+  id=2 score=0.3063 snippet=A major tech company announced an affordable smartphone with a long-lasting battery.
+  id=5 score=0.2933 snippet=A startup launched a privacy-focused messaging app that uses end-to-end encryption.
+
+Answer — Without context:
+Edge computing reduces latency for IoT devices.
+
+Answer — With context:
+Moves inference closer to IoT devices.
+
+--------------------------------------------------
+
+Query 8: Museum hours for Renaissance painting exhibits in the city?
+Embedding time: 0.0071s
+
+Retrieved context:
+  id=19 score=0.6479 snippet=The museum reopened an exhibit showcasing Renaissance paintings and sculptures.
+  id=18 score=0.3655 snippet=Amateur astronomers gathered to observe the annual meteor shower from a dark site.
+  id=23 score=0.1734 snippet=An observatory installed a new wide-field camera for deep-sky surveys.
+
+Answer — Without context:
+7:00 a.m. to 7:00 p.m.
+
+Answer — With context:
+reopening
+
+--------------------------------------------------
+
+Query 9: How to detect gravitational waves?
+Embedding time: 0.0075s
+
+Retrieved context:
+  id=20 score=0.7829 snippet=A science magazine published an explainer on how gravitational waves are detected.
+  id=18 score=0.4261 snippet=Amateur astronomers gathered to observe the annual meteor shower from a dark site.
+  id=23 score=0.2151 snippet=An observatory installed a new wide-field camera for deep-sky surveys.
+
+Answer — Without context:
+Use a microscope to detect the gravitational waves.
+
+Answer — With context:
+explainer
+
+--------------------------------------------------
+
+Query 10: What are typical symptoms of long security queues at airports and remedies?
+Embedding time: 0.0072s
+
+Retrieved context:
+  id=8 score=0.7788 snippet=Travelers experienced long security queues at the international terminal last weekend.
+  id=6 score=0.3375 snippet=Budget airlines have begun charging separately for checked bags and seat selection.
+  id=11 score=0.1591 snippet=Port authorities announced upgrades to the cruise terminal and passenger facilities.
+
+Answer — Without context:
+abrasions
+
+Answer — With context:
+Passenger fatigue
+
+--------------------------------------------------

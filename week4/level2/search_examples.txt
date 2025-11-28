@@ -1,0 +1,37 @@
+Queries and top-3 results:
+
+Query 1: best ways to preserve sourdough starter
+Embedding time: 0.0076s
+  #1  id=12  score=0.5196  snippet=The bakery is famous for its sourdough loaves and seasonal fruit tarts.
+  #2  id=17  score=0.4532  snippet=Home fermentation projects include kombucha, kimchi, and sourdough starters.
+  #3  id=14  score=0.2685  snippet=Slow-cooked stews develop deeper flavors when simmered for several hours.
+
+Query 2: how to reduce airplane baggage fees
+Embedding time: 0.0056s
+  #1  id=6  score=0.6240  snippet=Budget airlines have begun charging separately for checked bags and seat selection.
+  #2  id=8  score=0.3304  snippet=Travelers experienced long security queues at the international terminal last weekend.
+  #3  id=9  score=0.2837  snippet=High-speed rail promises to reduce commute time between the two major cities.
+
+Query 3: recent breakthroughs in quantum computing
+Embedding time: 0.0059s
+  #1  id=1  score=0.5883  snippet=Quantum computing research is accelerating with new error-correction techniques.
+  #2  id=4  score=0.3037  snippet=Edge computing moves inference closer to IoT devices to reduce latency.
+  #3  id=0  score=0.1584  snippet=Researchers released a new open-source machine learning library for image processing.
+
+Query 4: when is the next meteor shower visible
+Embedding time: 0.0057s
+  #1  id=18  score=0.7024  snippet=Amateur astronomers gathered to observe the annual meteor shower from a dark site.
+  #2  id=20  score=0.3068  snippet=A science magazine published an explainer on how gravitational waves are detected.
+  #3  id=23  score=0.2837  snippet=An observatory installed a new wide-field camera for deep-sky surveys.
+
+Query 5: museum opening hours for European paintings exhibit
+Embedding time: 0.0071s
+  #1  id=19  score=0.6281  snippet=The museum reopened an exhibit showcasing Renaissance paintings and sculptures.
+  #2  id=18  score=0.4069  snippet=Amateur astronomers gathered to observe the annual meteor shower from a dark site.
+  #3  id=23  score=0.2775  snippet=An observatory installed a new wide-field camera for deep-sky surveys.
+
+Reflection:
+- Retrieval works best when queries match content in the corpus and phrasing.
+- It may fail when queries are ambiguous or require deep world knowledge not captured by short paragraphs.
+- Normalising embeddings makes similarity a fast dot product and keeps ranking stable.
+
