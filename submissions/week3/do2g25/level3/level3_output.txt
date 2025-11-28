@@ -1,0 +1,560 @@
+Prompt: The most boring topic in computer science is
+Model: distilgpt2
+Generated: The most boring topic in computer science is the fact that if you're going to ask about the problem of machine learning, or the problem of artificial intelligence, or the human brain that is going to be very complicated, then you're going to have to ask a lot of questions, and a lot of the questions are very simple.
+
+
+
+But we've all heard that there's a little bit of a misconception about machine learning, from the idea that machine learning is all about solving problems that are very complicated. That's not true, but it's a myth.
+What are the most common problems in computer science?
+In the first place, it's not complicated, but it's a pretty common problem.
+In the second, it's not complicated. There's a lot of problems in the history of computers. The first person to solve a problem that is complicated was the Russian mathematician, Alexander Lukashevich, who discovered the world of computers.
+And, like any other computer, it's also the first person to solve a problem that has many problems.
+So, for example, you can only solve a problem if you find a problem that has many problems.
+So, you can only solve a problem if you find a problem that is very complicated.
+And, that's
+Time taken: 6.153107643127441
+
+--------------------------------------------------
+Model: gpt2
+Generated: The most boring topic in computer science is how to solve problems. There are many applications for this. This paper discusses the most popular application, the program "Cron," which enables users to solve problems through the use of a computer. In this paper, we will discuss how to write a program that can solve certain problems and show some examples of using it.
+
+How to write a program that can solve certain problems and show some examples of using it. This paper discusses the most popular application, the program "Cron," which enables users to solve problems through the use of a computer. In this paper, we will discuss how to write a program that can solve certain problems and show some examples of using it. How to use a program that can solve certain problems. This paper discusses the most common applications of this. This web tutorial will show you how to write a program that can solve certain problems and show some examples of using it.
+
+This web tutorial will show you how to write a program that can solve certain problems and show some examples of using it. How to use a program that can solve certain problems. This web tutorial will show you how to write a program that can solve certain problems and show some examples of using it. How to use a program that can solve certain problems. This web tutorial
+Time taken: 8.364002704620361
+
+--------------------------------------------------
+Model: gpt2-medium
+Generated: The most boring topic in computer science is data structures and algorithms. But because data structures are so fundamental to modern computing, I thought it would be interesting to look at some of the more interesting data structures and algorithms in computer science, to see what the field has to offer.
+
+A quick note on structure. Data structures are, generally speaking, lists of bytes. Each byte in a data structure is a sequence of bytes that are represented by a block. For example, to store a string, we would store the first byte of the string in a 64-bit block, and then the second, third and last bytes to represent the characters of the string. The length of a data structure is determined by the number of bytes stored in it. So for example, for a 32-bit data structure, the length of the data structure is 8 bytes.
+
+Let's start off with a very basic data structure:
+
+struct C { uint32_t flags; uint32_t length; uint8_t *data; }
+
+In this structure, it only has one type of bytes: the type of the object. It can be either a single byte, or a list of bytes.
+
+The flags field is the name of the object. This field is the same as the field
+Time taken: 19.56932783126831
+
+--------------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Prompt: Artificial Intelligence will lead to
+Model: distilgpt2
+Generated: Artificial Intelligence will lead to a revolution in robotics, which can be used to treat people in a way that is very different from traditional medicine. This will lead to a revolution in robotics, which can be used to treat people in a way that is very different from traditional medicine.
+
+
+
+
+
+
+The world is changing. Robots are beginning to be able to control the environment in a way that is very different from traditional medicine. This is the end for the robots.
+As we move towards the future, we should look at how we can interact with the environment. We should look at how we can interact with the environment in ways that are very different from traditional medicine.
+We should look at how we can interact with the environment in ways that are very different from traditional medicine. This is the end for the robots.
+The world is changing. Robots are beginning to be able to control the environment in a way that is very different from traditional medicine. This is the end for the robots.
+The world is changing. Robots are starting to be able to control the environment in a way that is very different from traditional medicine. This is the end for the robots.
+In this way, we can be able to interact with the environment in a way that is very different from traditional medicine
+Time taken: 5.8794848918914795
+
+--------------------------------------------------
+Model: gpt2
+Generated: Artificial Intelligence will lead to more than just a new computing tool. It will also bring more insight into the future of AI. And even if it doesn't happen, it will provide more understanding of human behavior because we're more likely to make mistakes in our own lives.
+
+The researchers also identified an important area for AI research that could be ripe for further research. The researchers say their findings are important for understanding the power of technology and for creating opportunities for future humans.
+
+The work was funded by the National Science Foundation and the National Science Foundation's Advanced Artificial Intelligence Research Program. The team also included the University of California, San Diego, Harvard University, the University of California Institute of Technology, and the Sloan School of Management.
+Time taken: 4.628389835357666
+
+--------------------------------------------------
+Model: gpt2-medium
+Generated: Artificial Intelligence will lead to the elimination of many of the jobs and the loss of wealth that rely on humans. It will also force us to rethink the value of jobs and the value of wages.
+
+This means that the benefits of automation and artificial intelligence will be felt not only by those who create these goods and services, but also by those who consume them.
+
+So how do we protect jobs and wages from automation?
+
+We must embrace the technological revolution that will eliminate most of the jobs and the loss of wealth that depend on humans. We must also embrace the technological revolution that will replace a large share of our jobs.
+
+We must also embrace the technological revolution that will create a new kind of jobs that will be valuable to us. This new kind of jobs will be ones that are much more diverse and flexible than the jobs that are currently available.
+
+These new jobs will be ones that are better paid than the jobs that we currently have today, and will provide many of the benefits of automation without the burdensome responsibilities of human workers.
+
+The future of employment for humans is not just a matter of automation and artificial intelligence. It is also a matter of new jobs, new skills and new ways of doing business.
+
+The future of jobs depends on it.
+Time taken: 19.59819197654724
+
+--------------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Prompt: The most pivotal technology from the past 50 years is
+Model: distilgpt2
+Generated: The most pivotal technology from the past 50 years is the quantum computers. In that sense, the big thing about quantum computers is that the big thing about quantum computers is that they are able to do a very important job at doing things that nobody else can do, and the big deal is that they can do much more than they can do, and they can do much more than they can do. That is the key to having a quantum computer.
+
+
+
+So what's the big deal about quantum computers?
+It's not about the speed, it's about the speed of the things.
+It's about how the things work.
+What's the big deal about the speed of the things?
+Well, I think the big deal is that the speed of quantum computers is much faster than the speed of the things.
+What is the big deal about quantum computers?
+Well, I think the big deal is that the speed of the things is much faster than the speed of the things.
+If you look at the video, you see a big difference between the speed of the things.
+What is the big deal about quantum computers?
+Well, how the things work.
+The big deal is that the speed of the things is much faster than the speed of the things.
+What is the big
+Time taken: 5.705082416534424
+
+--------------------------------------------------
+Model: gpt2
+Generated: The most pivotal technology from the past 50 years is the Internet, and it's not just about how many people are using it. It's about how much information is available at once.
+
+"If you look at the history of the Internet, it's been a much more diverse and important community than before," he said. "But what we're going to do next is look at how much information is available to the Internet by how many people use it. We're going to look at how much information is available to the Internet by how many people use it."
+
+The University of Pennsylvania is also working with Google to develop a new data-storage system that can store all of its users' data at once, even if those users are traveling.
+
+That would allow users to use Google Drive, but not any other cloud service, to store their personal data on Google Drive. It would also allow other providers to take over the data collection.
+
+"I think that's one of the things that we're going to get to show to you is that this technology is potentially making the world a better place," said Paul Trenberth, associate director of the Carnegie Mellon Center for Internet and Society. "It's making it possible for everybody to access information from the Internet, and it's making it possible
+Time taken: 8.181595802307129
+
+--------------------------------------------------
+Model: gpt2-medium
+Generated: The most pivotal technology from the past 50 years is the internet. Every day, more and more companies and individuals try to make their products and services more efficient, faster, more reliable, and cheaper. But the internet is just one part of a much larger network of interconnecting networks that go beyond the Internet. These interconnecting networks are called the Internet of Things.
+
+Why are we using the internet?
+
+The internet is an extension of the world we live in. It's not just a physical network of cables and wires connected to each other. It's built around the principles of a distributed network. The internet is an object that connects many things. It connects people, businesses, governments, and other organizations.
+
+Many people assume that the internet is just a physical network of wires connecting people and businesses. But it's not. The internet is a shared infrastructure. It's a distributed system that can be extended, modified, and expanded by people, businesses, and organizations from virtually anywhere in the world.
+
+The digital world is a shared system that connects people and businesses. Digital networks are not physical networks. They extend and extend, and sometimes they collapse.
+
+The internet is an extension of the world we live in. In fact, it's a part of the world.
+
+
+Time taken: 19.876789569854736
+
+--------------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Prompt: Reinforcement learning is best suited
+Model: distilgpt2
+Generated: Reinforcement learning is best suited for teaching a specific skill, not just a single skill. We need to recognize that learning to learn learned skills can be beneficial.
+
+
+
+
+
+Let the person with the ability to learn from the world learn to learn from the world in a constructive and helpful manner.
+
+Our skills are important to learning from the world in a constructive and helpful manner.
+We need to learn from the world in a constructive and helpful manner.
+It is important to learn from the world in a constructive and helpful manner.
+We need to learn from the world in a constructive and helpful manner.
+Learning from the world in a constructive and helpful manner.
+We need to learn from the world in a constructive and helpful manner.
+Learning from the world in a constructive and helpful manner.
+We need to learn from the world in a constructive and helpful manner.
+In order to learn from the world in a constructive and helpful manner, we need to learn from the world in a constructive and helpful manner.
+We need to learn from the world in a constructive and helpful manner.
+We need to learn from the world in a constructive and helpful manner.
+Learning from the world in a constructive and helpful manner.
+Learn from the world in a constructive and helpful manner
+Time taken: 5.692315340042114
+
+--------------------------------------------------
+Model: gpt2
+Generated: Reinforcement learning is best suited for the types of data types that you want to train your model. This is the most important part of reinforcement learning.
+
+Learning the right kind of data for your model
+
+Learning the right kind of data for your model is a lot easier than you might think. To train neural networks, you need to first understand what types of data are relevant to training your model.
+
+The more data you train, the better your training algorithm will learn. You can find some great resources about training neural networks and their dependencies in the training file in the Google docs.
+
+Training a model
+
+When you train a model, it learns what types of data it has, and what types of data are needed to train that model.
+
+Data types that should be trained include:
+
+Type 1
+
+Type 2
+
+Type 3
+
+Type 4
+
+Type 5
+
+Type 6
+
+Type 7
+
+Type 8
+
+Type 9
+
+Type 10
+
+Type 11
+
+Type 12
+
+Type 13
+
+Type 14
+
+Type 15
+
+Type 16
+
+Type 17
+
+Type 18
+
+Type 19
+
+Type 20
+
+Type 21
+
+Type 22
+
+Type 23
+
+Type 24
+
+
+Time taken: 8.085860967636108
+
+--------------------------------------------------
+Model: gpt2-medium
+Generated: Reinforcement learning is best suited for tasks where we might not be able to predict how the machine will react, such as a machine learning system that is trying to discover which images to play on a video. Reinforcement learning is also best suited for tasks where we might not be able to predict how the machine will react, such as a machine learning system that is trying to find a video that is relevant to a given task.
+
+We'll be using a computer vision framework called 'deep learning', which enables a machine to learn to learn from its environment, rather than from a set of previous inputs. This means that instead of one input being used to learn, it can learn from the environment from which it is being trained.
+
+Deep Learning is a combination of machine learning and reinforcement learning. The idea is that we apply the same training set to all the possible inputs and then use the environment as a learning source. This is useful if, for example, we want to develop a machine learning system that is able to learn from visual scenes. We could then use this to train a machine learning system that will use this as its learning source. This would improve the quality of our predictions as well as being faster.
+
+We'll be using an image recognition system called 'Neural Networks' (NN
+Time taken: 19.18403935432434
+
+--------------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Prompt: Newton's third law is defined as
+Model: distilgpt2
+Generated: Newton's third law is defined as, "a law that is not enforceable by law."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Time taken: 6.086587905883789
+
+--------------------------------------------------
+Model: gpt2
+Generated: Newton's third law is defined as: "Any act or omission which, by reason of physical force or necessity, is intended to injure, mutilate or destroy the human body."
+
+The case is different from any of the other cases in which a federal judge ruled that the Obama administration violated the law.
+
+In the New Mexico case, a federal judge, who ruled that the law violated the U.S. Constitution, ordered the state to pay $18 million in damages.
+
+In the Illinois case, a federal judge ordered the state to pay $24.9 million in damages.
+
+In Texas, a federal judge ordered the state to pay $23.9 million in damages.
+
+In New Jersey, the court in New York ordered the state to pay $18 million in damages.
+
+In Texas, the court in New York ordered the state to pay $24.9 million in damages.
+
+The New York case is similar to the New Mexico case, but did not address whether the administration violated the law.
+
+The Obama administration's previous attempts to enforce the law have been unsuccessful. The previous administration of President Barack Obama had proposed that states pay a $9 million fine.
+
+During the Obama administration, the Obama administration attempted to appeal the decision to
+Time taken: 8.500261783599854
+
+--------------------------------------------------
+Model: gpt2-medium
+Generated: Newton's third law is defined as:
+
+"A wave is a wave if it is the product of two waves that are parallel to each other."
+
+Let's try to follow through with this statement. For example, consider a wave in polar coordinates, or polar coordinates between two parallel lines, with a direction of one line. You will see that the wave is a wave if it is the product of two waves that are parallel.
+
+(The wave that we saw above is the one that we saw above, and that's our third law!)
+
+Now let's try to find the same thing in polar coordinates.
+
+The wave in polar coordinates is the product of two waves that are parallel to each other.
+
+The wave is the product of two waves that are parallel to each other.
+
+Let's try to find the same thing in polar coordinates.
+
+The wave in polar coordinates is the product of two waves that are parallel to each other.
+
+The wave is the product of two waves that are parallel to each other.
+
+Now let's try to find the same thing in polar coordinates.
+
+The wave in polar coordinates is the product of two waves that are parallel to each other.
+
+The wave is the product of two waves that are
+Time taken: 19.60524868965149
+
+--------------------------------------------------
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+                                               prompt  distilgpt2     gpt2  gpt2-medium
+         The most boring topic in computer science is    6.153108 8.364003    19.569328
+                 Artificial Intelligence will lead to    5.879485 4.628390    19.598192
+The most pivotal technology from the past 50 years is    5.705082 8.181596    19.876790
+                Reinforcement learning is best suited    5.692315 8.085861    19.184039
+                     Newton's third law is defined as    6.086588 8.500262    19.605249
+
+Average time each model took across all prompts:
+distilgpt2: 5.9033s
+gpt2: 7.5520s
+gpt2-medium: 19.5667s

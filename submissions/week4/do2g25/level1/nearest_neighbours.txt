@@ -1,0 +1,75 @@
+Source sentences: 
+    "The Pacific Ocean contains thousands of undiscovered marine species.",
+    "Coral reefs are dying rapidly due to warming sea temperatures.",
+    "My neighbour's cat refuses to come inside when it rains.",
+    "Quantum entanglement allows particles to affect each other instantly.",
+    "String theory proposes eleven dimensions to explain the universe.",
+    "Fresh sourdough needs a mature starter and careful fermentation.",
+    "The local bakery opens at 5am to prepare croissants and baguettes.",
+    "Machine learning models require massive datasets for training.",
+    "Deep neural networks can recognise patterns humans might miss.",
+    "Hiking in the Scottish Highlands offers breathtaking mountain views.",
+
+Script output:
+  === LEVEL 1: EMBEDDINGS + NEAREST NEIGHBOURS ===
+Loading model: sentence-transformers/paraphrase-MiniLM-L6-v2
+Encoded 10 sentences in 0.02s
+
+Sentence [0]: The Pacific Ocean contains thousands of undiscovered marine species.
+  #1  cosine=0.306  →  [1] Coral reefs are dying rapidly due to warming sea temperatures.
+  #2  cosine=0.125  →  [4] String theory proposes eleven dimensions to explain the universe.
+  #3  cosine=0.066  →  [7] Machine learning models require massive datasets for training.
+
+Sentence [1]: Coral reefs are dying rapidly due to warming sea temperatures.
+  #1  cosine=0.306  →  [0] The Pacific Ocean contains thousands of undiscovered marine species.
+  #2  cosine=0.136  →  [7] Machine learning models require massive datasets for training.
+  #3  cosine=0.133  →  [8] Deep neural networks can recognise patterns humans might miss.
+
+Sentence [2]: My neighbour's cat refuses to come inside when it rains.
+  #1  cosine=0.032  →  [8] Deep neural networks can recognise patterns humans might miss.
+  #2  cosine=0.027  →  [6] The local bakery opens at 5am to prepare croissants and baguettes.
+  #3  cosine=-0.001  →  [5] Fresh sourdough needs a mature starter and careful fermentation.
+
+Sentence [3]: Quantum entanglement allows particles to affect each other instantly.
+  #1  cosine=0.283  →  [4] String theory proposes eleven dimensions to explain the universe.
+  #2  cosine=0.174  →  [8] Deep neural networks can recognise patterns humans might miss.
+  #3  cosine=0.098  →  [7] Machine learning models require massive datasets for training.
+
+Sentence [4]: String theory proposes eleven dimensions to explain the universe.
+  #1  cosine=0.283  →  [3] Quantum entanglement allows particles to affect each other instantly.
+  #2  cosine=0.268  →  [7] Machine learning models require massive datasets for training.
+  #3  cosine=0.191  →  [8] Deep neural networks can recognise patterns humans might miss.
+
+Sentence [5]: Fresh sourdough needs a mature starter and careful fermentation.
+  #1  cosine=0.376  →  [6] The local bakery opens at 5am to prepare croissants and baguettes.
+  #2  cosine=0.035  →  [9] Hiking in the Scottish Highlands offers breathtaking mountain views.
+  #3  cosine=0.020  →  [1] Coral reefs are dying rapidly due to warming sea temperatures.
+
+Sentence [6]: The local bakery opens at 5am to prepare croissants and baguettes.
+  #1  cosine=0.376  →  [5] Fresh sourdough needs a mature starter and careful fermentation.
+  #2  cosine=0.087  →  [9] Hiking in the Scottish Highlands offers breathtaking mountain views.
+  #3  cosine=0.027  →  [2] My neighbour's cat refuses to come inside when it rains.
+
+Sentence [7]: Machine learning models require massive datasets for training.
+  #1  cosine=0.428  →  [8] Deep neural networks can recognise patterns humans might miss.
+  #2  cosine=0.268  →  [4] String theory proposes eleven dimensions to explain the universe.
+  #3  cosine=0.136  →  [1] Coral reefs are dying rapidly due to warming sea temperatures.
+
+Sentence [8]: Deep neural networks can recognise patterns humans might miss.
+  #1  cosine=0.428  →  [7] Machine learning models require massive datasets for training.
+  #2  cosine=0.191  →  [4] String theory proposes eleven dimensions to explain the universe.
+  #3  cosine=0.174  →  [3] Quantum entanglement allows particles to affect each other instantly.
+
+Sentence [9]: Hiking in the Scottish Highlands offers breathtaking mountain views.
+  #1  cosine=0.142  →  [4] String theory proposes eleven dimensions to explain the universe.
+  #2  cosine=0.087  →  [6] The local bakery opens at 5am to prepare croissants and baguettes.
+  #3  cosine=0.073  →  [7] Machine learning models require massive datasets for training.
+
+
+Lexically different but semantically close: Sentences 7 & 8: cosine=0.428 (highest similarity in the dataset)
+[7] "Machine learning models require massive datasets for training."
+[8] "Deep neural networks can recognise patterns humans might miss."
+
+Lexically similar but semantically far apart: Sentences 4 & 9: cosine=0.142
+[4] "String theory proposes eleven dimensions to explain the universe."
+[9] "Hiking in the Scottish Highlands offers breathtaking mountain views."
