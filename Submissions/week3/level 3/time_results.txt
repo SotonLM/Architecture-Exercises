@@ -1,0 +1,33 @@
+
+Average Generation Time for distilgpt2 with 50 tokens: 1.7818 seconds
+
+Average Generation Time for gpt2 with 50 tokens: 2.6287 seconds
+
+Average Generation Time for gpt2-medium with 50 tokens: 6.1737 seconds
+
+Comparison of Average Generation Times with 50 tokens using distilgpt2 as benchmark:
+distilgpt2: 1.7818 seconds
+gpt2: 2.6287 seconds, Ratio: 47.53%
+gpt2-medium: 6.1737 seconds, Ratio: 246.48%
+
+Average Generation Time for distilgpt2 with 100 tokens: 3.6683 seconds
+
+Average Generation Time for gpt2 with 100 tokens: 5.0054 seconds
+
+Average Generation Time for gpt2-medium with 100 tokens: 12.2816 seconds
+
+Comparison of Average Generation Times with 100 tokens using distilgpt2 as benchmark:
+distilgpt2: 3.6683 seconds
+gpt2: 5.0054 seconds, Ratio: 36.45%
+gpt2-medium: 12.2816 seconds, Ratio: 234.80%
+
+Average Generation Time for distilgpt2 with 200 tokens: 7.4305 seconds
+
+Average Generation Time for gpt2 with 200 tokens: 10.8798 seconds
+
+Average Generation Time for gpt2-medium with 200 tokens: 25.5832 seconds
+
+Comparison of Average Generation Times with 200 tokens using distilgpt2 as benchmark:
+distilgpt2: 7.4305 seconds
+gpt2: 10.8798 seconds, Ratio: 46.42%
+gpt2-medium: 25.5832 seconds, Ratio: 244.30%

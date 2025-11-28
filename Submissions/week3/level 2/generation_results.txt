@@ -1,0 +1,37 @@
+
+Prompt: The future of AI is
+Generated: The future of AI is not clear. The current system can be controlled by a single person, and it’s possible to control the machine with an autonomous assistant or other means—like driving cars that operate in real time (such as car-driven vehicles) but also using robots capable of performing tasks like sorting through food samples; human beings have been able to communicate directly with each other via artificial intelligence technology for over 20 years.
+But we need to keep up with our own advances: We want to make sure every
+Generation Time: 3.3793 seconds
+Token Count: 105
+--------------------------------------------------
+
+Prompt: In the year 2030
+Generated: In the year 2030, it is estimated that over 60 per cent of all European countries will have a high level of unemployment.
+The OECD estimates there are 1.5 million unemployed people in Europe and around 6 million more than half of those who were born out of poverty or under-employed to work between 2009 and 2015. This figure has risen by almost 20 percentage points since 2007. The figures also show that about 5.6 million people live below the poverty line. But this number does not include young workers as well
+Generation Time: 3.2632 seconds
+Token Count: 104
+--------------------------------------------------
+
+Prompt: The secret to happiness is
+Generated: The secret to happiness is the fact that we are not merely selfish, but also human.
+This belief in self-interest and love can be summed up by a number of important facts:
+1) The average American household income has been roughly $5 billion since 1980 (see chart below). In this period, however, it's gone from about 5% to over 10% of all Americans today. This means that if you live near or far away from home, your family will likely have fewer children than those living at
+Generation Time: 3.2417 seconds
+Token Count: 105
+--------------------------------------------------
+
+Prompt: Once upon a time in a land far away,
+Generated: Once upon a time in a land far away, the sun rises above it.
+The moon is now shining at night and we are all awake to see what was going on behind us. The sky looks like this: It's dark, with only one light source illuminating through the clouds of darkness. As I lay there, my eyes turn back toward the stars that form our lives. My heart breaks as if from deep inside me. What could have been better for you? You were born into something else! But then suddenly things began to change again
+Generation Time: 3.3276 seconds
+Token Count: 110
+--------------------------------------------------
+
+Prompt: The way to become a billionaire is
+Generated: The way to become a billionaire is not by going into business, but through being able to live up to the expectations of those who have done so.
+“I'm very grateful for this opportunity and I hope that it will help me get back on track in my life," he said. "If you are lucky enough to be successful as an entrepreneur or if you can keep working at your own pace, then there's no reason why anyone should ever go out with something like that."
+He added: "It's been amazing
+Generation Time: 3.4113 seconds
+Token Count: 107
+--------------------------------------------------
