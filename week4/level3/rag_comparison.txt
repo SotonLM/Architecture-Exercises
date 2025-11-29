@@ -1,0 +1,198 @@
+------------ Query 1 ------------
+Context:
+[DOC 8]: Quantum computing keeps edging forward, promising to crack problems that make classical machines sweat
+[DOC 9]: Semiconductors are getting stranger—stacked, chipped, bent, and optimized for workloads like neural networks and cryptography
+[DOC 30]: Science is basically humanity’s long-running quest to figure out what on earth is going on—and nature happily keeps giving us mysteries to chase
+[DOC 32]: Researchers peel back these cosmic layers bit by bit, using sharper tools and bolder theories to make sense of it all
+[DOC 5]: The real magic isn’t just raw computation; it’s the ability of these systems to learn patterns and adapt
+
+Query 1: What is quantum computing and what problems can it solve?
+
+Answer WITHOUT context: 
+    quantum computing
+
+Answer WITH context:
+    edging forward
+
+Evaluation:
+Both are weak however the answer without context only menstions the topic but with context it tried to form something.
+
+------------ Query 2 ------------
+Retrieval completed in 0.02s
+Context:
+[DOC 50]: Academically, university forces you to level up whether you're ready or not
+[DOC 59]: University is where you test ideas, switch paths, and figure out what you might actually want to do with your life—no pressure or anything
+[DOC 46]: University is a strange mix of freedom, responsibility, and sheer caffeinated chaos 
+[DOC 57]: Still, the mix of personalities is exactly what makes campus feel alive and unpredictable
+[DOC 48]: The learning isn’t just in the lectures—it’s in figuring out how to manage your time, your energy, and your sanity
+
+Query 2: What is university like socially and academically?
+
+Answer WITHOUT context: 
+    socially and academically
+
+Answer WITH context:
+    University is where you test ideas, switch paths, and figure out what you might actually want to do with your life
+
+Evaluation:
+Without context just repeats query keywords and with context it gives a partial answer
+
+------------ Query 3 ------------
+Retrieval completed in 0.02s
+Context:
+[DOC 4]: Once a niche academic pursuit, AI now drives recommendation engines, powers medical diagnostics, writes code, and—if you’re lucky—helps you avoid burning your dinner
+[DOC 6]: As models get larger and data pipelines smoother, expect AI to go from “impressive” to “quietly everywhere,” blending into tools you won’t even think twice about
+[DOC 3]: Artificial intelligence sits at the center of this momentum
+[DOC 1]: Every year, we see new breakthroughs reshaping how we work, live, and learn—from smarter algorithms to machines that can now handle tasks once thought too nuanced for automation  
+[DOC 15]: Culture has always been the unofficial operating system of humanity—messy, constantly updating, and somehow still functioning
+
+Query 3: How is AI used in everyday life?
+
+Answer WITHOUT context: 
+    a computer
+
+Answer WITH context:
+    AI now drives recommendation engines, powers medical diagnostics, writes code, and—if you’re lucky—helps you avoid burning your dinner
+
+Evaluation:
+The answer without context is vague and not relevant, while the answer with context provides specific examples of AI applications in everyday life
+
+------------ Query 4 ------------
+Retrieval completed in 0.02s
+Context:
+[DOC 4]: Once a niche academic pursuit, AI now drives recommendation engines, powers medical diagnostics, writes code, and—if you’re lucky—helps you avoid burning your dinner
+[DOC 6]: As models get larger and data pipelines smoother, expect AI to go from “impressive” to “quietly everywhere,” blending into tools you won’t even think twice about
+[DOC 59]: University is where you test ideas, switch paths, and figure out what you might actually want to do with your life—no pressure or anything
+[DOC 50]: Academically, university forces you to level up whether you're ready or not
+[DOC 3]: Artificial intelligence sits at the center of this momentum
+
+Query 4: What skills do I develop by studying AI at university?
+
+Answer WITHOUT context: 
+    arithmetic
+
+Answer WITH context:
+    a).
+
+Evaluation:
+The answer without context is irrelevant, while the answer with context is incomplete and does not provide a clear response to the question
+
+------------ Query 5 ------------
+Retrieval completed in 0.02s
+Context:
+[DOC 0]: Technology moves fast enough that even experts sometimes feel like they’re sprinting to keep up
+[DOC 16]: Today, it’s evolving at high speed as global connectivity mixes traditions, languages, and aesthetics in ways that would make past generations’ heads spin
+[DOC 17]: Trends leap across continents overnight, and what once took centuries to spread now goes viral before you’ve finished your morning coffee
+[DOC 1]: Every year, we see new breakthroughs reshaping how we work, live, and learn—from smarter algorithms to machines that can now handle tasks once thought too nuanced for automation  
+[DOC 11]: And while all that unfolds, the digital infrastructure underneath us keeps tightening its grip
+
+Query 5: How fast is technology changing today?
+
+Answer WITHOUT context: 
+    a billion years
+
+Answer WITH context:
+    high speed
+
+Evaluation:
+Without context the answer is exaggerated and not relevant, while with context it provides a concise description of the speed of technological change
+
+------------ Query 6 ------------
+Retrieval completed in 0.02s
+Context:
+[DOC 46]: University is a strange mix of freedom, responsibility, and sheer caffeinated chaos 
+[DOC 50]: Academically, university forces you to level up whether you're ready or not
+[DOC 59]: University is where you test ideas, switch paths, and figure out what you might actually want to do with your life—no pressure or anything
+[DOC 57]: Still, the mix of personalities is exactly what makes campus feel alive and unpredictable
+[DOC 55]: You meet people with backgrounds, beliefs, and ambitions wildly different from your own, and those differences can be eye-opening
+
+Query 6: Why can university feel overwhelming at first?
+
+Answer WITHOUT context: 
+    a lack of resources
+
+Answer WITH context:
+    a strange mix of freedom, responsibility, and sheer caffeinated chaos
+
+Evaluation:
+The answer without context is vague and not relevant, while the answer with context provides a clear reason why university can feel overwhelming at first
+
+------------ Query 7 ------------
+Retrieval completed in 0.03s
+Context:
+[DOC 12]: Cloud platforms stretch across continents, 5G and beyond shrink latency to absurdly tiny numbers, and cybersecurity has become a battlefield where attackers and defenders trade increasingly sophisticated blows
+[DOC 6]: As models get larger and data pipelines smoother, expect AI to go from “impressive” to “quietly everywhere,” blending into tools you won’t even think twice about
+[DOC 4]: Once a niche academic pursuit, AI now drives recommendation engines, powers medical diagnostics, writes code, and—if you’re lucky—helps you avoid burning your dinner
+[DOC 58]: And then there’s the future looming over everything like a slightly judgmental cloud
+[DOC 1]: Every year, we see new breakthroughs reshaping how we work, live, and learn—from smarter algorithms to machines that can now handle tasks once thought too nuanced for automation  
+
+Query 7: How does cloud computing affect AI systems?
+
+Answer WITHOUT context: 
+    Using a cloud computing environment, AI systems are able to detect and detect the patterns of the data.
+
+Answer WITH context:
+    a niche academic pursuit
+
+Evaluation:
+The answer without context is somewhat relevant but awkwardly phrased, while the answer with context is vague and does not directly address the question
+
+------------ Query 8 ------------
+Retrieval completed in 0.02s
+Context:
+[DOC 41]: But with great power comes the inevitable ethical debate, because rewriting life isn’t the sort of thing you do casually over lunch
+[DOC 14]: If the past decade was about getting online, the next decade is about making that online world smarter, safer, and surprisingly immersive
+[DOC 26]: Societies are figuring out how to balance heritage with innovation, how to protect what’s meaningful without shutting the door on change
+[DOC 11]: And while all that unfolds, the digital infrastructure underneath us keeps tightening its grip
+[DOC 34]: Nature, for its part, is the original engineer, artist, and strategist rolled into one
+
+Query 8: What is the role of ethics in modern technology?
+
+Answer WITHOUT context: 
+    a symbiosis
+
+Answer WITH context:
+    rewriting life
+
+Evaluation:
+The answer without context is vague and not relevant, while the answer with context touches on the ethical implications of advanced technologies but could be more explicit
+
+------------ Query 9 ------------
+Retrieval completed in 0.03s
+Context:
+[DOC 57]: Still, the mix of personalities is exactly what makes campus feel alive and unpredictable
+[DOC 59]: University is where you test ideas, switch paths, and figure out what you might actually want to do with your life—no pressure or anything
+[DOC 46]: University is a strange mix of freedom, responsibility, and sheer caffeinated chaos 
+[DOC 22]: One of the biggest shifts is how people build community
+[DOC 50]: Academically, university forces you to level up whether you're ready or not
+
+Query 9: What makes campus life unique?
+
+Answer WITHOUT context: 
+    a campus that is a campus
+
+Answer WITH context:
+    the mix of personalities
+
+Evaluation:
+The answer without context is vague and not relevant, while the answer with context provides a clear reason why campus life is unique
+
+------------ Query 10 ------------
+Retrieval completed in 0.03s
+Context:
+[DOC 59]: University is where you test ideas, switch paths, and figure out what you might actually want to do with your life—no pressure or anything
+[DOC 50]: Academically, university forces you to level up whether you're ready or not
+[DOC 48]: The learning isn’t just in the lectures—it’s in figuring out how to manage your time, your energy, and your sanity
+[DOC 51]: Courses dig deeper than anything you saw in high school, pushing you to analyze, question, and actually understand instead of memorizing
+[DOC 46]: University is a strange mix of freedom, responsibility, and sheer caffeinated chaos 
+
+Query 10: How does studying at university shape your future career?
+
+Answer WITHOUT context: 
+    a student will be able to study at a university.
+
+Answer WITH context:
+    a strange mix of freedom, responsibility, and sheer caffeinated chaos
+
+Evaluation:
+The answer without context is vague and not relevant, while the answer with context does not directly address how studying at university shapes one's future career

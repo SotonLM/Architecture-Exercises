@@ -23,16 +23,16 @@ MODEL_NAME = "sentence-transformers/paraphrase-MiniLM-L6-v2"
 TOP_K = 3
 
 sentences = [
-    "Neural networks learn by adjusting billions of parameters.",
-    "Backpropagation updates weights to minimise loss in a model.",
-    "My grandma's apple pie relies on butter, cinnamon, and patience.",
-    "Apple just announced a new chip for thin-and-light laptops.",
-    "Marathon runners load up on carbohydrates before race day.",
-    "Jogging at dawn clears my thoughts before work meetings.",
-    "The Louvre protects centuries of European art and sculpture.",
-    "Budget airlines squeeze every centimetre out of the cabin layout.",
-    "Cryptographers worry that quantum machines will break RSA.",
-    "Stargazing on a quiet beach reminds me of physics lectures.",
+    "The chef burned the toast while checking his phone.",
+    "A researcher trained a new model overnight on a dusty GPU.",
+    "The toast sprinted across the hallway before jumping out the window.",
+    "The scientist optimized her algorithm until sunrise.",
+    "My coffee cooled faster than the compiler finished optimizing the code.",
+    "The bicycle wobbled past the lab just as the robots started learning to walk.",
+    "I updated the Python package, and the lamp flickered like it approved the decision.",
+    "A quiet breeze moved the trees while my simulation ate 48 CPU cores without mercy.",
+    "The whiteboard markers dried out during a heated argument about matrix factorizations.",
+    "A lone seagull screamed triumphantly as my model overfit for the tenth time."
 ]
 
 def main() -> None:

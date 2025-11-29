@@ -1,0 +1,64 @@
+Source Sentences:
+The neural network finished training while the kettle whistled in the kitchen.
+A stray cat inspected my GPU as if benchmarking it for adoption.
+The lecture on gradient descent somehow drifted into a debate about sandwiches.
+Clouds gathered over the field where our drone kept losing Wi-Fi.
+My coffee cooled faster than the compiler finished optimizing the code.
+The bicycle wobbled past the lab just as the robots started learning to walk.
+I updated the Python package, and the lamp flickered like it approved the decision.
+A quiet breeze moved the trees while my simulation ate 48 CPU cores without mercy.
+The whiteboard markers dried out during a heated argument about matrix factorizations.
+A lone seagull screamed triumphantly as my model overfit for the tenth time.
+
+Top-3 neighbours + cosine similarity per sentence:
+Sentence [0]: The chef burned the toast while checking his phone.
+  #1  cosine=0.266  →  [2] The toast sprinted across the hallway before jumping out the window.
+  #2  cosine=0.231  →  [4] My coffee cooled faster than the compiler finished optimizing the code.
+  #3  cosine=0.158  →  [1] A researcher trained a new model overnight on a dusty GPU.
+
+Sentence [1]: A researcher trained a new model overnight on a dusty GPU.
+  #1  cosine=0.418  →  [3] The scientist optimized her algorithm until sunrise.  
+  #2  cosine=0.342  →  [7] A quiet breeze moved the trees while my simulation ate 48 CPU cores without mercy.
+  #3  cosine=0.310  →  [5] The bicycle wobbled past the lab just as the robots started learning to walk.
+
+Sentence [2]: The toast sprinted across the hallway before jumping out the window.
+  #1  cosine=0.371  →  [9] A lone seagull screamed triumphantly as my model overfit for the tenth time.
+  #2  cosine=0.266  →  [0] The chef burned the toast while checking his phone.   
+  #3  cosine=0.184  →  [7] A quiet breeze moved the trees while my simulation ate 48 CPU cores without mercy.
+
+Sentence [3]: The scientist optimized her algorithm until sunrise.
+  #1  cosine=0.418  →  [1] A researcher trained a new model overnight on a dusty GPU.
+  #2  cosine=0.353  →  [4] My coffee cooled faster than the compiler finished optimizing the code.
+  #3  cosine=0.302  →  [7] A quiet breeze moved the trees while my simulation ate 48 CPU cores without mercy.
+
+Sentence [4]: My coffee cooled faster than the compiler finished optimizing the code.
+  #1  cosine=0.387  →  [7] A quiet breeze moved the trees while my simulation ate 48 CPU cores without mercy.
+  #2  cosine=0.363  →  [6] I updated the Python package, and the lamp flickered like it approved the decision.
+  #3  cosine=0.353  →  [3] The scientist optimized her algorithm until sunrise.  
+
+Sentence [5]: The bicycle wobbled past the lab just as the robots started learning to walk.
+  #1  cosine=0.325  →  [7] A quiet breeze moved the trees while my simulation ate 48 CPU cores without mercy.
+  #2  cosine=0.310  →  [1] A researcher trained a new model overnight on a dusty GPU.
+  #3  cosine=0.172  →  [3] The scientist optimized her algorithm until sunrise.  
+
+Sentence [6]: I updated the Python package, and the lamp flickered like it approved the decision.
+  #1  cosine=0.363  →  [4] My coffee cooled faster than the compiler finished optimizing the code.
+  #2  cosine=0.184  →  [3] The scientist optimized her algorithm until sunrise.  
+Sentence [8]: The whiteboard markers dried out during a heated argument about matrix factorizations.
+  #1  cosine=0.201  →  [4] My coffee cooled faster than the compiler finished optimizing the code.
+  #2  cosine=0.166  →  [7] A quiet breeze moved the trees while my simulation ate 48 CPU cores without mercy.
+  #3  cosine=0.147  →  [1] A researcher trained a new model overnight on a dusty GPU.
+
+Sentence [9]: A lone seagull screamed triumphantly as my model overfit for the tenth time.
+  #1  cosine=0.371  →  [2] The toast sprinted across the hallway before jumping out the window.
+  #2  cosine=0.207  →  [7] A quiet breeze moved the trees while my simulation ate 48 CPU cores without mercy.
+  #3  cosine=0.127  →  [3] The scientist optimized her algorithm until sunrise.
+
+Lexical vs Semantic Similarity Observations:
+Lexically similar but semantically different:
+The chef burned the toast while checking his phone.
+The toast sprinted across the hallway before jumping out the window.
+
+Semantically similar but lexically different:
+A researcher trained a new model overnight on a dusty GPU.
+The scientist optimized her algorithm until sunrise.

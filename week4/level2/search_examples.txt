@@ -1,0 +1,87 @@
+------------ Queries ------------
+Factual:
+    What is quantumn computing and what problems can it solve?
+
+Vauge:
+    Everything about uni feels overwhelming and confusing but exciting.
+
+Multi Topic:
+    What is AI like at University?
+
+Short:
+    AI
+
+Long:
+    What is university like socially and academically and how does it shape your future?
+
+------------ Responses ------------
+=== LEVEL 2: SEMANTIC SEARCH ===
+Loading model: sentence-transformers/paraphrase-MiniLM-L6-v2
+Embeddings already stored.
+Enter your search query: What is quantum computing and what problems can it solve?
+Search completed in 0.07s
+
+Top 3 results for query: 'What is quantum computing and what problems can it solve?'
+#1   Cosine: 0.644  Index: 8  Sentence: Quantum computing keeps edging forward, promising to crack problems that make classical machines sweat
+#2   Cosine: 0.377  Index: 9  Sentence: Semiconductors are getting stranger—stacked, chipped, bent, and optimized for workloads like neural networks and cryptography
+#3   Cosine: 0.312  Index: 30  Sentence: Science is basically humanity’s long-running quest to figure out what on earth is going on—and nature happily keeps giving us mysteries to chase
+
+=== LEVEL 2: SEMANTIC SEARCH ===
+Loading model: sentence-transformers/paraphrase-MiniLM-L6-v2
+Embeddings already stored.
+Enter your search query: Everything about uni feels overwhelming and confusing but exciting
+Search completed in 0.09s
+
+Top 3 results for query: 'Everything about uni feels overwhelming and confusing but exciting'
+#1   Cosine: 0.436  Index: 57  Sentence: Still, the mix of personalities is exactly what makes campus feel alive and unpredictable
+#2   Cosine: 0.383  Index: 55  Sentence: You meet people with backgrounds, beliefs, and ambitions wildly different from your own, and those differences can be eye-opening
+#3   Cosine: 0.372  Index: 25  Sentence: It’s a strange new kind of unity—informal, creative, and unpredictable  
+
+=== LEVEL 2: SEMANTIC SEARCH ===
+Loading model: sentence-transformers/paraphrase-MiniLM-L6-v2
+Embeddings already stored.
+Enter your search query: What is AI like at University?
+Search completed in 0.08s
+
+Top 3 results for query: 'What is AI like at University?'
+#1   Cosine: 0.467  Index: 4  Sentence: Once a niche academic pursuit, AI now drives recommendation engines, powers medical diagnostics, writes code, and—if you’re lucky—helps you avoid burning your dinner      
+#2   Cosine: 0.440  Index: 50  Sentence: Academically, university forces you to level up whether you're ready or not
+#3   Cosine: 0.433  Index: 59  Sentence: University is where you test ideas, switch paths, and figure out what you might actually want to do with your life—no pressure or anything
+
+=== LEVEL 2: SEMANTIC SEARCH ===
+Loading model: sentence-transformers/paraphrase-MiniLM-L6-v2
+Embeddings already stored.
+Enter your search query: AI
+Search completed in 0.07s
+
+Top 3 results for query: 'AI'
+#1   Cosine: 0.561  Index: 4  Sentence: Once a niche academic pursuit, AI now drives recommendation engines, powers medical diagnostics, writes code, and—if you’re lucky—helps you avoid burning your dinner
+#2   Cosine: 0.553  Index: 6  Sentence: As models get larger and data pipelines smoother, expect AI to go from “impressive” to “quietly everywhere,” blending into tools you won’t even think twice about
+#3   Cosine: 0.529  Index: 3  Sentence: Artificial intelligence sits at the center of this momentum
+
+=== LEVEL 2: SEMANTIC SEARCH ===
+Loading model: sentence-transformers/paraphrase-MiniLM-L6-v2
+Embeddings already stored.
+Enter your search query: What is university like socially and academically and how does it shape your future?
+Search completed in 0.09s
+
+Top 3 results for query: 'What is university like socially and academically and how does it shape your future?'
+#1   Cosine: 0.591  Index: 50  Sentence: Academically, university forces you to level up whether you're ready or not
+#2   Cosine: 0.577  Index: 59  Sentence: University is where you test ideas, switch paths, and figure out what you might actually want to do with your life—no pressure or anything
+#3   Cosine: 0.454  Index: 57  Sentence: Still, the mix of personalities is exactly what makes campus feel alive and unpredictable
+
+------------ Reflection ------------
+For 1:
+Slight drift from quantum computing but kept it science based.
+
+For 2:
+Focuses on the social parts of university, less on the overwhelming or confusing aspects.
+
+For 3:
+Mentions a mix fo AI and University
+
+For 4:
+All around AI, for the 3rd sentence it links AI to Artificial Intelligence
+
+For 5:
+Provides sentences that capture both social and academic aspects of university life
