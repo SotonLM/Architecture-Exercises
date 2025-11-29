@@ -1,0 +1,158 @@
+Output 1
+Prompt: The future of Lebron is
+Parameters: max_length=20, temperature=0.5, top_k=10
+Result: The future of Lebron is not yet clear.
+Length Score: 10.0
+Repition Score: 30.0
+Punctuation Score: 10.0
+Relevance Score: 40.0
+Score: 90.0
+
+Output 2
+Prompt: The future of Lebron is
+Parameters: max_length=50, temperature=1.0, top_k=50
+Result: The future of Lebron is in doubt.
+Length Score: 10.0
+Repition Score: 30.0
+Punctuation Score: 10.0
+Relevance Score: 40.0
+Score: 90.0
+
+Output 3
+Prompt: The future of Lebron is
+Parameters: max_length=100, temperature=1.5, top_k=100
+Result: The future of Lebron is clearly in our immediate wake." He laughs happily as tears spill down tears.
+At a local nightclub where most guests come courtesy of French language speakers -- as well as patrons on television and radio stations offering translations designed by French-speaking fans hoping to understand French-speaking culture better than English speakers - the couple began learning much about writing. But in October, an interview he gave to RT, he added that although some Irish residents, such as his family, read very little English over the holidays in
+Length Score: 6.0
+Repition Score: 24.0
+Punctuation Score: 3.0
+Relevance Score: 40.0
+Score: 73.0
+
+Output 4
+Prompt: If Bronny James can
+Parameters: max_length=20, temperature=0.5, top_k=10
+Result: If Bronny James can be found at www.patreon.com/BronnyJames
+Length Score: 10.0
+Repition Score: 30.0
+Punctuation Score: 3.0
+Relevance Score: 40.0
+Score: 83.0
+
+Output 5
+Prompt: If Bronny James can
+Parameters: max_length=50, temperature=1.0, top_k=50
+Result: If Bronny James can become a successful actor, and his role on The Daily Show is also a big one for the gay community.
+As one gay character tells you, "It's like being a gay guy with your name on your shirt and
+Length Score: 10.0
+Repition Score: 24.0
+Punctuation Score: 3.0
+Relevance Score: 40.0
+Score: 77.0
+
+Output 6
+Prompt: If Bronny James can
+Parameters: max_length=100, temperature=1.5, top_k=100
+Result: If Bronny James can just start off getting a healthy dose of muscle that was healthy and keeps everybody on atypical this Saturday....will give me a sense to what the team had in front of us at 9:30pm the last three and a half days before even starting with a complete turnaround run for Sunday's games. I don't like watching a single moment of player slithering ahead and not winning a game over is bad on television
+These four games, going straight to a second win this cycle, definitely
+Length Score: 6.0
+Repition Score: 24.0
+Punctuation Score: 3.0
+Relevance Score: 40.0
+Score: 73.0
+
+Output 7
+Prompt: But only if Bryce James is able to
+Parameters: max_length=20, temperature=0.5, top_k=10
+Result: But only if Bryce James is able to make a difference in the NBA.
+Length Score: 10.0
+Repition Score: 30.0
+Punctuation Score: 10.0
+Relevance Score: 40.0
+Score: 90.0
+
+Output 8
+Prompt: But only if Bryce James is able to
+Parameters: max_length=50, temperature=1.0, top_k=50
+Result: But only if Bryce James is able to score against all three opponents, which would be a nice bit of luck.
+What I found is Bryce James the best. He's the best player in the nation. He hit five homers in 27 first innings of the season. He
+Length Score: 10.0
+Repition Score: 24.0
+Punctuation Score: 3.0
+Relevance Score: 40.0
+Score: 77.0
+
+Output 9
+Prompt: But only if Bryce James is able to
+Parameters: max_length=100, temperature=1.5, top_k=100
+Result: But only if Bryce James is able to score more targets on Thursday before playing him second would he start playing two long-footer -- much like the first four on Wednesday if he was put on offense too.
+Here are a few potential options...
+.
+-Teddy Bridgewater needs a longer stay between his thumb and shoulder, but his wrist is definitely up than in Week 5. I'd think Bridgewater should return early considering who, if needed, could run more on three plays this week's training
+Length Score: 6.0
+Repition Score: 24.0
+Punctuation Score: 3.0
+Relevance Score: 40.0
+Score: 73.0
+
+Output 10
+Prompt: The NBA will become
+Parameters: max_length=20, temperature=0.5, top_k=10
+Result: The NBA will become the first NBA team to host a game in its history.
+Length Score: 10.0
+Repition Score: 24.0
+Punctuation Score: 10.0
+Relevance Score: 40.0
+Score: 84.0
+
+Output 11
+Prompt: The NBA will become
+Parameters: max_length=50, temperature=1.0, top_k=50
+Result: The NBA will become a reality, with three teams and seven franchises set to enter the 2017-18 season, which will conclude in mid-May. The NBA, the NBA, and other other teams will use the annual league tournament to raise money for charity and help people
+Length Score: 10.0
+Repition Score: 24.0
+Punctuation Score: 3.0
+Relevance Score: 40.0
+Score: 77.0
+
+Output 12
+Prompt: The NBA will become
+Parameters: max_length=100, temperature=1.5, top_k=100
+Result: The NBA will become progressively stronger when an organization leaves. The NBA team is no longer having to play two different teams on its five-year existence. Players generally play across the league once it's had its five-year, extended past the rule at the time. But it's slowly gaining some momentum as the team becomes clearer about expansion in 2019 and new league plans -- if there is some improvement happening in it and there are some major changes to it and some big moves like a third-wall at the end of the
+Length Score: 6.0
+Repition Score: 24.0
+Punctuation Score: 3.0
+Relevance Score: 40.0
+Score: 73.0
+
+Output 13
+Prompt: In 2030, the Lakers will
+Parameters: max_length=20, temperature=0.5, top_k=10
+Result: In 2030, the Lakers will have to make a decision on a roster that includes players who have been selected by the Lakers.
+Length Score: 10.0
+Repition Score: 24.0
+Punctuation Score: 10.0
+Relevance Score: 40.0
+Score: 84.0
+
+Output 14
+Prompt: In 2030, the Lakers will
+Parameters: max_length=50, temperature=1.0, top_k=50
+Result: In 2030, the Lakers will need to win 40 games of the NBA Playoffs, only to lose 24.3 games in the finals, when the San Antonio Spurs will face the Chicago Bulls (3-6), Atlanta Hawks (2-6), Denver Nuggets (2-9),
+Length Score: 20.0
+Repition Score: 24.0
+Punctuation Score: 3.0
+Relevance Score: 40.0
+Score: 87.0
+
+Output 15
+Prompt: In 2030, the Lakers will
+Parameters: max_length=100, temperature=1.5, top_k=100
+Result: In 2030, the Lakers will have one of the best scoring teams from the NBA this offseason. In 17,980 trips to East to defeat the Heat all NBA records through four seasons during its postseason period (2005-06: the Jazz achieved 100 home winning totals) coupled with 13 more victories and 31 wins over LeBron James. However, with the Bulls expected to play a larger regular-season schedule rather than less league format, fans wanted consistency in league television, periodicals as well as more time on NBA channels.
+The
+Length Score: 6.0
+Repition Score: 24.0
+Punctuation Score: 3.0
+Relevance Score: 40.0
+Score: 73.0
+

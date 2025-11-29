@@ -1,0 +1,111 @@
+Output 1
+Prompt: The future of Lebron is
+Parameters: max_length=20, temperature=0.5, top_k=10
+Time taken: 0.9232950210571289 seconds
+Result: The future of Lebron is a question of how the government can respond to the challenges of the current political climate.
+Token Count: 24
+
+Output 2
+Prompt: The future of Lebron is
+Parameters: max_length=50, temperature=1.0, top_k=50
+Time taken: 2.049285888671875 seconds
+Result: The future of Lebron is far from an academic matter as we see now. And now, it is up to the courts to hear the arguments – and the judge's own case – regarding whether or not the Government is taking the case seriously.
+A spokesman for the
+Token Count: 55
+
+Output 3
+Prompt: The future of Lebron is
+Parameters: max_length=100, temperature=1.5, top_k=100
+Time taken: 4.18927264213562 seconds
+Result: The future of Lebron is near yet another battle,“ said Timothy Lee Jambenson of Business Management LP on Thursday — “to develop regulatory products such as mobile devices (iTunes) to address a demand for cloud servers without requiring apps to set out for streaming. With both the Apple-based service and iTunes to compete on many platforms, these should serve as a competitive service, but should not preclude it reaching customers beyond digital media giants.
+"For these [streaming] platforms that could replace
+Token Count: 105
+
+Output 4
+Prompt: If Bronny James can
+Parameters: max_length=20, temperature=0.5, top_k=10
+Time taken: 0.5253205299377441 seconds
+Result: If Bronny James can be reached at bronneyjames@gmail.com.
+Token Count: 17
+
+Output 5
+Prompt: If Bronny James can
+Parameters: max_length=50, temperature=1.0, top_k=50
+Time taken: 0.4572477340698242 seconds
+Result: If Bronny James can be reached at blair@yahoo.com.
+Token Count: 15
+
+Output 6
+Prompt: If Bronny James can
+Parameters: max_length=100, temperature=1.5, top_k=100
+Time taken: 4.2006447315216064 seconds
+Result: If Bronny James can't deny last year he is capable of getting any weight right once he reeled down last September after shoulder surgeries and underwent multiple surgeries on his thumb that effectively stripped out 70 percent of his physical attributes and made for good on many indicators that summer may have taken better years to learn – a problem seen in his new and improved physique and size.
+While Jansen and James battled back and forth and endured frustrating workouts over the course of the same seven weeks it will take Jackson by surprise
+Token Count: 101
+
+Output 7
+Prompt: But only if Bryce James is able to
+Parameters: max_length=20, temperature=0.5, top_k=10
+Time taken: 0.8884520530700684 seconds
+Result: But only if Bryce James is able to make the transition to the NBA in a year and a half.
+Token Count: 21
+
+Output 8
+Prompt: But only if Bryce James is able to
+Parameters: max_length=50, temperature=1.0, top_k=50
+Time taken: 1.472548484802246 seconds
+Result: But only if Bryce James is able to avoid this situation, why do we support the bill even though our country isn't in default?
+This article was originally published at The Fiscal Times.
+Token Count: 38
+
+Output 9
+Prompt: But only if Bryce James is able to
+Parameters: max_length=100, temperature=1.5, top_k=100
+Time taken: 4.190109729766846 seconds
+Result: But only if Bryce James is able to do that in the future if you want to get back to the field or do some of what you can instead start in your own. Unfortunately this does not mean Bryce won't even be finished filling in those spots until Monday (November 12!) and after another great team such as the Rams still did what just days prior to a 7.69 victory over New England that ranked 18th and 12th when it counted was due to a player's release pending action from Cleveland and being removed by Cleveland. No
+Token Count: 108
+
+Output 10
+Prompt: The NBA will become
+Parameters: max_length=20, temperature=0.5, top_k=10
+Time taken: 0.8796114921569824 seconds
+Result: The NBA will become the first NBA team to offer free agency to the players of a team that will be able to play
+Token Count: 24
+
+Output 11
+Prompt: The NBA will become
+Parameters: max_length=50, temperature=1.0, top_k=50
+Time taken: 2.1853291988372803 seconds
+Result: The NBA will become the league's first official non-NBA player to feature "a single game of NBA games featuring players from different leagues" on Nov. 24, 2017. (Emanra Hughes/The Washington Post)
+Token Count: 45
+
+Output 12
+Prompt: The NBA will become
+Parameters: max_length=100, temperature=1.5, top_k=100
+Time taken: 4.213435888290405 seconds
+Result: The NBA will become America’⁺′, which it started to do. It should add to that now, so often, for a while (especially where the Clippers were the game itself), the league couldn't really lay the foundation for new success. LeBron‌s teams went 5 to 11 and his big guys spent countless buckets just to lose to an already stronger contender, like Jordan with Jordan being knocked out to the minimum. He never seemed to even get there by that point while a mediocre team made
+Token Count: 103
+
+Output 13
+Prompt: In 2030, the Lakers will
+Parameters: max_length=20, temperature=0.5, top_k=10
+Time taken: 0.8271341323852539 seconds
+Result: In 2030, the Lakers will be able to win a championship in the NBA.
+Token Count: 16
+
+Output 14
+Prompt: In 2030, the Lakers will
+Parameters: max_length=50, temperature=1.0, top_k=50
+Time taken: 2.2498652935028076 seconds
+Result: In 2030, the Lakers will have an NBA roster that represents four top five players by the same time the team is drafted in the first round of the draft.
+Rockets first baseman Brandon Ingram and second baseman Brandon Ingram had one of their best 2017 NBA seasons,
+Token Count: 53
+
+Output 15
+Prompt: In 2030, the Lakers will
+Parameters: max_length=100, temperature=1.5, top_k=100
+Time taken: 4.850558042526245 seconds
+Result: In 2030, the Lakers will set aside money only the 30th minute right after he breaks Dwight Howard's jumper under a penalty. That scenario will depend exclusively as of right now, at least until 2020. Because no date could be released out of that scenario because they both committed this amount between 2014 and 2025 this year to spend this money, according to several sources familiar with the situation.
+NBA-hype site SportsCenter reported NBA officials met with John Daly that Saturday during their pre-game introductions to
+Token Count: 102
+

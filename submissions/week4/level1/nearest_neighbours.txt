@@ -1,0 +1,53 @@
+Sentence [0]: I revised calculus all weekend to prepare for the exam.
+  #1  cosine=0.316  →  [3] I crashed on the sofa as soon as I got home from the exam.
+  #2  cosine=0.269  →  [1] Cramming past papers late at night makes my brain melt.
+  #3  cosine=0.176  →  [6] Training at the gym three times a week has boosted my energy.
+
+NOTE - Sentences [0] and [1] are fairly similar semantically however very different lexically.
+
+Sentence [1]: Cramming past papers late at night makes my brain melt.
+  #1  cosine=0.441  →  [3] I crashed on the sofa as soon as I got home from the exam.
+  #2  cosine=0.269  →  [0] I revised calculus all weekend to prepare for the exam.
+  #3  cosine=0.228  →  [4] My sourdough bread needs a full day to rise properly.
+
+Sentence [2]: The stock market crashed after the surprising earnings call.
+  #1  cosine=0.318  →  [3] I crashed on the sofa as soon as I got home from the exam.
+  #2  cosine=0.124  →  [0] I revised calculus all weekend to prepare for the exam.
+  #3  cosine=0.108  →  [1] Cramming past papers late at night makes my brain melt.
+
+NOTE - Sentences [2] and [3] are also fairly similar lexically however very different semantically
+
+Sentence [3]: I crashed on the sofa as soon as I got home from the exam.
+  #1  cosine=0.441  →  [1] Cramming past papers late at night makes my brain melt.
+  #2  cosine=0.318  →  [2] The stock market crashed after the surprising earnings call.
+  #3  cosine=0.316  →  [0] I revised calculus all weekend to prepare for the exam.
+
+Sentence [4]: My sourdough bread needs a full day to rise properly.
+  #1  cosine=0.579  →  [5] The bakery in London sells fresh bread every morning.
+  #2  cosine=0.228  →  [1] Cramming past papers late at night makes my brain melt.
+  #3  cosine=0.217  →  [7] Going for a slow walk in the park helps me clear my head.
+
+Sentence [5]: The bakery in London sells fresh bread every morning.
+  #1  cosine=0.579  →  [4] My sourdough bread needs a full day to rise properly.
+  #2  cosine=0.146  →  [1] Cramming past papers late at night makes my brain melt.
+  #3  cosine=0.106  →  [7] Going for a slow walk in the park helps me clear my head.
+
+Sentence [6]: Training at the gym three times a week has boosted my energy.
+  #1  cosine=0.296  →  [7] Going for a slow walk in the park helps me clear my head.
+  #2  cosine=0.191  →  [8] The NBA is so fun to watch, especially during the playoffs.
+  #3  cosine=0.176  →  [0] I revised calculus all weekend to prepare for the exam.
+
+Sentence [7]: Going for a slow walk in the park helps me clear my head.
+  #1  cosine=0.296  →  [6] Training at the gym three times a week has boosted my energy.
+  #2  cosine=0.217  →  [4] My sourdough bread needs a full day to rise properly.
+  #3  cosine=0.190  →  [1] Cramming past papers late at night makes my brain melt.
+
+Sentence [8]: The NBA is so fun to watch, especially during the playoffs.
+  #1  cosine=0.191  →  [6] Training at the gym three times a week has boosted my energy.
+  #2  cosine=0.067  →  [9] Debugging a JavaScript bug at 2 a.m. is not my idea of fun.
+  #3  cosine=0.035  →  [2] The stock market crashed after the surprising earnings call.
+
+Sentence [9]: Debugging a JavaScript bug at 2 a.m. is not my idea of fun.
+  #1  cosine=0.083  →  [2] The stock market crashed after the surprising earnings call.
+  #2  cosine=0.067  →  [3] I crashed on the sofa as soon as I got home from the exam.
+  #3  cosine=0.067  →  [8] The NBA is so fun to watch, especially during the playoffs.
