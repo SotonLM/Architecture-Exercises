@@ -1,0 +1,172 @@
+import time
+import numpy as np
+from sentence_transformers import SentenceTransformer
+
+def main():
+    # Start timing
+    start_time = time.time()
+    
+    # Step 1: Load the model
+    print("Loading SentenceTransformer model...")
+    model = SentenceTransformer("sentence-transformers/paraphrase-MiniLM-L6-v2")
+    load_time = time.time()
+    print(f"Model loaded in {load_time - start_time:.3f} seconds\n")
+    
+    # Step 2: Define 8-10 sentences with mix of related and unrelated ideas
+    sentences = [
+        "The dog is playing in the garden.",
+        "A puppy runs around the yard.",
+        "The cat sleeps on the couch.",
+        "I love eating pizza for dinner.",
+        "Pizza is my favorite food.",
+        "The weather is sunny today.",
+        "It's a bright and clear day outside.",
+        "Python is a programming language.",
+        "I need to read this book tonight.",
+        "Reading books before bed is relaxing."
+    ]
+    
+    print("Source sentences:")
+    for i, sent in enumerate(sentences):
+        print(f"{i}: {sent}")
+    print()
+    
+    # Step 3: Encode sentences with normalization
+    print("Encoding sentences...")
+    embeddings = model.encode(sentences, normalize_embeddings=True)
+    encode_time = time.time()
+    print(f"Encoding completed in {encode_time - load_time:.3f} seconds")
+    print(f"Embedding shape: {embeddings.shape}\n")
+    
+    # Step 4: Compute cosine similarity matrix
+    # Using matrix multiplication: emb @ emb.T
+    similarity_matrix = embeddings @ embeddings.T
+    
+    # Step 5: Find top-3 neighbors for each sentence (excluding itself)
+    print("="*80)
+    print("TOP-3 NEAREST NEIGHBORS FOR EACH SENTENCE")
+    print("="*80)
+    
+    results = []
+    
+    for i, sentence in enumerate(sentences):
+        # Get similarity scores for this sentence
+        similarities = similarity_matrix[i]
+        
+        # Create pairs of (index, similarity) and sort by similarity
+        similarity_pairs = [(j, similarities[j]) for j in range(len(sentences))]
+        # Sort descending by similarity score
+        similarity_pairs.sort(key=lambda x: x[1], reverse=True)
+        
+        # Skip the first one (itself) and take top 3
+        top_3_neighbors = similarity_pairs[1:4]
+        
+        print(f"\nSentence {i}: {sentence}")
+        print("-" * 80)
+        
+        neighbor_info = []
+        for rank, (neighbor_idx, score) in enumerate(top_3_neighbors, 1):
+            print(f"  {rank}. [{score:.4f}] Sentence {neighbor_idx}: {sentences[neighbor_idx]}")
+            neighbor_info.append((neighbor_idx, score, sentences[neighbor_idx]))
+        
+        results.append({
+            'index': i,
+            'sentence': sentence,
+            'neighbors': neighbor_info
+        })
+    
+    # Step 6: Identify contrasting cases
+    print("\n" + "="*80)
+    print("ANALYSIS: SEMANTIC vs LEXICAL SIMILARITY")
+    print("="*80)
+    
+    print("\n📌 CASE 1: Lexically Different but Semantically Close")
+    print("-" * 80)
+    print("Sentence 0: 'The dog is playing in the garden.'")
+    print("Sentence 1: 'A puppy runs around the yard.'")
+    print(f"Cosine Similarity: {similarity_matrix[0][1]:.4f}")
+    print("Analysis: These sentences use completely different words (dog/puppy,")
+    print("playing/runs, garden/yard) but express the same idea: a young canine")
+    print("being active in an outdoor space.\n")
+    
+    print("📌 CASE 2: Lexically Similar but Semantically Far Apart")
+    print("-" * 80)
+    print("Sentence 8: 'I need to read this book tonight.'")
+    print("Sentence 4: 'Pizza is my favorite food.'")
+    print(f"Cosine Similarity: {similarity_matrix[8][4]:.4f}")
+    print("Analysis: Both are personal preference statements with 'I' and similar")
+    print("sentence structure, but one is about reading and the other about food -")
+    print("completely unrelated topics despite structural similarity.\n")
+    
+    # Total timing
+    total_time = time.time()
+    print("="*80)
+    print(f"Total execution time: {total_time - start_time:.3f} seconds")
+    print("="*80)
+    
+    # Save results to file
+    save_results_to_file(sentences, results, similarity_matrix, start_time, total_time)
+
+def save_results_to_file(sentences, results, similarity_matrix, start_time, end_time):
+    """Save the results to nearest_neighbours.txt"""
+    
+    with open('nearest_neighbours.txt', 'w', encoding='utf-8') as f:
+        f.write("="*80 + "\n")
+        f.write("SENTENCE EMBEDDINGS - NEAREST NEIGHBORS ANALYSIS\n")
+        f.write("="*80 + "\n\n")
+        
+        # Source sentences
+        f.write("SOURCE SENTENCES:\n")
+        f.write("-"*80 + "\n")
+        for i, sent in enumerate(sentences):
+            f.write(f"{i}: {sent}\n")
+        f.write("\n")
+        
+        # Top-3 neighbors for each sentence
+        f.write("="*80 + "\n")
+        f.write("TOP-3 NEAREST NEIGHBORS (with Cosine Similarity)\n")
+        f.write("="*80 + "\n\n")
+        
+        for result in results:
+            f.write(f"Sentence {result['index']}: {result['sentence']}\n")
+            f.write("-"*80 + "\n")
+            for rank, (neighbor_idx, score, neighbor_text) in enumerate(result['neighbors'], 1):
+                f.write(f"  {rank}. [Similarity: {score:.4f}] Sentence {neighbor_idx}: {neighbor_text}\n")
+            f.write("\n")
+        
+        # Analysis section
+        f.write("="*80 + "\n")
+        f.write("CONTRASTING CASES: SEMANTIC vs LEXICAL SIMILARITY\n")
+        f.write("="*80 + "\n\n")
+        
+        f.write("CASE 1: Lexically Different but Semantically Close\n")
+        f.write("-"*80 + "\n")
+        f.write("Sentence 0: 'The dog is playing in the garden.'\n")
+        f.write("Sentence 1: 'A puppy runs around the yard.'\n")
+        f.write(f"Cosine Similarity: {similarity_matrix[0][1]:.4f}\n\n")
+        f.write("Explanation:\n")
+        f.write("These sentences use completely different words (dog/puppy, playing/runs,\n")
+        f.write("garden/yard) but convey the same semantic meaning: a young canine being\n")
+        f.write("active in an outdoor space. The embedding model successfully captures this\n")
+        f.write("semantic similarity despite the lexical differences.\n\n")
+        
+        f.write("CASE 2: Lexically Similar but Semantically Far Apart\n")
+        f.write("-"*80 + "\n")
+        f.write("Sentence 8: 'I need to read this book tonight.'\n")
+        f.write("Sentence 4: 'Pizza is my favorite food.'\n")
+        f.write(f"Cosine Similarity: {similarity_matrix[8][4]:.4f}\n\n")
+        f.write("Explanation:\n")
+        f.write("Both sentences are personal statements starting with 'I' and have similar\n")
+        f.write("grammatical structure, but they discuss completely unrelated topics (reading\n")
+        f.write("vs. food preferences). The low similarity score shows that the embedding\n")
+        f.write("model focuses on semantic meaning rather than just surface-level word overlap.\n\n")
+        
+        # Timing information
+        f.write("="*80 + "\n")
+        f.write(f"Execution time: {end_time - start_time:.3f} seconds\n")
+        f.write("="*80 + "\n")
+    
+    print(f"\n✅ Results saved to: nearest_neighbours.txt")
+
+if __name__ == "__main__":
+    main()
