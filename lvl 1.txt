@@ -1,0 +1,56 @@
+=== LEVEL 1: EMBEDDINGS + NEAREST NEIGHBOURS ===
+Loading model: sentence-transformers/paraphrase-MiniLM-L6-v2
+Encoded 8 sentences in 0.06s
+
+Sentence [0]: Theo ate the most disgusting plate of bolognese.
+  #1  cosine=0.273  →  [2] eggs are a source of protein eating mainly by humans.
+  #2  cosine=0.268  →  [3] eggs look like someone just got cooked.
+  #3  cosine=0.082  →  [7] The communist party if my favourite becuase they have solid values.
+
+Sentence [1]: Theo Bramble is a legally registered turtle from chicago
+  #1  cosine=0.141  →  [7] The communist party if my favourite becuase they have solid values.
+  #2  cosine=0.074  →  [6] Theifs are a key part of the economy.
+  #3  cosine=0.007  →  [4] walking 10000 can help improve your health by leaps and bounds.
+
+Sentence [2]: eggs are a source of protein eating mainly by humans.
+  #1  cosine=0.593  →  [3] eggs look like someone just got cooked.
+  #2  cosine=0.273  →  [0] Theo ate the most disgusting plate of bolognese.
+  #3  cosine=0.154  →  [6] Theifs are a key part of the economy.
+
+Sentence [3]: eggs look like someone just got cooked.
+  #1  cosine=0.593  →  [2] eggs are a source of protein eating mainly by humans.
+  #2  cosine=0.268  →  [0] Theo ate the most disgusting plate of bolognese.
+  #3  cosine=0.088  →  [5] Running is like a game of pain.
+
+Sentence [4]: walking 10000 can help improve your health by leaps and bounds.
+  #1  cosine=0.158  →  [6] Theifs are a key part of the economy.
+  #2  cosine=0.152  →  [5] Running is like a game of pain.
+  #3  cosine=0.106  →  [2] eggs are a source of protein eating mainly by humans.
+
+Sentence [5]: Running is like a game of pain.
+  #1  cosine=0.152  →  [4] walking 10000 can help improve your health by leaps and bounds.
+  #2  cosine=0.088  →  [3] eggs look like someone just got cooked.
+  #3  cosine=0.057  →  [0] Theo ate the most disgusting plate of bolognese.
+
+Sentence [6]: Theifs are a key part of the economy.
+  #2  cosine=0.088  →  [3] eggs look like someone just got cooked.
+  #2  cosine=0.088  →  [3] eggs look like someone just got cooked.
+  #3  cosine=0.057  →  [0] Theo ate the most disgusting plate of bolognese.
+
+Sentence [6]: Theifs are a key part of the economy.
+  #2  cosine=0.088  →  [3] eggs look like someone just got cooked.
+  #3  cosine=0.057  →  [0] Theo ate the most disgusting plate of bolognese.
+
+  #2  cosine=0.088  →  [3] eggs look like someone just got cooked.
+  #2  cosine=0.088  →  [3] eggs look like someone just got cooked.
+  #3  cosine=0.057  →  [0] Theo ate the most disgusting plate of bolognese.
+
+Sentence [6]: Theifs are a key part of the economy.
+  #1  cosine=0.229  →  [7] The communist party if my favourite becuase they have solid values.
+  #2  cosine=0.158  →  [4] walking 10000 can help improve your health by leaps and bounds.
+  #3  cosine=0.154  →  [2] eggs are a source of protein eating mainly by humans.
+
+Sentence [7]: The communist party if my favourite becuase they have solid values.
+  #1  cosine=0.229  →  [6] Theifs are a key part of the economy.
+  #2  cosine=0.141  →  [1] Theo Bramble is a legally registered turtle from chicago
+  #3  cosine=0.082  →  [0] Theo ate the most disgusting plate of bolognese.

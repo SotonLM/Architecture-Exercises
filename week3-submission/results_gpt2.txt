@@ -1,0 +1,101 @@
+Prompt: how many days are in a month?
+Generated: how many days are in a month?
+
+A: It depends on the length of the year. Because the longer you are traveling on a daily basis, the more you go out in the car. So when you're driving, the more miles you're going to go. So some things go up and some things go down.
+
+Q: And what about driving at night?
+
+A: No, you're not going to run into other people or go into a restaurant or something like that.
+
+Q: When you're driving in the morning, what happens when you get up to drive?
+
+A: When you get up, you're not going to run into anyone. You're not going to run into anybody.
+
+Q: And can you tell us a little more about the night before the event?
+
+A: There's not a lot of information out there.
+
+Q: But at the end of the day, you're going to be out of the car.
+
+A: No.
+
+Q: And can you tell us a little more about the night before the event?
+
+A: You're going to have to get out. It's just your car.
+
+Q: And what are you going to be doing when you
+Total tokens: 264
+Generated tokens only: 256
+--------------------------------------------------
+Prompt: sum up how Tom holland looks?
+Generated: sum up how Tom holland looks?
+
+Tom: That man is a real man.
+
+Mackenzie: What do you think?
+
+Tom: I think he's a little bit of a guy.
+
+Mackenzie: We're gonna have to deal with that.
+
+Tom: That's the problem.
+
+Mackenzie: Okay.
+
+Tom: We gotta deal with that.
+
+Mackenzie: What?
+
+Tom: We gotta deal with that.
+
+Mackenzie: We gotta deal with that.
+
+Tom: We gotta deal with that.
+
+Mackenzie: Well, I think the first thing that we have to do is to make sure he's a member of the council.
+
+Tom: We gotta make sure he's a member of the council and he's a member of the council.
+
+Mackenzie: What do you think?
+
+Tom: He's a member of the council.
+
+Mackenzie: What do you think?
+
+Tom: He's a member of the council.
+
+Mackenzie: What do you think?
+
+Tom: He's a member of the council.
+
+Mackenzie: What do you think?
+
+Tom
+Total tokens: 265
+Generated tokens only: 256
+--------------------------------------------------
+Prompt: i wanna be famous
+Generated: i wanna be famous? I'm famous because I'm famous.
+
+I can only imagine what it's like to be an actor in television. It's like a dream come true.
+
+Are you ever nervous?
+
+I've been nervous for a while. I was only around for a week.
+
+I was just talking with my manager and he said, "You can't be famous, you're just not good enough to be famous."
+
+You didn't even have to look at him to know that. It's like being in a movie.
+
+I was like, "Why does it have to be me?" Like, "I'm a celebrity." I was like, "I'm a star."
+
+It's funny, but that's not the way I wanted to be. I've never really been into that kind of acting.
+
+I've always loved to be in a movie. I've never really had a real desire to be a star.
+
+It's a shame that you're such a short-sighted person. It's a shame that you are making an incredible movie.
+
+It's not like I was going to give up on that. I was going to go out and do my best. I was going to
+Total tokens: 260
+Generated tokens only: 256
+--------------------------------------------------

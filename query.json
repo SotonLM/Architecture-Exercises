@@ -1,0 +1,302 @@
+[
+    {
+        "query": "Artificial intelligence is transforming industries by automating tasks and improving decision-making. Businesses use AI to analyze large datasets and predict trends. Cloud computing allows companies to store and access data remotely, reducing infrastructure costs. It also enables collaboration across different geographic locations.",
+        "matches": [
+            {
+                "rank": 1,
+                "score": 0.33414679765701294,
+                "sentence": "Virtual reality is no longer limited to gaming; it’s being used in education and healthcare. VR simulations help train professionals in safe, controlled environments. Blockchain technology ensures secure and transparent transactions. It is widely adopted in finance and supply chain management."
+            },
+            {
+                "rank": 2,
+                "score": 0.3326905071735382,
+                "sentence": "Project-based learning encourages creativity and collaboration among students. It helps them apply theoretical knowledge to real-world problems. Teacher training programs focus on integrating technology into classrooms. Digital tools enhance engagement and personalize learning experiences."
+            },
+            {
+                "rank": 3,
+                "score": 0.3300864100456238,
+                "sentence": "Quantum computing could revolutionize problem-solving by handling complex calculations at unprecedented speeds. Researchers are still working on making it commercially viable. Wearable devices track health metrics like heart rate and sleep patterns. They empower individuals to monitor their well-being in real time."
+            }
+        ]
+    },
+    {
+        "query": "Cybersecurity has become a critical concern as cyberattacks grow more sophisticated. Organizations invest heavily in encryption and threat detection systems. The rise of 5G networks promises faster internet speeds and lower latency. This technology will enable advancements in IoT and autonomous vehicles.",
+        "matches": [
+            {
+                "rank": 1,
+                "score": 0.30903637409210205,
+                "sentence": "Artificial intelligence is transforming industries by automating tasks and improving decision-making. Businesses use AI to analyze large datasets and predict trends. Cloud computing allows companies to store and access data remotely, reducing infrastructure costs. It also enables collaboration across different geographic locations."
+            },
+            {
+                "rank": 2,
+                "score": 0.2678723931312561,
+                "sentence": "Quantum computing could revolutionize problem-solving by handling complex calculations at unprecedented speeds. Researchers are still working on making it commercially viable. Wearable devices track health metrics like heart rate and sleep patterns. They empower individuals to monitor their well-being in real time."
+            },
+            {
+                "rank": 3,
+                "score": 0.21635717153549194,
+                "sentence": "Virtual reality is no longer limited to gaming; it’s being used in education and healthcare. VR simulations help train professionals in safe, controlled environments. Blockchain technology ensures secure and transparent transactions. It is widely adopted in finance and supply chain management."
+            }
+        ]
+    },
+    {
+        "query": "Virtual reality is no longer limited to gaming; it’s being used in education and healthcare. VR simulations help train professionals in safe, controlled environments. Blockchain technology ensures secure and transparent transactions. It is widely adopted in finance and supply chain management.",
+        "matches": [
+            {
+                "rank": 1,
+                "score": 0.3608964681625366,
+                "sentence": "Quantum computing could revolutionize problem-solving by handling complex calculations at unprecedented speeds. Researchers are still working on making it commercially viable. Wearable devices track health metrics like heart rate and sleep patterns. They empower individuals to monitor their well-being in real time."
+            },
+            {
+                "rank": 2,
+                "score": 0.33414679765701294,
+                "sentence": "Artificial intelligence is transforming industries by automating tasks and improving decision-making. Businesses use AI to analyze large datasets and predict trends. Cloud computing allows companies to store and access data remotely, reducing infrastructure costs. It also enables collaboration across different geographic locations."
+            },
+            {
+                "rank": 3,
+                "score": 0.3312433958053589,
+                "sentence": "Meditation and breathing exercises can lower stress hormones. These practices are simple yet effective for emotional balance. Workplace wellness programs promote healthier lifestyles among employees. They often include fitness challenges and mental health resources."
+            }
+        ]
+    },
+    {
+        "query": "Quantum computing could revolutionize problem-solving by handling complex calculations at unprecedented speeds. Researchers are still working on making it commercially viable. Wearable devices track health metrics like heart rate and sleep patterns. They empower individuals to monitor their well-being in real time.",
+        "matches": [
+            {
+                "rank": 1,
+                "score": 0.3608964681625366,
+                "sentence": "Virtual reality is no longer limited to gaming; it’s being used in education and healthcare. VR simulations help train professionals in safe, controlled environments. Blockchain technology ensures secure and transparent transactions. It is widely adopted in finance and supply chain management."
+            },
+            {
+                "rank": 2,
+                "score": 0.3300864100456238,
+                "sentence": "Artificial intelligence is transforming industries by automating tasks and improving decision-making. Businesses use AI to analyze large datasets and predict trends. Cloud computing allows companies to store and access data remotely, reducing infrastructure costs. It also enables collaboration across different geographic locations."
+            },
+            {
+                "rank": 3,
+                "score": 0.30427467823028564,
+                "sentence": "Online learning platforms have made education accessible globally. Students can now learn at their own pace from anywhere. STEM education prepares students for careers in science and technology. It emphasizes problem-solving and critical thinking skills."
+            }
+        ]
+    },
+    {
+        "query": "Regular exercise improves cardiovascular health and boosts mental well-being. Even 30 minutes of daily activity can make a significant difference. A balanced diet rich in fruits, vegetables, and lean proteins supports overall health. Avoiding processed foods reduces the risk of chronic diseases.",
+        "matches": [
+            {
+                "rank": 1,
+                "score": 0.5340580344200134,
+                "sentence": "Meditation and breathing exercises can lower stress hormones. These practices are simple yet effective for emotional balance. Workplace wellness programs promote healthier lifestyles among employees. They often include fitness challenges and mental health resources."
+            },
+            {
+                "rank": 2,
+                "score": 0.3786526322364807,
+                "sentence": "Mental health awareness has grown in recent years, encouraging open conversations. Therapy and mindfulness practices help manage stress and anxiety. Sleep is essential for cognitive function and physical recovery. Adults should aim for 7–9 hours of quality sleep each night."
+            },
+            {
+                "rank": 3,
+                "score": 0.37851476669311523,
+                "sentence": "Hydration plays a vital role in maintaining energy levels and bodily functions. Drinking enough water can prevent fatigue and headaches. Preventive healthcare, such as regular check-ups and vaccinations, reduces long-term medical costs. Early detection of diseases improves treatment outcomes."
+            }
+        ]
+    },
+    {
+        "query": "Mental health awareness has grown in recent years, encouraging open conversations. Therapy and mindfulness practices help manage stress and anxiety. Sleep is essential for cognitive function and physical recovery. Adults should aim for 7–9 hours of quality sleep each night.",
+        "matches": [
+            {
+                "rank": 1,
+                "score": 0.493763267993927,
+                "sentence": "Meditation and breathing exercises can lower stress hormones. These practices are simple yet effective for emotional balance. Workplace wellness programs promote healthier lifestyles among employees. They often include fitness challenges and mental health resources."
+            },
+            {
+                "rank": 2,
+                "score": 0.3786526322364807,
+                "sentence": "Regular exercise improves cardiovascular health and boosts mental well-being. Even 30 minutes of daily activity can make a significant difference. A balanced diet rich in fruits, vegetables, and lean proteins supports overall health. Avoiding processed foods reduces the risk of chronic diseases."
+            },
+            {
+                "rank": 3,
+                "score": 0.3590482473373413,
+                "sentence": "Hydration plays a vital role in maintaining energy levels and bodily functions. Drinking enough water can prevent fatigue and headaches. Preventive healthcare, such as regular check-ups and vaccinations, reduces long-term medical costs. Early detection of diseases improves treatment outcomes."
+            }
+        ]
+    },
+    {
+        "query": "Hydration plays a vital role in maintaining energy levels and bodily functions. Drinking enough water can prevent fatigue and headaches. Preventive healthcare, such as regular check-ups and vaccinations, reduces long-term medical costs. Early detection of diseases improves treatment outcomes.",
+        "matches": [
+            {
+                "rank": 1,
+                "score": 0.37851476669311523,
+                "sentence": "Regular exercise improves cardiovascular health and boosts mental well-being. Even 30 minutes of daily activity can make a significant difference. A balanced diet rich in fruits, vegetables, and lean proteins supports overall health. Avoiding processed foods reduces the risk of chronic diseases."
+            },
+            {
+                "rank": 2,
+                "score": 0.3590482473373413,
+                "sentence": "Mental health awareness has grown in recent years, encouraging open conversations. Therapy and mindfulness practices help manage stress and anxiety. Sleep is essential for cognitive function and physical recovery. Adults should aim for 7–9 hours of quality sleep each night."
+            },
+            {
+                "rank": 3,
+                "score": 0.3037543296813965,
+                "sentence": "Plastic pollution is a major environmental issue, harming marine life and contaminating food chains. Recycling and biodegradable alternatives are key solutions. Renewable energy sources like solar and wind power are becoming more affordable. They help reduce dependence on fossil fuels."
+            }
+        ]
+    },
+    {
+        "query": "Meditation and breathing exercises can lower stress hormones. These practices are simple yet effective for emotional balance. Workplace wellness programs promote healthier lifestyles among employees. They often include fitness challenges and mental health resources.",
+        "matches": [
+            {
+                "rank": 1,
+                "score": 0.5340580344200134,
+                "sentence": "Regular exercise improves cardiovascular health and boosts mental well-being. Even 30 minutes of daily activity can make a significant difference. A balanced diet rich in fruits, vegetables, and lean proteins supports overall health. Avoiding processed foods reduces the risk of chronic diseases."
+            },
+            {
+                "rank": 2,
+                "score": 0.493763267993927,
+                "sentence": "Mental health awareness has grown in recent years, encouraging open conversations. Therapy and mindfulness practices help manage stress and anxiety. Sleep is essential for cognitive function and physical recovery. Adults should aim for 7–9 hours of quality sleep each night."
+            },
+            {
+                "rank": 3,
+                "score": 0.3312433958053589,
+                "sentence": "Virtual reality is no longer limited to gaming; it’s being used in education and healthcare. VR simulations help train professionals in safe, controlled environments. Blockchain technology ensures secure and transparent transactions. It is widely adopted in finance and supply chain management."
+            }
+        ]
+    },
+    {
+        "query": "Climate change is accelerating due to greenhouse gas emissions. Global efforts focus on reducing carbon footprints through renewable energy. Deforestation threatens biodiversity and contributes to soil erosion. Reforestation projects aim to restore ecosystems and combat climate change.",
+        "matches": [
+            {
+                "rank": 1,
+                "score": 0.45625561475753784,
+                "sentence": "Wildlife conservation programs protect endangered species from extinction. These efforts often involve habitat restoration and anti-poaching measures. Sustainable agriculture practices reduce chemical use and preserve soil health. Crop rotation and organic farming are common methods."
+            },
+            {
+                "rank": 2,
+                "score": 0.4516095519065857,
+                "sentence": "Urbanization increases air pollution and strains natural resources. Sustainable city planning addresses these challenges through green spaces and efficient transport. Water scarcity affects millions worldwide, especially in arid regions. Conservation techniques and desalination plants offer potential relief."
+            },
+            {
+                "rank": 3,
+                "score": 0.44400256872177124,
+                "sentence": "Plastic pollution is a major environmental issue, harming marine life and contaminating food chains. Recycling and biodegradable alternatives are key solutions. Renewable energy sources like solar and wind power are becoming more affordable. They help reduce dependence on fossil fuels."
+            }
+        ]
+    },
+    {
+        "query": "Plastic pollution is a major environmental issue, harming marine life and contaminating food chains. Recycling and biodegradable alternatives are key solutions. Renewable energy sources like solar and wind power are becoming more affordable. They help reduce dependence on fossil fuels.",
+        "matches": [
+            {
+                "rank": 1,
+                "score": 0.5002679824829102,
+                "sentence": "Urbanization increases air pollution and strains natural resources. Sustainable city planning addresses these challenges through green spaces and efficient transport. Water scarcity affects millions worldwide, especially in arid regions. Conservation techniques and desalination plants offer potential relief."
+            },
+            {
+                "rank": 2,
+                "score": 0.44400256872177124,
+                "sentence": "Climate change is accelerating due to greenhouse gas emissions. Global efforts focus on reducing carbon footprints through renewable energy. Deforestation threatens biodiversity and contributes to soil erosion. Reforestation projects aim to restore ecosystems and combat climate change."
+            },
+            {
+                "rank": 3,
+                "score": 0.3999357223510742,
+                "sentence": "Wildlife conservation programs protect endangered species from extinction. These efforts often involve habitat restoration and anti-poaching measures. Sustainable agriculture practices reduce chemical use and preserve soil health. Crop rotation and organic farming are common methods."
+            }
+        ]
+    },
+    {
+        "query": "Urbanization increases air pollution and strains natural resources. Sustainable city planning addresses these challenges through green spaces and efficient transport. Water scarcity affects millions worldwide, especially in arid regions. Conservation techniques and desalination plants offer potential relief.",
+        "matches": [
+            {
+                "rank": 1,
+                "score": 0.5002679824829102,
+                "sentence": "Plastic pollution is a major environmental issue, harming marine life and contaminating food chains. Recycling and biodegradable alternatives are key solutions. Renewable energy sources like solar and wind power are becoming more affordable. They help reduce dependence on fossil fuels."
+            },
+            {
+                "rank": 2,
+                "score": 0.4516095519065857,
+                "sentence": "Climate change is accelerating due to greenhouse gas emissions. Global efforts focus on reducing carbon footprints through renewable energy. Deforestation threatens biodiversity and contributes to soil erosion. Reforestation projects aim to restore ecosystems and combat climate change."
+            },
+            {
+                "rank": 3,
+                "score": 0.3567354679107666,
+                "sentence": "Wildlife conservation programs protect endangered species from extinction. These efforts often involve habitat restoration and anti-poaching measures. Sustainable agriculture practices reduce chemical use and preserve soil health. Crop rotation and organic farming are common methods."
+            }
+        ]
+    },
+    {
+        "query": "Wildlife conservation programs protect endangered species from extinction. These efforts often involve habitat restoration and anti-poaching measures. Sustainable agriculture practices reduce chemical use and preserve soil health. Crop rotation and organic farming are common methods.",
+        "matches": [
+            {
+                "rank": 1,
+                "score": 0.45625561475753784,
+                "sentence": "Climate change is accelerating due to greenhouse gas emissions. Global efforts focus on reducing carbon footprints through renewable energy. Deforestation threatens biodiversity and contributes to soil erosion. Reforestation projects aim to restore ecosystems and combat climate change."
+            },
+            {
+                "rank": 2,
+                "score": 0.3999357223510742,
+                "sentence": "Plastic pollution is a major environmental issue, harming marine life and contaminating food chains. Recycling and biodegradable alternatives are key solutions. Renewable energy sources like solar and wind power are becoming more affordable. They help reduce dependence on fossil fuels."
+            },
+            {
+                "rank": 3,
+                "score": 0.3567354679107666,
+                "sentence": "Urbanization increases air pollution and strains natural resources. Sustainable city planning addresses these challenges through green spaces and efficient transport. Water scarcity affects millions worldwide, especially in arid regions. Conservation techniques and desalination plants offer potential relief."
+            }
+        ]
+    },
+    {
+        "query": "Online learning platforms have made education accessible globally. Students can now learn at their own pace from anywhere. STEM education prepares students for careers in science and technology. It emphasizes problem-solving and critical thinking skills.",
+        "matches": [
+            {
+                "rank": 1,
+                "score": 0.5693309903144836,
+                "sentence": "Project-based learning encourages creativity and collaboration among students. It helps them apply theoretical knowledge to real-world problems. Teacher training programs focus on integrating technology into classrooms. Digital tools enhance engagement and personalize learning experiences."
+            },
+            {
+                "rank": 2,
+                "score": 0.5300689935684204,
+                "sentence": "Lifelong learning is essential in a rapidly changing job market. Professionals pursue certifications and courses to stay competitive. Inclusive education ensures that students with disabilities receive equal opportunities. Schools implement assistive technologies and tailored teaching methods."
+            },
+            {
+                "rank": 3,
+                "score": 0.32520225644111633,
+                "sentence": "Artificial intelligence is transforming industries by automating tasks and improving decision-making. Businesses use AI to analyze large datasets and predict trends. Cloud computing allows companies to store and access data remotely, reducing infrastructure costs. It also enables collaboration across different geographic locations."
+            }
+        ]
+    },
+    {
+        "query": "Lifelong learning is essential in a rapidly changing job market. Professionals pursue certifications and courses to stay competitive. Inclusive education ensures that students with disabilities receive equal opportunities. Schools implement assistive technologies and tailored teaching methods.",
+        "matches": [
+            {
+                "rank": 1,
+                "score": 0.5300689935684204,
+                "sentence": "Online learning platforms have made education accessible globally. Students can now learn at their own pace from anywhere. STEM education prepares students for careers in science and technology. It emphasizes problem-solving and critical thinking skills."
+            },
+            {
+                "rank": 2,
+                "score": 0.393398642539978,
+                "sentence": "Project-based learning encourages creativity and collaboration among students. It helps them apply theoretical knowledge to real-world problems. Teacher training programs focus on integrating technology into classrooms. Digital tools enhance engagement and personalize learning experiences."
+            },
+            {
+                "rank": 3,
+                "score": 0.2387014627456665,
+                "sentence": "Urbanization increases air pollution and strains natural resources. Sustainable city planning addresses these challenges through green spaces and efficient transport. Water scarcity affects millions worldwide, especially in arid regions. Conservation techniques and desalination plants offer potential relief."
+            }
+        ]
+    },
+    {
+        "query": "Project-based learning encourages creativity and collaboration among students. It helps them apply theoretical knowledge to real-world problems. Teacher training programs focus on integrating technology into classrooms. Digital tools enhance engagement and personalize learning experiences.",
+        "matches": [
+            {
+                "rank": 1,
+                "score": 0.5693309903144836,
+                "sentence": "Online learning platforms have made education accessible globally. Students can now learn at their own pace from anywhere. STEM education prepares students for careers in science and technology. It emphasizes problem-solving and critical thinking skills."
+            },
+            {
+                "rank": 2,
+                "score": 0.393398642539978,
+                "sentence": "Lifelong learning is essential in a rapidly changing job market. Professionals pursue certifications and courses to stay competitive. Inclusive education ensures that students with disabilities receive equal opportunities. Schools implement assistive technologies and tailored teaching methods."
+            },
+            {
+                "rank": 3,
+                "score": 0.3326905071735382,
+                "sentence": "Artificial intelligence is transforming industries by automating tasks and improving decision-making. Businesses use AI to analyze large datasets and predict trends. Cloud computing allows companies to store and access data remotely, reducing infrastructure costs. It also enables collaboration across different geographic locations."
+            }
+        ]
+    }
+]

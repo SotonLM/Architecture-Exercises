@@ -16,25 +16,39 @@ import time
 
 # LEVEL 1: Basic generation
 print("=== LEVEL 1: BASIC GENERATION ===")
+start_time = time.time()
 generator = pipeline('text-generation', model='distilgpt2')
 
 prompts = [
-    "The future of AI is",
-    "In the year 2030",
-    "The secret to happiness is"
+    "When I was little",
+    "1995 is amazing because",
+    "why would he know if "
+    "when I say hey you say"
+    "merry christmas for the"
 ]
 
-for prompt in prompts:
-    output = generator(prompt, max_length=30)
-    print(f"\nPrompt: {prompt}")
-    print(f"Generated: {output[0]['generated_text']}")
-    print("-" * 50)
+#for prompt in prompts:
+    #output = generator(prompt, max_length=30)
+    #print(f"\nPrompt: {prompt}")
+    #print(f"Generated: {output[0]['generated_text']}")
+    #print("-" * 50)
 
 # LEVEL 2: Your code here
-# TODO: Save to file
-# TODO: Try different parameters
-# TODO: Time generation
-# TODO: Count tokens
+
+with open('results1.txt','w', encoding="utf-8")as f:
+    for prompt in prompts:
+        output = generator(prompt, max_length=30)
+        generated_text = output[0]['generated_text']
+
+        
+        f.write(f"Prompt: {prompt}\n")
+        f.write(f"Generated: {generated_text}\n")
+        f.write("-" * 50 + "\n")
+
+end_time = time.time()
+print(f"time took for generation is {start_time-end_time:.4f} seconds")
+#,temperature = 0.5,top_k = 100
+
 
 # LEVEL 3: Your code here
 # TODO: Pick Option A, B, C, or D. maybe all of them?

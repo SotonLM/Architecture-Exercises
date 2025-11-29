@@ -1,0 +1,99 @@
+Prompt: how many days are in a month?
+Generated: how many days are in a month?
+
+I'll give five.
+
+You just had the best month of your life.
+
+That was a total of 10.
+
+Do you think this is what you were going to do for the rest of your life?
+
+I don't know. You never know what is going to happen. It depends on how I'm feeling.
+
+How do you feel today?
+
+Good. I think there will be a lot to talk about.
+
+You are saying that you are ready to make a statement.
+
+Yeah, that's what I'm thinking about at the moment.
+
+And do you think you are ready to make a statement?
+
+I don't think it's necessary to be so critical of myself, I don't think that's what I need to say. I think I have a lot to do to get better.
+
+Your career has not been a success yet.
+
+I think it's been a problem for me. I need to find new goals.
+
+You are an athlete and you play a lot of sports.
+
+I play football.
+
+What is your favorite sport?
+
+I love the Olympics. I love the soccer. I like the baseball. I love the
+Total tokens: 264
+Generated tokens only: 256
+--------------------------------------------------
+Prompt: sum up how Tom holland looks?
+Generated: sum up how Tom holland looks? He's a mongoloid and it's the same as Mombasa, but it's not Mombasa!
+
+That's pretty much it for the plot details, though I do have to mention that Mombasa is definitely the most beautiful city in the world. It's actually almost like you're being sucked into Mombasa's atmosphere. I mean, let's not forget the amazing mountains around it as well.
+
+You will be very bored in New Zealand's mountains. If you ever saw a mountain scene on TV, you can bet that this will be your scene of the day.
+
+The scenery is really gorgeous in New Zealand and it's an absolute treat to look at. The mountains are really very steep and there is no wind so you're not really going anywhere and you're not going to see any wildlife either. They're a little more difficult to get to but it's not impossible.
+
+New Zealand has a very interesting geography. I've always wondered about the island's history and sometimes you don't even know where you're going. It's a very interesting place and it's probably one of the best places to visit on Earth.
+
+I've always thought New Zealand should become a country. I think it's
+Total tokens: 265
+Generated tokens only: 256
+--------------------------------------------------
+Prompt: i wanna be famous
+Generated: i wanna be famous."
+
+"I know. I wanna be famous. I'm not going to let you down."
+
+"We'll start by giving you an idea of what's up. I'll be right back."
+
+The two of them got into a car and took off again.
+
+He was back in his own room.
+
+"Hey, hey! You're not gonna believe us!"
+
+He was back in his own room.
+
+"Gee, I guess there's a few things going on with you."
+
+"Let's just go home. Let's go home."
+
+He was back in his own room.
+
+He was back in his own room.
+
+He was back in his own room.
+
+"Hey, hey! You're not gonna believe us!"
+
+He was back in his own room.
+
+"Hey, hey! You're not gonna believe us!"
+
+He was back in his own room.
+
+"Hey, hey! You're not gonna believe us!"
+
+He is back in his own room.
+
+"Hey, hey! You're not gonna believe us!"
+
+He is back in his own room.
+
+"Hey, hey
+Total tokens: 260
+Generated tokens only: 256
+--------------------------------------------------

@@ -1,0 +1,152 @@
+level1:
+=== LEVEL 1: EMBEDDINGS + NEAREST NEIGHBOURS ===
+Loading model: sentence-transformers/paraphrase-MiniLM-L6-v2
+Encoded 10 sentences in 0.34s
+
+Sentence [0]: The bank raised interest rates to control inflation.
+  #1  cosine=0.215  →  [2] A financial institution approved my mortgage application.
+  #2  cosine=0.079  →  [1] She sat by the river bank watching the sunset.
+  #3  cosine=0.077  →  [7] Astronomers discovered a new planet orbiting a distant star.
+
+Sentence [1]: She sat by the river bank watching the sunset.
+  #1  cosine=0.162  →  [7] Astronomers discovered a new planet orbiting a distant star.
+  #2  cosine=0.125  →  [8] Scientists found an exoplanet in a faraway solar system.
+  #3  cosine=0.125  →  [9] The artist painted a vivid portrait of a young woman.
+
+Sentence [2]: A financial institution approved my mortgage application.
+  #1  cosine=0.215  →  [0] The bank raised interest rates to control inflation.
+  #2  cosine=0.079  →  [4] A hot and flavorful dish was served at the dinner table.
+  #3  cosine=0.065  →  [8] Scientists found an exoplanet in a faraway solar system.
+
+Sentence [3]: The chef prepared a spicy curry for the evening guests.
+  #1  cosine=0.515  →  [4] A hot and flavorful dish was served at the dinner table.
+  #2  cosine=0.110  →  [9] The artist painted a vivid portrait of a young woman.
+  #3  cosine=0.058  →  [2] A financial institution approved my mortgage application.
+
+Sentence [4]: A hot and flavorful dish was served at the dinner table.
+  #1  cosine=0.515  →  [3] The chef prepared a spicy curry for the evening guests.
+  #2  cosine=0.111  →  [1] She sat by the river bank watching the sunset.
+  #3  cosine=0.107  →  [8] Scientists found an exoplanet in a faraway solar system.
+
+Sentence [5]: The jaguar prowled silently through the dense rainforest.
+  #1  cosine=0.109  →  [1] She sat by the river bank watching the sunset.
+  #2  cosine=0.082  →  [8] Scientists found an exoplanet in a faraway solar system.
+  #3  cosine=0.064  →  [6] A luxury car brand unveiled its latest sports model.
+
+Sentence [6]: A luxury car brand unveiled its latest sports model.
+  #1  cosine=0.121  →  [8] Scientists found an exoplanet in a faraway solar system.
+  #2  cosine=0.087  →  [4] A hot and flavorful dish was served at the dinner table.
+  #3  cosine=0.069  →  [7] Astronomers discovered a new planet orbiting a distant star.
+
+Sentence [7]: Astronomers discovered a new planet orbiting a distant star.
+  #1  cosine=0.626  →  [8] Scientists found an exoplanet in a faraway solar system.
+  #2  cosine=0.162  →  [1] She sat by the river bank watching the sunset.
+  #3  cosine=0.106  →  [4] A hot and flavorful dish was served at the dinner table.
+
+Sentence [8]: Scientists found an exoplanet in a faraway solar system.
+  #1  cosine=0.626  →  [7] Astronomers discovered a new planet orbiting a distant star.
+  #2  cosine=0.125  →  [1] She sat by the river bank watching the sunset.
+  #3  cosine=0.121  →  [6] A luxury car brand unveiled its latest sports model.
+
+Sentence [9]: The artist painted a vivid portrait of a young woman.
+  #1  cosine=0.125  →  [1] She sat by the river bank watching the sunset.
+  #2  cosine=0.110  →  [3] The chef prepared a spicy curry for the evening guests.
+  #3  cosine=0.080  →  [4] A hot and flavorful dish was served at the dinner table.
+
+the difference between lexic and semantic is that lexical matching is when the AI system match based them
+on their appearance so for example sentence 0 has the word bank so then the other sentence with bank on it got flagged
+semantic analysis is more about trying to match words based on context so if a sentence talked about food but
+did not talk about the food that was specified in the other sentence and they match then that is
+semantic matching because they are related but dont exactly match in sentence 9 the first choice was about a woman 
+and in the ninth sentsence talked about painting a woman
+
+
+
+
+level 2:
+Loading model: sentence-transformers/paraphrase-MiniLM-L6-v2
+Corpus embedding time: 0.22s
+
+Enter your query (or 'exit' to quit): who are you?
+
+Query processing time: 0.03s
+Top 3 results for: 'who are you?'
+#1 (score=0.058) → [4] AI ethics focuses on fairness, transparency, and accountability.
+#2 (score=0.035) → [1] Backpropagation is the algorithm used to train deep learning models.
+#3 (score=0.023) → [16] A balanced diet includes proteins, carbs, and healthy fats.
+
+Enter your query (or 'exit' to quit): godmann im into AI
+
+Query processing time: 0.02s
+Top 3 results for: 'godmann im into AI'
+#1 (score=0.336) → [4] AI ethics focuses on fairness, transparency, and accountability.
+#2 (score=0.164) → [0] Neural networks learn by adjusting millions of parameters.
+#3 (score=0.158) → [6] Boiling pasta requires plenty of salted water for best results.
+
+Enter your query (or 'exit' to quit): exit
+(week4) PS C:\Users\kingt\OneDrive\Documents\GitHub\Architecture-Exercises> python week4\level2\goal.py
+Loading model: sentence-transformers/paraphrase-MiniLM-L6-v2
+Corpus embedding time: 0.25s
+
+Enter your query (or 'exit' to quit): why do clowns scare me
+
+Query processing time: 0.03s
+Top 3 results for: 'why do clowns scare me'
+#1 (score=0.215) → [3] Reinforcement learning trains agents through rewards and penalties.
+#2 (score=0.186) → [2] Transformers revolutionized NLP by introducing attention mechanisms.
+#3 (score=0.139) → [9] Chocolate ganache is made by mixing cream and melted chocolate.
+
+Enter your query (or 'exit' to quit): i exercise so often they call me the stepmaster
+
+Query processing time: 0.03s
+Top 3 results for: 'i exercise so often they call me the stepmaster'
+#1 (score=0.379) → [15] Regular exercise improves cardiovascular health and mood.
+#2 (score=0.248) → [3] Reinforcement learning trains agents through rewards and penalties.
+#3 (score=0.206) → [0] Neural networks learn by adjusting millions of parameters.
+
+Enter your query (or 'exit' to quit): honestly i like to talk in long sentences where when you read t
+hem you basically need an A4 piece of paper to read it all in one go
+
+Query processing time: 0.02s
+Top 3 results for: 'honestly i like to talk in long sentences where when you read them you basically need an A4 piece of paper to read it all in one go'
+#1 (score=0.174) → [18] Sleep is essential for memory consolidation and recovery.
+#2 (score=0.152) → [17] Meditation can reduce stress and improve mental clarity.
+#3 (score=0.148) → [5] My grandma's apple pie relies on butter, cinnamon, and patience.
+
+Enter your query (or 'exit' to quit): sleep is nice
+
+Query processing time: 0.03s
+Top 3 results for: 'sleep is nice'
+Enter your query (or 'exit' to quit): sleep is nice
+
+Query processing time: 0.03s
+Top 3 results for: 'sleep is nice'
+
+Query processing time: 0.03s
+Top 3 results for: 'sleep is nice'
+Query processing time: 0.03s
+Top 3 results for: 'sleep is nice'
+#1 (score=0.644) → [18] Sleep is essential for memory consolidation and recovery.
+#2 (score=0.323) → [15] Regular exercise improves cardiovascular health and mood.
+#3 (score=0.298) → [19] Hydration is key to maintaining energy and focus.
+
+#2 (score=0.323) → [15] Regular exercise improves cardiovascular health and mood.
+#3 (score=0.298) → [19] Hydration is key to maintaining energy and focus.
+
+#3 (score=0.298) → [19] Hydration is key to maintaining energy and focus.
+
+
+Enter your query (or 'exit' to quit): eating well and exercising can help well with the quality of sleep you can have
+
+Query processing time: 0.02s
+Top 3 results for: 'eating well and exercising can help well with the quality of sleep you can have' 
+#1 (score=0.635) → [18] Sleep is essential for memory consolidation and recovery.
+#2 (score=0.585) → [15] Regular exercise improves cardiovascular health and mood.
+#3 (score=0.404) → [17] Meditation can reduce stress and improve mental clarity.
+
+
+for the most part retrievals are accurate on matching sentences some results will seem abvious
+as to why they are connected but then for still a larger portion of the time you can see that
+there is a very loose connection as to why its one of the top 3 matches
+it also does not help to see why it makes such a connection but by understanding what its 
+trying to match you can get a jist as to what it is trying to do
