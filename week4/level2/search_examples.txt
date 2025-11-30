@@ -1,0 +1,83 @@
+Corpus embeding time: 0.62s
+
+
+5 queries: 
+-------------------------------------------------------
+factual - What are the nutritional value of apples?
+time taken: 0.876s
+top 3 results:
+
+Rank 1  similarity score: 0.542
+ID [4]: Apples are healthy and nutritious. They are a good source of fiber and vitamin C. Eating apples can ...
+
+Rank 2  similarity score: 0.533
+ID [2]: Apples are a type of fruit that grow on apple trees. They are usually round and can be red, green or...
+
+Rank 3  similarity score: 0.478
+ID [3]: Apples can be used to make many delicious foods. Some popular apple dishes include apple pie, apple ...
+
+-------------------------------------------------------
+vague - Tell me about summer foods. 
+time taken: 0.876s
+top 3 results:
+
+Rank 1  similarity score: 0.497
+ID [5]: Ice cream is cold so it's good for the summer. There are lots of flavors like chocolate, vanilla and...
+
+Rank 2  similarity score: 0.462
+ID [10]: Marathon runners eat lots of pasta. Pasta is a good source of carbohydrates which gives them energy....
+
+Rank 3  similarity score: 0.338
+ID [6]: Summer is hot so people like to eat ice cream. People usually dont eat ice cream during the winter b...
+-------------------------------------------------------
+
+long - What do runners usually eat in order to have enough energy to sustain them through a very long and tough run and stay health? 
+time taken: 0.393s
+top 3 results:
+
+Rank 1  similarity score: 0.666
+ID [12]: running is a popular form of exercise that many people enjoy. It helps to improve cardiovascular hea...
+
+Rank 2  similarity score: 0.665
+ID [10]: Marathon runners eat lots of pasta. Pasta is a good source of carbohydrates which gives them energy....
+
+Rank 3  similarity score: 0.588
+ID [14]: Jogging regularly can help to improve endurance and overall fitness levels. It is also a great way t...
+-------------------------------------------------------
+
+short - Museums.
+time taken: 0.745s
+top 3 results:
+
+Rank 1  similarity score: 0.114
+ID [12]: running is a popular form of exercise that many people enjoy. It helps to improve cardiovascular hea...
+
+Rank 2  similarity score: 0.110
+ID [15]: Museums display ancient or cool things. People visit museums to learn about history, art and culture...
+
+Rank 3  similarity score: 0.107
+ID [9]: Ice cream is a popular dessert around the world. It is often enjoyed at parties, festivals and other...
+
+-------------------------------------------------------
+
+multi topic - What foods are good for athelets during very hot summers? 
+time taken: 0.896s
+top 3 results:
+
+Rank 1  similarity score: 0.524
+ID [5]: Ice cream is cold so it's good for the summer. There are lots of flavors like chocolate, vanilla and...
+
+Rank 2  similarity score: 0.420
+ID [10]: Marathon runners eat lots of pasta. Pasta is a good source of carbohydrates which gives them energy....
+
+Rank 3  similarity score: 0.400
+ID [6]: Summer is hot so people like to eat ice cream. People usually dont eat ice cream during the winter b...
+
+-------------------------------------------------------
+
+Reflection:
+There are many good and bad retrivals, for example a good one would be the first query about the nutritional value 
+of apples had the first ranking snippit for apples being the only one speaking specifically about nutritional value 
+of apples. But the similarity score is lower than I expected since the snippit is only taking about nutrition.
+The vague prompt about museums was quite bad as the first ranking response is about running wich doesn't 
+really corelate. This shows that the retrivals are better for more detailed querys.  

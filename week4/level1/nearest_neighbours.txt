@@ -1,0 +1,51 @@
+The output:
+Sentence [0]: Apple grows on trees in orchards around the world.
+  #1  cosine=0.373  →  [1] Apple pies are desert made with apples and cinnamon.
+  #2  cosine=0.217  →  [6] Museums display ancient or cool things.
+  #3  cosine=0.076  →  [4] Marathon runners eat lots of pasta.
+
+Sentence [1]: Apple pies are desert made with apples and cinnamon.
+  #1  cosine=0.373  →  [0] Apple grows on trees in orchards around the world.
+  #2  cosine=0.294  →  [4] Marathon runners eat lots of pasta.
+  #3  cosine=0.161  →  [3] Summer is hot so people like to eat ice cream.
+
+Sentence [2]: Ice cream is cpld so it's good for the summer.
+  #1  cosine=0.676  →  [3] Summer is hot so people like to eat ice cream.
+  #2  cosine=0.149  →  [5] I go for a jog every Wednesday.
+  #3  cosine=0.143  →  [1] Apple pies are desert made with apples and cinnamon.
+
+Sentence [3]: Summer is hot so people like to eat ice cream.
+  #1  cosine=0.676  →  [2] Ice cream is cpld so it's good for the summer.
+  #2  cosine=0.389  →  [4] Marathon runners eat lots of pasta.
+  #3  cosine=0.239  →  [5] I go for a jog every Wednesday.
+
+Sentence [4]: Marathon runners eat lots of pasta.
+  #1  cosine=0.389  →  [3] Summer is hot so people like to eat ice cream.
+  #2  cosine=0.294  →  [1] Apple pies are desert made with apples and cinnamon.
+  #3  cosine=0.257  →  [5] I go for a jog every Wednesday.
+
+Sentence [5]: I go for a jog every Wednesday.
+  #1  cosine=0.257  →  [4] Marathon runners eat lots of pasta.
+  #2  cosine=0.239  →  [3] Summer is hot so people like to eat ice cream.
+  #3  cosine=0.149  →  [2] Ice cream is cpld so it's good for the summer.
+
+Sentence [6]: Museums display ancient or cool things.
+  #1  cosine=0.217  →  [0] Apple grows on trees in orchards around the world.
+  #2  cosine=0.154  →  [1] Apple pies are desert made with apples and cinnamon.
+  #3  cosine=0.115  →  [7] Budget airlines trade uncomfortable for cheap tickets.
+
+Sentence [7]: Budget airlines trade uncomfortable for cheap tickets.
+  #1  cosine=0.128  →  [3] Summer is hot so people like to eat ice cream.
+  #2  cosine=0.115  →  [6] Museums display ancient or cool things.
+  #3  cosine=0.101  →  [4] Marathon runners eat lots of pasta.
+
+
+
+Lexically different but semantically close:
+Sentences 2 and 3 both describe the relation between hot weather and ice cream, 
+the cosine similariy is 0.676 whcih shows the model capsures semantic meaning rather than only wording
+
+
+Lexically similar but semantically less related:
+Sentences 0 and 1 both use the keyword apple but they refer to very differnt things,
+tye cosine similarity is 0.373 which is much lower than the ice cream and hot weather pair
