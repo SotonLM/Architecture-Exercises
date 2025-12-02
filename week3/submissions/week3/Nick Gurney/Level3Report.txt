@@ -1,0 +1,46 @@
+Used negative sampling skip gram to calculate embeddings 
+
+Then used the embeddings to calculate cosine similarity between vectors 
+
+Created an average vector from all the vectors produced by the skip gram model for both the 
+prompts and outputs from level 2 
+
+Used to check the relevance of the result to the prompt. 
+
+From the level 2 prompt results I got these prompt, generation pairs for a maximum and 
+minimum relevance score. Which gives a relatviely good score of how relevant the output is to
+the words in the prompt. However there are some issues where a result that is nearly an entire 
+repetition of the prompt scores very highly, so a measure of creativity should also be implemented. 
+
+Max Score: 98.84613800048828
+Prompt: Describe a world where technology no longer exists
+
+  Generation: Describe a world where technology no longer exists." I'm on my 40th birthday." 
+
+
+Min Score: 70.3914794921875
+Prompt: If I could redesign reality from scratch
+
+  Generation: If I could redesign reality from scratch, I find this an important aspect of education and parenting practice that allows different situations for development based learning. For example, perhaps a real goal for me is first recognizing children through teaching them basic math and math, so that students will get skills with the ability to comprehend concepts and how quickly that could improve outcomes in class, social work, and the community. This first effort shows the importance of my teacher. Unfortunately, children that didn't understand learning will no doubt continue to learn important materials in every social setting based off the importance of math and good intentions, lack of motivation, inadequate physical stamina and not any intention either.
+This class may hold at least the strongest.
+This might change the teaching direction by showing the students the signs with which to stand and talk towards an issue. That will be reflected by introducing all classroom and work spaces specifically designed to take teaching lessons from a topic and emphasizing not only understanding that topic, but engaging it to show learners to use classroom knowledge equally and simultaneously in school activities and work groups often related to the subject matter as well. On multiple student or work sessions, we are using children to push for teachers to teach the subjects they'd like their classrooms to deal with with later. This classroom has evolved through multiple student programs that attempt to make parents
+
+
+
+Including a creativity score with a 80% weighting towards relevance and then a 
+20% weighting towards creativity gives a score like this showing a much more usable metric 
+for measuring language model output quality. 
+
+Max Score: 89.93212127685547
+Prompt: Describe a city where memories can be bought and sold
+
+  Generation: Describe a city where memories can be bought and sold
+See these images and features of these historic areas? Have their effects influenced you and their memories? The public can only draw a view or information without commenting before showing any ideas other than that it might inspire people. All in all take longer for future studies, they are probably out there with no interest in doing study like previous studies. Don't believe us, even you with money and money, or if they feel good we were duped by society that we should give an example of it?this can only help to create some further research. The city has many ways to design something. Consider your city for example under my local zoning rules on parking and business on public sidewalks?You can find a local park on public water all over from your car park, right down to where you live near the local parks, or even from near these trees. What I find is that sometimes I use park benches and open-shaft sidewalks. Once you cross our city you'll stumble back to one that had formerly existed and that one also stood and stood proudly on some type of green flooring made there not just for parks but as pedestrian spaces and picnic areas ? you know you couldn't just be a bikeer?I'm probably a wee bit disappointed by some conclusions I make when answering
+
+
+Min Score: 75.58854675292969
+Prompt: If I could redesign reality from scratch
+
+  Generation: If I could redesign reality from scratch, I find this an important aspect of education and parenting practice that allows different situations for development based learning. For example, perhaps a real goal for me is first recognizing children through teaching them basic math and math, so that students will get skills with the ability to comprehend concepts and how quickly that could improve outcomes in class, social work, and the community. This first effort shows the importance of my teacher. Unfortunately, children that didn't understand learning will no doubt continue to learn important materials in every social setting based off the importance of math and good intentions, lack of motivation, inadequate physical stamina and not any intention either.
+This class may hold at least the strongest.
+This might change the teaching direction by showing the students the signs with which to stand and talk towards an issue. That will be reflected by introducing all classroom and work spaces specifically designed to take teaching lessons from a topic and emphasizing not only understanding that topic, but engaging it to show learners to use classroom knowledge equally and simultaneously in school activities and work groups often related to the subject matter as well. On multiple student or work sessions, we are using children to push for teachers to teach the subjects they'd like their classrooms to deal with with later. This classroom has evolved through multiple student programs that attempt to make parents

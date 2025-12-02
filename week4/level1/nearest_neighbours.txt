@@ -1,0 +1,73 @@
+    
+Input sentences
+    "The rain soaked my jacket while a giraffe lectured me on proper punctuation.",
+    "I warmed my hands by the campfire as my phone insisted it could smell colors.",
+    "The bakery sold fresh bread, and for some reason, also rental unicycles.",
+    "She practiced piano scales while her cat studied quantum mechanics.",
+    "The museum displayed ancient pottery next to a vending machine full of glitter.",
+    "I jogged through the park, racing a squirrel that was auditioning for a movie role.",
+    "He brewed a pot of coffee and then politely debated philosophy with his toaster.",
+    "The classroom was quiet except for the wallpaper, which kept whispering trivia facts.",
+    "I folded my laundry while the clouds above arranged themselves into a spreadsheet.",
+    "The librarian shushed everyone, even the invisible orchestra tuning up in the corner."
+
+
+Output Similarities 
+Sentence [0]: The rain soaked my jacket while a giraffe lectured me on proper punctuation.
+  #1  cosine=0.322  →  [1] I warmed my hands by the campfire as my phone insisted it could smell colors.
+  #2  cosine=0.230  →  [5] I jogged through the park, racing a squirrel that was auditioning for a movie role.
+  #3  cosine=0.187  →  [6] He brewed a pot of coffee and then politely debated philosophy with his toaster.
+
+Sentence [1]: I warmed my hands by the campfire as my phone insisted it could smell colors.
+  #1  cosine=0.322  →  [0] The rain soaked my jacket while a giraffe lectured me on proper punctuation.
+  #2  cosine=0.227  →  [6] He brewed a pot of coffee and then politely debated philosophy with his toaster.
+  #3  cosine=0.128  →  [5] I jogged through the park, racing a squirrel that was auditioning for a movie role.
+
+Sentence [2]: The bakery sold fresh bread, and for some reason, also rental unicycles.
+  #1  cosine=0.205  →  [4] The museum displayed ancient pottery next to a vending machine full of glitter.
+  #2  cosine=0.178  →  [6] He brewed a pot of coffee and then politely debated philosophy with his toaster.
+  #3  cosine=0.108  →  [9] The librarian shushed everyone, even the invisible orchestra tuning up in the corner.
+
+Sentence [3]: She practiced piano scales while her cat studied quantum mechanics.
+  #1  cosine=0.263  →  [6] He brewed a pot of coffee and then politely debated philosophy with his toaster.
+  #2  cosine=0.222  →  [5] I jogged through the park, racing a squirrel that was auditioning for a movie role.
+  #3  cosine=0.109  →  [9] The librarian shushed everyone, even the invisible orchestra tuning up in the corner.
+
+Sentence [4]: The museum displayed ancient pottery next to a vending machine full of glitter.
+  #1  cosine=0.205  →  [2] The bakery sold fresh bread, and for some reason, also rental unicycles.
+  #2  cosine=0.111  →  [9] The librarian shushed everyone, even the invisible orchestra tuning up in the corner.
+  #3  cosine=0.105  →  [6] He brewed a pot of coffee and then politely debated philosophy with his toaster.
+
+Sentence [5]: I jogged through the park, racing a squirrel that was auditioning for a movie role.
+  #1  cosine=0.230  →  [0] The rain soaked my jacket while a giraffe lectured me on proper punctuation.
+  #2  cosine=0.222  →  [3] She practiced piano scales while her cat studied quantum mechanics.
+  #3  cosine=0.128  →  [1] I warmed my hands by the campfire as my phone insisted it could smell colors.
+
+Sentence [6]: He brewed a pot of coffee and then politely debated philosophy with his toaster.
+  #1  cosine=0.263  →  [3] She practiced piano scales while her cat studied quantum mechanics.
+  #2  cosine=0.227  →  [1] I warmed my hands by the campfire as my phone insisted it could smell colors.
+  #3  cosine=0.187  →  [0] The rain soaked my jacket while a giraffe lectured me on proper punctuation.
+
+Sentence [7]: The classroom was quiet except for the wallpaper, which kept whispering trivia facts.
+  #1  cosine=0.301  →  [9] The librarian shushed everyone, even the invisible orchestra tuning up in the corner.
+  #2  cosine=0.188  →  [8] I folded my laundry while the clouds above arranged themselves into a spreadsheet.
+  #3  cosine=0.171  →  [6] He brewed a pot of coffee and then politely debated philosophy with his toaster.
+
+Sentence [8]: I folded my laundry while the clouds above arranged themselves into a spreadsheet.
+  #1  cosine=0.188  →  [7] The classroom was quiet except for the wallpaper, which kept whispering trivia facts.
+  #2  cosine=0.173  →  [9] The librarian shushed everyone, even the invisible orchestra tuning up in the corner.
+  #3  cosine=0.164  →  [0] The rain soaked my jacket while a giraffe lectured me on proper punctuation.
+
+Sentence [9]: The librarian shushed everyone, even the invisible orchestra tuning up in the corner.
+  #1  cosine=0.301  →  [7] The classroom was quiet except for the wallpaper, which kept whispering trivia facts.
+  #2  cosine=0.173  →  [8] I folded my laundry while the clouds above arranged themselves into a spreadsheet.
+  #3  cosine=0.111  →  [4] The museum displayed ancient pottery next to a vending machine full of glitter.
+
+
+Lexically close semantically different 
+ Marathon runners load up on carbohydrates before race day.
+  #1  cosine=0.388  →  [5] Jogging at dawn clears my thoughts before work meetings.
+
+Semantically close Lexically different 
+Backpropagation updates weights to minimise loss in a model.
+  #1  cosine=0.317  →  [0] Neural networks learn by adjusting billions of parameters.
